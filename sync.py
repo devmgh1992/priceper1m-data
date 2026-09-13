@@ -103,7 +103,11 @@ def main() -> int:
         f"source generated_at: {summary.get('generated_at')}\n"
     )
     if not args.check:
-        STAMP.write_text(stamp, encoding="utf-8")
+        # Only touch the stamp when the data really moved (or on the very first run).
+        # The stamp carries the current time, so rewriting it unconditionally would make
+        # every scheduled run look like a change and commit nothing but noise.
+        if changed or not STAMP.exists():
+            STAMP.write_text(stamp, encoding="utf-8")
 
     print(stamp.strip())
     print("changed files:", ", ".join(changed) if changed else "(none)")
