@@ -1,0 +1,43 @@
+name: sync dataset
+
+on:
+  schedule:
+    - cron: "42 */6 * * *"   # every 6 hours, offset from the upstream refresh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["sync.py", ".github/workflows/sync.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull latest prices
+        run: python3 sync.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "priceper1m-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A data LAST_SYNC.txt
+          if git diff --cached --quiet; then
+            echo "no changes this run"
+            exit 0
+          fi
+          STAMP=$(grep -m1 'source generated_at' LAST_SYNC.txt | cut -d' ' -f3-)
+          MODELS=$(grep -m1 '^models:' LAST_SYNC.txt | cut -d' ' -f2-)
+          git commit -m "data: refresh (${MODELS} models, generated_at ${STAMP})"
+          git push

@@ -1,0 +1,273 @@
+{
+ "count": 33,
+ "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
+ "endpoints_tracked": 1907,
+ "generated_at": "2026-09-13T12:50:20.887734+00:00",
+ "license": "CC BY 4.0 — attribution appreciated",
+ "providers": [
+  {
+   "category": "platform",
+   "label": "Fireworks AI",
+   "max_input_per_1m": 4.5,
+   "min_input_per_1m": 0,
+   "models": 272,
+   "provider": "fireworks_ai"
+  },
+  {
+   "category": "platform",
+   "label": "OpenRouter",
+   "max_input_per_1m": 150,
+   "min_input_per_1m": 0,
+   "models": 268,
+   "provider": "openrouter"
+  },
+  {
+   "category": "platform",
+   "label": "DeepInfra",
+   "max_input_per_1m": 16.5,
+   "min_input_per_1m": 0.019,
+   "models": 135,
+   "provider": "deepinfra"
+  },
+  {
+   "category": "platform",
+   "label": "Novita AI",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0.01,
+   "models": 132,
+   "provider": "novita"
+  },
+  {
+   "category": "first-party",
+   "label": "OpenAI",
+   "max_input_per_1m": 150,
+   "min_input_per_1m": 0.02,
+   "models": 112,
+   "provider": "openai"
+  },
+  {
+   "category": "platform",
+   "label": "Amazon Bedrock",
+   "max_input_per_1m": 18.8,
+   "min_input_per_1m": 0,
+   "models": 109,
+   "provider": "bedrock"
+  },
+  {
+   "category": "platform",
+   "label": "Azure OpenAI",
+   "max_input_per_1m": 75,
+   "min_input_per_1m": 0.02,
+   "models": 104,
+   "provider": "azure"
+  },
+  {
+   "category": "platform",
+   "label": "Together AI",
+   "max_input_per_1m": 3.5,
+   "min_input_per_1m": 0,
+   "models": 78,
+   "provider": "together_ai"
+  },
+  {
+   "category": "first-party",
+   "label": "Mistral AI",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0,
+   "models": 73,
+   "provider": "mistral"
+  },
+  {
+   "category": "platform",
+   "label": "Databricks",
+   "max_input_per_1m": 29.99997,
+   "min_input_per_1m": 0.02002,
+   "models": 67,
+   "provider": "databricks"
+  },
+  {
+   "category": "first-party",
+   "label": "Perplexity",
+   "max_input_per_1m": 10,
+   "min_input_per_1m": 0,
+   "models": 66,
+   "provider": "perplexity"
+  },
+  {
+   "category": "platform",
+   "label": "Nebius",
+   "max_input_per_1m": 3,
+   "min_input_per_1m": 0.01,
+   "models": 56,
+   "provider": "nebius"
+  },
+  {
+   "category": "first-party",
+   "label": "Google Gemini",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0,
+   "models": 49,
+   "provider": "gemini"
+  },
+  {
+   "category": "first-party",
+   "label": "xAI",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 1,
+   "models": 44,
+   "provider": "xai"
+  },
+  {
+   "category": "platform",
+   "label": "Replicate",
+   "max_input_per_1m": 15,
+   "min_input_per_1m": 0.03,
+   "models": 40,
+   "provider": "replicate"
+  },
+  {
+   "category": "platform",
+   "label": "Cloudflare Workers AI",
+   "max_input_per_1m": 1.923,
+   "min_input_per_1m": 0,
+   "models": 30,
+   "provider": "cloudflare"
+  },
+  {
+   "category": "local",
+   "label": "Ollama",
+   "max_input_per_1m": 0,
+   "min_input_per_1m": 0,
+   "models": 29,
+   "provider": "ollama"
+  },
+  {
+   "category": "first-party",
+   "label": "Anthropic",
+   "max_input_per_1m": 15,
+   "min_input_per_1m": 0.25,
+   "models": 28,
+   "provider": "anthropic"
+  },
+  {
+   "category": "first-party",
+   "label": "Alibaba DashScope",
+   "max_input_per_1m": 2.5,
+   "min_input_per_1m": 0.05,
+   "models": 25,
+   "provider": "dashscope"
+  },
+  {
+   "category": "first-party",
+   "label": "Moonshot AI",
+   "max_input_per_1m": 3,
+   "min_input_per_1m": 0.2,
+   "models": 24,
+   "provider": "moonshot"
+  },
+  {
+   "category": "platform",
+   "label": "Voyage AI",
+   "max_input_per_1m": 0.18,
+   "min_input_per_1m": 0.02,
+   "models": 22,
+   "provider": "voyage"
+  },
+  {
+   "category": "platform",
+   "label": "SambaNova",
+   "max_input_per_1m": 5,
+   "min_input_per_1m": 0.04,
+   "models": 19,
+   "provider": "sambanova"
+  },
+  {
+   "category": "platform",
+   "label": "Hyperbolic",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0.12,
+   "models": 16,
+   "provider": "hyperbolic"
+  },
+  {
+   "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0.2,
+   "models": 16,
+   "provider": "vertex_ai"
+  },
+  {
+   "category": "platform",
+   "label": "Groq",
+   "max_input_per_1m": 1,
+   "min_input_per_1m": 0.03,
+   "models": 15,
+   "provider": "groq"
+  },
+  {
+   "category": "platform",
+   "label": "Nscale",
+   "max_input_per_1m": 0.6,
+   "min_input_per_1m": 0.01,
+   "models": 14,
+   "provider": "nscale"
+  },
+  {
+   "category": "first-party",
+   "label": "AI21 Labs",
+   "max_input_per_1m": 15,
+   "min_input_per_1m": 0.2,
+   "models": 12,
+   "provider": "ai21"
+  },
+  {
+   "category": "platform",
+   "label": "Baseten",
+   "max_input_per_1m": 1.4,
+   "min_input_per_1m": 0.1,
+   "models": 12,
+   "provider": "baseten"
+  },
+  {
+   "category": "first-party",
+   "label": "Cohere",
+   "max_input_per_1m": 100,
+   "min_input_per_1m": 0.1,
+   "models": 10,
+   "provider": "cohere"
+  },
+  {
+   "category": "first-party",
+   "label": "DeepSeek",
+   "max_input_per_1m": 1.32,
+   "min_input_per_1m": 0.14,
+   "models": 10,
+   "provider": "deepseek"
+  },
+  {
+   "category": "platform",
+   "label": "Cerebras",
+   "max_input_per_1m": 2.25,
+   "min_input_per_1m": 0.1,
+   "models": 9,
+   "provider": "cerebras"
+  },
+  {
+   "category": "first-party",
+   "label": "MiniMax",
+   "max_input_per_1m": 0.3,
+   "min_input_per_1m": 0.3,
+   "models": 6,
+   "provider": "minimax"
+  },
+  {
+   "category": "first-party",
+   "label": "Meta",
+   "max_input_per_1m": 1.25,
+   "min_input_per_1m": 0.1,
+   "models": 5,
+   "provider": "meta"
+  }
+ ]
+}

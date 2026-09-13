@@ -1,0 +1,15 @@
+{
+ "count_changes": 0,
+ "count_runs": 1,
+ "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
+ "license": "CC BY 4.0 — attribution appreciated",
+ "runs": [
+  {
+   "baseline": true,
+   "changes": [],
+   "count": 0,
+   "date": "2026-09-13",
+   "generated_at": "2026-09-13T12:50:20.887734+00:00"
+  }
+ ]
+}
