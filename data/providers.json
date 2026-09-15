@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1907,
- "generated_at": "2026-09-14T18:10:16.699449+00:00",
+ "endpoints_tracked": 1937,
+ "generated_at": "2026-09-15T00:10:56.724627+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 272,
+   "models": 273,
    "provider": "fireworks_ai"
   },
   {
@@ -42,7 +42,7 @@
    "label": "OpenAI",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0.02,
-   "models": 112,
+   "models": 114,
    "provider": "openai"
   },
   {
@@ -58,7 +58,7 @@
    "label": "Azure OpenAI",
    "max_input_per_1m": 75,
    "min_input_per_1m": 0.02,
-   "models": 104,
+   "models": 106,
    "provider": "azure"
   },
   {
@@ -66,7 +66,7 @@
    "label": "Together AI",
    "max_input_per_1m": 3.5,
    "min_input_per_1m": 0,
-   "models": 78,
+   "models": 100,
    "provider": "together_ai"
   },
   {
@@ -183,19 +183,19 @@
   },
   {
    "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0.15,
+   "models": 19,
+   "provider": "vertex_ai"
+  },
+  {
+   "category": "platform",
    "label": "Hyperbolic",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0.12,
    "models": 16,
    "provider": "hyperbolic"
-  },
-  {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 2,
-   "min_input_per_1m": 0.2,
-   "models": 16,
-   "provider": "vertex_ai"
   },
   {
    "category": "platform",

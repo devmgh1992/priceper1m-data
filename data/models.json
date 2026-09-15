@@ -1,7 +1,7 @@
 {
- "count": 1907,
+ "count": 1937,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-14T18:10:16.699449+00:00",
+ "generated_at": "2026-09-15T00:10:56.724627+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -4508,6 +4508,22 @@
    "url": "/model/openai-gpt-daybreak-red-latest"
   },
   {
+   "cached_input_per_1m": 1.25,
+   "capabilities": {
+    "reasoning": true
+   },
+   "context_window": null,
+   "input_per_1m": 12.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.5 Cyber",
+   "output_per_1m": 75,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-5-cyber",
+   "url": "/model/openai-gpt-5-5-cyber"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -4743,6 +4759,20 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-5-5-2026-04-23",
    "url": "/model/openai-gpt-5-5-2026-04-23"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT Rosalind Research",
+   "output_per_1m": 25,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-rosalind-research",
+   "url": "/model/openai-gpt-rosalind-research"
   },
   {
    "cached_input_per_1m": 0.4,
@@ -8522,6 +8552,44 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-6-sol",
    "url": "/model/azure-gpt-5-6-sol"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 272000,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT Chat",
+   "output_per_1m": 30,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-chat-latest",
+   "url": "/model/azure-gpt-chat-latest"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 272000,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Chat",
+   "output_per_1m": 30,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-chat-latest",
+   "url": "/model/azure-chat-latest"
   },
   {
    "cached_input_per_1m": 0.5,
@@ -15953,6 +16021,20 @@
    "url": "/model/fireworks-ai-glm-5p2-fast-us"
   },
   {
+   "cached_input_per_1m": 0.39,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2.1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Glm 5p3 Fast",
+   "output_per_1m": 6.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-fast",
+   "url": "/model/fireworks-ai-glm-5p3-fast"
+  },
+  {
    "cached_input_per_1m": 0.3,
    "capabilities": {
     "reasoning": true,
@@ -16005,23 +16087,6 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-kimi-k2p7-code-fast",
    "url": "/model/fireworks-ai-kimi-k2p7-code-fast"
-  },
-  {
-   "cached_input_per_1m": 0.145,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 1.74,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 3.48,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-deepseek-v4-pro",
-   "url": "/model/fireworks-ai-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": 0.26,
@@ -16104,6 +16169,23 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-coder-v2-instruct",
    "url": "/model/fireworks-ai-deepseek-coder-v2-instruct"
+  },
+  {
+   "cached_input_per_1m": 0.6,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.2,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4-pro",
+   "url": "/model/fireworks-ai-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": null,
@@ -29684,6 +29766,20 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 3.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3.1 405B Instruct",
+   "output_per_1m": 3.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-1-405b-instruct",
+   "url": "/model/together-ai-llama-3-1-405b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -29783,6 +29879,34 @@
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek R1 Distill Llama 70B",
+   "output_per_1m": 2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-r1-distill-llama-70b",
+   "url": "/model/together-ai-deepseek-r1-distill-llama-70b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1.95,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 VL 72B Instruct",
+   "output_per_1m": 8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-vl-72b-instruct",
+   "url": "/model/together-ai-qwen2-5-vl-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
    "input_per_1m": 1.8,
    "kind": "chat",
    "max_output": null,
@@ -29810,6 +29934,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-v4-pro",
    "url": "/model/together-ai-deepseek-v4-pro"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek R1 Distill Qwen 14B",
+   "output_per_1m": 1.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-r1-distill-qwen-14b",
+   "url": "/model/together-ai-deepseek-r1-distill-qwen-14b"
   },
   {
    "cached_input_per_1m": 0.26,
@@ -29940,6 +30078,34 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2 VL 72B Instruct",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-vl-72b-instruct",
+   "url": "/model/together-ai-qwen2-vl-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 72B Instruct",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-72b-instruct",
+   "url": "/model/together-ai-qwen2-5-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -30051,6 +30217,20 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.9,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2 72B Instruct",
+   "output_per_1m": 0.9,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-72b-instruct",
+   "url": "/model/together-ai-qwen2-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -30069,6 +30249,34 @@
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
+   "input_per_1m": 0.88,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 70B Instruct Turbo",
+   "output_per_1m": 0.88,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-meta-llama-3-70b-instruct-turbo",
+   "url": "/model/together-ai-meta-llama-3-70b-instruct-turbo"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.88,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3.1 Nemotron 70B Instruct HF",
+   "output_per_1m": 0.88,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-1-nemotron-70b-instruct-hf",
+   "url": "/model/together-ai-llama-3-1-nemotron-70b-instruct-hf"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
    "input_per_1m": 0.8,
    "kind": "chat",
    "max_output": null,
@@ -30078,6 +30286,62 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-21-1b-41b",
    "url": "/model/together-ai-together-ai-21-1b-41b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Deepseek Coder 33b Instruct",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-coder-33b-instruct",
+   "url": "/model/together-ai-deepseek-coder-33b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemma 2 27b It",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-gemma-2-27b-it",
+   "url": "/model/together-ai-gemma-2-27b-it"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 14B Instruct",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-14b-instruct",
+   "url": "/model/together-ai-qwen2-5-14b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 Coder 32B Instruct",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-coder-32b-instruct",
+   "url": "/model/together-ai-qwen2-5-coder-32b-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -30179,6 +30443,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-nemotron-3-ultra-550b-a55b",
    "url": "/model/together-ai-nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+   "output_per_1m": 0.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-nous-hermes-2-mixtral-8x7b-dpo",
+   "url": "/model/together-ai-nous-hermes-2-mixtral-8x7b-dpo"
   },
   {
    "cached_input_per_1m": null,
@@ -30416,6 +30694,20 @@
    "url": "/model/together-ai-minimax-m2-7"
   },
   {
+   "cached_input_per_1m": 0.006,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek V4.1 Flash",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-v4-1-flash",
+   "url": "/model/together-ai-deepseek-v4-1-flash"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -30551,6 +30843,34 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3 8b Chat Hf",
+   "output_per_1m": 0.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-8b-chat-hf",
+   "url": "/model/together-ai-llama-3-8b-chat-hf"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 8B Instruct",
+   "output_per_1m": 0.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-meta-llama-3-8b-instruct",
+   "url": "/model/together-ai-meta-llama-3-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -30594,6 +30914,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen3-vl-8b-instruct",
    "url": "/model/together-ai-qwen3-vl-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.18,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek R1 Distill Qwen 1.5B",
+   "output_per_1m": 0.18,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-r1-distill-qwen-1-5b",
+   "url": "/model/together-ai-deepseek-r1-distill-qwen-1-5b"
   },
   {
    "cached_input_per_1m": null,
@@ -30786,6 +31120,34 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3.2 1B Instruct",
+   "output_per_1m": 0.06,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-2-1b-instruct",
+   "url": "/model/together-ai-llama-3-2-1b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3.2 3B Instruct",
+   "output_per_1m": 0.06,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-2-3b-instruct",
+   "url": "/model/together-ai-llama-3-2-3b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -30803,6 +31165,20 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.045,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Trinity Mini",
+   "output_per_1m": 0.15,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-trinity-mini",
+   "url": "/model/together-ai-trinity-mini"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
    "context_window": 514,
    "input_per_1m": 0.02,
    "kind": "embedding",
@@ -30813,6 +31189,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-multilingual-e5-large-instruct",
    "url": "/model/together-ai-multilingual-e5-large-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.02,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2 1.5B Instruct",
+   "output_per_1m": 0.02,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-1-5b-instruct",
+   "url": "/model/together-ai-qwen2-1-5b-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -30985,6 +31375,20 @@
    "url": "/model/vertex-ai-gemini-3-5-flash"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini Omni 1.1 Flash",
+   "output_per_1m": 9,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-omni-1-1-flash",
+   "url": "/model/vertex-ai-gemini-omni-1-1-flash"
+  },
+  {
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "tools": true,
@@ -31036,6 +31440,20 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-grok-4-3",
    "url": "/model/vertex-ai-grok-4-3"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini Robotics Er 2",
+   "output_per_1m": 5,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-robotics-er-2",
+   "url": "/model/vertex-ai-gemini-robotics-er-2"
   },
   {
    "cached_input_per_1m": 0.075,
@@ -31179,6 +31597,20 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-grok-4-1-fast-reasoning",
    "url": "/model/vertex-ai-grok-4-1-fast-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.015,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemma 4 26b A4b It",
+   "output_per_1m": 0.6,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemma-4-26b-a4b-it",
+   "url": "/model/vertex-ai-gemma-4-26b-a4b-it"
   },
   {
    "cached_input_per_1m": null,
