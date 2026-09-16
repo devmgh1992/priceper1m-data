@@ -1,5 +1,5 @@
 {
- "count_changes": 33,
+ "count_changes": 50,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -7,6 +7,36 @@
   {
    "baseline": false,
    "changes": [
+    {
+     "field": "input_per_1m",
+     "name": "Gemini Robotics Er 2 Preview",
+     "new": 1,
+     "old": 2,
+     "pct": -50,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-robotics-er-2-preview",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Gemini Robotics Er 2 Preview",
+     "new": 5,
+     "old": 10,
+     "pct": -50,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-robotics-er-2-preview",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Gemini Robotics Er 2 Preview",
+     "new": 0.1,
+     "old": 0.2,
+     "pct": -50,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-robotics-er-2-preview",
+     "type": "changed"
+    },
     {
      "field": null,
      "name": "GPT 5.5 Cyber",
@@ -46,6 +76,146 @@
      "provider": "Azure OpenAI",
      "slug": "azure-chat-latest",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 5.6 Sol",
+     "new": 4,
+     "old": 5,
+     "pct": -20,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-6-sol",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 5.6 Sol",
+     "new": 20,
+     "old": 30,
+     "pct": -33.33,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-6-sol",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 5.6 Sol",
+     "new": 0.4,
+     "old": 0.5,
+     "pct": -20,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-6-sol",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 4o",
+     "new": 1.375,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o-2024-11-20",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 5.1",
+     "new": 1.375,
+     "old": 1.38,
+     "pct": -0.36,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 5.1",
+     "new": 0.1375,
+     "old": 0.14,
+     "pct": -1.79,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 5.1 Chat",
+     "new": 1.375,
+     "old": 1.38,
+     "pct": -0.36,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-chat",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 5.1 Chat",
+     "new": 0.1375,
+     "old": 0.14,
+     "pct": -1.79,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-chat",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 5.1 Codex",
+     "new": 1.375,
+     "old": 1.38,
+     "pct": -0.36,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-codex",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 5.1 Codex",
+     "new": 0.1375,
+     "old": 0.14,
+     "pct": -1.79,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-codex",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "O1 Mini",
+     "new": 1.1,
+     "old": 1.21,
+     "pct": -9.09,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1-mini",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "O1 Mini",
+     "new": 4.4,
+     "old": 4.84,
+     "pct": -9.09,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1-mini",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "O1 Mini",
+     "new": 0.55,
+     "old": 0.605,
+     "pct": -9.09,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1-mini",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 5.1 Codex Mini",
+     "new": 0.0275,
+     "old": 0.028,
+     "pct": -1.79,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-codex-mini",
+     "type": "changed"
     },
     {
      "field": null,
@@ -338,9 +508,9 @@
      "type": "added"
     }
    ],
-   "count": 33,
+   "count": 50,
    "date": "2026-09-16",
-   "generated_at": "2026-09-16T12:12:50.074311+00:00"
+   "generated_at": "2026-09-16T18:09:45.657859+00:00"
   },
   {
    "baseline": true,

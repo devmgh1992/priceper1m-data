@@ -1,7 +1,7 @@
 {
  "count": 1937,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-16T12:12:50.074311+00:00",
+ "generated_at": "2026-09-16T18:09:45.657859+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1466,26 +1466,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 131072,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 65536,
-   "name": "Gemini Robotics Er 2 Preview",
-   "output_per_1m": 10,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-robotics-er-2-preview",
-   "url": "/model/gemini-gemini-robotics-er-2-preview"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
@@ -1667,6 +1647,26 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-pro-latest",
    "url": "/model/gemini-gemini-pro-latest"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini Robotics Er 2 Preview",
+   "output_per_1m": 5,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-robotics-er-2-preview",
+   "url": "/model/gemini-gemini-robotics-er-2-preview"
   },
   {
    "cached_input_per_1m": null,
@@ -8542,25 +8542,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 922000,
-   "input_per_1m": 5,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.6 Sol",
-   "output_per_1m": 30,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-6-sol",
-   "url": "/model/azure-gpt-5-6-sol"
-  },
-  {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 272000,
    "input_per_1m": 5,
    "kind": "chat",
@@ -8628,6 +8609,25 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-5-2026-04-23",
    "url": "/model/azure-gpt-5-5-2026-04-23"
+  },
+  {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.6 Sol",
+   "output_per_1m": 20,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-6-sol",
+   "url": "/model/azure-gpt-5-6-sol"
   },
   {
    "cached_input_per_1m": null,
@@ -8712,7 +8712,7 @@
    "url": "/model/azure-gpt-4o-2024-08-06"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 1.375,
    "capabilities": {
     "tools": true,
     "vision": true
@@ -9094,63 +9094,6 @@
    "url": "/model/azure-codex-mini"
   },
   {
-   "cached_input_per_1m": 0.14,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.38,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1",
-   "output_per_1m": 11,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-1",
-   "url": "/model/azure-gpt-5-1"
-  },
-  {
-   "cached_input_per_1m": 0.14,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.38,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1 Chat",
-   "output_per_1m": 11,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-1-chat",
-   "url": "/model/azure-gpt-5-1-chat"
-  },
-  {
-   "cached_input_per_1m": 0.14,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.38,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1 Codex",
-   "output_per_1m": 11,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-1-codex",
-   "url": "/model/azure-gpt-5-1-codex"
-  },
-  {
    "cached_input_per_1m": 0.1375,
    "capabilities": {
     "prompt_caching": true,
@@ -9168,6 +9111,63 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-2025-08-07",
    "url": "/model/azure-gpt-5-2025-08-07"
+  },
+  {
+   "cached_input_per_1m": 0.1375,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 272000,
+   "input_per_1m": 1.375,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.1",
+   "output_per_1m": 11,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-1",
+   "url": "/model/azure-gpt-5-1"
+  },
+  {
+   "cached_input_per_1m": 0.1375,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 1.375,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.1 Chat",
+   "output_per_1m": 11,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-1-chat",
+   "url": "/model/azure-gpt-5-1-chat"
+  },
+  {
+   "cached_input_per_1m": 0.1375,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 272000,
+   "input_per_1m": 1.375,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.1 Codex",
+   "output_per_1m": 11,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-1-codex",
+   "url": "/model/azure-gpt-5-1-codex"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -9355,18 +9355,18 @@
    "url": "/model/azure-o3-mini-2025-01-31"
   },
   {
-   "cached_input_per_1m": 0.605,
+   "cached_input_per_1m": 0.55,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
     "tools": true
    },
    "context_window": 128000,
-   "input_per_1m": 1.21,
+   "input_per_1m": 1.1,
    "kind": "chat",
    "max_output": 65536,
    "name": "O1 Mini",
-   "output_per_1m": 4.84,
+   "output_per_1m": 4.4,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
    "slug": "azure-o1-mini",
@@ -9633,7 +9633,7 @@
    "url": "/model/azure-gpt-5-mini-2025-08-07"
   },
   {
-   "cached_input_per_1m": 0.028,
+   "cached_input_per_1m": 0.0275,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
