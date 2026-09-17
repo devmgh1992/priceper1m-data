@@ -1,7 +1,7 @@
 {
- "count": 1937,
+ "count": 1947,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-16T18:09:45.657859+00:00",
+ "generated_at": "2026-09-17T00:09:55.074305+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -559,7 +559,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 200000,
+   "context_window": 1000000,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 64000,
@@ -578,7 +578,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 200000,
+   "context_window": 1000000,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 64000,
@@ -1518,6 +1518,26 @@
    "url": "/model/gemini-gemini-3-1-pro-preview-customtools"
   },
   {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini Pro",
+   "output_per_1m": 12,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-pro-latest",
+   "url": "/model/gemini-gemini-pro-latest"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "audio": true,
@@ -1547,7 +1567,7 @@
    "context_window": 1048576,
    "input_per_1m": 1.5,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 3.5 Flash",
    "output_per_1m": 9,
    "provider": "Google Gemini",
@@ -1580,7 +1600,7 @@
     "reasoning": true,
     "vision": true
    },
-   "context_window": 131072,
+   "context_window": 1048576,
    "input_per_1m": 1.5,
    "kind": "chat",
    "max_output": 65536,
@@ -1603,7 +1623,7 @@
    "context_window": 1048576,
    "input_per_1m": 1.25,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 2.5 Pro",
    "output_per_1m": 10,
    "provider": "Google Gemini",
@@ -1627,26 +1647,6 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-2-5-computer-use-preview-10-2025",
    "url": "/model/gemini-gemini-2-5-computer-use-preview-10-2025"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini Pro",
-   "output_per_1m": 10,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-pro-latest",
-   "url": "/model/gemini-gemini-pro-latest"
   },
   {
    "cached_input_per_1m": 0.1,
@@ -1691,20 +1691,38 @@
   {
    "cached_input_per_1m": 0.125,
    "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
+    "prompt_caching": true
    },
-   "context_window": 1048576,
+   "context_window": 8192,
    "input_per_1m": 1,
    "kind": "audio",
-   "max_output": 65535,
+   "max_output": 16384,
    "name": "Gemini 2.5 Pro Preview Tts",
    "output_per_1m": 20,
    "provider": "Google Gemini",
    "provider_slug": "gemini",
    "slug": "gemini-gemini-2-5-pro-preview-tts",
    "url": "/model/gemini-gemini-2-5-pro-preview-tts"
+  },
+  {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.75,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini Flash",
+   "output_per_1m": 3.75,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-flash-latest",
+   "url": "/model/gemini-gemini-flash-latest"
   },
   {
    "cached_input_per_1m": 0.075,
@@ -1769,6 +1787,7 @@
   {
    "cached_input_per_1m": 0.05,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
     "reasoning": true,
     "tools": true,
@@ -1777,7 +1796,7 @@
    "context_window": 1048576,
    "input_per_1m": 0.5,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 3 Flash Preview",
    "output_per_1m": 3,
    "provider": "Google Gemini",
@@ -1840,6 +1859,7 @@
   {
    "cached_input_per_1m": 0.03,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
     "reasoning": true,
     "tools": true,
@@ -1848,7 +1868,7 @@
    "context_window": 1048576,
    "input_per_1m": 0.3,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 2.5 Flash",
    "output_per_1m": 2.5,
    "provider": "Google Gemini",
@@ -1878,6 +1898,7 @@
   {
    "cached_input_per_1m": 0.03,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
     "reasoning": true,
     "tools": true,
@@ -1886,13 +1907,13 @@
    "context_window": 1048576,
    "input_per_1m": 0.3,
    "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini Flash",
+   "max_output": 65536,
+   "name": "Gemini Flash Lite",
    "output_per_1m": 2.5,
    "provider": "Google Gemini",
    "provider_slug": "gemini",
-   "slug": "gemini-gemini-flash-latest",
-   "url": "/model/gemini-gemini-flash-latest"
+   "slug": "gemini-gemini-flash-lite-latest",
+   "url": "/model/gemini-gemini-flash-lite-latest"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -1970,7 +1991,10 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
+   "capabilities": {
+    "audio": true,
+    "vision": true
+   },
    "context_window": 8192,
    "input_per_1m": 0.2,
    "kind": "embedding",
@@ -2036,6 +2060,7 @@
   {
    "cached_input_per_1m": 0.01,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
     "reasoning": true,
     "tools": true,
@@ -2044,7 +2069,7 @@
    "context_window": 1048576,
    "input_per_1m": 0.1,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 2.5 Flash Lite",
    "output_per_1m": 0.4,
    "provider": "Google Gemini",
@@ -2070,25 +2095,6 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-2-5-flash-lite-preview-09-2025",
    "url": "/model/gemini-gemini-2-5-flash-lite-preview-09-2025"
-  },
-  {
-   "cached_input_per_1m": 0.01,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini Flash Lite",
-   "output_per_1m": 0.4,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-flash-lite-latest",
-   "url": "/model/gemini-gemini-flash-lite-latest"
   },
   {
    "cached_input_per_1m": 0.01,
@@ -2861,6 +2867,60 @@
    "provider_slug": "mistral",
    "slug": "mistral-zai-glm-5-2",
    "url": "/model/mistral-zai-glm-5-2"
+  },
+  {
+   "cached_input_per_1m": 0.14,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Zai Glm 5 3",
+   "output_per_1m": 4.4,
+   "provider": "Mistral AI",
+   "provider_slug": "mistral",
+   "slug": "mistral-zai-glm-5-3",
+   "url": "/model/mistral-zai-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": 0.14,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Zai Glm 5",
+   "output_per_1m": 4.4,
+   "provider": "Mistral AI",
+   "provider_slug": "mistral",
+   "slug": "mistral-zai-glm-5",
+   "url": "/model/mistral-zai-glm-5"
+  },
+  {
+   "cached_input_per_1m": 0.14,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Zai Glm",
+   "output_per_1m": 4.4,
+   "provider": "Mistral AI",
+   "provider_slug": "mistral",
+   "slug": "mistral-zai-glm-latest",
+   "url": "/model/mistral-zai-glm-latest"
   },
   {
    "cached_input_per_1m": 0.14,
@@ -4820,7 +4880,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 1050000,
+   "context_window": 922000,
    "input_per_1m": 4,
    "kind": "chat",
    "max_output": 128000,
@@ -4839,7 +4899,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 1050000,
+   "context_window": 922000,
    "input_per_1m": 4,
    "kind": "chat",
    "max_output": 128000,
@@ -8447,6 +8507,25 @@
    "url": "/model/azure-gpt-6-astra"
   },
   {
+   "cached_input_per_1m": 1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Astra",
+   "output_per_1m": 50,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-6-astra-2026-09-03",
+   "url": "/model/azure-gpt-6-astra-2026-09-03"
+  },
+  {
    "cached_input_per_1m": 2.5,
    "capabilities": {
     "prompt_caching": true,
@@ -8611,6 +8690,25 @@
    "url": "/model/azure-gpt-5-5-2026-04-23"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.5",
+   "output_per_1m": 30,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-5-2026-04-24",
+   "url": "/model/azure-gpt-5-5-2026-04-24"
+  },
+  {
    "cached_input_per_1m": 0.4,
    "capabilities": {
     "prompt_caching": true,
@@ -8628,6 +8726,25 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-6-sol",
    "url": "/model/azure-gpt-5-6-sol"
+  },
+  {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.6 Sol",
+   "output_per_1m": 20,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-6-sol-2026-07-09",
+   "url": "/model/azure-gpt-5-6-sol-2026-07-09"
   },
   {
    "cached_input_per_1m": null,
@@ -8902,6 +9019,25 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-6-terra",
    "url": "/model/azure-gpt-5-6-terra"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.6 Terra",
+   "output_per_1m": 12,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-6-terra-2026-07-09",
+   "url": "/model/azure-gpt-5-6-terra-2026-07-09"
   },
   {
    "cached_input_per_1m": 0.5,
@@ -9707,6 +9843,25 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-6-luna",
    "url": "/model/azure-gpt-5-6-luna"
+  },
+  {
+   "cached_input_per_1m": 0.02,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.6 Luna",
+   "output_per_1m": 1.2,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-6-luna-2026-07-09",
+   "url": "/model/azure-gpt-5-6-luna-2026-07-09"
   },
   {
    "cached_input_per_1m": 0.02,
@@ -10836,7 +10991,7 @@
    "url": "/model/bedrock-us-meta-llama3-1-70b-instruct-v1:0"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.24,
    "capabilities": {
     "prompt_caching": true,
     "tools": true,
@@ -11584,7 +11739,7 @@
    "url": "/model/bedrock-openai-gpt-oss-20b-1:0"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.018,
    "capabilities": {
     "prompt_caching": true,
     "tools": true,
@@ -11632,7 +11787,7 @@
    "url": "/model/bedrock-nvidia-nemotron-nano-9b-v2"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.0105,
    "capabilities": {
     "prompt_caching": true,
     "tools": true
@@ -16022,8 +16177,11 @@
   },
   {
    "cached_input_per_1m": 0.39,
-   "capabilities": {},
-   "context_window": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
    "input_per_1m": 2.1,
    "kind": "chat",
    "max_output": null,
@@ -20401,6 +20559,40 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GLM 5.3",
+   "output_per_1m": 4.4,
+   "provider": "Nebius",
+   "provider_slug": "nebius",
+   "slug": "nebius-glm-5-3",
+   "url": "/model/nebius-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 1.32,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek V4 Pro 0813",
+   "output_per_1m": 3.96,
+   "provider": "Nebius",
+   "provider_slug": "nebius",
+   "slug": "nebius-deepseek-v4-pro-0813",
+   "url": "/model/nebius-deepseek-v4-pro-0813"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "tools": true
    },
    "context_window": 128000,
@@ -24658,6 +24850,25 @@
    "url": "/model/openrouter-grok-4"
   },
   {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Kimi K3",
+   "output_per_1m": 15,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-kimi-k3",
+   "url": "/model/openrouter-kimi-k3"
+  },
+  {
    "cached_input_per_1m": 1.25,
    "capabilities": {
     "prompt_caching": true,
@@ -24746,25 +24957,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gpt-4o-2024-08-06",
    "url": "/model/openrouter-gpt-4o-2024-08-06"
-  },
-  {
-   "cached_input_per_1m": 0.235,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 2.1,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Kimi K3",
-   "output_per_1m": 10.53,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-kimi-k3",
-   "url": "/model/openrouter-kimi-k3"
   },
   {
    "cached_input_per_1m": 0.2,
@@ -25207,6 +25399,24 @@
    "url": "/model/openrouter-gpt-5-3-codex"
   },
   {
+   "cached_input_per_1m": 0.135,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.6,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 3.2,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
+  },
+  {
    "cached_input_per_1m": 0.15,
    "capabilities": {
     "audio": true,
@@ -25293,6 +25503,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-glm-5-3",
    "url": "/model/openrouter-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": 0.14,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.2",
+   "output_per_1m": 4.4,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-2",
+   "url": "/model/openrouter-glm-5-2"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -25717,24 +25945,6 @@
    "url": "/model/openrouter-kimi-k2-6"
   },
   {
-   "cached_input_per_1m": 0.071659,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.859908,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.719816,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro",
-   "url": "/model/openrouter-deepseek-v4-pro"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 131072,
@@ -25895,7 +26105,7 @@
    "url": "/model/openrouter-gpt-5-4-mini"
   },
   {
-   "cached_input_per_1m": 0.15,
+   "cached_input_per_1m": 0.18,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -25903,11 +26113,11 @@
     "vision": true
    },
    "context_window": 262144,
-   "input_per_1m": 0.71,
+   "input_per_1m": 0.7062,
    "kind": "chat",
    "max_output": 235929,
    "name": "Kimi K2.7 Code",
-   "output_per_1m": 3.5,
+   "output_per_1m": 3.21,
    "provider": "OpenRouter",
    "provider_slug": "openrouter",
    "slug": "openrouter-kimi-k2-7-code",
@@ -26010,24 +26220,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-glm-5",
    "url": "/model/openrouter-glm-5"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.2",
-   "output_per_1m": 2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-2",
-   "url": "/model/openrouter-glm-5-2"
   },
   {
    "cached_input_per_1m": null,
@@ -26182,23 +26374,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-5-397b-a17b",
    "url": "/model/openrouter-qwen3-5-397b-a17b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 0.55,
-   "kind": "chat",
-   "max_output": 40000,
-   "name": "Minimax M1",
-   "output_per_1m": 2.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-minimax-m1",
-   "url": "/model/openrouter-minimax-m1"
   },
   {
    "cached_input_per_1m": null,
@@ -26405,25 +26580,6 @@
    "url": "/model/openrouter-glm-4-6"
   },
   {
-   "cached_input_per_1m": 0.085,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 0.42,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Qwen3.8 27b",
-   "output_per_1m": 3,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-8-27b",
-   "url": "/model/openrouter-qwen3-8-27b"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8000,
@@ -26526,6 +26682,23 @@
    "url": "/model/openrouter-mistral-medium-3-1"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.4,
+   "kind": "chat",
+   "max_output": 40000,
+   "name": "Minimax M1",
+   "output_per_1m": 2.2,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-minimax-m1",
+   "url": "/model/openrouter-minimax-m1"
+  },
+  {
    "cached_input_per_1m": 0.04,
    "capabilities": {
     "prompt_caching": true,
@@ -26608,22 +26781,6 @@
    "url": "/model/openrouter-qwen3-6-plus"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 65536,
-   "input_per_1m": 0.32,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Deepseek Chat",
-   "output_per_1m": 0.89,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-chat",
-   "url": "/model/openrouter-deepseek-chat"
-  },
-  {
    "cached_input_per_1m": 0.064,
    "capabilities": {
     "prompt_caching": true,
@@ -26641,24 +26798,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-7-plus",
    "url": "/model/openrouter-qwen3-7-plus"
-  },
-  {
-   "cached_input_per_1m": 0.15625,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.3125,
-   "kind": "chat",
-   "max_output": 65536,
-   "name": "Qwen3.5 35b A3b",
-   "output_per_1m": 1.25,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-5-35b-a3b",
-   "url": "/model/openrouter-qwen3-5-35b-a3b"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -27018,6 +27157,22 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 65536,
+   "input_per_1m": 0.2574,
+   "kind": "chat",
+   "max_output": 8192,
+   "name": "Deepseek Chat",
+   "output_per_1m": 1.0287,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-chat",
+   "url": "/model/openrouter-deepseek-chat"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
     "tools": true
@@ -27194,39 +27349,6 @@
    "url": "/model/openrouter-qwen3-235b-a22b-thinking-2507"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.2275,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Qwen3 14b",
-   "output_per_1m": 0.91,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-14b",
-   "url": "/model/openrouter-qwen3-14b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.22,
-   "kind": "chat",
-   "max_output": 262144,
-   "name": "Qwen3 235b A22b 2507",
-   "output_per_1m": 0.88,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-235b-a22b-2507",
-   "url": "/model/openrouter-qwen3-235b-a22b-2507"
-  },
-  {
    "cached_input_per_1m": 0.007,
    "capabilities": {
     "prompt_caching": true,
@@ -27244,6 +27366,25 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-deepseek-v4-flash-vision-exp",
    "url": "/model/openrouter-deepseek-v4-flash-vision-exp"
+  },
+  {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.214,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Qwen3.8 27b",
+   "output_per_1m": 2.55,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-8-27b",
+   "url": "/model/openrouter-qwen3-8-27b"
   },
   {
    "cached_input_per_1m": null,
@@ -27406,23 +27547,6 @@
    "url": "/model/openrouter-qwen3-30b-a3b-thinking-2507"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": 115200,
-   "name": "Llama 4 Maverick",
-   "output_per_1m": 0.696,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-llama-4-maverick",
-   "url": "/model/openrouter-llama-4-maverick"
-  },
-  {
    "cached_input_per_1m": 0.02,
    "capabilities": {
     "prompt_caching": true,
@@ -27511,6 +27635,23 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.1875,
+   "kind": "chat",
+   "max_output": 115200,
+   "name": "Llama 4 Maverick",
+   "output_per_1m": 0.6525,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-llama-4-maverick",
+   "url": "/model/openrouter-llama-4-maverick"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -27541,6 +27682,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-llama-guard-4-12b",
    "url": "/model/openrouter-llama-guard-4-12b"
+  },
+  {
+   "cached_input_per_1m": 0.15625,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.1625,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Qwen3.5 35b A3b",
+   "output_per_1m": 1.3,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-5-35b-a3b",
+   "url": "/model/openrouter-qwen3-5-35b-a3b"
   },
   {
    "cached_input_per_1m": 0.003,
@@ -27616,25 +27775,6 @@
    "url": "/model/openrouter-qwen3-8-flash"
   },
   {
-   "cached_input_per_1m": 0.03,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.3 Flash",
-   "output_per_1m": 0.5,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-3-flash",
-   "url": "/model/openrouter-glm-5-3-flash"
-  },
-  {
    "cached_input_per_1m": 0.015,
    "capabilities": {
     "prompt_caching": true,
@@ -27652,23 +27792,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-mistral-small-2603",
    "url": "/model/openrouter-mistral-small-2603"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Qwen3 Vl 30b A3b Instruct",
-   "output_per_1m": 0.6,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-vl-30b-a3b-instruct",
-   "url": "/model/openrouter-qwen3-vl-30b-a3b-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -27740,6 +27863,23 @@
    "url": "/model/openrouter-mistral-7b-instruct"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.13,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "Qwen3 Vl 30b A3b Instruct",
+   "output_per_1m": 0.52,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-vl-30b-a3b-instruct",
+   "url": "/model/openrouter-qwen3-vl-30b-a3b-instruct"
+  },
+  {
    "cached_input_per_1m": 0.025,
    "capabilities": {
     "prompt_caching": true,
@@ -27790,6 +27930,23 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-30b-a3b",
    "url": "/model/openrouter-qwen3-30b-a3b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 0.12,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "Qwen3 14b",
+   "output_per_1m": 0.24,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-14b",
+   "url": "/model/openrouter-qwen3-14b"
   },
   {
    "cached_input_per_1m": null,
@@ -28051,6 +28208,39 @@
    "url": "/model/openrouter-qwen-2-5-7b-instruct"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 128000,
+   "input_per_1m": 0.09375,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Mistral Small 3.2 24b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-mistral-small-3-2-24b-instruct",
+   "url": "/model/openrouter-mistral-small-3-2-24b-instruct"
+  },
+  {
+   "cached_input_per_1m": 0.018,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.09,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.3 Flash",
+   "output_per_1m": 0.3,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3-flash",
+   "url": "/model/openrouter-glm-5-3-flash"
+  },
+  {
    "cached_input_per_1m": 0.009,
    "capabilities": {
     "prompt_caching": true,
@@ -28067,6 +28257,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-laguna-s-2-1",
    "url": "/model/openrouter-laguna-s-2-1"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.09,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "Gemma 4 26b A4b It",
+   "output_per_1m": 0.3,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gemma-4-26b-a4b-it",
+   "url": "/model/openrouter-gemma-4-26b-a4b-it"
   },
   {
    "cached_input_per_1m": 0.05,
@@ -28110,15 +28318,15 @@
     "tools": true
    },
    "context_window": 262144,
-   "input_per_1m": 0.09,
+   "input_per_1m": 0.0875,
    "kind": "chat",
-   "max_output": 32000,
-   "name": "Qwen3 30b A3b Instruct 2507",
-   "output_per_1m": 0.3,
+   "max_output": 262144,
+   "name": "Qwen3 235b A22b 2507",
+   "output_per_1m": 0.35,
    "provider": "OpenRouter",
    "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
-   "url": "/model/openrouter-qwen3-30b-a3b-instruct-2507"
+   "slug": "openrouter-qwen3-235b-a22b-2507",
+   "url": "/model/openrouter-qwen3-235b-a22b-2507"
   },
   {
    "cached_input_per_1m": 0.01708,
@@ -28154,6 +28362,20 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-nemotron-3-super-120b-a12b",
    "url": "/model/openrouter-nemotron-3-super-120b-a12b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.08,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Mythomax L2 13b",
+   "output_per_1m": 0.11,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-mythomax-l2-13b",
+   "url": "/model/openrouter-mythomax-l2-13b"
   },
   {
    "cached_input_per_1m": null,
@@ -28208,20 +28430,6 @@
    "url": "/model/openrouter-gemma-3-27b-it"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 128000,
-   "input_per_1m": 0.075,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Mistral Small 3.2 24b Instruct",
-   "output_per_1m": 0.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-mistral-small-3-2-24b-instruct",
-   "url": "/model/openrouter-mistral-small-3-2-24b-instruct"
-  },
-  {
    "cached_input_per_1m": 0.0375,
    "capabilities": {
     "prompt_caching": true,
@@ -28274,38 +28482,6 @@
    "url": "/model/openrouter-qwen3-5-flash-02-23"
   },
   {
-   "cached_input_per_1m": 0.016,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.065,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Flash 0731",
-   "output_per_1m": 0.18,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-0731",
-   "url": "/model/openrouter-deepseek-v4-flash-0731"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 0.06,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Mythomax L2 13b",
-   "output_per_1m": 0.06,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-mythomax-l2-13b",
-   "url": "/model/openrouter-mythomax-l2-13b"
-  },
-  {
    "cached_input_per_1m": 0.01,
    "capabilities": {
     "reasoning": true,
@@ -28322,6 +28498,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-glm-4-7-flash",
    "url": "/model/openrouter-glm-4-7-flash"
+  },
+  {
+   "cached_input_per_1m": 0.012,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek V4 Flash 0731",
+   "output_per_1m": 0.12,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash-0731",
+   "url": "/model/openrouter-deepseek-v4-flash-0731"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -28456,20 +28650,18 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
+    "tools": true
    },
    "context_window": 262144,
-   "input_per_1m": 0.042,
+   "input_per_1m": 0.04815,
    "kind": "chat",
-   "max_output": 16384,
-   "name": "Gemma 4 26b A4b It",
-   "output_per_1m": 0.22,
+   "max_output": 32000,
+   "name": "Qwen3 30b A3b Instruct 2507",
+   "output_per_1m": 0.19305,
    "provider": "OpenRouter",
    "provider_slug": "openrouter",
-   "slug": "openrouter-gemma-4-26b-a4b-it",
-   "url": "/model/openrouter-gemma-4-26b-a4b-it"
+   "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+   "url": "/model/openrouter-qwen3-30b-a3b-instruct-2507"
   },
   {
    "cached_input_per_1m": null,
@@ -29848,7 +30040,7 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 256000,
+   "context_window": 262144,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": null,
@@ -30365,7 +30557,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 128000,
+   "context_window": 131072,
    "input_per_1m": 0.6,
    "kind": "chat",
    "max_output": 16384,
@@ -30680,6 +30872,23 @@
    "url": "/model/together-ai-minimax-m3"
   },
   {
+   "cached_input_per_1m": 0.006,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek V4.1 Flash",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-v4-1-flash",
+   "url": "/model/together-ai-deepseek-v4-1-flash"
+  },
+  {
    "cached_input_per_1m": 0.06,
    "capabilities": {},
    "context_window": 196608,
@@ -30692,20 +30901,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-minimax-m2-7",
    "url": "/model/together-ai-minimax-m2-7"
-  },
-  {
-   "cached_input_per_1m": 0.006,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": null,
-   "name": "DeepSeek V4.1 Flash",
-   "output_per_1m": 1.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-v4-1-flash",
-   "url": "/model/together-ai-deepseek-v4-1-flash"
   },
   {
    "cached_input_per_1m": null,
@@ -30788,7 +30983,7 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 128000,
+   "context_window": 131072,
    "input_per_1m": 0.2,
    "kind": "chat",
    "max_output": null,
@@ -31339,6 +31534,7 @@
   {
    "cached_input_per_1m": 0.5,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -31391,6 +31587,7 @@
   {
    "cached_input_per_1m": 0.2,
    "capabilities": {
+    "prompt_caching": true,
     "tools": true,
     "vision": true
    },
@@ -31408,6 +31605,7 @@
   {
    "cached_input_per_1m": 0.2,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -31426,6 +31624,7 @@
   {
    "cached_input_per_1m": 0.2,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -31566,6 +31765,7 @@
   {
    "cached_input_per_1m": 0.05,
    "capabilities": {
+    "prompt_caching": true,
     "tools": true,
     "vision": true
    },
@@ -31583,6 +31783,7 @@
   {
    "cached_input_per_1m": 0.05,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true

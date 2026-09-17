@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1937,
- "generated_at": "2026-09-16T18:09:45.657859+00:00",
+ "endpoints_tracked": 1947,
+ "generated_at": "2026-09-17T00:09:55.074305+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -47,19 +47,19 @@
   },
   {
    "category": "platform",
+   "label": "Azure OpenAI",
+   "max_input_per_1m": 75,
+   "min_input_per_1m": 0.02,
+   "models": 111,
+   "provider": "azure"
+  },
+  {
+   "category": "platform",
    "label": "Amazon Bedrock",
    "max_input_per_1m": 18.8,
    "min_input_per_1m": 0,
    "models": 109,
    "provider": "bedrock"
-  },
-  {
-   "category": "platform",
-   "label": "Azure OpenAI",
-   "max_input_per_1m": 75,
-   "min_input_per_1m": 0.02,
-   "models": 106,
-   "provider": "azure"
   },
   {
    "category": "platform",
@@ -74,7 +74,7 @@
    "label": "Mistral AI",
    "max_input_per_1m": 4,
    "min_input_per_1m": 0,
-   "models": 73,
+   "models": 76,
    "provider": "mistral"
   },
   {
@@ -98,7 +98,7 @@
    "label": "Nebius",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.01,
-   "models": 56,
+   "models": 58,
    "provider": "nebius"
   },
   {

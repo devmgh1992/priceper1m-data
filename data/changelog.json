@@ -1,5 +1,5 @@
 {
- "count_changes": 50,
+ "count_changes": 132,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -7,6 +7,96 @@
   {
    "baseline": false,
    "changes": [
+    {
+     "field": "context_window",
+     "name": "Claude Sonnet 4 5",
+     "new": 1000000,
+     "old": 200000,
+     "pct": 400,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-sonnet-4-5",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Claude Sonnet 4 5",
+     "new": 1000000,
+     "old": 200000,
+     "pct": 400,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-sonnet-4-5-20250929",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Gemini Pro",
+     "new": 2,
+     "old": 1.25,
+     "pct": 60,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-pro-latest",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Gemini Pro",
+     "new": 12,
+     "old": 10,
+     "pct": 20,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-pro-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Gemini Pro",
+     "new": 0.2,
+     "old": 0.125,
+     "pct": 60,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-pro-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini Pro",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-pro-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 3.5 Flash",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-3-5-flash",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Gemini Omni 1.1 Flash",
+     "new": 1048576,
+     "old": 131072,
+     "pct": 700,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-omni-1-1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 2.5 Pro",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-pro",
+     "type": "changed"
+    },
     {
      "field": "input_per_1m",
      "name": "Gemini Robotics Er 2 Preview",
@@ -38,6 +128,166 @@
      "type": "changed"
     },
     {
+     "field": "context_window",
+     "name": "Gemini 2.5 Pro Preview Tts",
+     "new": 8192,
+     "old": 1048576,
+     "pct": -99.22,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-pro-preview-tts",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 2.5 Pro Preview Tts",
+     "new": 16384,
+     "old": 65535,
+     "pct": -75,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-pro-preview-tts",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Gemini Flash",
+     "new": 0.75,
+     "old": 0.3,
+     "pct": 150,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-latest",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Gemini Flash",
+     "new": 3.75,
+     "old": 2.5,
+     "pct": 50,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Gemini Flash",
+     "new": 0.075,
+     "old": 0.03,
+     "pct": 150,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini Flash",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 3 Flash Preview",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-3-flash-preview",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 2.5 Flash",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-flash",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Gemini Flash Lite",
+     "new": 0.3,
+     "old": 0.1,
+     "pct": 200,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-lite-latest",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Gemini Flash Lite",
+     "new": 2.5,
+     "old": 0.4,
+     "pct": 525,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-lite-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Gemini Flash Lite",
+     "new": 0.03,
+     "old": 0.01,
+     "pct": 200,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-lite-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini Flash Lite",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-flash-lite-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 2.5 Flash Lite",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-flash-lite",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Zai Glm 5 3",
+     "new": 1.4,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-zai-glm-5-3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Zai Glm 5",
+     "new": 1.4,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-zai-glm-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Zai Glm",
+     "new": 1.4,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-zai-glm-latest",
+     "type": "added"
+    },
+    {
      "field": null,
      "name": "GPT 5.5 Cyber",
      "new": 12.5,
@@ -58,6 +308,36 @@
      "type": "added"
     },
     {
+     "field": "context_window",
+     "name": "Daybreak Blue",
+     "new": 922000,
+     "old": 1050000,
+     "pct": -12.19,
+     "provider": "OpenAI",
+     "slug": "openai-daybreak-blue-latest",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT Daybreak Blue",
+     "new": 922000,
+     "old": 1050000,
+     "pct": -12.19,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-daybreak-blue-latest",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Astra",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-astra-2026-09-03",
+     "type": "added"
+    },
+    {
      "field": null,
      "name": "GPT Chat",
      "new": 5,
@@ -75,6 +355,16 @@
      "pct": null,
      "provider": "Azure OpenAI",
      "slug": "azure-chat-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.5",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-5-2026-04-24",
      "type": "added"
     },
     {
@@ -108,6 +398,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "GPT 5.6 Sol",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-6-sol-2026-07-09",
+     "type": "added"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "GPT 4o",
      "new": 1.375,
@@ -116,6 +416,16 @@
      "provider": "Azure OpenAI",
      "slug": "azure-gpt-4o-2024-11-20",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Terra",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-6-terra-2026-07-09",
+     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -219,6 +529,46 @@
     },
     {
      "field": null,
+     "name": "GPT 5.6 Luna",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-6-luna-2026-07-09",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Amazon.nova Pro V1:0",
+     "new": 0.24,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-amazon-nova-pro-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Amazon.nova Lite V1:0",
+     "new": 0.018,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-amazon-nova-lite-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Amazon.nova Micro V1:0",
+     "new": 0.0105,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-amazon-nova-micro-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": null,
      "name": "Glm 5p3 Fast",
      "new": 2.1,
      "old": null,
@@ -259,6 +609,446 @@
     },
     {
      "field": null,
+     "name": "GLM 5.3",
+     "new": 1.4,
+     "old": null,
+     "pct": null,
+     "provider": "Nebius",
+     "slug": "nebius-glm-5-3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4 Pro 0813",
+     "new": 1.32,
+     "old": null,
+     "pct": null,
+     "provider": "Nebius",
+     "slug": "nebius-deepseek-v4-pro-0813",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Kimi K3",
+     "new": 3,
+     "old": 2.1,
+     "pct": 42.86,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K3",
+     "new": 15,
+     "old": 10.53,
+     "pct": 42.45,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Kimi K3",
+     "new": 0.3,
+     "old": 0.235,
+     "pct": 27.66,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.6,
+     "old": 0.859908,
+     "pct": 86.07,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 3.2,
+     "old": 1.719816,
+     "pct": 86.07,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.135,
+     "old": 0.071659,
+     "pct": 88.39,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.2",
+     "new": 1.4,
+     "old": 0.6,
+     "pct": 133.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.2",
+     "new": 4.4,
+     "old": 2,
+     "pct": 120,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.2",
+     "new": 0.14,
+     "old": 0.15,
+     "pct": -6.67,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 0.7062,
+     "old": 0.71,
+     "pct": -0.54,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 3.21,
+     "old": 3.5,
+     "pct": -8.29,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 0.18,
+     "old": 0.15,
+     "pct": 20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Minimax M1",
+     "new": 0.4,
+     "old": 0.55,
+     "pct": -27.27,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m1",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek Chat",
+     "new": 0.2574,
+     "old": 0.32,
+     "pct": -19.56,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-chat",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek Chat",
+     "new": 1.0287,
+     "old": 0.89,
+     "pct": 15.58,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-chat",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3.8 27b",
+     "new": 0.214,
+     "old": 0.42,
+     "pct": -49.05,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-27b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3.8 27b",
+     "new": 2.55,
+     "old": 3,
+     "pct": -15,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-27b",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3.8 27b",
+     "new": 0.15,
+     "old": 0.085,
+     "pct": 76.47,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-27b",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Llama 4 Maverick",
+     "new": 0.1875,
+     "old": 0.2,
+     "pct": -6.25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-llama-4-maverick",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Llama 4 Maverick",
+     "new": 0.6525,
+     "old": 0.696,
+     "pct": -6.25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-llama-4-maverick",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3.5 35b A3b",
+     "new": 0.1625,
+     "old": 0.3125,
+     "pct": -48,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-5-35b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3.5 35b A3b",
+     "new": 1.3,
+     "old": 1.25,
+     "pct": 4,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-5-35b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3 Vl 30b A3b Instruct",
+     "new": 0.13,
+     "old": 0.15,
+     "pct": -13.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-vl-30b-a3b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3 Vl 30b A3b Instruct",
+     "new": 0.52,
+     "old": 0.6,
+     "pct": -13.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-vl-30b-a3b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3 14b",
+     "new": 0.12,
+     "old": 0.2275,
+     "pct": -47.25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-14b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3 14b",
+     "new": 0.24,
+     "old": 0.91,
+     "pct": -73.63,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-14b",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Mistral Small 3.2 24b Instruct",
+     "new": 0.09375,
+     "old": 0.075,
+     "pct": 25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-3-2-24b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Mistral Small 3.2 24b Instruct",
+     "new": 0.25,
+     "old": 0.2,
+     "pct": 25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-3-2-24b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.3 Flash",
+     "new": 0.09,
+     "old": 0.15,
+     "pct": -40,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.3 Flash",
+     "new": 0.3,
+     "old": 0.5,
+     "pct": -40,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.3 Flash",
+     "new": 0.018,
+     "old": 0.03,
+     "pct": -40,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3-flash",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Gemma 4 26b A4b It",
+     "new": 0.09,
+     "old": 0.042,
+     "pct": 114.29,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Gemma 4 26b A4b It",
+     "new": 0.3,
+     "old": 0.22,
+     "pct": 36.36,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3 235b A22b 2507",
+     "new": 0.0875,
+     "old": 0.22,
+     "pct": -60.23,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-235b-a22b-2507",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3 235b A22b 2507",
+     "new": 0.35,
+     "old": 0.88,
+     "pct": -60.23,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-235b-a22b-2507",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Mythomax L2 13b",
+     "new": 0.08,
+     "old": 0.06,
+     "pct": 33.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mythomax-l2-13b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Mythomax L2 13b",
+     "new": 0.11,
+     "old": 0.06,
+     "pct": 83.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mythomax-l2-13b",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.06,
+     "old": 0.065,
+     "pct": -7.69,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.12,
+     "old": 0.18,
+     "pct": -33.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.012,
+     "old": 0.016,
+     "pct": -25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3 30b A3b Instruct 2507",
+     "new": 0.04815,
+     "old": 0.09,
+     "pct": -46.5,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3 30b A3b Instruct 2507",
+     "new": 0.19305,
+     "old": 0.3,
+     "pct": -35.65,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+     "type": "changed"
+    },
+    {
+     "field": null,
      "name": "Llama 3.1 405B Instruct",
      "new": 3.5,
      "old": null,
@@ -266,6 +1056,16 @@
      "provider": "Together AI",
      "slug": "together-ai-llama-3-1-405b-instruct",
      "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen3 Coder 480B A35B Instruct FP8",
+     "new": 262144,
+     "old": 256000,
+     "pct": 2.4,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
+     "type": "changed"
     },
     {
      "field": null,
@@ -388,6 +1188,16 @@
      "type": "added"
     },
     {
+     "field": "context_window",
+     "name": "DeepSeek V3.1",
+     "new": 131072,
+     "old": 128000,
+     "pct": 2.4,
+     "provider": "Together AI",
+     "slug": "together-ai-deepseek-v3-1",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Nous Hermes 2 Mixtral 8x7B DPO",
      "new": 0.6,
@@ -406,6 +1216,16 @@
      "provider": "Together AI",
      "slug": "together-ai-deepseek-v4-1-flash",
      "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "GLM 4.5 Air FP8",
+     "new": 131072,
+     "old": 128000,
+     "pct": 2.4,
+     "provider": "Together AI",
+     "slug": "together-ai-glm-4-5-air-fp8",
+     "type": "changed"
     },
     {
      "field": null,
@@ -508,9 +1328,9 @@
      "type": "added"
     }
    ],
-   "count": 50,
-   "date": "2026-09-16",
-   "generated_at": "2026-09-16T18:09:45.657859+00:00"
+   "count": 132,
+   "date": "2026-09-17",
+   "generated_at": "2026-09-17T00:09:55.074305+00:00"
   },
   {
    "baseline": true,
