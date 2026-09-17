@@ -1,7 +1,7 @@
 {
- "count": 1947,
+ "count": 1948,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-17T00:09:55.074305+00:00",
+ "generated_at": "2026-09-17T12:08:54.931654+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -28796,6 +28796,23 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-bodybuilder",
    "url": "/model/openrouter-bodybuilder"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Union Alpha",
+   "output_per_1m": 0,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-union-alpha",
+   "url": "/model/openrouter-union-alpha"
   },
   {
    "cached_input_per_1m": null,

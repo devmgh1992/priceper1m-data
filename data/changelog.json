@@ -1,5 +1,5 @@
 {
- "count_changes": 132,
+ "count_changes": 133,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1049,6 +1049,16 @@
     },
     {
      "field": null,
+     "name": "Union Alpha",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-union-alpha",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Llama 3.1 405B Instruct",
      "new": 3.5,
      "old": null,
@@ -1328,9 +1338,9 @@
      "type": "added"
     }
    ],
-   "count": 132,
+   "count": 133,
    "date": "2026-09-17",
-   "generated_at": "2026-09-17T00:09:55.074305+00:00"
+   "generated_at": "2026-09-17T12:08:54.931654+00:00"
   },
   {
    "baseline": true,

@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1947,
- "generated_at": "2026-09-17T00:09:55.074305+00:00",
+ "endpoints_tracked": 1948,
+ "generated_at": "2026-09-17T12:08:54.931654+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -18,7 +18,7 @@
    "label": "OpenRouter",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0,
-   "models": 268,
+   "models": 269,
    "provider": "openrouter"
   },
   {
