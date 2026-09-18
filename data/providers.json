@@ -1,10 +1,18 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1948,
- "generated_at": "2026-09-18T00:09:26.691806+00:00",
+ "endpoints_tracked": 2139,
+ "generated_at": "2026-09-18T06:09:31.364348+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
+  {
+   "category": "platform",
+   "label": "OpenRouter",
+   "max_input_per_1m": 150,
+   "min_input_per_1m": 0,
+   "models": 460,
+   "provider": "openrouter"
+  },
   {
    "category": "platform",
    "label": "Fireworks AI",
@@ -12,14 +20,6 @@
    "min_input_per_1m": 0,
    "models": 273,
    "provider": "fireworks_ai"
-  },
-  {
-   "category": "platform",
-   "label": "OpenRouter",
-   "max_input_per_1m": 150,
-   "min_input_per_1m": 0,
-   "models": 269,
-   "provider": "openrouter"
   },
   {
    "category": "platform",

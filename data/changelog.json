@@ -1,5 +1,5 @@
 {
- "count_changes": 133,
+ "count_changes": 469,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -258,6 +258,26 @@
      "type": "changed"
     },
     {
+     "field": "cached_input_per_1m",
+     "name": "Pixtral Large",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-pixtral-large-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Medium 3",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-medium-3",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Zai Glm 5 3",
      "new": 1.4,
@@ -286,6 +306,106 @@
      "provider": "Mistral AI",
      "slug": "mistral-zai-glm-latest",
      "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Devstral",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Devstral Medium",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-medium-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Code Agent",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-code-agent-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Open Mistral Nemo",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-open-mistral-nemo",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Codestral Mamba",
+     "new": 0.025,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-codestral-mamba-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Tiny",
+     "new": 0.025,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-tiny",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Devstral Small",
+     "new": 0.01,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-small-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Voxtral Small 2507",
+     "new": 0.01,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-voxtral-small-2507",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Voxtral Small",
+     "new": 0.01,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-voxtral-small-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Small",
+     "new": 0.01,
+     "old": null,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-small",
+     "type": "changed"
     },
     {
      "field": null,
@@ -628,21 +748,361 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Kimi K3",
-     "new": 3,
-     "old": 2.1,
-     "pct": 42.86,
+     "field": "context_window",
+     "name": "GPT 5.2 Pro",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
      "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k3",
+     "slug": "openrouter-gpt-5-2-pro",
      "type": "changed"
     },
     {
-     "field": "output_per_1m",
-     "name": "Kimi K3",
+     "field": null,
+     "name": "GPT 5.4 Pro:batch",
      "new": 15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.5 Pro:batch",
+     "new": 15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-5-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2 Pro:batch",
+     "new": 10.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-2-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Fable",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-fable-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT Astra",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-astra-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Image",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-image",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.4 Image 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4-image-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.1:batch",
+     "new": 7.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-4-1:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Pro:batch",
+     "new": 7.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Fable 5:batch",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-fable-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Fable 5.1:batch",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-fable-5-1:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 4 Turbo:batch",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-4-turbo:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Astra Pro:batch",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-astra-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Astra:batch",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-astra:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Fugu Ultra",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-fugu-ultra",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Fugu Ultra V2",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-fugu-ultra-v2",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Claude Sonnet 4.5",
+     "new": 1000000,
+     "old": 200000,
+     "pct": 400,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-sonnet-4-5",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Aion 3.0",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-aion-3-0",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi K3:batch",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Sonar Pro",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-sonar-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Sonar Pro Search",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-sonar-pro-search",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Nova Premier V1",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nova-premier-v1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Magnum V4 72b",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-magnum-v4-72b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.5:batch",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-4-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.6:batch",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-4-6:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.7:batch",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-4-7:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.8:batch",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-4-8:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 5:batch",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Command A",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-command-a",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Command R Plus 08 2024",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-command-r-plus-08-2024",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Image Mini",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-image-mini",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.5:batch",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Pareto",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-pareto",
+     "type": "added"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K3",
+     "new": 10.95,
      "old": 10.53,
-     "pct": 42.45,
+     "pct": 3.99,
      "provider": "OpenRouter",
      "slug": "openrouter-kimi-k3",
      "type": "changed"
@@ -650,19 +1110,629 @@
     {
      "field": "cached_input_per_1m",
      "name": "Kimi K3",
-     "new": 0.3,
+     "new": 0.23,
      "old": 0.235,
-     "pct": 27.66,
+     "pct": -2.13,
      "provider": "OpenRouter",
      "slug": "openrouter-kimi-k3",
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Kimi",
+     "new": 2.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-latest",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Large",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral Large",
+     "new": 102400,
+     "old": 8191,
+     "pct": 1150.15,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mixtral 8x22b Instruct",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mixtral-8x22b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mixtral 8x22b Instruct",
+     "new": 52428,
+     "old": 65536,
+     "pct": -20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mixtral-8x22b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.6 Terra",
+     "new": 1050000,
+     "old": 922000,
+     "pct": 13.88,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-terra",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Grok 4.5",
+     "new": 450000,
+     "old": 500000,
+     "pct": -10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-5",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Grok 4.6",
+     "new": 450000,
+     "old": 500000,
+     "pct": -10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-6",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3.8 2.4t A95b",
+     "new": 131072,
+     "old": 262144,
+     "pct": -50,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-2-4t-a95b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-sonnet-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-pro-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-sol-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT Terra",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-terra-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Sonar Deep Research",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-sonar-deep-research",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Sonar Reasoning Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-sonar-reasoning-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.8 2.4t A95b:batch",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-2-4t-a95b:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Fugu Max",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-fugu-max",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.2 Codex",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-2-codex",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.2",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "GPT 5.2 Chat",
+     "new": 32000,
+     "old": 16384,
+     "pct": 95.31,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-2-chat",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.3 Codex",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-3-codex",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 3.5 Flash",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-5-flash",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 4.5:batch",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-sonnet-4-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 4.6:batch",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-sonnet-4-6:batch",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.26,
+     "old": 0.14,
+     "pct": 85.71,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.3",
+     "new": 943717,
+     "old": 262144,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 2.5 Pro",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-2-5-pro",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.1",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Grok 4.20",
+     "new": 2000000,
+     "old": 1000000,
+     "pct": 100,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-20",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Grok 4.20",
+     "new": 1800000,
+     "old": 1000000,
+     "pct": 80,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-20",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Grok 4.20 Multi Agent",
+     "new": 2000000,
+     "old": 1000000,
+     "pct": 100,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-20-multi-agent",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Grok 4.20 Multi Agent",
+     "new": 1800000,
+     "old": 1000000,
+     "pct": 80,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-20-multi-agent",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Grok 4.3",
+     "new": 900000,
+     "old": 1000000,
+     "pct": -10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-3",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Muse Spark 1.1",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-spark-1-1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Spark 1.2",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-spark-1-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Spark 1.3",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-spark-1-3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 4o:batch",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-4o:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.4:batch",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4:batch",
+     "type": "added"
+    },
+    {
+     "field": "max_output",
+     "name": "Grok Build 0.1",
+     "new": 230400,
+     "old": 256000,
+     "pct": -10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-build-0-1",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Claude Haiku",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-haiku-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 5:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-sonnet-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.1 Pro Preview:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-1-pro-preview:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hermes 3 Llama 3.1 405b",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hermes-3-llama-3-1-405b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hermes 4 405b",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hermes-4-405b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 3.5 Turbo 0613",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-3-5-turbo-0613",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 4.1:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-4-1:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Sol Pro:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-sol-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Sol:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-sol:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Terra Pro:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-terra-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Terra:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-terra:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "O3:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-o3:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Sonar",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-sonar",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Relace Search",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-relace-search",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-inkling",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-inkling:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.3:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-grok-4-3:batch",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 5.1",
+     "new": 204800,
+     "old": 202752,
+     "pct": 1.01,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.1",
+     "new": 128000,
+     "old": 65535,
+     "pct": 95.32,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Sakana Namazu",
+     "new": 0.95,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-sakana-namazu",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Deepseek V4 Pro",
-     "new": 1.6,
+     "new": 0.94336,
      "old": 0.859908,
-     "pct": 86.07,
+     "pct": 9.7,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
@@ -670,9 +1740,9 @@
     {
      "field": "output_per_1m",
      "name": "Deepseek V4 Pro",
-     "new": 3.2,
+     "new": 1.88672,
      "old": 1.719816,
-     "pct": 86.07,
+     "pct": 9.7,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
@@ -680,42 +1750,182 @@
     {
      "field": "cached_input_per_1m",
      "name": "Deepseek V4 Pro",
-     "new": 0.135,
+     "new": 0.079596,
      "old": 0.071659,
-     "pct": 88.39,
+     "pct": 11.08,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
     },
     {
-     "field": "input_per_1m",
-     "name": "Glm 5.2",
-     "new": 1.4,
-     "old": 0.6,
-     "pct": 133.33,
+     "field": "max_output",
+     "name": "Deepseek V4 Pro",
+     "new": 393216,
+     "old": 384000,
+     "pct": 2.4,
      "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2",
+     "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
     },
     {
-     "field": "output_per_1m",
-     "name": "Glm 5.2",
-     "new": 4.4,
-     "old": 2,
-     "pct": 120,
+     "field": null,
+     "name": "Morph V3 Large",
+     "new": 0.9,
+     "old": null,
+     "pct": null,
      "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2",
+     "slug": "openrouter-morph-v3-large",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Glm",
+     "new": 0.8775,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2:batch",
+     "new": 0.875,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-2:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Relace Apply 3",
+     "new": 0.85,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-relace-apply-3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "L3.1 Euryale 70b",
+     "new": 0.85,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-l3-1-euryale-70b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hy4 Preview",
+     "new": 0.834,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy4-preview",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Aion 2.0",
+     "new": 0.8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-aion-2-0",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Aion Rp Llama 3.1 8b",
+     "new": 0.8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-aion-rp-llama-3-1-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Nova Pro V1",
+     "new": 0.8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nova-pro-v1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Morph V3 Fast",
+     "new": 0.8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-morph-v3-fast",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.4 Mini",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4-mini",
      "type": "changed"
     },
     {
-     "field": "cached_input_per_1m",
-     "name": "Glm 5.2",
-     "new": 0.14,
-     "old": 0.15,
-     "pct": -6.67,
+     "field": null,
+     "name": "Gemini Flash",
+     "new": 0.75,
+     "old": null,
+     "pct": null,
      "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2",
-     "type": "changed"
+     "slug": "openrouter-gemini-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT Mini",
+     "new": 0.75,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-mini-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.5 Flash:batch",
+     "new": 0.75,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-5-flash:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Mistral Medium 3 5:batch",
+     "new": 0.75,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-medium-3-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kat Coder Pro V2.5",
+     "new": 0.74,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kat-coder-pro-v2-5",
+     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -748,6 +1958,586 @@
      "type": "changed"
     },
     {
+     "field": "context_window",
+     "name": "Deepseek R1",
+     "new": 64000,
+     "old": 65336,
+     "pct": -2.04,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-r1",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek R1",
+     "new": 16000,
+     "old": 8192,
+     "pct": 95.31,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-r1",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Aion 3.0 Mini",
+     "new": 0.7,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-aion-3-0-mini",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hermes 3 Llama 3.1 70b",
+     "new": 0.7,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hermes-3-llama-3-1-70b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Glm 5.2:batch",
+     "new": 0.7,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Glm 5.3:batch",
+     "new": 0.7,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3:batch",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 0.66,
+     "old": 0.57948,
+     "pct": 13.9,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 1.98,
+     "old": 1.73844,
+     "pct": 13.9,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 0.022,
+     "old": 0.019316,
+     "pct": 13.9,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 393216,
+     "old": 384000,
+     "pct": 2.4,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen 2.5 Coder 32b Instruct",
+     "new": 32768,
+     "old": 33792,
+     "pct": -3.03,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen-2-5-coder-32b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen 2.5 Coder 32b Instruct",
+     "new": 29491,
+     "old": 33792,
+     "pct": -12.73,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen-2-5-coder-32b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek Pro",
+     "new": 0.66,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-pro-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4 Pro 0813:batch",
+     "new": 0.66,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813:batch",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3 Coder Plus",
+     "new": 0.13,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-coder-plus",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen3 Coder Plus",
+     "new": 1000000,
+     "old": 997952,
+     "pct": 0.21,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-coder-plus",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "L3.3 Euryale 70b",
+     "new": 0.65,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-l3-3-euryale-70b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.5 Pro:batch",
+     "new": 0.625,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-2-5-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5:batch",
+     "new": 0.625,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1:batch",
+     "new": 0.625,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-1:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Wizardlm 2 8x22b",
+     "new": 0.62,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-wizardlm-2-8x22b",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5",
+     "new": 0.12,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 5",
+     "new": 204800,
+     "old": 202752,
+     "pct": 1.01,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Kimi K2 Thinking",
+     "new": 98304,
+     "old": 100352,
+     "pct": -2.04,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-thinking",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Kimi K2 0905",
+     "new": 98304,
+     "old": 100352,
+     "pct": -2.04,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-0905",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Palmyra X5",
+     "new": 0.6,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-palmyra-x5",
+     "type": "added"
+    },
+    {
+     "field": "max_output",
+     "name": "Kimi K2",
+     "new": 98304,
+     "old": 100352,
+     "pct": -2.04,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Mistral Large 2512",
+     "new": 0.55,
+     "old": 0.5,
+     "pct": 10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large-2512",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Mistral Large 2512",
+     "new": 1.65,
+     "old": 1.5,
+     "pct": 10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large-2512",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Large 2512",
+     "new": 0.055,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large-2512",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral Large 2512",
+     "new": 209715,
+     "old": 262144,
+     "pct": -20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large-2512",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3.5 397b A17b",
+     "new": 0.225,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-5-397b-a17b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3.5 397b A17b",
+     "new": 235929,
+     "old": 65536,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-5-397b-a17b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "O3 Mini:batch",
+     "new": 0.55,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-o3-mini:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "O4 Mini:batch",
+     "new": 0.55,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-o4-mini:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Skyfall 36b V2",
+     "new": 0.55,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-skyfall-36b-v2",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek R1 0528",
+     "new": 0.35,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-r1-0528",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Deepseek R1 0528",
+     "new": 163840,
+     "old": 65336,
+     "pct": 150.77,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-r1-0528",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek R1 0528",
+     "new": 32768,
+     "old": 8192,
+     "pct": 300,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-r1-0528",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 3 Flash Preview",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-flash-preview",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Claude Haiku 4.5:batch",
+     "new": 0.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-haiku-4-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Seed 2 1 Turbo",
+     "new": 0.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-seed-2-1-turbo",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Seed 2.0 Code",
+     "new": 0.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-seed-2-0-code",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.2",
+     "new": 0.4875,
+     "old": 0.6,
+     "pct": -18.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.2",
+     "new": 1.56,
+     "old": 2,
+     "pct": -22,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.2",
+     "new": 0.091,
+     "old": 0.15,
+     "pct": -39.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Kimi K2.5",
+     "new": 235929,
+     "old": 262144,
+     "pct": -10,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-5",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Inkling Small",
+     "new": 0.45,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-inkling-small",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Mimo V2.5 Pro",
+     "new": 1050000,
+     "old": 1048576,
+     "pct": 0.14,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mimo-v2-5-pro",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mimo V2.5 Pro",
+     "new": 131072,
+     "old": 16384,
+     "pct": 700,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mimo-v2-5-pro",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 4.6",
+     "new": 204800,
+     "old": 202800,
+     "pct": 0.99,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-4-6",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 4.6",
+     "new": 16384,
+     "old": 131000,
+     "pct": -87.49,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-4-6",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Ernie 4.5 Vl 424b A47b",
+     "new": 0.42,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ernie-4-5-vl-424b-a47b",
+     "type": "added"
+    },
+    {
+     "field": "max_output",
+     "name": "Weaver",
+     "new": 6000,
+     "old": 2000,
+     "pct": 200,
+     "provider": "OpenRouter",
+     "slug": "openrouter-weaver",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Devstral 2512",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-devstral-2512",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Devstral 2512",
+     "new": 209715,
+     "old": 65536,
+     "pct": 220,
+     "provider": "OpenRouter",
+     "slug": "openrouter-devstral-2512",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 4.7",
+     "new": 204800,
+     "old": 202752,
+     "pct": 1.01,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-4-7",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 4.7",
+     "new": 131072,
+     "old": 64000,
+     "pct": 104.8,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-4-7",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Minimax M1",
      "new": 0.4,
@@ -758,23 +2548,463 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Unslopnemo 12b",
+     "new": 0.4,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-unslopnemo-12b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.6 Flash:batch",
+     "new": 0.375,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-6-flash:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.7 Flash:batch",
+     "new": 0.375,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-7-flash:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.8 Flash:batch",
+     "new": 0.375,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-8-flash:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.4 Mini:batch",
+     "new": 0.375,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4-mini:batch",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Mistral Small 3.1 24b Instruct",
+     "new": 128000,
+     "old": 131072,
+     "pct": -2.34,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-3-1-24b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral Small 3.1 24b Instruct",
+     "new": 102400,
+     "old": 131072,
+     "pct": -21.88,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-3-1-24b-instruct",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
+     "name": "Remm Slerp L2 13b",
+     "new": 0.35,
+     "old": 0.45,
+     "pct": -22.22,
+     "provider": "OpenRouter",
+     "slug": "openrouter-remm-slerp-l2-13b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Remm Slerp L2 13b",
+     "new": 5529,
+     "old": 4096,
+     "pct": 34.99,
+     "provider": "OpenRouter",
+     "slug": "openrouter-remm-slerp-l2-13b",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
      "name": "Deepseek Chat",
-     "new": 0.2574,
-     "old": 0.32,
-     "pct": -19.56,
+     "new": 163840,
+     "old": 65536,
+     "pct": 150,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-chat",
      "type": "changed"
     },
     {
-     "field": "output_per_1m",
+     "field": "max_output",
      "name": "Deepseek Chat",
-     "new": 1.0287,
-     "old": 0.89,
-     "pct": 15.58,
+     "new": 16384,
+     "old": 8192,
+     "pct": 100,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-chat",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3 Coder",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-coder",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen3 Coder",
+     "new": 262144,
+     "old": 262100,
+     "pct": 0.02,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-coder",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3 Coder",
+     "new": 65536,
+     "old": 262100,
+     "pct": -75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-coder",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Minimax M2.1",
+     "new": 204800,
+     "old": 204000,
+     "pct": 0.39,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-1",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Minimax M2.1",
+     "new": 131072,
+     "old": 64000,
+     "pct": 104.8,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-1",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Nova 2 Lite V1",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nova-2-lite-v1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kat Coder Pro V2",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kat-coder-pro-v2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Longcat 2.0",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-longcat-2-0",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Glimmer 30b",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-glimmer-30b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Minimax M3:batch",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m3:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Cydonia 24b V4.1",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-cydonia-24b-v4-1",
+     "type": "added"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V3.2 Exp",
+     "new": 65536,
+     "old": 163840,
+     "pct": -60,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v3-2-exp",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Minimax M2.5",
+     "new": 204800,
+     "old": 196608,
+     "pct": 4.17,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-5",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Minimax M2.5",
+     "new": 128000,
+     "old": 65536,
+     "pct": 95.31,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-5",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V3.2",
+     "new": 0.1345,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v3-2",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen Plus",
+     "new": 0.052,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen-plus-2025-07-28",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Minimax M2",
+     "new": 131072,
+     "old": 204800,
+     "pct": -36,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Claude 3 Haiku",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-3-haiku",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Deepseek Chat V3 0324",
+     "new": 163840,
+     "old": 65536,
+     "pct": 150,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-chat-v3-0324",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek Chat V3 0324",
+     "new": 147456,
+     "old": 8192,
+     "pct": 1700,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-chat-v3-0324",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek Chat V3.1",
+     "new": 32768,
+     "old": 163840,
+     "pct": -80,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-chat-v3-1",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5 Mini",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-mini",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Trinity Large Thinking",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-trinity-large-thinking",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Seed 1.6",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-seed-1-6",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Seed 2.0 Lite",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-seed-2-0-lite",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3 Flash Preview:batch",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-flash-preview:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Mercury 2",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mercury-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Mistral Large 2512:batch",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large-2512:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 3.5 Turbo:batch",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-3-5-turbo:batch",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen3 235b A22b Thinking 2507",
+     "new": 131072,
+     "old": 262144,
+     "pct": -50,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-235b-a22b-thinking-2507",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3 235b A22b Thinking 2507",
+     "new": 117964,
+     "old": 262144,
+     "pct": -55,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-235b-a22b-thinking-2507",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash Vision Exp",
+     "new": 0.2156,
+     "old": 0.22,
+     "pct": -2,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-vision-exp",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash Vision Exp",
+     "new": 0.6468,
+     "old": 0.66,
+     "pct": -2,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-vision-exp",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash Vision Exp",
+     "new": 0.00686,
+     "old": 0.007,
+     "pct": -2,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-vision-exp",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Flash Vision Exp",
+     "new": 943718,
+     "old": 384000,
+     "pct": 145.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-vision-exp",
      "type": "changed"
     },
     {
@@ -808,6 +3038,96 @@
      "type": "changed"
     },
     {
+     "field": "cached_input_per_1m",
+     "name": "Ministral 14b 2512",
+     "new": 0.02,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-14b-2512",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Ministral 14b 2512",
+     "new": 209715,
+     "old": 262144,
+     "pct": -20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-14b-2512",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.4 Nano",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4-nano",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.6 Luna",
+     "new": 1050000,
+     "old": 922000,
+     "pct": 13.88,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-luna",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "GPT Luna",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-luna-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Dolphin Mistral 24b Venice Edition",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-dolphin-mistral-24b-venice-edition",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Mistral Medium 3.1:batch",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-medium-3-1:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 4.1 Mini:batch",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-4-1-mini:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Step 3.7 Flash",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-step-3-7-flash",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Llama 4 Maverick",
      "new": 0.1875,
@@ -826,6 +3146,46 @@
      "provider": "OpenRouter",
      "slug": "openrouter-llama-4-maverick",
      "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Llama 4 Maverick",
+     "new": 16384,
+     "old": 115200,
+     "pct": -85.78,
+     "provider": "OpenRouter",
+     "slug": "openrouter-llama-4-maverick",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Hy3 Preview",
+     "new": 0.18,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy3-preview",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Glimmer 30b:batch",
+     "new": 0.175,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-glimmer-30b:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.5 9b:batch",
+     "new": 0.17,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-5-9b:batch",
+     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -848,6 +3208,176 @@
      "type": "changed"
     },
     {
+     "field": "cached_input_per_1m",
+     "name": "Ministral 8b 2512",
+     "new": 0.015,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-8b-2512",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Ministral 8b 2512",
+     "new": 209715,
+     "old": 262144,
+     "pct": -20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-8b-2512",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT Oss 120b",
+     "new": 0.15,
+     "old": 0.037,
+     "pct": 305.41,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT Oss 120b",
+     "new": 0.6,
+     "old": 0.17,
+     "pct": 252.94,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT Oss 120b",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "GPT Oss 120b",
+     "new": 117964,
+     "old": 32768,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Command R 08 2024",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-command-r-08-2024",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.5 Flash:batch",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-2-5-flash:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.5 Flash Lite:batch",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-5-flash-lite:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Codestral 2508:batch",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-codestral-2508:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT Oss 120b:batch",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-120b:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Perceptron Mk1",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-perceptron-mk1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Solar Pro 3",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-solar-pro-3",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Mimo V2.5",
+     "new": 1050000,
+     "old": 1048576,
+     "pct": 0.14,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mimo-v2-5",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Hunyuan A13b Instruct",
+     "new": 0.14,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hunyuan-a13b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hy3",
+     "new": 0.132,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy3",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Qwen3 Vl 30b A3b Instruct",
      "new": 0.13,
@@ -866,6 +3396,36 @@
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-vl-30b-a3b-instruct",
      "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3 Vl 30b A3b Instruct",
+     "new": 32768,
+     "old": 16384,
+     "pct": 100,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-vl-30b-a3b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.1 Flash Lite:batch",
+     "new": 0.125,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-3-1-flash-lite:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Mini:batch",
+     "new": 0.125,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-mini:batch",
+     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -888,6 +3448,156 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Deepseek V4 Flash 0731:batch",
+     "new": 0.11,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4 Flash Vision Exp:batch",
+     "new": 0.11,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-vision-exp:batch",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Ui Tars 1.5 7b",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ui-tars-1-5-7b",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Ui Tars 1.5 7b",
+     "new": 128000,
+     "old": 131072,
+     "pct": -2.34,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ui-tars-1-5-7b",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Ministral 3b 2512",
+     "new": 0.01,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-3b-2512",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Ministral 3b 2512",
+     "new": 104857,
+     "old": 131072,
+     "pct": -20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-3b-2512",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Seed 2.0 Mini",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-seed-2-0-mini",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Spark 1.2 Contributor",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-spark-1-2-contributor",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Spark 1.3 Contributor",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-spark-1-3-contributor",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.4 Nano:batch",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-4-nano:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Luna Pro:batch",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-luna-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Luna:batch",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-6-luna:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Reka Edge",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-reka-edge",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Reka Flash 3",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-reka-flash-3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Step 3.5 Flash",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-step-3-5-flash",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Mistral Small 3.2 24b Instruct",
      "new": 0.09375,
@@ -903,6 +3613,26 @@
      "new": 0.25,
      "old": 0.2,
      "pct": 25,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-3-2-24b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Mistral Small 3.2 24b Instruct",
+     "new": 256000,
+     "old": 128000,
+     "pct": 100,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-3-2-24b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral Small 3.2 24b Instruct",
+     "new": 16384,
+     "old": 128000,
+     "pct": -87.2,
      "provider": "OpenRouter",
      "slug": "openrouter-mistral-small-3-2-24b-instruct",
      "type": "changed"
@@ -958,6 +3688,76 @@
      "type": "changed"
     },
     {
+     "field": "cached_input_per_1m",
+     "name": "Gemma 4 26b A4b It",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemma 4 26b A4b It",
+     "new": 235929,
+     "old": 16384,
+     "pct": 1340,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3 Next 80b A3b Instruct",
+     "new": 16384,
+     "old": 235929,
+     "pct": -93.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-next-80b-a3b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Solar Pro4",
+     "new": 0.09,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-solar-pro4",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.088606,
+     "old": 0.0854,
+     "pct": 3.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.177212,
+     "old": 0.1708,
+     "pct": 3.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.017721,
+     "old": 0.01708,
+     "pct": 3.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Qwen3 235b A22b 2507",
      "new": 0.0875,
@@ -973,6 +3773,26 @@
      "new": 0.35,
      "old": 0.88,
      "pct": -60.23,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-235b-a22b-2507",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3 235b A22b 2507",
+     "new": 0.0175,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-235b-a22b-2507",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3 235b A22b 2507",
+     "new": 235929,
+     "old": 262144,
+     "pct": -10,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-235b-a22b-2507",
      "type": "changed"
@@ -995,6 +3815,186 @@
      "pct": 83.33,
      "provider": "OpenRouter",
      "slug": "openrouter-mythomax-l2-13b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mythomax L2 13b",
+     "new": 3686,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mythomax-l2-13b",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Nemotron 3.5 Lightning",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-5-lightning",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Nemotron 3.5 Lightning",
+     "new": 131072,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-5-lightning",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Nemotron 3 Super 120b A12b",
+     "new": 0.08,
+     "old": 0.085,
+     "pct": -5.88,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-super-120b-a12b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Nemotron 3 Super 120b A12b",
+     "new": 0.45,
+     "old": 0.4,
+     "pct": 12.5,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-super-120b-a12b",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Nemotron 3 Super 120b A12b",
+     "new": 262144,
+     "old": 1000000,
+     "pct": -73.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-super-120b-a12b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Nemotron 3 Super 120b A12b",
+     "new": 235929,
+     "old": 16384,
+     "pct": 1340,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-super-120b-a12b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glm Flash",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Seed 1.6 Flash",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-seed-1-6-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ministral 8b 2512:batch",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ministral-8b-2512:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Mistral Small 2603:batch",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-small-2603:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 4o Mini:batch",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-4o-mini:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Glm 5.3 Flash:batch",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3-flash:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hy Mt2 30b A3b",
+     "new": 0.074,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy-mt2-30b-a3b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hy Mt2 7b",
+     "new": 0.074,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy-mt2-7b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Phi 4",
+     "new": 0.07,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-phi-4",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 4.7 Flash",
+     "new": 0.0605,
+     "old": 0.06,
+     "pct": 0.83,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-4-7-flash",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 4.7 Flash",
+     "new": 117964,
+     "old": 32000,
+     "pct": 268.64,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-4-7-flash",
      "type": "changed"
     },
     {
@@ -1029,6 +4029,116 @@
     },
     {
      "field": "input_per_1m",
+     "name": "Nemotron 3 Nano 30b A3b",
+     "new": 0.06,
+     "old": 0.05,
+     "pct": 20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-nano-30b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Nemotron 3 Nano 30b A3b",
+     "new": 0.24,
+     "old": 0.2,
+     "pct": 20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nemotron-3-nano-30b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Nova Lite V1",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nova-lite-v1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 4.2 8b",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-granite-4-2-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ling 3.0 Flash Fin",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ling-3-0-flash-fin",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ling 3.0 Flash Vl",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ling-3-0-flash-vl",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4 Flash",
+     "new": 0.0558,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5 Nano",
+     "new": 400000,
+     "old": 272000,
+     "pct": 47.06,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-nano",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.5 Flash Lite:batch",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-2-5-flash-lite:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Schematron V2 Small",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-schematron-v2-small",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 4.1 Nano:batch",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-4-1-nano:batch",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
      "name": "Qwen3 30b A3b Instruct 2507",
      "new": 0.04815,
      "old": 0.09,
@@ -1049,12 +4159,262 @@
     },
     {
      "field": null,
+     "name": "Hy Mt2 1.8b",
+     "new": 0.044,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy-mt2-1-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Mercury 2.5",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mercury-2-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "L3 Lunaris 8b",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-l3-lunaris-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Command R7b 12 2024",
+     "new": 0.0375,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-command-r7b-12-2024",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Nova Micro V1",
+     "new": 0.035,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nova-micro-v1",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT Oss 20b",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-20b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "GPT Oss 20b",
+     "new": 117964,
+     "old": 32768,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-20b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Schematron V2 Turbo",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-schematron-v2-turbo",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Nano:batch",
+     "new": 0.025,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-5-nano:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ling 3.0 Flash",
+     "new": 0.021,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ling-3-0-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 4.0 H Micro",
+     "new": 0.017,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-granite-4-0-h-micro",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Union Alpha",
      "new": 0,
      "old": null,
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-union-alpha",
+     "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 5.2:free",
+     "new": 32768,
+     "old": 256000,
+     "pct": -87.2,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2:free",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.2:free",
+     "new": 29491,
+     "old": 230400,
+     "pct": -87.2,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2:free",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "North Mini Code:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-north-mini-code:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4 Flash 0731:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Dots 3 Note Preview:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-dots-3-note-preview:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ling 3.0 Flash Fin:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ling-3-0-flash-fin:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ling 3.0 Flash Sante:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ling-3-0-flash-sante:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ling 3.0 Flash Vl:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ling-3-0-flash-vl:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Lfm 2.5 2.6b:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-lfm-2-5-2-6b:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Nex N2.5 Mini:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nex-n2-5-mini:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Nex N2.5 Pro:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nex-n2-5-pro:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.8 27b:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-27b:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling Small:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-inkling-small:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-inkling:free",
      "type": "added"
     },
     {
@@ -1338,9 +4698,9 @@
      "type": "added"
     }
    ],
-   "count": 133,
+   "count": 469,
    "date": "2026-09-18",
-   "generated_at": "2026-09-18T00:09:26.691806+00:00"
+   "generated_at": "2026-09-18T06:09:31.364348+00:00"
   },
   {
    "baseline": true,
