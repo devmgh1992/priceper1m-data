@@ -1,5 +1,5 @@
 {
- "count_changes": 477,
+ "count_changes": 478,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -4498,6 +4498,16 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Gemini 2.5 Flash",
+     "new": 0.3,
+     "old": 2.5,
+     "pct": -88,
+     "provider": "Replicate",
+     "slug": "replicate-gemini-2-5-flash",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Llama 3.1 405B Instruct",
      "new": 3.5,
@@ -4778,9 +4788,9 @@
      "type": "added"
     }
    ],
-   "count": 477,
+   "count": 478,
    "date": "2026-09-19",
-   "generated_at": "2026-09-19T00:11:28.028308+00:00"
+   "generated_at": "2026-09-19T06:08:46.532911+00:00"
   },
   {
    "baseline": true,

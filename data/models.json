@@ -1,7 +1,7 @@
 {
  "count": 2141,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-19T00:11:28.028308+00:00",
+ "generated_at": "2026-09-19T06:08:46.532911+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -12995,8 +12995,11 @@
   {
    "cached_input_per_1m": 0.24997,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 2.49998,
@@ -13227,8 +13230,11 @@
   {
    "cached_input_per_1m": 0.124999,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 1.24999,
@@ -13397,8 +13403,10 @@
   {
    "cached_input_per_1m": 0.06251,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
-    "tools": true
+    "tools": true,
+    "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 0.62503,
@@ -13503,8 +13511,10 @@
   {
    "cached_input_per_1m": 0.03122,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
-    "tools": true
+    "tools": true,
+    "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 0.31248,
@@ -13520,8 +13530,11 @@
   {
    "cached_input_per_1m": 0.030002,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 0.30002,
@@ -13983,6 +13996,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "audio": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -14018,6 +14032,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "audio": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -14070,7 +14085,10 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true
+    "audio": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 1000000,
    "input_per_1m": 1.25,
@@ -14274,6 +14292,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "audio": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -14854,7 +14873,10 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true
+    "audio": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 1000000,
    "input_per_1m": 0.3,
@@ -15060,6 +15082,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "audio": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -32656,24 +32679,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": null,
-   "input_per_1m": 2.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Gemini 2.5 Flash",
-   "output_per_1m": 2.5,
-   "provider": "Replicate",
-   "provider_slug": "replicate",
-   "slug": "replicate-gemini-2-5-flash",
-   "url": "/model/replicate-gemini-2-5-flash"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
+    "audio": true,
     "vision": true
    },
    "context_window": null,
@@ -32908,6 +32914,23 @@
    "provider_slug": "replicate",
    "slug": "replicate-mixtral-8x7b-instruct-v0-1",
    "url": "/model/replicate-mixtral-8x7b-instruct-v0-1"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 2.5 Flash",
+   "output_per_1m": 2.5,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gemini-2-5-flash",
+   "url": "/model/replicate-gemini-2-5-flash"
   },
   {
    "cached_input_per_1m": null,
