@@ -1,7 +1,7 @@
 {
- "count": 2139,
+ "count": 2141,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-18T18:08:52.220008+00:00",
+ "generated_at": "2026-09-19T00:11:28.028308+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -705,7 +705,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 1024,
+   "context_window": 512,
    "input_per_1m": 100,
    "kind": "embedding",
    "max_output": null,
@@ -775,7 +775,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 1024,
+   "context_window": 512,
    "input_per_1m": 0.1,
    "kind": "embedding",
    "max_output": null,
@@ -803,7 +803,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 1024,
+   "context_window": 512,
    "input_per_1m": 0.1,
    "kind": "embedding",
    "max_output": null,
@@ -831,7 +831,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 1024,
+   "context_window": 512,
    "input_per_1m": 0.1,
    "kind": "embedding",
    "max_output": null,
@@ -1209,6 +1209,45 @@
    "provider_slug": "dashscope",
    "slug": "dashscope-qwen3-next-80b-a3b-thinking",
    "url": "/model/dashscope-qwen3-next-80b-a3b-thinking"
+  },
+  {
+   "cached_input_per_1m": 0.016,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 991808,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Qwen3.8 Flash",
+   "output_per_1m": 0.47,
+   "provider": "Alibaba DashScope",
+   "provider_slug": "dashscope",
+   "slug": "dashscope-qwen3-8-flash",
+   "url": "/model/dashscope-qwen3-8-flash"
+  },
+  {
+   "cached_input_per_1m": 0.016,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 991808,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Qwen3.8 Omni Flash",
+   "output_per_1m": 0.47,
+   "provider": "Alibaba DashScope",
+   "provider_slug": "dashscope",
+   "slug": "dashscope-qwen3-8-omni-flash",
+   "url": "/model/dashscope-qwen3-8-omni-flash"
   },
   {
    "cached_input_per_1m": null,
@@ -26321,24 +26360,6 @@
    "url": "/model/openrouter-qwen3-7-max"
   },
   {
-   "cached_input_per_1m": 0.26,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 1.4,
-   "kind": "chat",
-   "max_output": 943717,
-   "name": "Glm 5.3",
-   "output_per_1m": 4.4,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-3",
-   "url": "/model/openrouter-glm-5-3"
-  },
-  {
    "cached_input_per_1m": 0.125,
    "capabilities": {
     "audio": true,
@@ -27189,7 +27210,25 @@
    "url": "/model/openrouter-sakana-namazu"
   },
   {
-   "cached_input_per_1m": 0.15,
+   "cached_input_per_1m": 0.169,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.91,
+   "kind": "chat",
+   "max_output": 943717,
+   "name": "Glm 5.3",
+   "output_per_1m": 2.86,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3",
+   "url": "/model/openrouter-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": 0.146625,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -27200,7 +27239,7 @@
    "kind": "chat",
    "max_output": 235929,
    "name": "Glm",
-   "output_per_1m": 3,
+   "output_per_1m": 2.805,
    "provider": "OpenRouter",
    "provider_slug": "openrouter",
    "slug": "openrouter-glm-latest",
@@ -30199,25 +30238,6 @@
    "url": "/model/openrouter-gpt-4o-mini-2024-07-18"
   },
   {
-   "cached_input_per_1m": 0.015,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 393216,
-   "name": "Deepseek Flash",
-   "output_per_1m": 0.6,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-flash-latest",
-   "url": "/model/openrouter-deepseek-flash-latest"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -30363,6 +30383,25 @@
    "url": "/model/openrouter-mimo-v2-5"
   },
   {
+   "cached_input_per_1m": 0.0042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.14,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek Flash",
+   "output_per_1m": 0.42,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-flash-latest",
+   "url": "/model/openrouter-deepseek-flash-latest"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true
@@ -30377,24 +30416,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-hunyuan-a13b-instruct",
    "url": "/model/openrouter-hunyuan-a13b-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.033,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.132,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Hy3",
-   "output_per_1m": 0.528,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-hy3",
-   "url": "/model/openrouter-hy3"
   },
   {
    "cached_input_per_1m": null,
@@ -31142,6 +31163,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-235b-a22b-2507",
    "url": "/model/openrouter-qwen3-235b-a22b-2507"
+  },
+  {
+   "cached_input_per_1m": 0.020625,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.0825,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Hy3",
+   "output_per_1m": 0.33,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-hy3",
+   "url": "/model/openrouter-hy3"
   },
   {
    "cached_input_per_1m": null,

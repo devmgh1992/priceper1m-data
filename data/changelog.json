@@ -1,5 +1,5 @@
 {
- "count_changes": 469,
+ "count_changes": 477,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -26,6 +26,66 @@
      "provider": "Anthropic",
      "slug": "anthropic-claude-sonnet-4-5-20250929",
      "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Embed Multilingual Light V3.0",
+     "new": 512,
+     "old": 1024,
+     "pct": -50,
+     "provider": "Cohere",
+     "slug": "cohere-embed-multilingual-light-v3-0",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Embed English Light V3.0",
+     "new": 512,
+     "old": 1024,
+     "pct": -50,
+     "provider": "Cohere",
+     "slug": "cohere-embed-english-light-v3-0",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Embed English V3.0",
+     "new": 512,
+     "old": 1024,
+     "pct": -50,
+     "provider": "Cohere",
+     "slug": "cohere-embed-english-v3-0",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Embed Multilingual V3.0",
+     "new": 512,
+     "old": 1024,
+     "pct": -50,
+     "provider": "Cohere",
+     "slug": "cohere-embed-multilingual-v3-0",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.8 Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Alibaba DashScope",
+     "slug": "dashscope-qwen3-8-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.8 Omni Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Alibaba DashScope",
+     "slug": "dashscope-qwen3-8-omni-flash",
+     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -1408,26 +1468,6 @@
      "type": "added"
     },
     {
-     "field": "cached_input_per_1m",
-     "name": "Glm 5.3",
-     "new": 0.26,
-     "old": 0.14,
-     "pct": 85.71,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Glm 5.3",
-     "new": 943717,
-     "old": 262144,
-     "pct": 260,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
      "field": "max_output",
      "name": "Gemini 2.5 Pro",
      "new": 65536,
@@ -1766,6 +1806,46 @@
      "provider": "OpenRouter",
      "slug": "openrouter-sakana-namazu",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.91,
+     "old": 1.4,
+     "pct": -35,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.3",
+     "new": 2.86,
+     "old": 4.4,
+     "pct": -35,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.169,
+     "old": 0.14,
+     "pct": 20.71,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.3",
+     "new": 943717,
+     "old": 262144,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
     },
     {
      "field": null,
@@ -3269,16 +3349,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek Flash",
-     "new": 0.15,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-flash-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Command R 08 2024",
      "new": 0.15,
      "old": null,
@@ -3359,22 +3429,22 @@
     },
     {
      "field": null,
+     "name": "Deepseek Flash",
+     "new": 0.14,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Hunyuan A13b Instruct",
      "new": 0.14,
      "old": null,
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-hunyuan-a13b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Hy3",
-     "new": 0.132,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-hy3",
      "type": "added"
     },
     {
@@ -3766,6 +3836,16 @@
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-235b-a22b-2507",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Hy3",
+     "new": 0.0825,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-hy3",
+     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -4698,9 +4778,9 @@
      "type": "added"
     }
    ],
-   "count": 469,
-   "date": "2026-09-18",
-   "generated_at": "2026-09-18T18:08:52.220008+00:00"
+   "count": 477,
+   "date": "2026-09-19",
+   "generated_at": "2026-09-19T00:11:28.028308+00:00"
   },
   {
    "baseline": true,

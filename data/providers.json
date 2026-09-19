@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2139,
- "generated_at": "2026-09-18T18:08:52.220008+00:00",
+ "endpoints_tracked": 2141,
+ "generated_at": "2026-09-19T00:11:28.028308+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -154,7 +154,7 @@
    "label": "Alibaba DashScope",
    "max_input_per_1m": 2.5,
    "min_input_per_1m": 0.05,
-   "models": 25,
+   "models": 27,
    "provider": "dashscope"
   },
   {
