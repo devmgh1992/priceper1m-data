@@ -1,5 +1,5 @@
 {
- "count_changes": 485,
+ "count_changes": 484,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1438,6 +1438,46 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 1.32,
+     "old": 0.57948,
+     "pct": 127.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 3.96,
+     "old": 1.73844,
+     "pct": 127.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 0.044,
+     "old": 0.019316,
+     "pct": 127.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek Pro",
+     "new": 1.32,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-pro-latest",
+     "type": "added"
+    },
+    {
      "field": "max_output",
      "name": "Gemini 2.5 Pro",
      "new": 65536,
@@ -2388,46 +2428,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.5346,
-     "old": 0.57948,
-     "pct": -7.74,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 1.6038,
-     "old": 1.73844,
-     "pct": -7.74,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.01782,
-     "old": 0.019316,
-     "pct": -7.74,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Deepseek Pro",
-     "new": 0.5346,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-pro-latest",
-     "type": "added"
-    },
-    {
      "field": "cached_input_per_1m",
      "name": "Deepseek R1 0528",
      "new": 0.35,
@@ -3138,41 +3138,11 @@
      "type": "changed"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Flash Vision Exp",
-     "new": 0.2156,
-     "old": 0.22,
-     "pct": -2,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-vision-exp",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Flash Vision Exp",
-     "new": 0.6468,
-     "old": 0.66,
-     "pct": -2,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-vision-exp",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Flash Vision Exp",
-     "new": 0.00686,
-     "old": 0.007,
-     "pct": -2,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-vision-exp",
-     "type": "changed"
-    },
-    {
      "field": "max_output",
      "name": "Deepseek V4 Flash Vision Exp",
-     "new": 262144,
+     "new": 943718,
      "old": 384000,
-     "pct": -31.73,
+     "pct": 145.76,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-flash-vision-exp",
      "type": "changed"
@@ -3405,6 +3375,26 @@
      "pct": 100,
      "provider": "OpenRouter",
      "slug": "openrouter-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3.6 35b A3b",
+     "new": 0.15,
+     "old": 0.1,
+     "pct": 50,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-6-35b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3.6 35b A3b",
+     "new": 1,
+     "old": 0.9,
+     "pct": 11.11,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-6-35b-a3b",
      "type": "changed"
     },
     {
@@ -4270,9 +4260,9 @@
     {
      "field": "output_per_1m",
      "name": "Deepseek V4 Flash 0731",
-     "new": 0.08,
+     "new": 0.16,
      "old": 0.18,
-     "pct": -55.56,
+     "pct": -11.11,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-flash-0731",
      "type": "changed"
@@ -4858,9 +4848,9 @@
      "type": "added"
     }
    ],
-   "count": 485,
-   "date": "2026-09-20",
-   "generated_at": "2026-09-20T18:15:18.754319+00:00"
+   "count": 484,
+   "date": "2026-09-21",
+   "generated_at": "2026-09-21T00:12:00.500178+00:00"
   },
   {
    "baseline": true,
