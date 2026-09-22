@@ -1,7 +1,7 @@
 {
- "count": 2149,
+ "count": 2169,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-22T00:09:09.643113+00:00",
+ "generated_at": "2026-09-22T06:09:31.775887+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -8068,6 +8068,359 @@
    "provider_slug": "xai",
    "slug": "xai-grok-4-20-multi-agent-latest",
    "url": "/model/xai-grok-4-20-multi-agent-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 0309",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-0309",
+   "url": "/model/xai-grok-4-20-0309"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta",
+   "url": "/model/xai-grok-4-20-beta"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta 0309",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta-0309",
+   "url": "/model/xai-grok-4-20-beta-0309"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta-latest",
+   "url": "/model/xai-grok-4-20-beta-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta Latest Non Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta-latest-non-reasoning",
+   "url": "/model/xai-grok-4-20-beta-latest-non-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta Latest Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta-latest-reasoning",
+   "url": "/model/xai-grok-4-20-beta-latest-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta Non Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta-non-reasoning",
+   "url": "/model/xai-grok-4-20-beta-non-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Beta Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-beta-reasoning",
+   "url": "/model/xai-grok-4-20-beta-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Experimental Beta 0304",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-experimental-beta-0304",
+   "url": "/model/xai-grok-4-20-experimental-beta-0304"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Experimental Beta 0304 Non Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-experimental-beta-0304-non-reasoning",
+   "url": "/model/xai-grok-4-20-experimental-beta-0304-non-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Experimental Beta 0304 Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-experimental-beta-0304-reasoning",
+   "url": "/model/xai-grok-4-20-experimental-beta-0304-reasoning"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Experimental Beta",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-experimental-beta-latest",
+   "url": "/model/xai-grok-4-20-experimental-beta-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Experimental Beta Non Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-experimental-beta-non-reasoning-latest",
+   "url": "/model/xai-grok-4-20-experimental-beta-non-reasoning-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Experimental Beta Reasoning",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-experimental-beta-reasoning-latest",
+   "url": "/model/xai-grok-4-20-experimental-beta-reasoning-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Multi Agent Beta",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-multi-agent-beta-latest",
+   "url": "/model/xai-grok-4-20-multi-agent-beta-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Multi Agent Experimental Beta 0304",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-multi-agent-experimental-beta-0304",
+   "url": "/model/xai-grok-4-20-multi-agent-experimental-beta-0304"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Multi Agent Experimental Beta",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-multi-agent-experimental-beta-latest",
+   "url": "/model/xai-grok-4-20-multi-agent-experimental-beta-latest"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Non Reasoning Gv2",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-non-reasoning-gv2",
+   "url": "/model/xai-grok-4-20-non-reasoning-gv2"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Grok 4.20 Reasoning Gv2",
+   "output_per_1m": 2.5,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-20-reasoning-gv2",
+   "url": "/model/xai-grok-4-20-reasoning-gv2"
   },
   {
    "cached_input_per_1m": 0.2,
@@ -27286,6 +27639,24 @@
    "url": "/model/openrouter-glm-5-1"
   },
   {
+   "cached_input_per_1m": 0.079605,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.95526,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.91052,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
+  },
+  {
    "cached_input_per_1m": 0.16,
    "capabilities": {
     "prompt_caching": true,
@@ -27324,42 +27695,6 @@
    "url": "/model/openrouter-sakana-namazu"
   },
   {
-   "cached_input_per_1m": 0.169,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.91,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.3",
-   "output_per_1m": 2.86,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-3",
-   "url": "/model/openrouter-glm-5-3"
-  },
-  {
-   "cached_input_per_1m": 0.169,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.91,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm",
-   "output_per_1m": 2.86,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-latest",
-   "url": "/model/openrouter-glm-latest"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 262144,
@@ -27372,24 +27707,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-morph-v3-large",
    "url": "/model/openrouter-morph-v3-large"
-  },
-  {
-   "cached_input_per_1m": 0.073646,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.883746,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.767492,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro",
-   "url": "/model/openrouter-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": 0.0875,
@@ -27453,6 +27770,42 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-l3-1-euryale-70b",
    "url": "/model/openrouter-l3-1-euryale-70b"
+  },
+  {
+   "cached_input_per_1m": 0.156,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.84,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.3",
+   "output_per_1m": 2.64,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3",
+   "url": "/model/openrouter-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": 0.156,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.84,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm",
+   "output_per_1m": 2.64,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-latest",
+   "url": "/model/openrouter-glm-latest"
   },
   {
    "cached_input_per_1m": 0.042,
@@ -31343,6 +31696,24 @@
    "url": "/model/openrouter-solar-pro4"
   },
   {
+   "cached_input_per_1m": 0.017721,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.088606,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Flash",
+   "output_per_1m": 0.177212,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash",
+   "url": "/model/openrouter-deepseek-v4-flash"
+  },
+  {
    "cached_input_per_1m": 0.0175,
    "capabilities": {
     "prompt_caching": true,
@@ -31554,6 +31925,25 @@
    "url": "/model/openrouter-ternary-bonsai-2-27b"
   },
   {
+   "cached_input_per_1m": 0.015,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.075,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Nex N2.5 Pro",
+   "output_per_1m": 0.25,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-nex-n2-5-pro",
+   "url": "/model/openrouter-nex-n2-5-pro"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
@@ -31753,24 +32143,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-ling-3-0-flash-vl",
    "url": "/model/openrouter-ling-3-0-flash-vl"
-  },
-  {
-   "cached_input_per_1m": 0.011088,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.05544,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Flash",
-   "output_per_1m": 0.11088,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash",
-   "url": "/model/openrouter-deepseek-v4-flash"
   },
   {
    "cached_input_per_1m": 0.005,
@@ -32156,6 +32528,24 @@
    "url": "/model/openrouter-gpt-5-nano:batch"
   },
   {
+   "cached_input_per_1m": 0.0025,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.025,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Nex N2.5 Mini",
+   "output_per_1m": 0.1,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-nex-n2-5-mini",
+   "url": "/model/openrouter-nex-n2-5-mini"
+  },
+  {
    "cached_input_per_1m": 0.0042,
    "capabilities": {
     "prompt_caching": true,
@@ -32253,23 +32643,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-bodybuilder",
    "url": "/model/openrouter-bodybuilder"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Union Alpha",
-   "output_per_1m": 0,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-union-alpha",
-   "url": "/model/openrouter-union-alpha"
   },
   {
    "cached_input_per_1m": null,

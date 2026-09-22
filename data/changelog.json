@@ -1,5 +1,5 @@
 {
- "count_changes": 498,
+ "count_changes": 518,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -545,6 +545,196 @@
      "pct": null,
      "provider": "xAI",
      "slug": "xai-grok-4-7",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 0309",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-0309",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta 0309",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta-0309",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta Latest Non Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta-latest-non-reasoning",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta Latest Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta-latest-reasoning",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta Non Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta-non-reasoning",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Beta Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-beta-reasoning",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Experimental Beta 0304",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-experimental-beta-0304",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Experimental Beta 0304 Non Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-experimental-beta-0304-non-reasoning",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Experimental Beta 0304 Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-experimental-beta-0304-reasoning",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Experimental Beta",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-experimental-beta-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Experimental Beta Non Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-experimental-beta-non-reasoning-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Experimental Beta Reasoning",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-experimental-beta-reasoning-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Multi Agent Beta",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-multi-agent-beta-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Multi Agent Experimental Beta 0304",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-multi-agent-experimental-beta-0304",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Multi Agent Experimental Beta",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-multi-agent-experimental-beta-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Non Reasoning Gv2",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-non-reasoning-gv2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.20 Reasoning Gv2",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-20-reasoning-gv2",
      "type": "added"
     },
     {
@@ -1888,6 +2078,36 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.95526,
+     "old": 0.859908,
+     "pct": 11.09,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.91052,
+     "old": 1.719816,
+     "pct": 11.09,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.079605,
+     "old": 0.071659,
+     "pct": 11.09,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Sakana Namazu",
      "new": 0.95,
@@ -1895,56 +2115,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-sakana-namazu",
-     "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Glm 5.3",
-     "new": 0.91,
-     "old": 1.4,
-     "pct": -35,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Glm 5.3",
-     "new": 2.86,
-     "old": 4.4,
-     "pct": -35,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Glm 5.3",
-     "new": 0.169,
-     "old": 0.14,
-     "pct": 20.71,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Glm 5.3",
-     "new": 131072,
-     "old": 262144,
-     "pct": -50,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Glm",
-     "new": 0.91,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-latest",
      "type": "added"
     },
     {
@@ -1956,36 +2126,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-morph-v3-large",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.883746,
-     "old": 0.859908,
-     "pct": 2.77,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 1.767492,
-     "old": 1.719816,
-     "pct": 2.77,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.073646,
-     "old": 0.071659,
-     "pct": 2.77,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
     },
     {
      "field": null,
@@ -2015,6 +2155,56 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-l3-1-euryale-70b",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.84,
+     "old": 1.4,
+     "pct": -40,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.3",
+     "new": 2.64,
+     "old": 4.4,
+     "pct": -40,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.156,
+     "old": 0.14,
+     "pct": 11.43,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.3",
+     "new": 131072,
+     "old": 262144,
+     "pct": -50,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glm",
+     "new": 0.84,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-latest",
      "type": "added"
     },
     {
@@ -3959,6 +4149,36 @@
     },
     {
      "field": "input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.088606,
+     "old": 0.0854,
+     "pct": 3.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.177212,
+     "old": 0.1708,
+     "pct": 3.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.017721,
+     "old": 0.01708,
+     "pct": 3.75,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
      "name": "Qwen3 235b A22b 2507",
      "new": 0.0875,
      "old": 0.22,
@@ -4129,6 +4349,16 @@
     },
     {
      "field": null,
+     "name": "Nex N2.5 Pro",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nex-n2-5-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Hy Mt2 30b A3b",
      "new": 0.074,
      "old": null,
@@ -4246,36 +4476,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-ling-3-0-flash-vl",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Flash",
-     "new": 0.05544,
-     "old": 0.0854,
-     "pct": -35.08,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Flash",
-     "new": 0.11088,
-     "old": 0.1708,
-     "pct": -35.08,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Flash",
-     "new": 0.011088,
-     "old": 0.01708,
-     "pct": -35.08,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
-     "type": "changed"
     },
     {
      "field": "context_window",
@@ -4459,6 +4659,16 @@
     },
     {
      "field": null,
+     "name": "Nex N2.5 Mini",
+     "new": 0.025,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-nex-n2-5-mini",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Ling 3.0 Flash",
      "new": 0.021,
      "old": null,
@@ -4475,16 +4685,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-granite-4-0-h-micro",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Union Alpha",
-     "new": 0,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-union-alpha",
      "type": "added"
     },
     {
@@ -4988,9 +5188,9 @@
      "type": "added"
     }
    ],
-   "count": 498,
+   "count": 518,
    "date": "2026-09-22",
-   "generated_at": "2026-09-22T00:09:09.643113+00:00"
+   "generated_at": "2026-09-22T06:09:31.775887+00:00"
   },
   {
    "baseline": true,
