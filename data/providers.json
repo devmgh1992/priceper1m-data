@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2169,
- "generated_at": "2026-09-22T12:09:36.688044+00:00",
+ "endpoints_tracked": 2170,
+ "generated_at": "2026-09-22T18:10:18.410595+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -134,20 +134,20 @@
    "provider": "cloudflare"
   },
   {
+   "category": "first-party",
+   "label": "Anthropic",
+   "max_input_per_1m": 15,
+   "min_input_per_1m": 0.25,
+   "models": 29,
+   "provider": "anthropic"
+  },
+  {
    "category": "local",
    "label": "Ollama",
    "max_input_per_1m": 0,
    "min_input_per_1m": 0,
    "models": 29,
    "provider": "ollama"
-  },
-  {
-   "category": "first-party",
-   "label": "Anthropic",
-   "max_input_per_1m": 15,
-   "min_input_per_1m": 0.25,
-   "models": 28,
-   "provider": "anthropic"
   },
   {
    "category": "first-party",
