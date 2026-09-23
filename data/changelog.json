@@ -1,5 +1,5 @@
 {
- "count_changes": 736,
+ "count_changes": 754,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -888,6 +888,26 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "GPT 6 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-sol-2026-09-22",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "GPT 5.1",
      "new": 1.375,
@@ -975,6 +995,26 @@
      "pct": null,
      "provider": "Azure OpenAI",
      "slug": "azure-gpt-5-6-luna-2026-07-09",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-luna",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-luna-2026-09-22",
      "type": "added"
     },
     {
@@ -1569,12 +1609,32 @@
     },
     {
      "field": null,
+     "name": "Kimi",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Aion 3.0",
      "new": 3,
      "old": null,
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-aion-3-0",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Aion 3.5",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-aion-3-5",
      "type": "added"
     },
     {
@@ -1898,6 +1958,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Claude Opus 5.5:batch",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-5-5:batch",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "GPT 5.2 Codex",
      "new": 400000,
@@ -1988,16 +2058,6 @@
      "type": "added"
     },
     {
-     "field": null,
-     "name": "Kimi",
-     "new": 1.4989,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-latest",
-     "type": "added"
-    },
-    {
      "field": "input_per_1m",
      "name": "Deepseek V4 Pro 0813",
      "new": 1.32,
@@ -2026,6 +2086,16 @@
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro-0813",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek Pro",
+     "new": 1.32,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-pro-latest",
+     "type": "added"
     },
     {
      "field": "max_output",
@@ -2328,6 +2398,26 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "GPT 6 Sol Pro:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-sol-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Sol:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-sol:batch",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Glm 5.1",
      "new": 204800,
@@ -2370,9 +2460,9 @@
     {
      "field": "input_per_1m",
      "name": "Deepseek V4 Pro",
-     "new": 0.892272,
+     "new": 0.88044,
      "old": 0.859908,
-     "pct": 3.76,
+     "pct": 2.39,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
@@ -2380,9 +2470,9 @@
     {
      "field": "output_per_1m",
      "name": "Deepseek V4 Pro",
-     "new": 1.784544,
+     "new": 1.76088,
      "old": 1.719816,
-     "pct": 3.76,
+     "pct": 2.39,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
@@ -2390,9 +2480,9 @@
     {
      "field": "cached_input_per_1m",
      "name": "Deepseek V4 Pro",
-     "new": 0.074356,
+     "new": 0.07337,
      "old": 0.071659,
-     "pct": 3.76,
+     "pct": 2.39,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro",
      "type": "changed"
@@ -2615,6 +2705,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-aion-3-0-mini",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Aion 3.5 Mini",
+     "new": 0.7,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-aion-3-5-mini",
      "type": "added"
     },
     {
@@ -3169,16 +3269,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek Pro",
-     "new": 0.39996,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-pro-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Gemini 3.6 Flash:batch",
      "new": 0.375,
      "old": null,
@@ -3368,6 +3458,16 @@
      "type": "changed"
     },
     {
+     "field": "max_output",
+     "name": "Deepseek V4.1 Flash",
+     "new": 943718,
+     "old": 384000,
+     "pct": 145.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-1-flash",
+     "type": "changed"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Qwen3 Coder",
      "new": 0.1,
@@ -3419,6 +3519,16 @@
     },
     {
      "field": null,
+     "name": "Deepseek Flash",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Nova 2 Lite V1",
      "new": 0.3,
      "old": null,
@@ -3455,6 +3565,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-cydonia-24b-v4-1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Command A Plus",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-command-a-plus",
      "type": "added"
     },
     {
@@ -3909,6 +4029,16 @@
     },
     {
      "field": null,
+     "name": "Glm Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Command R 08 2024",
      "new": 0.15,
      "old": null,
@@ -3965,6 +4095,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-solar-pro-3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.8 Omni Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-omni-flash",
      "type": "added"
     },
     {
@@ -4079,12 +4219,12 @@
     },
     {
      "field": null,
-     "name": "Deepseek Flash",
-     "new": 0.12,
+     "name": "Deepseek V4.1 Flash:batch",
+     "new": 0.112,
      "old": null,
      "pct": null,
      "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-flash-latest",
+     "slug": "openrouter-deepseek-v4-1-flash:batch",
      "type": "added"
     },
     {
@@ -4469,16 +4609,6 @@
     },
     {
      "field": null,
-     "name": "Glm Flash",
-     "new": 0.075,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-flash-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Seed 1.6 Flash",
      "new": 0.075,
      "old": null,
@@ -4708,6 +4838,36 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Solar Mini4",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-solar-mini4",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna Pro:batch",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-luna-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna:batch",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-luna:batch",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Deepseek V4 Flash",
      "new": 0.049,
@@ -4789,6 +4949,16 @@
     },
     {
      "field": null,
+     "name": "Deepseek V4 Flash",
+     "new": 0.04,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Mercury 2.5",
      "new": 0.04,
      "old": null,
@@ -4829,16 +4999,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4 Flash",
-     "new": 0.03,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Schematron V2 Turbo",
      "new": 0.03,
      "old": null,
@@ -4865,6 +5025,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-nex-n2-5-mini",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT Oss 20b:batch",
+     "new": 0.024,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-20b:batch",
      "type": "added"
     },
     {
@@ -5025,6 +5195,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-8-27b:free",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Space Bunny Alpha",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-space-bunny-alpha",
      "type": "added"
     },
     {
@@ -7368,9 +7548,9 @@
      "type": "removed"
     }
    ],
-   "count": 736,
+   "count": 754,
    "date": "2026-09-23",
-   "generated_at": "2026-09-23T12:12:46.678064+00:00"
+   "generated_at": "2026-09-23T18:10:11.577718+00:00"
   },
   {
    "baseline": true,
