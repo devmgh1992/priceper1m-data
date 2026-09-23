@@ -1,5 +1,5 @@
 {
- "count_changes": 521,
+ "count_changes": 728,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -549,6 +549,26 @@
     },
     {
      "field": null,
+     "name": "GPT 6 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-luna",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Grok 4.7",
      "new": 2,
      "old": null,
@@ -869,26 +889,6 @@
     },
     {
      "field": "input_per_1m",
-     "name": "GPT 5.1 Chat",
-     "new": 1.375,
-     "old": 1.38,
-     "pct": -0.36,
-     "provider": "Azure OpenAI",
-     "slug": "azure-gpt-5-1-chat",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "GPT 5.1 Chat",
-     "new": 0.1375,
-     "old": 0.14,
-     "pct": -1.79,
-     "provider": "Azure OpenAI",
-     "slug": "azure-gpt-5-1-chat",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
      "name": "GPT 5.1 Codex",
      "new": 1.375,
      "old": 1.38,
@@ -958,6 +958,206 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Kimi K3",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-kimi-k3",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GLM 5.2 Fast",
+     "new": 2.1,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-5-2-fast",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4 Pro",
+     "new": 1.74,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GLM 5.2",
+     "new": 1.4,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4 Pro 0813",
+     "new": 1.32,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-pro-0813",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-inkling",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.6",
+     "new": 0.95,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-kimi-k2-6",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.7 Code",
+     "new": 0.95,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-kimi-k2-7-code",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GLM 4.7",
+     "new": 0.12,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-4-7",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GLM 4.7",
+     "new": 200000,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-4-7",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "GLM 4.7",
+     "new": 200000,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-4-7",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "NVIDIA Nemotron 3 Ultra 550B A55B",
+     "new": 0.6,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-nvidia-nemotron-3-ultra-550b-a55b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling Small",
+     "new": 0.5,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-inkling-small",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4.1 Flash",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-1-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GLM 5.3 Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-5-3-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4 Flash 0731",
+     "new": 0.13,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-flash-0731",
+     "type": "added"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT Oss 120b",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT Oss 120b",
+     "new": 128072,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "GPT Oss 120b",
+     "new": 128072,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-gpt-oss-120b",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude Opus 5 5",
+     "new": 4.8,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-opus-5-5",
+     "type": "added"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Amazon.nova Pro V1:0",
      "new": 0.24,
@@ -965,6 +1165,36 @@
      "pct": null,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-amazon-nova-pro-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Nvidia.nemotron Super 3 120b",
+     "new": 0.23,
+     "old": 0.18,
+     "pct": 27.78,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-nvidia-nemotron-super-3-120b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Nvidia.nemotron Super 3 120b",
+     "new": 1.01,
+     "old": 0.78,
+     "pct": 29.49,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-nvidia-nemotron-super-3-120b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Nvidia.nemotron Super 3 120b",
+     "new": 32000,
+     "old": 32768,
+     "pct": -2.34,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-nvidia-nemotron-super-3-120b",
      "type": "changed"
     },
     {
@@ -1008,34 +1238,14 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 1.2,
-     "old": 1.74,
-     "pct": -31.03,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 1.2,
-     "old": 3.48,
-     "pct": -65.52,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.6,
-     "old": 0.145,
-     "pct": 313.79,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-deepseek-v4-pro",
-     "type": "changed"
+     "field": null,
+     "name": "Llama Guard 3 8b",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-llama-guard-3-8b",
+     "type": "added"
     },
     {
      "field": null,
@@ -1159,16 +1369,6 @@
     },
     {
      "field": null,
-     "name": "Claude Opus",
-     "new": 5,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-claude-opus-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Claude Fable 5:batch",
      "new": 5,
      "old": null,
@@ -1248,6 +1448,26 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Claude Opus 5.5",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-5-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-latest",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Claude Sonnet 4",
      "new": 200000,
@@ -1296,16 +1516,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-kimi-k3",
      "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Kimi",
-     "new": 3,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-latest",
-     "type": "added"
     },
     {
      "field": null,
@@ -1589,6 +1799,26 @@
     },
     {
      "field": null,
+     "name": "GPT 6 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Sol Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-sol-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Sonar Deep Research",
      "new": 2,
      "old": null,
@@ -1605,16 +1835,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-sonar-reasoning-pro",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Qwen3.8 2.4t A95b:batch",
-     "new": 2,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-qwen3-8-2-4t-a95b:batch",
      "type": "added"
     },
     {
@@ -1718,6 +1938,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Kimi",
+     "new": 1.4989,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-latest",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Deepseek V4 Pro 0813",
      "new": 1.32,
@@ -1746,16 +1976,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-pro-0813",
      "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Deepseek Pro",
-     "new": 1.32,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-pro-latest",
-     "type": "added"
     },
     {
      "field": "max_output",
@@ -2049,16 +2269,6 @@
     },
     {
      "field": null,
-     "name": "Inkling:batch",
-     "new": 1,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-inkling:batch",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Grok 4.3:batch",
      "new": 1,
      "old": null,
@@ -2098,36 +2308,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.931074,
-     "old": 0.859908,
-     "pct": 8.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 1.862148,
-     "old": 1.719816,
-     "pct": 8.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.077589,
-     "old": 0.071659,
-     "pct": 8.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
      "field": null,
      "name": "Morph V3 Large",
      "new": 0.9,
@@ -2136,6 +2316,36 @@
      "provider": "OpenRouter",
      "slug": "openrouter-morph-v3-large",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.892272,
+     "old": 0.859908,
+     "pct": 3.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.784544,
+     "old": 1.719816,
+     "pct": 3.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.074356,
+     "old": 0.071659,
+     "pct": 3.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
     },
     {
      "field": null,
@@ -2368,16 +2578,6 @@
      "type": "added"
     },
     {
-     "field": null,
-     "name": "Glm 5.2:batch",
-     "new": 0.7,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2:batch",
-     "type": "added"
-    },
-    {
      "field": "context_window",
      "name": "Qwen 2.5 Coder 32b Instruct",
      "new": 32768,
@@ -2396,16 +2596,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-qwen-2-5-coder-32b-instruct",
      "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Deepseek V4 Pro 0813:batch",
-     "new": 0.66,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813:batch",
-     "type": "added"
     },
     {
      "field": "input_per_1m",
@@ -2655,46 +2845,6 @@
      "pct": -2.04,
      "provider": "OpenRouter",
      "slug": "openrouter-kimi-k2",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Mistral Large 2512",
-     "new": 0.55,
-     "old": 0.5,
-     "pct": 10,
-     "provider": "OpenRouter",
-     "slug": "openrouter-mistral-large-2512",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Mistral Large 2512",
-     "new": 1.65,
-     "old": 1.5,
-     "pct": 10,
-     "provider": "OpenRouter",
-     "slug": "openrouter-mistral-large-2512",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Mistral Large 2512",
-     "new": 0.055,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-mistral-large-2512",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Mistral Large 2512",
-     "new": 209715,
-     "old": 262144,
-     "pct": -20,
-     "provider": "OpenRouter",
-     "slug": "openrouter-mistral-large-2512",
      "type": "changed"
     },
     {
@@ -2969,6 +3119,16 @@
     },
     {
      "field": null,
+     "name": "Deepseek Pro",
+     "new": 0.39996,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-pro-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Gemini 3.6 Flash:batch",
      "new": 0.375,
      "old": null,
@@ -3078,6 +3238,46 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "Qwen3.6 27b",
+     "new": 0.32,
+     "old": 0.3,
+     "pct": 6.67,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-6-27b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3.6 27b",
+     "new": 2.7,
+     "old": 2,
+     "pct": 35,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-6-27b",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3.6 27b",
+     "new": 0.15,
+     "old": 0.03,
+     "pct": 400,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-6-27b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3.6 27b",
+     "new": 262140,
+     "old": 65536,
+     "pct": 299.99,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-6-27b",
+     "type": "changed"
+    },
+    {
      "field": "max_output",
      "name": "Qwen3.5 35b A3b",
      "new": 16384,
@@ -3169,32 +3369,12 @@
     },
     {
      "field": null,
-     "name": "Deepseek Flash",
-     "new": 0.3,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-flash-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Nova 2 Lite V1",
      "new": 0.3,
      "old": null,
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-nova-2-lite-v1",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Kat Coder Pro V2",
-     "new": 0.3,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kat-coder-pro-v2",
      "type": "added"
     },
     {
@@ -3215,16 +3395,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-muse-glimmer-30b",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Minimax M3:batch",
-     "new": 0.3,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-minimax-m3:batch",
      "type": "added"
     },
     {
@@ -3499,16 +3669,6 @@
     },
     {
      "field": null,
-     "name": "GPT Luna",
-     "new": 0.2,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gpt-luna-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Dolphin Mistral 24b Venice Edition",
      "new": 0.2,
      "old": null,
@@ -3585,26 +3745,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-hy3-preview",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Muse Glimmer 30b:batch",
-     "new": 0.175,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-muse-glimmer-30b:batch",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Qwen3.5 9b:batch",
-     "new": 0.17,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-qwen3-5-9b:batch",
      "type": "added"
     },
     {
@@ -3719,16 +3859,6 @@
     },
     {
      "field": null,
-     "name": "Glm Flash",
-     "new": 0.15,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-flash-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Command R 08 2024",
      "new": 0.15,
      "old": null,
@@ -3765,16 +3895,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-codestral-2508:batch",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "GPT Oss 120b:batch",
-     "new": 0.15,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gpt-oss-120b:batch",
      "type": "added"
     },
     {
@@ -3909,22 +4029,12 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4 Flash 0731:batch",
-     "new": 0.11,
+     "name": "Deepseek Flash",
+     "new": 0.12,
      "old": null,
      "pct": null,
      "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-0731:batch",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Deepseek V4 Flash Vision Exp:batch",
-     "new": 0.11,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-vision-exp:batch",
+     "slug": "openrouter-deepseek-flash-latest",
      "type": "added"
     },
     {
@@ -3976,6 +4086,16 @@
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-5-9b",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "GPT Luna",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-luna-latest",
+     "type": "added"
     },
     {
      "field": null,
@@ -4035,6 +4155,26 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-gpt-5-6-luna:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-luna",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna Pro",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-luna-pro",
      "type": "added"
     },
     {
@@ -4276,6 +4416,16 @@
      "provider": "OpenRouter",
      "slug": "openrouter-nemotron-3-super-120b-a12b",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glm Flash",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-flash-latest",
+     "type": "added"
     },
     {
      "field": null,
@@ -4589,16 +4739,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4 Flash",
-     "new": 0.04,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Mercury 2.5",
      "new": 0.04,
      "old": null,
@@ -4635,6 +4775,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-nova-micro-v1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4 Flash",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-latest",
      "type": "added"
     },
     {
@@ -4745,16 +4895,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-north-mini-code:free",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Deepseek V4 Flash 0731:free",
-     "new": 0,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-0731:free",
      "type": "added"
     },
     {
@@ -4878,46 +5018,6 @@
      "type": "added"
     },
     {
-     "field": "context_window",
-     "name": "Qwen3 Coder 480B A35B Instruct FP8",
-     "new": 262144,
-     "old": 256000,
-     "pct": 2.4,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
-     "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "DeepSeek R1 Distill Llama 70B",
-     "new": 2,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-deepseek-r1-distill-llama-70b",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Qwen2.5 VL 72B Instruct",
-     "new": 1.95,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen2-5-vl-72b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "DeepSeek R1 Distill Qwen 14B",
-     "new": 1.6,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-deepseek-r1-distill-qwen-14b",
-     "type": "added"
-    },
-    {
      "field": "input_per_1m",
      "name": "Qwen3.7 Max",
      "new": 1.5,
@@ -4949,72 +5049,12 @@
     },
     {
      "field": null,
-     "name": "Qwen2 VL 72B Instruct",
-     "new": 1.2,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen2-vl-72b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Qwen2.5 72B Instruct",
      "new": 1.2,
      "old": null,
      "pct": null,
      "provider": "Together AI",
      "slug": "together-ai-qwen2-5-72b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Qwen2 72B Instruct",
-     "new": 0.9,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen2-72b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Meta Llama 3 70B Instruct Turbo",
-     "new": 0.88,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-meta-llama-3-70b-instruct-turbo",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Llama 3.1 Nemotron 70B Instruct HF",
-     "new": 0.88,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-llama-3-1-nemotron-70b-instruct-hf",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Deepseek Coder 33b Instruct",
-     "new": 0.8,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-deepseek-coder-33b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Gemma 2 27b It",
-     "new": 0.8,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-gemma-2-27b-it",
      "type": "added"
     },
     {
@@ -5028,26 +5068,6 @@
      "type": "added"
     },
     {
-     "field": null,
-     "name": "Qwen2.5 Coder 32B Instruct",
-     "new": 0.8,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen2-5-coder-32b-instruct",
-     "type": "added"
-    },
-    {
-     "field": "context_window",
-     "name": "DeepSeek V3.1",
-     "new": 131072,
-     "old": 128000,
-     "pct": 2.4,
-     "provider": "Together AI",
-     "slug": "together-ai-deepseek-v3-1",
-     "type": "changed"
-    },
-    {
      "field": "context_window",
      "name": "GLM 4.6",
      "new": 202752,
@@ -5059,72 +5079,12 @@
     },
     {
      "field": null,
-     "name": "Nous Hermes 2 Mixtral 8x7B DPO",
-     "new": 0.6,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-nous-hermes-2-mixtral-8x7b-dpo",
-     "type": "added"
-    },
-    {
-     "field": "context_window",
-     "name": "GLM 4.7",
-     "new": 202752,
-     "old": 200000,
-     "pct": 1.38,
-     "provider": "Together AI",
-     "slug": "together-ai-glm-4-7",
-     "type": "changed"
-    },
-    {
-     "field": null,
      "name": "DeepSeek V4.1 Flash",
      "new": 0.3,
      "old": null,
      "pct": null,
      "provider": "Together AI",
      "slug": "together-ai-deepseek-v4-1-flash",
-     "type": "added"
-    },
-    {
-     "field": "context_window",
-     "name": "GLM 4.5 Air FP8",
-     "new": 131072,
-     "old": 128000,
-     "pct": 2.4,
-     "provider": "Together AI",
-     "slug": "together-ai-glm-4-5-air-fp8",
-     "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Llama 3 8b Chat Hf",
-     "new": 0.2,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-llama-3-8b-chat-hf",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Meta Llama 3 8B Instruct",
-     "new": 0.2,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-meta-llama-3-8b-instruct",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "DeepSeek R1 Distill Qwen 1.5B",
-     "new": 0.18,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-deepseek-r1-distill-qwen-1-5b",
      "type": "added"
     },
     {
@@ -5199,16 +5159,6 @@
     },
     {
      "field": null,
-     "name": "Gemini Robotics Er 2",
-     "new": 1,
-     "old": null,
-     "pct": null,
-     "provider": "Google Vertex AI",
-     "slug": "vertex-ai-gemini-robotics-er-2",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Gemma 4 26b A4b It",
      "new": 0.15,
      "old": null,
@@ -5216,11 +5166,2131 @@
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemma-4-26b-a4b-it",
      "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude 3 Opus",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-3-opus-20240229",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude 4 Opus",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-4-opus-20250514",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4 1",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-opus-4-1",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4 1",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-opus-4-1-20250805",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-opus-4-20250514",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude 3 7 Sonnet",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-3-7-sonnet-20250219",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude 4 Sonnet",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-4-sonnet-20250514",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 4",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-sonnet-4-20250514",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude 3 Haiku",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-3-haiku-20240307",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Command",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Cohere",
+     "slug": "cohere-command",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Embed English Light V2.0",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Cohere",
+     "slug": "cohere-embed-english-light-v2-0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Embed English V2.0",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Cohere",
+     "slug": "cohere-embed-english-v2-0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Embed Multilingual V2.0",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Cohere",
+     "slug": "cohere-embed-multilingual-v2-0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3 Pro Preview",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-3-pro-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini Robotics Er 1.6 Preview",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-robotics-er-1-6-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini Robotics Er 1.5 Preview",
+     "new": null,
+     "old": 0.3,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-robotics-er-1-5-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.5 Flash Preview 09 2025",
+     "new": null,
+     "old": 0.3,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-flash-preview-09-2025",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.1 Flash Lite Preview",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-3-1-flash-lite-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini Embedding 2 Preview",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-embedding-2-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.0 Flash",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-0-flash",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.0 Flash 001",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-0-flash-001",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.5 Flash Lite Preview 09 2025",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-flash-lite-preview-09-2025",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.5 Flash Lite Preview 06 17",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-5-flash-lite-preview-06-17",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 1.5 Flash",
+     "new": null,
+     "old": 0.075,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-1-5-flash",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.0 Flash Lite",
+     "new": null,
+     "old": 0.075,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-0-flash-lite",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.0 Flash Lite 001",
+     "new": null,
+     "old": 0.075,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-2-0-flash-lite-001",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Large 2402",
+     "new": null,
+     "old": 4,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-2402",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Large 2407",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-2407",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Medium 2312",
+     "new": null,
+     "old": 2.7,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-medium-2312",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Magistral Medium 2506",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-magistral-medium-2506",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Magistral Medium 2509",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-magistral-medium-2509",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Magistral Medium 1 2 2509",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-magistral-medium-1-2-2509",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Large 2411",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-2411",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Open Mixtral 8x22b",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-open-mixtral-8x22b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Pixtral Large 2411",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-pixtral-large-2411",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Codestral 2405",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-codestral-2405",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Open Mixtral 8x7b",
+     "new": null,
+     "old": 0.7,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-open-mixtral-8x7b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Magistral Small 2506",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-magistral-small-2506",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Magistral Small 1 2 2509",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-magistral-small-1-2-2509",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Devstral Medium 2507",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-medium-2507",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Devstral 2512",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-2512",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Medium 2505",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-medium-2505",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Medium 2508",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-medium-2508",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Medium 3 1 2508",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-medium-3-1-2508",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Open Mistral Nemo 2407",
+     "new": null,
+     "old": 0.3,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-open-mistral-nemo-2407",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Open Codestral Mamba",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-open-codestral-mamba",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Open Mistral 7b",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-open-mistral-7b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Pixtral 12b 2409",
+     "new": null,
+     "old": 0.15,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-pixtral-12b-2409",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Devstral Small 2505",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-small-2505",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Devstral Small 2507",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-devstral-small-2507",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Labs Devstral Small 2512",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-labs-devstral-small-2512",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Small 3 2 2506",
+     "new": null,
+     "old": 0.06,
+     "pct": null,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-small-3-2-2506",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi Latest 128k",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-latest-128k",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Moonshot V1 128k 0430",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-moonshot-v1-128k-0430",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 Turbo Preview",
+     "new": null,
+     "old": 1.15,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-k2-turbo-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 Thinking Turbo",
+     "new": null,
+     "old": 1.15,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-k2-thinking-turbo",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi Latest 32k",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-latest-32k",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Moonshot V1 32k 0430",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-moonshot-v1-32k-0430",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 0711 Preview",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-k2-0711-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 0905 Preview",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-k2-0905-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi Thinking Preview",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-thinking-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 Thinking",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-k2-thinking",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi Latest 8k",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-latest-8k",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Moonshot V1 8k 0430",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-moonshot-v1-8k-0430",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4 0314",
+     "new": null,
+     "old": 30,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4-0314",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4 0125 Preview",
+     "new": null,
+     "old": 10,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4-0125-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4 Turbo Preview",
+     "new": null,
+     "old": 10,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4-turbo-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "O3 Deep Research",
+     "new": null,
+     "old": 10,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-o3-deep-research",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "O3 Deep Research",
+     "new": null,
+     "old": 10,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-o3-deep-research-2025-06-26",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Chatgpt 4o",
+     "new": null,
+     "old": 5,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-chatgpt-4o-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4o Audio Preview",
+     "new": null,
+     "old": 2.5,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4o-audio-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4o Search Preview",
+     "new": null,
+     "old": 2.5,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4o-search-preview-2025-03-11",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "O4 Mini Deep Research",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-o4-mini-deep-research",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "O4 Mini Deep Research",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-o4-mini-deep-research-2025-06-26",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2 Chat",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-2-chat-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.3 Chat",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-3-chat-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2 Codex",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-2-codex",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Codex Mini",
+     "new": null,
+     "old": 1.5,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-codex-mini-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1 Chat",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-1-chat-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Chat",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-chat-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Codex",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-codex",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1 Codex",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-1-codex",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1 Codex Max",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-1-codex-max",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT Audio Mini",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-audio-mini-2025-10-06",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1 Codex Mini",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-1-codex-mini",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4o Mini Audio Preview",
+     "new": null,
+     "old": 0.15,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4o-mini-audio-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 4o Mini Search Preview",
+     "new": null,
+     "old": 0.15,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-4o-mini-search-preview-2025-03-11",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Beta",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-beta",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Fast Beta",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-fast-beta",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Fast",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-fast-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Mini",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-mini",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Mini Beta",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-mini-beta",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Mini Fast",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-mini-fast",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Mini Fast Beta",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-mini-fast-beta",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Mini Fast",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-mini-fast-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 3 Mini",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-3-mini-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 Fast Reasoning",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-fast-reasoning",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 Fast Non Reasoning",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-fast-non-reasoning",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 0709",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-0709",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 1 Fast",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-1-fast",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 1 Fast Reasoning",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-1-fast-reasoning",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 1 Fast Reasoning",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-1-fast-reasoning-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 1 Fast Non Reasoning",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-1-fast-non-reasoning",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Grok 4 1 Fast Non Reasoning",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-1-fast-non-reasoning-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "O1 Preview",
+     "new": null,
+     "old": 16.5,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1-preview-2024-09-12",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "O1 Preview",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1-preview",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2 Chat",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-2-chat",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2 Chat",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-2-chat-2025-12-11",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.3 Chat",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-3-chat",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1 Chat",
+     "new": null,
+     "old": 1.38,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-chat",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1 Chat",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-1-chat-2025-11-13",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Chat",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-chat",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Chat",
+     "new": null,
+     "old": 1.25,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-5-chat-latest",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 35 Turbo 1106",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-35-turbo-1106",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 3.5 Turbo 0125",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-3-5-turbo-0125",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT 35 Turbo 0125",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-35-turbo-0125",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude 3 7 Sonnet 20250219 V1:0",
+     "new": null,
+     "old": 3.6,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-7-sonnet-20250219-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude 3 Sonnet 20240229 V1:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-sonnet-20240229-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Apac.anthropic.claude 3 5 Sonnet 20240620 V1:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-apac-anthropic-claude-3-5-sonnet-20240620-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Apac.anthropic.claude 3 5 Sonnet 20241022 V2:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-apac-anthropic-claude-3-5-sonnet-20241022-v2:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Apac.anthropic.claude 3 Sonnet 20240229 V1:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-apac-anthropic-claude-3-sonnet-20240229-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Cohere.command R Plus V1:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-cohere-command-r-plus-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Eu.anthropic.claude 3 Sonnet 20240229 V1:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-eu-anthropic-claude-3-sonnet-20240229-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Us.anthropic.claude 3 Sonnet 20240229 V1:0",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-anthropic-claude-3-sonnet-20240229-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Cohere.command R V1:0",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-cohere-command-r-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Apac.anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-apac-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Eu.anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-eu-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Us.anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": null,
+     "old": 0.25,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Zai Glm 4.6",
+     "new": null,
+     "old": 2.25,
+     "pct": null,
+     "provider": "Cerebras",
+     "slug": "cerebras-zai-glm-4-6",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Zai Glm 4.7",
+     "new": null,
+     "old": 2.25,
+     "pct": null,
+     "provider": "Cerebras",
+     "slug": "cerebras-zai-glm-4-7",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Meta Llama 3 1 405b Instruct",
+     "new": null,
+     "old": 5.00003,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-meta-llama-3-1-405b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Claude 3 7 Sonnet",
+     "new": null,
+     "old": 2.99999,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-claude-3-7-sonnet",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks GPT 5 2 Codex",
+     "new": null,
+     "old": 1.75,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-gpt-5-2-codex",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks GPT 5 1 Codex Max",
+     "new": null,
+     "old": 1.24999,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-gpt-5-1-codex-max",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Meta Llama 3 70b Instruct",
+     "new": null,
+     "old": 1.00002,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-meta-llama-3-70b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Mpt 30b Instruct",
+     "new": null,
+     "old": 1.00002,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-mpt-30b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Llama 2 70b Chat",
+     "new": null,
+     "old": 0.50001,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-llama-2-70b-chat",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Mixtral 8x7b Instruct",
+     "new": null,
+     "old": 0.50001,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-mixtral-8x7b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks Mpt 7b Instruct",
+     "new": null,
+     "old": 0.50001,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-mpt-7b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Databricks GPT 5 1 Codex Mini",
+     "new": null,
+     "old": 0.24997,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-gpt-5-1-codex-mini",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.0 Flash 001",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-gemini-2-0-flash-001",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4 Pro",
+     "new": null,
+     "old": 1.74,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4-pro",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Minimax M2p7",
+     "new": null,
+     "old": 0.3,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-minimax-m2p7",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 Instruct 0905",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-kimi-k2-instruct-0905",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.6 27b",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-qwen3-6-27b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 3.3 70b Versatile",
+     "new": null,
+     "old": 0.59,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-llama-3-3-70b-versatile",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 32b",
+     "new": null,
+     "old": 0.29,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-qwen3-32b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama Guard 4 12b",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-llama-guard-4-12b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Maverick 17b 128e Instruct",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-llama-4-maverick-17b-128e-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Scout 17b 16e Instruct",
+     "new": null,
+     "old": 0.11,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-llama-4-scout-17b-16e-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 3.1 8b Instant",
+     "new": null,
+     "old": 0.05,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-llama-3-1-8b-instant",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemma 7b It",
+     "new": null,
+     "old": 0.05,
+     "pct": null,
+     "provider": "Groq",
+     "slug": "groq-gemma-7b-it",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4",
+     "new": null,
+     "old": 15,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-opus-4",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Large 2512",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-mistral-large-2512",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 2.0 Flash 001",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-2-0-flash-001",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.1 405B Instruct",
+     "new": null,
+     "old": 5,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-meta-llama-3-1-405b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V3 0324",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-deepseek-v3-0324",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek R1 Distill Llama 70B",
+     "new": null,
+     "old": 0.7,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-deepseek-r1-distill-llama-70b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "QwQ 32B",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-qwq-32b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen2 Audio 7B Instruct",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-qwen2-audio-7b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Scout 17B 16E Instruct",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-llama-4-scout-17b-16e-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 32B",
+     "new": null,
+     "old": 0.4,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-qwen3-32b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama Guard 3 8B",
+     "new": null,
+     "old": 0.3,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-meta-llama-guard-3-8b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.1 8B Instruct",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-meta-llama-3-1-8b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.2 3B Instruct",
+     "new": null,
+     "old": 0.08,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-meta-llama-3-2-3b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.2 1B Instruct",
+     "new": null,
+     "old": 0.04,
+     "pct": null,
+     "provider": "SambaNova",
+     "slug": "sambanova-meta-llama-3-2-1b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.1 405B Instruct Turbo",
+     "new": null,
+     "old": 3.5,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-meta-llama-3-1-405b-instruct-turbo",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek R1",
+     "new": null,
+     "old": 3,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-deepseek-r1",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 Coder 480B A35B Instruct FP8",
+     "new": null,
+     "old": 2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4 Pro",
+     "new": null,
+     "old": 1.74,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-deepseek-v4-pro",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GLM 5.1",
+     "new": null,
+     "old": 1.4,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-glm-5-1",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen2.5 72B Instruct Turbo",
+     "new": null,
+     "old": 1.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen2-5-72b-instruct-turbo",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.6",
+     "new": null,
+     "old": 1.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k2-6",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "QwQ 32B",
+     "new": null,
+     "old": 1.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwq-32b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 Instruct 0905",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k2-instruct-0905",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GLM 5",
+     "new": null,
+     "old": 1,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-glm-5",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.7 Code",
+     "new": null,
+     "old": 0.95,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k2-7-code",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.1 70B Instruct Turbo",
+     "new": null,
+     "old": 0.88,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-meta-llama-3-1-70b-instruct-turbo",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 235B A22B Thinking 2507",
+     "new": null,
+     "old": 0.65,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-235b-a22b-thinking-2507",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V3.1",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-deepseek-v3-1",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mixtral 8x7B Instruct V0.1",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-mixtral-8x7b-instruct-v0-1",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3.5 397B A17B",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-5-397b-a17b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Nemotron 3 Ultra 550b A55b",
+     "new": null,
+     "old": 0.6,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-nemotron-3-ultra-550b-a55b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek R1 0528 Tput",
+     "new": null,
+     "old": 0.55,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-deepseek-r1-0528-tput",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.5",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k2-5",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Inkling Small",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-inkling-small",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 Coder Next FP8",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-coder-next-fp8",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 VL 32B Instruct",
+     "new": null,
+     "old": 0.5,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-vl-32b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GLM 4.7",
+     "new": null,
+     "old": 0.45,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-glm-4-7",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemma 4 31B It",
+     "new": null,
+     "old": 0.39,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-gemma-4-31b-it",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Maverick 17B 128E Instruct FP8",
+     "new": null,
+     "old": 0.27,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-llama-4-maverick-17b-128e-instruct-fp8",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 235B A22B Instruct 2507 Tput",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-235b-a22b-instruct-2507-tput",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 235B A22B Fp8 Tput",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-235b-a22b-fp8-tput",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral 7B Instruct V0.1",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-mistral-7b-instruct-v0-1",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GLM 4.5 Air FP8",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-glm-4-5-air-fp8",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama Guard 4 12B",
+     "new": null,
+     "old": 0.2,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-llama-guard-4-12b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Scout 17B 16E Instruct",
+     "new": null,
+     "old": 0.18,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-llama-4-scout-17b-16e-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3.1 8B Instruct Turbo",
+     "new": null,
+     "old": 0.18,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-meta-llama-3-1-8b-instruct-turbo",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 VL 8B Instruct",
+     "new": null,
+     "old": 0.18,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-vl-8b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 Next 80B A3B Instruct",
+     "new": null,
+     "old": 0.15,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-next-80b-a3b-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 Next 80B A3B Thinking",
+     "new": null,
+     "old": 0.15,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-next-80b-a3b-thinking",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Mistral Small 24B Instruct 2501",
+     "new": null,
+     "old": 0.1,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-mistral-small-24b-instruct-2501",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Gemma 3n E4B It",
+     "new": null,
+     "old": 0.06,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-gemma-3n-e4b-it",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "GPT Oss 20b",
+     "new": null,
+     "old": 0.05,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-gpt-oss-20b",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Multilingual E5 Large Instruct",
+     "new": null,
+     "old": 0.02,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-multilingual-e5-large-instruct",
+     "type": "removed"
+    },
+    {
+     "field": null,
+     "name": "Llama 3.3 70B Instruct Turbo Free",
+     "new": null,
+     "old": 0,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-llama-3-3-70b-instruct-turbo-free",
+     "type": "removed"
     }
    ],
-   "count": 521,
-   "date": "2026-09-22",
-   "generated_at": "2026-09-22T18:10:18.410595+00:00"
+   "count": 728,
+   "date": "2026-09-23",
+   "generated_at": "2026-09-23T00:10:56.793167+00:00"
   },
   {
    "baseline": true,

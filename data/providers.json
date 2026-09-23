@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2170,
- "generated_at": "2026-09-22T18:10:18.410595+00:00",
+ "endpoints_tracked": 1953,
+ "generated_at": "2026-09-23T00:10:56.793167+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "OpenRouter",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0,
-   "models": 467,
+   "models": 457,
    "provider": "openrouter"
   },
   {
@@ -18,7 +18,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 273,
+   "models": 271,
    "provider": "fireworks_ai"
   },
   {
@@ -26,7 +26,7 @@
    "label": "DeepInfra",
    "max_input_per_1m": 16.5,
    "min_input_per_1m": 0.019,
-   "models": 135,
+   "models": 134,
    "provider": "deepinfra"
   },
   {
@@ -38,19 +38,11 @@
    "provider": "novita"
   },
   {
-   "category": "first-party",
-   "label": "OpenAI",
-   "max_input_per_1m": 150,
-   "min_input_per_1m": 0.02,
-   "models": 114,
-   "provider": "openai"
-  },
-  {
    "category": "platform",
    "label": "Azure OpenAI",
    "max_input_per_1m": 75,
    "min_input_per_1m": 0.02,
-   "models": 111,
+   "models": 99,
    "provider": "azure"
   },
   {
@@ -58,32 +50,16 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 18.8,
    "min_input_per_1m": 0,
-   "models": 110,
+   "models": 98,
    "provider": "bedrock"
   },
   {
-   "category": "platform",
-   "label": "Together AI",
-   "max_input_per_1m": 3.5,
-   "min_input_per_1m": 0,
-   "models": 100,
-   "provider": "together_ai"
-  },
-  {
    "category": "first-party",
-   "label": "Mistral AI",
-   "max_input_per_1m": 4,
-   "min_input_per_1m": 0,
-   "models": 76,
-   "provider": "mistral"
-  },
-  {
-   "category": "platform",
-   "label": "Databricks",
-   "max_input_per_1m": 29.99997,
-   "min_input_per_1m": 0.02002,
-   "models": 67,
-   "provider": "databricks"
+   "label": "OpenAI",
+   "max_input_per_1m": 150,
+   "min_input_per_1m": 0.02,
+   "models": 93,
+   "provider": "openai"
   },
   {
    "category": "first-party",
@@ -94,14 +70,6 @@
    "provider": "perplexity"
   },
   {
-   "category": "first-party",
-   "label": "xAI",
-   "max_input_per_1m": 2,
-   "min_input_per_1m": 1,
-   "models": 64,
-   "provider": "xai"
-  },
-  {
    "category": "platform",
    "label": "Nebius",
    "max_input_per_1m": 3,
@@ -110,12 +78,36 @@
    "provider": "nebius"
   },
   {
+   "category": "platform",
+   "label": "Databricks",
+   "max_input_per_1m": 29.99997,
+   "min_input_per_1m": 0.02002,
+   "models": 57,
+   "provider": "databricks"
+  },
+  {
    "category": "first-party",
-   "label": "Google Gemini",
+   "label": "Mistral AI",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0,
-   "models": 49,
-   "provider": "gemini"
+   "models": 50,
+   "provider": "mistral"
+  },
+  {
+   "category": "platform",
+   "label": "Together AI",
+   "max_input_per_1m": 3.5,
+   "min_input_per_1m": 0,
+   "models": 46,
+   "provider": "together_ai"
+  },
+  {
+   "category": "first-party",
+   "label": "xAI",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 1,
+   "models": 43,
+   "provider": "xai"
   },
   {
    "category": "platform",
@@ -126,20 +118,20 @@
    "provider": "replicate"
   },
   {
+   "category": "first-party",
+   "label": "Google Gemini",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0,
+   "models": 36,
+   "provider": "gemini"
+  },
+  {
    "category": "platform",
    "label": "Cloudflare Workers AI",
    "max_input_per_1m": 1.923,
    "min_input_per_1m": 0,
    "models": 30,
    "provider": "cloudflare"
-  },
-  {
-   "category": "first-party",
-   "label": "Anthropic",
-   "max_input_per_1m": 15,
-   "min_input_per_1m": 0.25,
-   "models": 29,
-   "provider": "anthropic"
   },
   {
    "category": "local",
@@ -158,12 +150,12 @@
    "provider": "dashscope"
   },
   {
-   "category": "first-party",
-   "label": "Moonshot AI",
+   "category": "platform",
+   "label": "Baseten",
    "max_input_per_1m": 3,
-   "min_input_per_1m": 0.2,
-   "models": 24,
-   "provider": "moonshot"
+   "min_input_per_1m": 0.1,
+   "models": 25,
+   "provider": "baseten"
   },
   {
    "category": "platform",
@@ -174,19 +166,19 @@
    "provider": "voyage"
   },
   {
-   "category": "platform",
-   "label": "SambaNova",
-   "max_input_per_1m": 5,
-   "min_input_per_1m": 0.04,
-   "models": 19,
-   "provider": "sambanova"
+   "category": "first-party",
+   "label": "Anthropic",
+   "max_input_per_1m": 10,
+   "min_input_per_1m": 1,
+   "models": 20,
+   "provider": "anthropic"
   },
   {
    "category": "platform",
    "label": "Google Vertex AI",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0.15,
-   "models": 19,
+   "models": 18,
    "provider": "vertex_ai"
   },
   {
@@ -196,14 +188,6 @@
    "min_input_per_1m": 0.12,
    "models": 16,
    "provider": "hyperbolic"
-  },
-  {
-   "category": "platform",
-   "label": "Groq",
-   "max_input_per_1m": 1,
-   "min_input_per_1m": 0.03,
-   "models": 15,
-   "provider": "groq"
   },
   {
    "category": "platform",
@@ -222,20 +206,12 @@
    "provider": "ai21"
   },
   {
-   "category": "platform",
-   "label": "Baseten",
-   "max_input_per_1m": 1.4,
-   "min_input_per_1m": 0.1,
-   "models": 12,
-   "provider": "baseten"
-  },
-  {
    "category": "first-party",
-   "label": "Cohere",
-   "max_input_per_1m": 100,
-   "min_input_per_1m": 0.1,
-   "models": 10,
-   "provider": "cohere"
+   "label": "Moonshot AI",
+   "max_input_per_1m": 3,
+   "min_input_per_1m": 0.2,
+   "models": 11,
+   "provider": "moonshot"
   },
   {
    "category": "first-party",
@@ -247,11 +223,35 @@
   },
   {
    "category": "platform",
+   "label": "SambaNova",
+   "max_input_per_1m": 5,
+   "min_input_per_1m": 0.22,
+   "models": 8,
+   "provider": "sambanova"
+  },
+  {
+   "category": "platform",
    "label": "Cerebras",
-   "max_input_per_1m": 2.25,
+   "max_input_per_1m": 0.99,
    "min_input_per_1m": 0.1,
-   "models": 9,
+   "models": 7,
    "provider": "cerebras"
+  },
+  {
+   "category": "platform",
+   "label": "Groq",
+   "max_input_per_1m": 0.8,
+   "min_input_per_1m": 0.03,
+   "models": 7,
+   "provider": "groq"
+  },
+  {
+   "category": "first-party",
+   "label": "Cohere",
+   "max_input_per_1m": 100,
+   "min_input_per_1m": 0.1,
+   "models": 6,
+   "provider": "cohere"
   },
   {
    "category": "first-party",

@@ -1,7 +1,7 @@
 {
- "count": 2170,
+ "count": 1953,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-22T18:10:18.410595+00:00",
+ "generated_at": "2026-09-23T00:10:56.793167+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -171,100 +171,6 @@
    "provider_slug": "ai21",
    "slug": "ai21-jamba-mini-1-7",
    "url": "/model/ai21-jamba-mini-1-7"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Claude 3 Opus",
-   "output_per_1m": 75,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-3-opus-20240229",
-   "url": "/model/anthropic-claude-3-opus-20240229"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 32000,
-   "name": "Claude 4 Opus",
-   "output_per_1m": 75,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-4-opus-20250514",
-   "url": "/model/anthropic-claude-4-opus-20250514"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 32000,
-   "name": "Claude Opus 4 1",
-   "output_per_1m": 75,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-opus-4-1",
-   "url": "/model/anthropic-claude-opus-4-1"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 32000,
-   "name": "Claude Opus 4 1",
-   "output_per_1m": 75,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-opus-4-1-20250805",
-   "url": "/model/anthropic-claude-opus-4-1-20250805"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 32000,
-   "name": "Claude Opus 4",
-   "output_per_1m": 75,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-opus-4-20250514",
-   "url": "/model/anthropic-claude-opus-4-20250514"
   },
   {
    "cached_input_per_1m": 1,
@@ -540,44 +446,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 64000,
-   "name": "Claude 3 7 Sonnet",
-   "output_per_1m": 15,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-3-7-sonnet-20250219",
-   "url": "/model/anthropic-claude-3-7-sonnet-20250219"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 64000,
-   "name": "Claude 4 Sonnet",
-   "output_per_1m": 15,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-4-sonnet-20250514",
-   "url": "/model/anthropic-claude-4-sonnet-20250514"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 1000000,
    "input_per_1m": 3,
    "kind": "chat",
@@ -626,25 +494,6 @@
    "provider_slug": "anthropic",
    "slug": "anthropic-claude-sonnet-4-6",
    "url": "/model/anthropic-claude-sonnet-4-6"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 64000,
-   "name": "Claude Sonnet 4",
-   "output_per_1m": 15,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-sonnet-4-20250514",
-   "url": "/model/anthropic-claude-sonnet-4-20250514"
   },
   {
    "cached_input_per_1m": 0.2,
@@ -704,24 +553,6 @@
    "url": "/model/anthropic-claude-haiku-4-5"
   },
   {
-   "cached_input_per_1m": 0.03,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Claude 3 Haiku",
-   "output_per_1m": 1.25,
-   "provider": "Anthropic",
-   "provider_slug": "anthropic",
-   "slug": "anthropic-claude-3-haiku-20240307",
-   "url": "/model/anthropic-claude-3-haiku-20240307"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 512,
@@ -734,20 +565,6 @@
    "provider_slug": "cohere",
    "slug": "cohere-embed-multilingual-light-v3-0",
    "url": "/model/cohere-embed-multilingual-light-v3-0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 4096,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Command",
-   "output_per_1m": 2,
-   "provider": "Cohere",
-   "provider_slug": "cohere",
-   "slug": "cohere-command",
-   "url": "/model/cohere-command"
   },
   {
    "cached_input_per_1m": null,
@@ -780,20 +597,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 1024,
-   "input_per_1m": 0.1,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Embed English Light V2.0",
-   "output_per_1m": 0,
-   "provider": "Cohere",
-   "provider_slug": "cohere",
-   "slug": "cohere-embed-english-light-v2-0",
-   "url": "/model/cohere-embed-english-light-v2-0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
    "context_window": 512,
    "input_per_1m": 0.1,
    "kind": "embedding",
@@ -808,20 +611,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
-   "input_per_1m": 0.1,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Embed English V2.0",
-   "output_per_1m": 0,
-   "provider": "Cohere",
-   "provider_slug": "cohere",
-   "slug": "cohere-embed-english-v2-0",
-   "url": "/model/cohere-embed-english-v2-0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
    "context_window": 512,
    "input_per_1m": 0.1,
    "kind": "embedding",
@@ -832,20 +621,6 @@
    "provider_slug": "cohere",
    "slug": "cohere-embed-english-v3-0",
    "url": "/model/cohere-embed-english-v3-0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 768,
-   "input_per_1m": 0.1,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Embed Multilingual V2.0",
-   "output_per_1m": 0,
-   "provider": "Cohere",
-   "provider_slug": "cohere",
-   "slug": "cohere-embed-multilingual-v2-0",
-   "url": "/model/cohere-embed-multilingual-v2-0"
   },
   {
    "cached_input_per_1m": null,
@@ -1527,26 +1302,6 @@
    "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini 3 Pro Preview",
-   "output_per_1m": 12,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-3-pro-preview",
-   "url": "/model/gemini-gemini-3-pro-preview"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 2,
-   "kind": "chat",
    "max_output": 65536,
    "name": "Gemini 3.1 Pro Preview",
    "output_per_1m": 12,
@@ -1727,26 +1482,6 @@
    "url": "/model/gemini-gemini-robotics-er-2-preview"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 65536,
-   "name": "Gemini Robotics Er 1.6 Preview",
-   "output_per_1m": 5,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-robotics-er-1-6-preview",
-   "url": "/model/gemini-gemini-robotics-er-1-6-preview"
-  },
-  {
    "cached_input_per_1m": 0.125,
    "capabilities": {
     "prompt_caching": true
@@ -1897,24 +1632,6 @@
    "url": "/model/gemini-gemini-gemma-2-9b-it"
   },
   {
-   "cached_input_per_1m": 0,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini Robotics Er 1.5 Preview",
-   "output_per_1m": 2.5,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-robotics-er-1-5-preview",
-   "url": "/model/gemini-gemini-robotics-er-1-5-preview"
-  },
-  {
    "cached_input_per_1m": 0.03,
    "capabilities": {
     "audio": true,
@@ -1933,25 +1650,6 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-2-5-flash",
    "url": "/model/gemini-gemini-2-5-flash"
-  },
-  {
-   "cached_input_per_1m": 0.03,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini 2.5 Flash Preview 09 2025",
-   "output_per_1m": 2.5,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-5-flash-preview-09-2025",
-   "url": "/model/gemini-gemini-2-5-flash-preview-09-2025"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -2006,46 +1704,12 @@
    "input_per_1m": 0.25,
    "kind": "chat",
    "max_output": 65536,
-   "name": "Gemini 3.1 Flash Lite Preview",
-   "output_per_1m": 1.5,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-3-1-flash-lite-preview",
-   "url": "/model/gemini-gemini-3-1-flash-lite-preview"
-  },
-  {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 65536,
    "name": "Gemini 3.1 Flash Lite",
    "output_per_1m": 1.5,
    "provider": "Google Gemini",
    "provider_slug": "gemini",
    "slug": "gemini-gemini-3-1-flash-lite",
    "url": "/model/gemini-gemini-3-1-flash-lite"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 0.2,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Gemini Embedding 2 Preview",
-   "output_per_1m": 0,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-embedding-2-preview",
-   "url": "/model/gemini-gemini-embedding-2-preview"
   },
   {
    "cached_input_per_1m": null,
@@ -2079,43 +1743,6 @@
    "url": "/model/gemini-gemini-embedding-001"
   },
   {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Gemini 2.0 Flash",
-   "output_per_1m": 0.4,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-0-flash",
-   "url": "/model/gemini-gemini-2-0-flash"
-  },
-  {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Gemini 2.0 Flash 001",
-   "output_per_1m": 0.4,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-0-flash-001",
-   "url": "/model/gemini-gemini-2-0-flash-001"
-  },
-  {
    "cached_input_per_1m": 0.01,
    "capabilities": {
     "audio": true,
@@ -2134,94 +1761,6 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-2-5-flash-lite",
    "url": "/model/gemini-gemini-2-5-flash-lite"
-  },
-  {
-   "cached_input_per_1m": 0.01,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini 2.5 Flash Lite Preview 09 2025",
-   "output_per_1m": 0.4,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-5-flash-lite-preview-09-2025",
-   "url": "/model/gemini-gemini-2-5-flash-lite-preview-09-2025"
-  },
-  {
-   "cached_input_per_1m": 0.01,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 65535,
-   "name": "Gemini 2.5 Flash Lite Preview 06 17",
-   "output_per_1m": 0.4,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-5-flash-lite-preview-06-17",
-   "url": "/model/gemini-gemini-2-5-flash-lite-preview-06-17"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 0.075,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Gemini 1.5 Flash",
-   "output_per_1m": 0,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-1-5-flash",
-   "url": "/model/gemini-gemini-1-5-flash"
-  },
-  {
-   "cached_input_per_1m": 0.01875,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.075,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Gemini 2.0 Flash Lite",
-   "output_per_1m": 0.3,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-0-flash-lite",
-   "url": "/model/gemini-gemini-2-0-flash-lite"
-  },
-  {
-   "cached_input_per_1m": 0.01875,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.075,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Gemini 2.0 Flash Lite 001",
-   "output_per_1m": 0.3,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-2-0-flash-lite-001",
-   "url": "/model/gemini-gemini-2-0-flash-lite-001"
   },
   {
    "cached_input_per_1m": null,
@@ -2602,152 +2141,6 @@
    "url": "/model/minimax-minimax-m3"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 32000,
-   "input_per_1m": 4,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Mistral Large 2402",
-   "output_per_1m": 12,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-large-2402",
-   "url": "/model/mistral-mistral-large-2402"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Mistral Large 2407",
-   "output_per_1m": 9,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-large-2407",
-   "url": "/model/mistral-mistral-large-2407"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 32000,
-   "input_per_1m": 2.7,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Mistral Medium 2312",
-   "output_per_1m": 8.1,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-medium-2312",
-   "url": "/model/mistral-mistral-medium-2312"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 40000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 40000,
-   "name": "Magistral Medium 2506",
-   "output_per_1m": 5,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-magistral-medium-2506",
-   "url": "/model/mistral-magistral-medium-2506"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 40000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 40000,
-   "name": "Magistral Medium 2509",
-   "output_per_1m": 5,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-magistral-medium-2509",
-   "url": "/model/mistral-magistral-medium-2509"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 40000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 40000,
-   "name": "Magistral Medium 1 2 2509",
-   "output_per_1m": 5,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-magistral-medium-1-2-2509",
-   "url": "/model/mistral-magistral-medium-1-2-2509"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Mistral Large 2411",
-   "output_per_1m": 6,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-large-2411",
-   "url": "/model/mistral-mistral-large-2411"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 65336,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Open Mixtral 8x22b",
-   "output_per_1m": 6,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-open-mixtral-8x22b",
-   "url": "/model/mistral-open-mixtral-8x22b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Pixtral Large 2411",
-   "output_per_1m": 6,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-pixtral-large-2411",
-   "url": "/model/mistral-pixtral-large-2411"
-  },
-  {
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "tools": true,
@@ -2999,70 +2392,6 @@
    "url": "/model/mistral-glm-5-2"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 32000,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Codestral 2405",
-   "output_per_1m": 3,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-codestral-2405",
-   "url": "/model/mistral-codestral-2405"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 32000,
-   "input_per_1m": 0.7,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Open Mixtral 8x7b",
-   "output_per_1m": 0.7,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-open-mixtral-8x7b",
-   "url": "/model/mistral-open-mixtral-8x7b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 40000,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 40000,
-   "name": "Magistral Small 2506",
-   "output_per_1m": 1.5,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-magistral-small-2506",
-   "url": "/model/mistral-magistral-small-2506"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 40000,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 40000,
-   "name": "Magistral Small 1 2 2509",
-   "output_per_1m": 1.5,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-magistral-small-1-2-2509",
-   "url": "/model/mistral-magistral-small-1-2-2509"
-  },
-  {
    "cached_input_per_1m": 0.05,
    "capabilities": {
     "tools": true,
@@ -3114,22 +2443,6 @@
    "url": "/model/mistral-mistral-large-2512"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Devstral Medium 2507",
-   "output_per_1m": 2,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-devstral-medium-2507",
-   "url": "/model/mistral-devstral-medium-2507"
-  },
-  {
    "cached_input_per_1m": 0.04,
    "capabilities": {
     "tools": true
@@ -3160,72 +2473,6 @@
    "provider_slug": "mistral",
    "slug": "mistral-devstral-medium-latest",
    "url": "/model/mistral-devstral-medium-latest"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Devstral 2512",
-   "output_per_1m": 2,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-devstral-2512",
-   "url": "/model/mistral-devstral-2512"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Mistral Medium 2505",
-   "output_per_1m": 2,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-medium-2505",
-   "url": "/model/mistral-mistral-medium-2505"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Mistral Medium 2508",
-   "output_per_1m": 2,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-medium-2508",
-   "url": "/model/mistral-mistral-medium-2508"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Mistral Medium 3 1 2508",
-   "output_per_1m": 2,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-medium-3-1-2508",
-   "url": "/model/mistral-mistral-medium-3-1-2508"
   },
   {
    "cached_input_per_1m": 0.04,
@@ -3290,20 +2537,6 @@
    "url": "/model/mistral-open-mistral-nemo"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 128000,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Open Mistral Nemo 2407",
-   "output_per_1m": 0.3,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-open-mistral-nemo-2407",
-   "url": "/model/mistral-open-mistral-nemo-2407"
-  },
-  {
    "cached_input_per_1m": 0.03,
    "capabilities": {
     "tools": true
@@ -3362,34 +2595,6 @@
    "provider_slug": "mistral",
    "slug": "mistral-mistral-tiny",
    "url": "/model/mistral-mistral-tiny"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 256000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Open Codestral Mamba",
-   "output_per_1m": 0.25,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-open-codestral-mamba",
-   "url": "/model/mistral-open-codestral-mamba"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 32000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Open Mistral 7b",
-   "output_per_1m": 0.25,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-open-mistral-7b",
-   "url": "/model/mistral-open-mistral-7b"
   },
   {
    "cached_input_per_1m": 0.02,
@@ -3558,23 +2763,6 @@
    "url": "/model/mistral-ministral-8b-latest"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Pixtral 12b 2409",
-   "output_per_1m": 0.15,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-pixtral-12b-2409",
-   "url": "/model/mistral-pixtral-12b-2409"
-  },
-  {
    "cached_input_per_1m": 0.015,
    "capabilities": {
     "reasoning": true,
@@ -3611,38 +2799,6 @@
    "url": "/model/mistral-mistral-vibe-cli-fast"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Devstral Small 2505",
-   "output_per_1m": 0.3,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-devstral-small-2505",
-   "url": "/model/mistral-devstral-small-2505"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Devstral Small 2507",
-   "output_per_1m": 0.3,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-devstral-small-2507",
-   "url": "/model/mistral-devstral-small-2507"
-  },
-  {
    "cached_input_per_1m": 0.01,
    "capabilities": {
     "tools": true
@@ -3657,22 +2813,6 @@
    "provider_slug": "mistral",
    "slug": "mistral-devstral-small-latest",
    "url": "/model/mistral-devstral-small-latest"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Labs Devstral Small 2512",
-   "output_per_1m": 0.3,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-labs-devstral-small-2512",
-   "url": "/model/mistral-labs-devstral-small-2512"
   },
   {
    "cached_input_per_1m": 0.01,
@@ -3806,23 +2946,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.06,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Mistral Small 3 2 2506",
-   "output_per_1m": 0.18,
-   "provider": "Mistral AI",
-   "provider_slug": "mistral",
-   "slug": "mistral-mistral-small-3-2-2506",
-   "url": "/model/mistral-mistral-small-3-2-2506"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
     "tools": true
    },
    "context_window": 262144,
@@ -3871,40 +2994,6 @@
    "url": "/model/moonshot-kimi-k3"
   },
   {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Kimi",
-   "output_per_1m": 5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-latest",
-   "url": "/model/moonshot-kimi-latest"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Kimi Latest 128k",
-   "output_per_1m": 5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-latest-128k",
-   "url": "/model/moonshot-kimi-latest-128k"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -3919,22 +3008,6 @@
    "provider_slug": "moonshot",
    "slug": "moonshot-moonshot-v1-128k",
    "url": "/model/moonshot-moonshot-v1-128k"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Moonshot V1 128k 0430",
-   "output_per_1m": 5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-moonshot-v1-128k-0430",
-   "url": "/model/moonshot-moonshot-v1-128k-0430"
   },
   {
    "cached_input_per_1m": null,
@@ -3970,56 +3043,6 @@
    "url": "/model/moonshot-moonshot-v1-auto"
   },
   {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 1.15,
-   "kind": "chat",
-   "max_output": 262144,
-   "name": "Kimi K2 Turbo Preview",
-   "output_per_1m": 8,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-k2-turbo-preview",
-   "url": "/model/moonshot-kimi-k2-turbo-preview"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 1.15,
-   "kind": "chat",
-   "max_output": 262144,
-   "name": "Kimi K2 Thinking Turbo",
-   "output_per_1m": 8,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-k2-thinking-turbo",
-   "url": "/model/moonshot-kimi-k2-thinking-turbo"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 32768,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "Kimi Latest 32k",
-   "output_per_1m": 3,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-latest-32k",
-   "url": "/model/moonshot-kimi-latest-32k"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -4034,22 +3057,6 @@
    "provider_slug": "moonshot",
    "slug": "moonshot-moonshot-v1-32k",
    "url": "/model/moonshot-moonshot-v1-32k"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 32768,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "Moonshot V1 32k 0430",
-   "output_per_1m": 3,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-moonshot-v1-32k-0430",
-   "url": "/model/moonshot-moonshot-v1-32k-0430"
   },
   {
    "cached_input_per_1m": null,
@@ -4106,38 +3113,6 @@
    "url": "/model/moonshot-kimi-k2-6"
   },
   {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Kimi K2 0711 Preview",
-   "output_per_1m": 2.5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-k2-0711-preview",
-   "url": "/model/moonshot-kimi-k2-0711-preview"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 262144,
-   "name": "Kimi K2 0905 Preview",
-   "output_per_1m": 2.5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-k2-0905-preview",
-   "url": "/model/moonshot-kimi-k2-0905-preview"
-  },
-  {
    "cached_input_per_1m": 0.1,
    "capabilities": {
     "reasoning": true,
@@ -4156,56 +3131,6 @@
    "url": "/model/moonshot-kimi-k2-5"
   },
   {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Kimi Thinking Preview",
-   "output_per_1m": 2.5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-thinking-preview",
-   "url": "/model/moonshot-kimi-thinking-preview"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 262144,
-   "name": "Kimi K2 Thinking",
-   "output_per_1m": 2.5,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-k2-thinking",
-   "url": "/model/moonshot-kimi-k2-thinking"
-  },
-  {
-   "cached_input_per_1m": 0.15,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 8192,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Kimi Latest 8k",
-   "output_per_1m": 2,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-kimi-latest-8k",
-   "url": "/model/moonshot-kimi-latest-8k"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -4220,22 +3145,6 @@
    "provider_slug": "moonshot",
    "slug": "moonshot-moonshot-v1-8k",
    "url": "/model/moonshot-moonshot-v1-8k"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 8192,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Moonshot V1 8k 0430",
-   "output_per_1m": 2,
-   "provider": "Moonshot AI",
-   "provider_slug": "moonshot",
-   "slug": "moonshot-moonshot-v1-8k-0430",
-   "url": "/model/moonshot-moonshot-v1-8k-0430"
   },
   {
    "cached_input_per_1m": null,
@@ -4308,20 +3217,6 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-4",
    "url": "/model/openai-gpt-4"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 30,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 4 0314",
-   "output_per_1m": 60,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-4-0314",
-   "url": "/model/openai-gpt-4-0314"
   },
   {
    "cached_input_per_1m": null,
@@ -4651,23 +3546,6 @@
    "input_per_1m": 10,
    "kind": "chat",
    "max_output": 4096,
-   "name": "GPT 4 0125 Preview",
-   "output_per_1m": 30,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-4-0125-preview",
-   "url": "/model/openai-gpt-4-0125-preview"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 4096,
    "name": "GPT 4 1106 Preview",
    "output_per_1m": 30,
    "provider": "OpenAI",
@@ -4712,23 +3590,6 @@
    "url": "/model/openai-gpt-4-turbo-2024-04-09"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 4 Turbo Preview",
-   "output_per_1m": 30,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-4-turbo-preview",
-   "url": "/model/openai-gpt-4-turbo-preview"
-  },
-  {
    "cached_input_per_1m": 1,
    "capabilities": {
     "prompt_caching": true,
@@ -4746,62 +3607,6 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-6-astra",
    "url": "/model/openai-gpt-6-astra"
-  },
-  {
-   "cached_input_per_1m": 2.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "O3 Deep Research",
-   "output_per_1m": 40,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-o3-deep-research",
-   "url": "/model/openai-o3-deep-research"
-  },
-  {
-   "cached_input_per_1m": 2.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "O3 Deep Research",
-   "output_per_1m": 40,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-o3-deep-research-2025-06-26",
-   "url": "/model/openai-o3-deep-research-2025-06-26"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 5,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Chatgpt 4o",
-   "output_per_1m": 15,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-chatgpt-4o-latest",
-   "url": "/model/openai-chatgpt-4o-latest"
   },
   {
    "cached_input_per_1m": null,
@@ -5070,23 +3875,6 @@
    "output_per_1m": 10,
    "provider": "OpenAI",
    "provider_slug": "openai",
-   "slug": "openai-gpt-4o-audio-preview",
-   "url": "/model/openai-gpt-4o-audio-preview"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "audio": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2.5,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 4o Audio Preview",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
    "slug": "openai-gpt-4o-audio-preview-2024-12-17",
    "url": "/model/openai-gpt-4o-audio-preview-2024-12-17"
   },
@@ -5177,24 +3965,6 @@
    "url": "/model/openai-gpt-4o-search-preview"
   },
   {
-   "cached_input_per_1m": 1.25,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2.5,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 4o Search Preview",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-4o-search-preview-2025-03-11",
-   "url": "/model/openai-gpt-4o-search-preview-2025-03-11"
-  },
-  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true,
@@ -5280,6 +4050,25 @@
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": 128000,
+   "name": "GPT 6 Sol",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-sol",
+   "url": "/model/openai-gpt-6-sol"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
    "name": "GPT 5.6 Terra",
    "output_per_1m": 12,
    "provider": "OpenAI",
@@ -5324,44 +4113,6 @@
    "provider_slug": "openai",
    "slug": "openai-o3-2025-04-16",
    "url": "/model/openai-o3-2025-04-16"
-  },
-  {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "O4 Mini Deep Research",
-   "output_per_1m": 8,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-o4-mini-deep-research",
-   "url": "/model/openai-o4-mini-deep-research"
-  },
-  {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "O4 Mini Deep Research",
-   "output_per_1m": 8,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-o4-mini-deep-research-2025-06-26",
-   "url": "/model/openai-o4-mini-deep-research-2025-06-26"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -5409,63 +4160,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 128000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.2 Chat",
-   "output_per_1m": 14,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-2-chat-latest",
-   "url": "/model/openai-gpt-5-2-chat-latest"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.3 Chat",
-   "output_per_1m": 14,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-3-chat-latest",
-   "url": "/model/openai-gpt-5-3-chat-latest"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.2 Codex",
-   "output_per_1m": 14,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-2-codex",
-   "url": "/model/openai-gpt-5-2-codex"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 272000,
    "input_per_1m": 1.75,
    "kind": "chat",
@@ -5476,25 +4170,6 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-5-3-codex",
    "url": "/model/openai-gpt-5-3-codex"
-  },
-  {
-   "cached_input_per_1m": 0.375,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 1.5,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "Codex Mini",
-   "output_per_1m": 6,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-codex-mini-latest",
-   "url": "/model/openai-codex-mini-latest"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -5558,24 +4233,6 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.1 Chat",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-1-chat-latest",
-   "url": "/model/openai-gpt-5-1-chat-latest"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -5607,81 +4264,6 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-5-chat",
    "url": "/model/openai-gpt-5-chat"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5 Chat",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-chat-latest",
-   "url": "/model/openai-gpt-5-chat-latest"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5 Codex",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-codex",
-   "url": "/model/openai-gpt-5-codex"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1 Codex",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-1-codex",
-   "url": "/model/openai-gpt-5-1-codex"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1 Codex Max",
-   "output_per_1m": 10,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-1-codex-max",
-   "url": "/model/openai-gpt-5-1-codex-max"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -5879,23 +4461,6 @@
    "output_per_1m": 2.4,
    "provider": "OpenAI",
    "provider_slug": "openai",
-   "slug": "openai-gpt-audio-mini-2025-10-06",
-   "url": "/model/openai-gpt-audio-mini-2025-10-06"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "audio": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT Audio Mini",
-   "output_per_1m": 2.4,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
    "slug": "openai-gpt-audio-mini-2025-12-15",
    "url": "/model/openai-gpt-audio-mini-2025-12-15"
   },
@@ -5968,25 +4533,6 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-4-1-mini-2025-04-14",
    "url": "/model/openai-gpt-4-1-mini-2025-04-14"
-  },
-  {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1 Codex Mini",
-   "output_per_1m": 2,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-5-1-codex-mini",
-   "url": "/model/openai-gpt-5-1-codex-mini"
   },
   {
    "cached_input_per_1m": 0.025,
@@ -6133,23 +4679,6 @@
    "output_per_1m": 0.6,
    "provider": "OpenAI",
    "provider_slug": "openai",
-   "slug": "openai-gpt-4o-mini-audio-preview",
-   "url": "/model/openai-gpt-4o-mini-audio-preview"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "audio": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 4o Mini Audio Preview",
-   "output_per_1m": 0.6,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
    "slug": "openai-gpt-4o-mini-audio-preview-2024-12-17",
    "url": "/model/openai-gpt-4o-mini-audio-preview-2024-12-17"
   },
@@ -6170,24 +4699,6 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-4o-mini-search-preview",
    "url": "/model/openai-gpt-4o-mini-search-preview"
-  },
-  {
-   "cached_input_per_1m": 0.075,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 4o Mini Search Preview",
-   "output_per_1m": 0.6,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-4o-mini-search-preview-2025-03-11",
-   "url": "/model/openai-gpt-4o-mini-search-preview-2025-03-11"
   },
   {
    "cached_input_per_1m": null,
@@ -6238,6 +4749,25 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-4-1-nano-2025-04-14",
    "url": "/model/openai-gpt-4-1-nano-2025-04-14"
+  },
+  {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Luna",
+   "output_per_1m": 0.5,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-luna",
+   "url": "/model/openai-gpt-6-luna"
   },
   {
    "cached_input_per_1m": null,
@@ -7438,382 +5968,6 @@
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3",
-   "url": "/model/xai-grok-3"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Beta",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-beta",
-   "url": "/model/xai-grok-3-beta"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Fast Beta",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-fast-beta",
-   "url": "/model/xai-grok-3-fast-beta"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Fast",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-fast-latest",
-   "url": "/model/xai-grok-3-fast-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-latest",
-   "url": "/model/xai-grok-3-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Mini",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-mini",
-   "url": "/model/xai-grok-3-mini"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Mini Beta",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-mini-beta",
-   "url": "/model/xai-grok-3-mini-beta"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Mini Fast",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-mini-fast",
-   "url": "/model/xai-grok-3-mini-fast"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Mini Fast Beta",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-mini-fast-beta",
-   "url": "/model/xai-grok-3-mini-fast-beta"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Mini Fast",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-mini-fast-latest",
-   "url": "/model/xai-grok-3-mini-fast-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Grok 3 Mini",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-3-mini-latest",
-   "url": "/model/xai-grok-3-mini-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Grok 4",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4",
-   "url": "/model/xai-grok-4"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 Fast Reasoning",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-fast-reasoning",
-   "url": "/model/xai-grok-4-fast-reasoning"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 Fast Non Reasoning",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-fast-non-reasoning",
-   "url": "/model/xai-grok-4-fast-non-reasoning"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Grok 4 0709",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-0709",
-   "url": "/model/xai-grok-4-0709"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Grok 4",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-latest",
-   "url": "/model/xai-grok-4-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 1 Fast",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-1-fast",
-   "url": "/model/xai-grok-4-1-fast"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 1 Fast Reasoning",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-1-fast-reasoning",
-   "url": "/model/xai-grok-4-1-fast-reasoning"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 1 Fast Reasoning",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-1-fast-reasoning-latest",
-   "url": "/model/xai-grok-4-1-fast-reasoning-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 1 Fast Non Reasoning",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-1-fast-non-reasoning",
-   "url": "/model/xai-grok-4-1-fast-non-reasoning"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 2000000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 2000000,
-   "name": "Grok 4 1 Fast Non Reasoning",
-   "output_per_1m": 2.5,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-4-1-fast-non-reasoning-latest",
-   "url": "/model/xai-grok-4-1-fast-non-reasoning-latest"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -8453,6 +6607,25 @@
    "input_per_1m": 1,
    "kind": "chat",
    "max_output": 256000,
+   "name": "Grok Build 0.1",
+   "output_per_1m": 2,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-build-0-1",
+   "url": "/model/xai-grok-build-0-1"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 256000,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 256000,
    "name": "Grok Code Fast",
    "output_per_1m": 2,
    "provider": "xAI",
@@ -8497,25 +6670,6 @@
    "provider_slug": "xai",
    "slug": "xai-grok-code-fast-1-0825",
    "url": "/model/xai-grok-code-fast-1-0825"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 256000,
-   "name": "Grok Build 0.1",
-   "output_per_1m": 2,
-   "provider": "xAI",
-   "provider_slug": "xai",
-   "slug": "xai-grok-build-0-1",
-   "url": "/model/xai-grok-build-0-1"
   },
   {
    "cached_input_per_1m": 37.5,
@@ -8764,23 +6918,6 @@
    "url": "/model/azure-o1-2024-12-17"
   },
   {
-   "cached_input_per_1m": 8.25,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 16.5,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "O1 Preview",
-   "output_per_1m": 66,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-o1-preview-2024-09-12",
-   "url": "/model/azure-o1-preview-2024-09-12"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -8817,24 +6954,6 @@
    "provider_slug": "azure",
    "slug": "azure-o1",
    "url": "/model/azure-o1"
-  },
-  {
-   "cached_input_per_1m": 7.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "O1 Preview",
-   "output_per_1m": 60,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-o1-preview",
-   "url": "/model/azure-o1-preview"
   },
   {
    "cached_input_per_1m": null,
@@ -9553,44 +7672,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 128000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.2 Chat",
-   "output_per_1m": 14,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-2-chat",
-   "url": "/model/azure-gpt-5-2-chat"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.2 Chat",
-   "output_per_1m": 14,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-2-chat-2025-12-11",
-   "url": "/model/azure-gpt-5-2-chat-2025-12-11"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 272000,
    "input_per_1m": 1.75,
    "kind": "chat",
@@ -9601,25 +7682,6 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-2-codex",
    "url": "/model/azure-gpt-5-2-codex"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.3 Chat",
-   "output_per_1m": 14,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-3-chat",
-   "url": "/model/azure-gpt-5-3-chat"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -9705,25 +7767,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 128000,
-   "input_per_1m": 1.375,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 5.1 Chat",
-   "output_per_1m": 11,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-1-chat",
-   "url": "/model/azure-gpt-5-1-chat"
-  },
-  {
-   "cached_input_per_1m": 0.1375,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 272000,
    "input_per_1m": 1.375,
    "kind": "chat",
@@ -9753,24 +7796,6 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-1-2025-11-13",
    "url": "/model/azure-gpt-5-1-2025-11-13"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5.1 Chat",
-   "output_per_1m": 10,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-1-chat-2025-11-13",
-   "url": "/model/azure-gpt-5-1-chat-2025-11-13"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -9809,44 +7834,6 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5",
    "url": "/model/azure-gpt-5"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5 Chat",
-   "output_per_1m": 10,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-chat",
-   "url": "/model/azure-gpt-5-chat"
-  },
-  {
-   "cached_input_per_1m": 0.125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 1.25,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "GPT 5 Chat",
-   "output_per_1m": 10,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-5-chat-latest",
-   "url": "/model/azure-gpt-5-chat-latest"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -9994,22 +7981,6 @@
    "url": "/model/azure-o4-mini-2025-04-16"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 16384,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 35 Turbo 1106",
-   "output_per_1m": 2,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-35-turbo-1106",
-   "url": "/model/azure-gpt-35-turbo-1106"
-  },
-  {
    "cached_input_per_1m": 0.075,
    "capabilities": {
     "prompt_caching": true,
@@ -10100,22 +8071,6 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 16384,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 3.5 Turbo 0125",
-   "output_per_1m": 1.5,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-3-5-turbo-0125",
-   "url": "/model/azure-gpt-3-5-turbo-0125"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
    "context_window": 4097,
    "input_per_1m": 0.5,
    "kind": "chat",
@@ -10126,22 +8081,6 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-35-turbo",
    "url": "/model/azure-gpt-35-turbo"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 16384,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 35 Turbo 0125",
-   "output_per_1m": 1.5,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-35-turbo-0125",
-   "url": "/model/azure-gpt-35-turbo-0125"
   },
   {
    "cached_input_per_1m": 0.1,
@@ -10497,9 +8436,66 @@
    "url": "/model/azure-text-embedding-3-small"
   },
   {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "Kimi K3",
+   "output_per_1m": 15,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-kimi-k3",
+   "url": "/model/baseten-kimi-k3"
+  },
+  {
+   "cached_input_per_1m": 0.21,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.1,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "GLM 5.2 Fast",
+   "output_per_1m": 6.6,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-glm-5-2-fast",
+   "url": "/model/baseten-glm-5-2-fast"
+  },
+  {
+   "cached_input_per_1m": 0.145,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.74,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "DeepSeek V4 Pro",
+   "output_per_1m": 3.48,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-deepseek-v4-pro",
+   "url": "/model/baseten-deepseek-v4-pro"
+  },
+  {
    "cached_input_per_1m": 0.14,
    "capabilities": {
     "prompt_caching": true,
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -10513,6 +8509,62 @@
    "provider_slug": "baseten",
    "slug": "baseten-glm-5-3",
    "url": "/model/baseten-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": 0.14,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "GLM 5.2",
+   "output_per_1m": 4.4,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-glm-5-2",
+   "url": "/model/baseten-glm-5-2"
+  },
+  {
+   "cached_input_per_1m": 0.132,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.32,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "DeepSeek V4 Pro 0813",
+   "output_per_1m": 3.96,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-deepseek-v4-pro-0813",
+   "url": "/model/baseten-deepseek-v4-pro-0813"
+  },
+  {
+   "cached_input_per_1m": 0.17,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Inkling",
+   "output_per_1m": 4.05,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-inkling",
+   "url": "/model/baseten-inkling"
   },
   {
    "cached_input_per_1m": null,
@@ -10529,6 +8581,44 @@
    "url": "/model/baseten-glm-5"
   },
   {
+   "cached_input_per_1m": 0.16,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262000,
+   "input_per_1m": 0.95,
+   "kind": "chat",
+   "max_output": 262000,
+   "name": "Kimi K2.6",
+   "output_per_1m": 4,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-kimi-k2-6",
+   "url": "/model/baseten-kimi-k2-6"
+  },
+  {
+   "cached_input_per_1m": 0.16,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262000,
+   "input_per_1m": 0.95,
+   "kind": "chat",
+   "max_output": 262000,
+   "name": "Kimi K2.7 Code",
+   "output_per_1m": 4,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-kimi-k2-7-code",
+   "url": "/model/baseten-kimi-k2-7-code"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
@@ -10543,12 +8633,15 @@
    "url": "/model/baseten-deepseek-v3-0324"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
+   "cached_input_per_1m": 0.12,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true
+   },
+   "context_window": 200000,
    "input_per_1m": 0.6,
    "kind": "chat",
-   "max_output": null,
+   "max_output": 200000,
    "name": "GLM 4.7",
    "output_per_1m": 2.2,
    "provider": "Baseten",
@@ -10613,6 +8706,24 @@
    "url": "/model/baseten-kimi-k2-instruct-0905"
   },
   {
+   "cached_input_per_1m": 0.12,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 202800,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": 202800,
+   "name": "NVIDIA Nemotron 3 Ultra 550B A55B",
+   "output_per_1m": 2.4,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-nvidia-nemotron-3-ultra-550b-a55b",
+   "url": "/model/baseten-nvidia-nemotron-3-ultra-550b-a55b"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
@@ -10625,6 +8736,25 @@
    "provider_slug": "baseten",
    "slug": "baseten-deepseek-v3-1",
    "url": "/model/baseten-deepseek-v3-1"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.5,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Inkling Small",
+   "output_per_1m": 1.2,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-inkling-small",
+   "url": "/model/baseten-inkling-small"
   },
   {
    "cached_input_per_1m": null,
@@ -10655,12 +8785,72 @@
    "url": "/model/baseten-nemotron-120b-a12b"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
+   "cached_input_per_1m": 0.007,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "DeepSeek V4.1 Flash",
+   "output_per_1m": 1.2,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-deepseek-v4-1-flash",
+   "url": "/model/baseten-deepseek-v4-1-flash"
+  },
+  {
+   "cached_input_per_1m": 0.03,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "GLM 5.3 Flash",
+   "output_per_1m": 0.5,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-glm-5-3-flash",
+   "url": "/model/baseten-glm-5-3-flash"
+  },
+  {
+   "cached_input_per_1m": 0.028,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.13,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "DeepSeek V4 Flash 0731",
+   "output_per_1m": 0.26,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-deepseek-v4-flash-0731",
+   "url": "/model/baseten-deepseek-v4-flash-0731"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 128072,
    "input_per_1m": 0.1,
    "kind": "chat",
-   "max_output": null,
+   "max_output": 128072,
    "name": "GPT Oss 120b",
    "output_per_1m": 0.5,
    "provider": "Baseten",
@@ -10881,6 +9071,25 @@
    "url": "/model/bedrock-us-meta-llama3-1-405b-instruct-v1:0"
   },
   {
+   "cached_input_per_1m": 0.24,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 4.8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Opus 5 5",
+   "output_per_1m": 24,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-opus-5-5",
+   "url": "/model/bedrock-anthropic-claude-opus-5-5"
+  },
+  {
    "cached_input_per_1m": 0.36,
    "capabilities": {
     "prompt_caching": true,
@@ -10936,25 +9145,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-claude-sonnet-4-5-20250929-v1:0",
    "url": "/model/bedrock-claude-sonnet-4-5-20250929-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.36,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3.6,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Anthropic.claude 3 7 Sonnet 20250219 V1:0",
-   "output_per_1m": 18,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-anthropic-claude-3-7-sonnet-20250219-v1:0",
-   "url": "/model/bedrock-anthropic-claude-3-7-sonnet-20250219-v1:0"
   },
   {
    "cached_input_per_1m": null,
@@ -11015,89 +9205,6 @@
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 4096,
-   "name": "Anthropic.claude 3 Sonnet 20240229 V1:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-anthropic-claude-3-sonnet-20240229-v1:0",
-   "url": "/model/bedrock-anthropic-claude-3-sonnet-20240229-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Apac.anthropic.claude 3 5 Sonnet 20240620 V1:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-apac-anthropic-claude-3-5-sonnet-20240620-v1:0",
-   "url": "/model/bedrock-apac-anthropic-claude-3-5-sonnet-20240620-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Apac.anthropic.claude 3 5 Sonnet 20241022 V2:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-apac-anthropic-claude-3-5-sonnet-20241022-v2:0",
-   "url": "/model/bedrock-apac-anthropic-claude-3-5-sonnet-20241022-v2:0"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Apac.anthropic.claude 3 Sonnet 20240229 V1:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-apac-anthropic-claude-3-sonnet-20240229-v1:0",
-   "url": "/model/bedrock-apac-anthropic-claude-3-sonnet-20240229-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 128000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Cohere.command R Plus V1:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-cohere-command-r-plus-v1:0",
-   "url": "/model/bedrock-cohere-command-r-plus-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 4096,
    "name": "Eu.anthropic.claude 3 5 Sonnet 20240620 V1:0",
    "output_per_1m": 15,
    "provider": "Amazon Bedrock",
@@ -11141,23 +9248,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-eu-anthropic-claude-3-7-sonnet-20250219-v1:0",
    "url": "/model/bedrock-eu-anthropic-claude-3-7-sonnet-20250219-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Eu.anthropic.claude 3 Sonnet 20240229 V1:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-eu-anthropic-claude-3-sonnet-20240229-v1:0",
-   "url": "/model/bedrock-eu-anthropic-claude-3-sonnet-20240229-v1:0"
   },
   {
    "cached_input_per_1m": null,
@@ -11209,23 +9299,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-us-anthropic-claude-3-5-sonnet-20241022-v2:0",
    "url": "/model/bedrock-us-anthropic-claude-3-5-sonnet-20241022-v2:0"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Us.anthropic.claude 3 Sonnet 20240229 V1:0",
-   "output_per_1m": 15,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-us-anthropic-claude-3-sonnet-20240229-v1:0",
-   "url": "/model/bedrock-us-anthropic-claude-3-sonnet-20240229-v1:0"
   },
   {
    "cached_input_per_1m": 0.24,
@@ -11642,20 +9715,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 128000,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Cohere.command R V1:0",
-   "output_per_1m": 1.5,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-cohere-command-r-v1:0",
-   "url": "/model/bedrock-cohere-command-r-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -11764,74 +9823,6 @@
    "url": "/model/bedrock-cohere-command-light-text-v14"
   },
   {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
-   "output_per_1m": 1.25,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
-   "url": "/model/bedrock-anthropic-claude-3-haiku-20240307-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Apac.anthropic.claude 3 Haiku 20240307 V1:0",
-   "output_per_1m": 1.25,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-apac-anthropic-claude-3-haiku-20240307-v1:0",
-   "url": "/model/bedrock-apac-anthropic-claude-3-haiku-20240307-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Eu.anthropic.claude 3 Haiku 20240307 V1:0",
-   "output_per_1m": 1.25,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-eu-anthropic-claude-3-haiku-20240307-v1:0",
-   "url": "/model/bedrock-eu-anthropic-claude-3-haiku-20240307-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.025,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 0.25,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Us.anthropic.claude 3 Haiku 20240307 V1:0",
-   "output_per_1m": 1.25,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-us-anthropic-claude-3-haiku-20240307-v1:0",
-   "url": "/model/bedrock-us-anthropic-claude-3-haiku-20240307-v1:0"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "vision": true
@@ -11846,6 +9837,23 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-nvidia-nemotron-nano-12b-v2",
    "url": "/model/bedrock-nvidia-nemotron-nano-12b-v2"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 256000,
+   "input_per_1m": 0.23,
+   "kind": "chat",
+   "max_output": 32000,
+   "name": "Nvidia.nemotron Super 3 120b",
+   "output_per_1m": 1.01,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-nvidia-nemotron-super-3-120b",
+   "url": "/model/bedrock-nvidia-nemotron-super-3-120b"
   },
   {
    "cached_input_per_1m": null,
@@ -11938,23 +9946,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-qwen-qwen3-next-80b-a3b",
    "url": "/model/bedrock-qwen-qwen3-next-80b-a3b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 0.18,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "Nvidia.nemotron Super 3 120b",
-   "output_per_1m": 0.78,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-nvidia-nemotron-super-3-120b",
-   "url": "/model/bedrock-nvidia-nemotron-super-3-120b"
   },
   {
    "cached_input_per_1m": null,
@@ -12420,40 +10411,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-anthropic-claude-mythos-preview",
    "url": "/model/bedrock-anthropic-claude-mythos-preview"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2.25,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Zai Glm 4.6",
-   "output_per_1m": 2.75,
-   "provider": "Cerebras",
-   "provider_slug": "cerebras",
-   "slug": "cerebras-zai-glm-4-6",
-   "url": "/model/cerebras-zai-glm-4-6"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2.25,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Zai Glm 4.7",
-   "output_per_1m": 2.75,
-   "provider": "Cerebras",
-   "provider_slug": "cerebras",
-   "slug": "cerebras-zai-glm-4-7",
-   "url": "/model/cerebras-zai-glm-4-7"
   },
   {
    "cached_input_per_1m": null,
@@ -13239,20 +11196,6 @@
    "url": "/model/databricks-databricks-gpt-5-5"
   },
   {
-   "cached_input_per_1m": 5.00003,
-   "capabilities": {},
-   "context_window": 128000,
-   "input_per_1m": 5.00003,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks Meta Llama 3 1 405b Instruct",
-   "output_per_1m": 15.00002,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-meta-llama-3-1-405b-instruct",
-   "url": "/model/databricks-databricks-meta-llama-3-1-405b-instruct"
-  },
-  {
    "cached_input_per_1m": 0.39998,
    "capabilities": {
     "prompt_caching": true,
@@ -13270,24 +11213,6 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gpt-5-6-sol",
    "url": "/model/databricks-databricks-gpt-5-6-sol"
-  },
-  {
-   "cached_input_per_1m": 0.30002,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 2.99999,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks Claude 3 7 Sonnet",
-   "output_per_1m": 15.00002,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-claude-3-7-sonnet",
-   "url": "/model/databricks-databricks-claude-3-7-sonnet"
   },
   {
    "cached_input_per_1m": 0.30002,
@@ -13550,22 +11475,6 @@
   {
    "cached_input_per_1m": 0.175,
    "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.75,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks GPT 5 2 Codex",
-   "output_per_1m": 14,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-gpt-5-2-codex",
-   "url": "/model/databricks-databricks-gpt-5-2-codex"
-  },
-  {
-   "cached_input_per_1m": 0.175,
-   "capabilities": {
     "prompt_caching": true,
     "tools": true
    },
@@ -13689,22 +11598,6 @@
    "url": "/model/databricks-databricks-gpt-5-1"
   },
   {
-   "cached_input_per_1m": 0.12502,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 1.24999,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks GPT 5 1 Codex Max",
-   "output_per_1m": 9.99999,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-gpt-5-1-codex-max",
-   "url": "/model/databricks-databricks-gpt-5-1-codex-max"
-  },
-  {
    "cached_input_per_1m": 0.10003,
    "capabilities": {
     "prompt_caching": true,
@@ -13761,34 +11654,6 @@
    "url": "/model/databricks-databricks-inkling"
   },
   {
-   "cached_input_per_1m": 1.00002,
-   "capabilities": {},
-   "context_window": 128000,
-   "input_per_1m": 1.00002,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks Meta Llama 3 70b Instruct",
-   "output_per_1m": 2.99999,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-meta-llama-3-70b-instruct",
-   "url": "/model/databricks-databricks-meta-llama-3-70b-instruct"
-  },
-  {
-   "cached_input_per_1m": 1.00002,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 1.00002,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Databricks Mpt 30b Instruct",
-   "output_per_1m": 1.00002,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-mpt-30b-instruct",
-   "url": "/model/databricks-databricks-mpt-30b-instruct"
-  },
-  {
    "cached_input_per_1m": 0.07497,
    "capabilities": {
     "prompt_caching": true,
@@ -13829,20 +11694,6 @@
   {
    "cached_input_per_1m": 0.50001,
    "capabilities": {},
-   "context_window": 4096,
-   "input_per_1m": 0.50001,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Databricks Llama 2 70b Chat",
-   "output_per_1m": 1.50003,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-llama-2-70b-chat",
-   "url": "/model/databricks-databricks-llama-2-70b-chat"
-  },
-  {
-   "cached_input_per_1m": 0.50001,
-   "capabilities": {},
    "context_window": 128000,
    "input_per_1m": 0.50001,
    "kind": "chat",
@@ -13867,34 +11718,6 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-meta-llama-3-3-70b-instruct",
    "url": "/model/databricks-databricks-meta-llama-3-3-70b-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.50001,
-   "capabilities": {},
-   "context_window": 4096,
-   "input_per_1m": 0.50001,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Databricks Mixtral 8x7b Instruct",
-   "output_per_1m": 1.00002,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-mixtral-8x7b-instruct",
-   "url": "/model/databricks-databricks-mixtral-8x7b-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.50001,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 0.50001,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Databricks Mpt 7b Instruct",
-   "output_per_1m": 0,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-mpt-7b-instruct",
-   "url": "/model/databricks-databricks-mpt-7b-instruct"
   },
   {
    "cached_input_per_1m": 0.03752,
@@ -13953,22 +11776,6 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gemini-2-5-flash",
    "url": "/model/databricks-databricks-gemini-2-5-flash"
-  },
-  {
-   "cached_input_per_1m": 0.02499,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 272000,
-   "input_per_1m": 0.24997,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks GPT 5 1 Codex Mini",
-   "output_per_1m": 1.99997,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-gpt-5-1-codex-mini",
-   "url": "/model/databricks-databricks-gpt-5-1-codex-mini"
   },
   {
    "cached_input_per_1m": 0.02499,
@@ -15861,22 +13668,6 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 1000000,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 1000000,
-   "name": "Gemini 2.0 Flash 001",
-   "output_per_1m": 0.4,
-   "provider": "DeepInfra",
-   "provider_slug": "deepinfra",
-   "slug": "deepinfra-gemini-2-0-flash-001",
-   "url": "/model/deepinfra-gemini-2-0-flash-001"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
    "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
@@ -16796,23 +14587,6 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-coder-v2-instruct",
    "url": "/model/fireworks-ai-deepseek-coder-v2-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.6,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 1.2,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.2,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-deepseek-v4-pro",
-   "url": "/model/fireworks-ai-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": null,
@@ -18329,23 +16103,6 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-minimax-m2p1",
    "url": "/model/fireworks-ai-minimax-m2p1"
-  },
-  {
-   "cached_input_per_1m": 0.06,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 196608,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 196608,
-   "name": "Minimax M2p7",
-   "output_per_1m": 1.2,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-minimax-m2p7",
-   "url": "/model/fireworks-ai-minimax-m2p7"
   },
   {
    "cached_input_per_1m": 0.06,
@@ -20456,22 +18213,6 @@
    "url": "/model/fireworks-ai-qwen3-embedding-4b"
   },
   {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Kimi K2 Instruct 0905",
-   "output_per_1m": 3,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-kimi-k2-instruct-0905",
-   "url": "/model/groq-kimi-k2-instruct-0905"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -20491,85 +18232,17 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Qwen3.6 27b",
-   "output_per_1m": 3,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-qwen3-6-27b",
-   "url": "/model/groq-qwen3-6-27b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.59,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "Llama 3.3 70b Versatile",
-   "output_per_1m": 0.79,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-llama-3-3-70b-versatile",
-   "url": "/model/groq-llama-3-3-70b-versatile"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131000,
-   "input_per_1m": 0.29,
-   "kind": "chat",
-   "max_output": 131000,
-   "name": "Qwen3 32b",
-   "output_per_1m": 0.59,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-qwen3-32b",
-   "url": "/model/groq-qwen3-32b"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
    "input_per_1m": 0.2,
    "kind": "chat",
-   "max_output": 8192,
-   "name": "Llama Guard 4 12b",
+   "max_output": null,
+   "name": "Llama Guard 3 8b",
    "output_per_1m": 0.2,
    "provider": "Groq",
    "provider_slug": "groq",
-   "slug": "groq-llama-guard-4-12b",
-   "url": "/model/groq-llama-guard-4-12b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Llama 4 Maverick 17b 128e Instruct",
-   "output_per_1m": 0.6,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-llama-4-maverick-17b-128e-instruct",
-   "url": "/model/groq-llama-4-maverick-17b-128e-instruct"
+   "slug": "groq-llama-guard-3-8b",
+   "url": "/model/groq-llama-guard-3-8b"
   },
   {
    "cached_input_per_1m": 0.075,
@@ -20587,23 +18260,6 @@
    "provider_slug": "groq",
    "slug": "groq-gpt-oss-120b",
    "url": "/model/groq-gpt-oss-120b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.11,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Llama 4 Scout 17b 16e Instruct",
-   "output_per_1m": 0.34,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-llama-4-scout-17b-16e-instruct",
-   "url": "/model/groq-llama-4-scout-17b-16e-instruct"
   },
   {
    "cached_input_per_1m": 0.0375,
@@ -20638,38 +18294,6 @@
    "provider_slug": "groq",
    "slug": "groq-gpt-oss-safeguard-20b",
    "url": "/model/groq-gpt-oss-safeguard-20b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.05,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Llama 3.1 8b Instant",
-   "output_per_1m": 0.08,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-llama-3-1-8b-instant",
-   "url": "/model/groq-llama-3-1-8b-instant"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 8192,
-   "input_per_1m": 0.05,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Gemma 7b It",
-   "output_per_1m": 0.08,
-   "provider": "Groq",
-   "provider_slug": "groq",
-   "slug": "groq-gemma-7b-it",
-   "url": "/model/groq-gemma-7b-it"
   },
   {
    "cached_input_per_1m": null,
@@ -24876,25 +22500,6 @@
    "input_per_1m": 15,
    "kind": "chat",
    "max_output": 32000,
-   "name": "Claude Opus 4",
-   "output_per_1m": 75,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-claude-opus-4",
-   "url": "/model/openrouter-claude-opus-4"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 32000,
    "name": "Claude Opus 4.1",
    "output_per_1m": 75,
    "provider": "OpenRouter",
@@ -25374,25 +22979,6 @@
    "input_per_1m": 5,
    "kind": "chat",
    "max_output": 128000,
-   "name": "Claude Opus",
-   "output_per_1m": 25,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-claude-opus-latest",
-   "url": "/model/openrouter-claude-opus-latest"
-  },
-  {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 5,
-   "kind": "chat",
-   "max_output": 128000,
    "name": "Claude Fable 5:batch",
    "output_per_1m": 25,
    "provider": "OpenRouter",
@@ -25531,6 +23117,44 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-mimo-v2-6-pro-ultraspeed",
    "url": "/model/openrouter-mimo-v2-6-pro-ultraspeed"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Opus 5.5",
+   "output_per_1m": 20,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-claude-opus-5-5",
+   "url": "/model/openrouter-claude-opus-5-5"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Opus",
+   "output_per_1m": 20,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-claude-opus-latest",
+   "url": "/model/openrouter-claude-opus-latest"
   },
   {
    "cached_input_per_1m": null,
@@ -25675,25 +23299,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-kimi-k3",
    "url": "/model/openrouter-kimi-k3"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Kimi",
-   "output_per_1m": 15,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-kimi-latest",
-   "url": "/model/openrouter-kimi-latest"
   },
   {
    "cached_input_per_1m": 0.75,
@@ -26519,6 +24124,44 @@
    "url": "/model/openrouter-gpt-terra-latest"
   },
   {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Sol",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-sol",
+   "url": "/model/openrouter-gpt-6-sol"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Sol Pro",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-sol-pro",
+   "url": "/model/openrouter-gpt-6-sol-pro"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true
@@ -26550,24 +24193,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-sonar-reasoning-pro",
    "url": "/model/openrouter-sonar-reasoning-pro"
-  },
-  {
-   "cached_input_per_1m": 0.25,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1010000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 909000,
-   "name": "Qwen3.8 2.4t A95b:batch",
-   "output_per_1m": 6,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-8-2-4t-a95b:batch",
-   "url": "/model/openrouter-qwen3-8-2-4t-a95b:batch"
   },
   {
    "cached_input_per_1m": 0.25,
@@ -26792,6 +24417,25 @@
    "url": "/model/openrouter-claude-sonnet-4-6:batch"
   },
   {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4989,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Kimi",
+   "output_per_1m": 10.758,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-kimi-latest",
+   "url": "/model/openrouter-kimi-latest"
+  },
+  {
    "cached_input_per_1m": 0.295,
    "capabilities": {
     "prompt_caching": true,
@@ -26826,24 +24470,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-deepseek-v4-pro-0813",
    "url": "/model/openrouter-deepseek-v4-pro-0813"
-  },
-  {
-   "cached_input_per_1m": 0.044,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 1.32,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek Pro",
-   "output_per_1m": 3.96,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-pro-latest",
-   "url": "/model/openrouter-deepseek-pro-latest"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -27601,26 +25227,6 @@
    "url": "/model/openrouter-inkling"
   },
   {
-   "cached_input_per_1m": 0.17,
-   "capabilities": {
-    "audio": true,
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 524288,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": 471859,
-   "name": "Inkling:batch",
-   "output_per_1m": 4.05,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-inkling:batch",
-   "url": "/model/openrouter-inkling:batch"
-  },
-  {
    "cached_input_per_1m": 0.16,
    "capabilities": {
     "prompt_caching": true,
@@ -27696,24 +25302,6 @@
    "url": "/model/openrouter-sakana-namazu"
   },
   {
-   "cached_input_per_1m": 0.077589,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.931074,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.862148,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro",
-   "url": "/model/openrouter-deepseek-v4-pro"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 262144,
@@ -27726,6 +25314,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-morph-v3-large",
    "url": "/model/openrouter-morph-v3-large"
+  },
+  {
+   "cached_input_per_1m": 0.074356,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.892272,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.784544,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": 0.0875,
@@ -28198,24 +25804,6 @@
    "url": "/model/openrouter-hermes-3-llama-3-1-70b"
   },
   {
-   "cached_input_per_1m": 0.07,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.7,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Glm 5.2:batch",
-   "output_per_1m": 2.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-2:batch",
-   "url": "/model/openrouter-glm-5-2:batch"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 32768,
@@ -28228,24 +25816,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen-2-5-coder-32b-instruct",
    "url": "/model/openrouter-qwen-2-5-coder-32b-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.022,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.66,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Pro 0813:batch",
-   "output_per_1m": 1.98,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro-0813:batch",
-   "url": "/model/openrouter-deepseek-v4-pro-0813:batch"
   },
   {
    "cached_input_per_1m": 0.12142,
@@ -28585,24 +26155,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-kimi-k2",
    "url": "/model/openrouter-kimi-k2"
-  },
-  {
-   "cached_input_per_1m": 0.055,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.55,
-   "kind": "chat",
-   "max_output": 209715,
-   "name": "Mistral Large 2512",
-   "output_per_1m": 1.65,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-mistral-large-2512",
-   "url": "/model/openrouter-mistral-large-2512"
   },
   {
    "cached_input_per_1m": 0.225,
@@ -29154,6 +26706,24 @@
    "url": "/model/openrouter-unslopnemo-12b"
   },
   {
+   "cached_input_per_1m": 0.012726,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.39996,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek Pro",
+   "output_per_1m": 1.19988,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-pro-latest",
+   "url": "/model/openrouter-deepseek-pro-latest"
+  },
+  {
    "cached_input_per_1m": 0.0375,
    "capabilities": {
     "audio": true,
@@ -29352,6 +26922,25 @@
    "url": "/model/openrouter-qwen3-7-plus"
   },
   {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.32,
+   "kind": "chat",
+   "max_output": 262140,
+   "name": "Qwen3.6 27b",
+   "output_per_1m": 2.7,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-6-27b",
+   "url": "/model/openrouter-qwen3-6-27b"
+  },
+  {
    "cached_input_per_1m": 0.15625,
    "capabilities": {
     "prompt_caching": true,
@@ -29502,25 +27091,6 @@
    "url": "/model/openrouter-qwen3-5-plus-20260420"
   },
   {
-   "cached_input_per_1m": 0.03,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 65536,
-   "name": "Qwen3.6 27b",
-   "output_per_1m": 2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-6-27b",
-   "url": "/model/openrouter-qwen3-6-27b"
-  },
-  {
    "cached_input_per_1m": 0.06,
    "capabilities": {
     "prompt_caching": true,
@@ -29608,25 +27178,6 @@
    "url": "/model/openrouter-codestral-2508"
   },
   {
-   "cached_input_per_1m": 0.006,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek Flash",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-flash-latest",
-   "url": "/model/openrouter-deepseek-flash-latest"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -29643,23 +27194,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-nova-2-lite-v1",
    "url": "/model/openrouter-nova-2-lite-v1"
-  },
-  {
-   "cached_input_per_1m": 0.06,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 144000,
-   "name": "Kat Coder Pro V2",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-kat-coder-pro-v2",
-   "url": "/model/openrouter-kat-coder-pro-v2"
   },
   {
    "cached_input_per_1m": 0.006,
@@ -29697,25 +27231,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-muse-glimmer-30b",
    "url": "/model/openrouter-muse-glimmer-30b"
-  },
-  {
-   "cached_input_per_1m": 0.06,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 524288,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 471859,
-   "name": "Minimax M3:batch",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-minimax-m3:batch",
-   "url": "/model/openrouter-minimax-m3:batch"
   },
   {
    "cached_input_per_1m": 0.15,
@@ -30393,25 +27908,6 @@
    "url": "/model/openrouter-minimax-01"
   },
   {
-   "cached_input_per_1m": 0.02,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1050000,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT Luna",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-gpt-luna-latest",
-   "url": "/model/openrouter-gpt-luna-latest"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 128000,
@@ -30603,43 +28099,6 @@
    "url": "/model/openrouter-hy3-preview"
   },
   {
-   "cached_input_per_1m": 0.02,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.175,
-   "kind": "chat",
-   "max_output": 117964,
-   "name": "Muse Glimmer 30b:batch",
-   "output_per_1m": 0.75,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-muse-glimmer-30b:batch",
-   "url": "/model/openrouter-muse-glimmer-30b:batch"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.17,
-   "kind": "chat",
-   "max_output": 235929,
-   "name": "Qwen3.5 9b:batch",
-   "output_per_1m": 0.25,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-5-9b:batch",
-   "url": "/model/openrouter-qwen3-5-9b:batch"
-  },
-  {
    "cached_input_per_1m": 0.015,
    "capabilities": {
     "prompt_caching": true,
@@ -30805,25 +28264,6 @@
    "url": "/model/openrouter-gpt-4o-mini-2024-07-18"
   },
   {
-   "cached_input_per_1m": 0.05,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Glm Flash",
-   "output_per_1m": 0.5,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-flash-latest",
-   "url": "/model/openrouter-glm-flash-latest"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -30895,23 +28335,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-codestral-2508:batch",
    "url": "/model/openrouter-codestral-2508:batch"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 117964,
-   "name": "GPT Oss 120b:batch",
-   "output_per_1m": 0.6,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-gpt-oss-120b:batch",
-   "url": "/model/openrouter-gpt-oss-120b:batch"
   },
   {
    "cached_input_per_1m": null,
@@ -31162,6 +28585,25 @@
    "url": "/model/openrouter-qwen3-14b"
   },
   {
+   "cached_input_per_1m": 0.0036,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.12,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek Flash",
+   "output_per_1m": 0.48,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-flash-latest",
+   "url": "/model/openrouter-deepseek-flash-latest"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true,
@@ -31196,43 +28638,6 @@
    "url": "/model/openrouter-qwen3-8b"
   },
   {
-   "cached_input_per_1m": 0.0035,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.11,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Flash 0731:batch",
-   "output_per_1m": 0.33,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-0731:batch",
-   "url": "/model/openrouter-deepseek-v4-flash-0731:batch"
-  },
-  {
-   "cached_input_per_1m": 0.0035,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.11,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Flash Vision Exp:batch",
-   "output_per_1m": 0.33,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-vision-exp:batch",
-   "url": "/model/openrouter-deepseek-v4-flash-vision-exp:batch"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true,
@@ -31265,23 +28670,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-ui-tars-1-5-7b",
    "url": "/model/openrouter-ui-tars-1-5-7b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Gemini 2.0 Flash 001",
-   "output_per_1m": 0.4,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-gemini-2-0-flash-001",
-   "url": "/model/openrouter-gemini-2-0-flash-001"
   },
   {
    "cached_input_per_1m": 0.01,
@@ -31443,6 +28831,25 @@
    "url": "/model/openrouter-qwen-2-5-7b-instruct"
   },
   {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT Luna",
+   "output_per_1m": 0.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-luna-latest",
+   "url": "/model/openrouter-gpt-luna-latest"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -31556,6 +28963,44 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gpt-5-6-luna:batch",
    "url": "/model/openrouter-gpt-5-6-luna:batch"
+  },
+  {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Luna",
+   "output_per_1m": 0.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-luna",
+   "url": "/model/openrouter-gpt-6-luna"
+  },
+  {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Luna Pro",
+   "output_per_1m": 0.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-luna-pro",
+   "url": "/model/openrouter-gpt-6-luna-pro"
   },
   {
    "cached_input_per_1m": null,
@@ -31814,6 +29259,25 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gpt-oss-safeguard-20b",
    "url": "/model/openrouter-gpt-oss-safeguard-20b"
+  },
+  {
+   "cached_input_per_1m": 0.015,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.075,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Glm Flash",
+   "output_per_1m": 0.25,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-flash-latest",
+   "url": "/model/openrouter-glm-flash-latest"
   },
   {
    "cached_input_per_1m": null,
@@ -32381,24 +29845,6 @@
    "url": "/model/openrouter-deepseek-v4-flash-0731"
   },
   {
-   "cached_input_per_1m": 0.016,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.04,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Flash",
-   "output_per_1m": 0.64,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-latest",
-   "url": "/model/openrouter-deepseek-v4-flash-latest"
-  },
-  {
    "cached_input_per_1m": 0.004,
    "capabilities": {
     "prompt_caching": true,
@@ -32478,6 +29924,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-7-flash",
    "url": "/model/openrouter-qwen3-7-flash"
+  },
+  {
+   "cached_input_per_1m": 0.008,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.03,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek V4 Flash",
+   "output_per_1m": 0.8,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash-latest",
+   "url": "/model/openrouter-deepseek-v4-flash-latest"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -32886,23 +30350,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-north-mini-code:free",
    "url": "/model/openrouter-north-mini-code:free"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0,
-   "kind": "chat",
-   "max_output": 393216,
-   "name": "Deepseek V4 Flash 0731:free",
-   "output_per_1m": 0,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-0731:free",
-   "url": "/model/openrouter-deepseek-v4-flash-0731:free"
   },
   {
    "cached_input_per_1m": null,
@@ -33736,39 +31183,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true
-   },
-   "context_window": 16384,
-   "input_per_1m": 5,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Meta Llama 3.1 405B Instruct",
-   "output_per_1m": 10,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-meta-llama-3-1-405b-instruct",
-   "url": "/model/sambanova-meta-llama-3-1-405b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 32768,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "DeepSeek V3 0324",
-   "output_per_1m": 4.5,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-deepseek-v3-0324",
-   "url": "/model/sambanova-deepseek-v3-0324"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
     "reasoning": true,
     "tools": true
    },
@@ -33798,20 +31212,6 @@
    "provider_slug": "sambanova",
    "slug": "sambanova-deepseek-v3-2",
    "url": "/model/sambanova-deepseek-v3-2"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 131072,
-   "input_per_1m": 0.7,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "DeepSeek R1 Distill Llama 70B",
-   "output_per_1m": 1.4,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-deepseek-r1-distill-llama-70b",
-   "url": "/model/sambanova-deepseek-r1-distill-llama-70b"
   },
   {
    "cached_input_per_1m": null,
@@ -33865,69 +31265,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 16384,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "QwQ 32B",
-   "output_per_1m": 1,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-qwq-32b",
-   "url": "/model/sambanova-qwq-32b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "audio": true
-   },
-   "context_window": 4096,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Qwen2 Audio 7B Instruct",
-   "output_per_1m": 100,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-qwen2-audio-7b-instruct",
-   "url": "/model/sambanova-qwen2-audio-7b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 8192,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Llama 4 Scout 17B 16E Instruct",
-   "output_per_1m": 0.7,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-llama-4-scout-17b-16e-instruct",
-   "url": "/model/sambanova-llama-4-scout-17b-16e-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 8192,
-   "input_per_1m": 0.4,
-   "kind": "chat",
-   "max_output": 8192,
-   "name": "Qwen3 32B",
-   "output_per_1m": 0.8,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-qwen3-32b",
-   "url": "/model/sambanova-qwen3-32b"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {
     "vision": true
    },
@@ -33941,20 +31278,6 @@
    "provider_slug": "sambanova",
    "slug": "sambanova-gemma-4-31b-it",
    "url": "/model/sambanova-gemma-4-31b-it"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 16384,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Meta Llama Guard 3 8B",
-   "output_per_1m": 0.3,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-meta-llama-guard-3-8b",
-   "url": "/model/sambanova-meta-llama-guard-3-8b"
   },
   {
    "cached_input_per_1m": null,
@@ -33975,66 +31298,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 16384,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Meta Llama 3.1 8B Instruct",
-   "output_per_1m": 0.2,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-meta-llama-3-1-8b-instruct",
-   "url": "/model/sambanova-meta-llama-3-1-8b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 4096,
-   "input_per_1m": 0.08,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Meta Llama 3.2 3B Instruct",
-   "output_per_1m": 0.16,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-meta-llama-3-2-3b-instruct",
-   "url": "/model/sambanova-meta-llama-3-2-3b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 16384,
-   "input_per_1m": 0.04,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Meta Llama 3.2 1B Instruct",
-   "output_per_1m": 0.08,
-   "provider": "SambaNova",
-   "provider_slug": "sambanova",
-   "slug": "sambanova-meta-llama-3-2-1b-instruct",
-   "url": "/model/sambanova-meta-llama-3-2-1b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 3.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Meta Llama 3.1 405B Instruct Turbo",
-   "output_per_1m": 3.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-meta-llama-3-1-405b-instruct-turbo",
-   "url": "/model/together-ai-meta-llama-3-1-405b-instruct-turbo"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
    "input_per_1m": 3.5,
@@ -34046,22 +31309,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-llama-3-1-405b-instruct",
    "url": "/model/together-ai-llama-3-1-405b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 20480,
-   "name": "DeepSeek R1",
-   "output_per_1m": 7,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-r1",
-   "url": "/model/together-ai-deepseek-r1"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -34097,22 +31344,6 @@
    "url": "/model/together-ai-deepseek-r1-0528"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 Coder 480B A35B Instruct FP8",
-   "output_per_1m": 2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
-   "url": "/model/together-ai-qwen3-coder-480b-a35b-instruct-fp8"
-  },
-  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true
@@ -34132,34 +31363,6 @@
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "DeepSeek R1 Distill Llama 70B",
-   "output_per_1m": 2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-r1-distill-llama-70b",
-   "url": "/model/together-ai-deepseek-r1-distill-llama-70b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 1.95,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen2.5 VL 72B Instruct",
-   "output_per_1m": 8,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen2-5-vl-72b-instruct",
-   "url": "/model/together-ai-qwen2-5-vl-72b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
    "input_per_1m": 1.8,
    "kind": "chat",
    "max_output": null,
@@ -34169,38 +31372,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-81-1b-110b",
    "url": "/model/together-ai-together-ai-81-1b-110b"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 512000,
-   "input_per_1m": 1.74,
-   "kind": "chat",
-   "max_output": null,
-   "name": "DeepSeek V4 Pro",
-   "output_per_1m": 3.48,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-v4-pro",
-   "url": "/model/together-ai-deepseek-v4-pro"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 1.6,
-   "kind": "chat",
-   "max_output": null,
-   "name": "DeepSeek R1 Distill Qwen 14B",
-   "output_per_1m": 1.6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-r1-distill-qwen-14b",
-   "url": "/model/together-ai-deepseek-r1-distill-qwen-14b"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -34255,20 +31426,6 @@
    "url": "/model/together-ai-glm-5-3"
   },
   {
-   "cached_input_per_1m": 0.26,
-   "capabilities": {},
-   "context_window": 202752,
-   "input_per_1m": 1.4,
-   "kind": "chat",
-   "max_output": null,
-   "name": "GLM 5.1",
-   "output_per_1m": 4.4,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-glm-5-1",
-   "url": "/model/together-ai-glm-5-1"
-  },
-  {
    "cached_input_per_1m": 0.13,
    "capabilities": {
     "prompt_caching": true,
@@ -34300,64 +31457,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-v3",
    "url": "/model/together-ai-deepseek-v3"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen2.5 72B Instruct Turbo",
-   "output_per_1m": 1.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen2-5-72b-instruct-turbo",
-   "url": "/model/together-ai-qwen2-5-72b-instruct-turbo"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {},
-   "context_window": 262144,
-   "input_per_1m": 1.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Kimi K2.6",
-   "output_per_1m": 4.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-kimi-k2-6",
-   "url": "/model/together-ai-kimi-k2-6"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 131072,
-   "input_per_1m": 1.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "QwQ 32B",
-   "output_per_1m": 1.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwq-32b",
-   "url": "/model/together-ai-qwq-32b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 1.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen2 VL 72B Instruct",
-   "output_per_1m": 1.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen2-vl-72b-instruct",
-   "url": "/model/together-ai-qwen2-vl-72b-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -34406,22 +31505,6 @@
    "url": "/model/together-ai-kimi-k2-instruct"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Kimi K2 Instruct 0905",
-   "output_per_1m": 3,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-kimi-k2-instruct-0905",
-   "url": "/model/together-ai-kimi-k2-instruct-0905"
-  },
-  {
    "cached_input_per_1m": 0.17,
    "capabilities": {
     "prompt_caching": true,
@@ -34441,38 +31524,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 202752,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": null,
-   "name": "GLM 5",
-   "output_per_1m": 3.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-glm-5",
-   "url": "/model/together-ai-glm-5"
-  },
-  {
-   "cached_input_per_1m": 0.19,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.95,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Kimi K2.7 Code",
-   "output_per_1m": 4,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-kimi-k2-7-code",
-   "url": "/model/together-ai-kimi-k2-7-code"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
    "context_window": null,
    "input_per_1m": 0.9,
    "kind": "chat",
@@ -34483,64 +31534,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-41-1b-80b",
    "url": "/model/together-ai-together-ai-41-1b-80b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.9,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen2 72B Instruct",
-   "output_per_1m": 0.9,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen2-72b-instruct",
-   "url": "/model/together-ai-qwen2-72b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 0.88,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Meta Llama 3.1 70B Instruct Turbo",
-   "output_per_1m": 0.88,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-meta-llama-3-1-70b-instruct-turbo",
-   "url": "/model/together-ai-meta-llama-3-1-70b-instruct-turbo"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.88,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Meta Llama 3 70B Instruct Turbo",
-   "output_per_1m": 0.88,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-meta-llama-3-70b-instruct-turbo",
-   "url": "/model/together-ai-meta-llama-3-70b-instruct-turbo"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.88,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Llama 3.1 Nemotron 70B Instruct HF",
-   "output_per_1m": 0.88,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-llama-3-1-nemotron-70b-instruct-hf",
-   "url": "/model/together-ai-llama-3-1-nemotron-70b-instruct-hf"
   },
   {
    "cached_input_per_1m": null,
@@ -34563,103 +31556,12 @@
    "input_per_1m": 0.8,
    "kind": "chat",
    "max_output": null,
-   "name": "Deepseek Coder 33b Instruct",
-   "output_per_1m": 0.8,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-coder-33b-instruct",
-   "url": "/model/together-ai-deepseek-coder-33b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.8,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Gemma 2 27b It",
-   "output_per_1m": 0.8,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-gemma-2-27b-it",
-   "url": "/model/together-ai-gemma-2-27b-it"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.8,
-   "kind": "chat",
-   "max_output": null,
    "name": "Qwen2.5 14B Instruct",
    "output_per_1m": 0.8,
    "provider": "Together AI",
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen2-5-14b-instruct",
    "url": "/model/together-ai-qwen2-5-14b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.8,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen2.5 Coder 32B Instruct",
-   "output_per_1m": 0.8,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen2-5-coder-32b-instruct",
-   "url": "/model/together-ai-qwen2-5-coder-32b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 0.65,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 235B A22B Thinking 2507",
-   "output_per_1m": 3,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-235b-a22b-thinking-2507",
-   "url": "/model/together-ai-qwen3-235b-a22b-thinking-2507"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "DeepSeek V3.1",
-   "output_per_1m": 1.7,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-v3-1",
-   "url": "/model/together-ai-deepseek-v3-1"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Mixtral 8x7B Instruct V0.1",
-   "output_per_1m": 0.6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-mixtral-8x7b-instruct-v0-1",
-   "url": "/model/together-ai-mixtral-8x7b-instruct-v0-1"
   },
   {
    "cached_input_per_1m": null,
@@ -34679,89 +31581,6 @@
    "url": "/model/together-ai-glm-4-6"
   },
   {
-   "cached_input_per_1m": 0.35,
-   "capabilities": {
-    "prompt_caching": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3.5 397B A17B",
-   "output_per_1m": 3.6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-5-397b-a17b",
-   "url": "/model/together-ai-qwen3-5-397b-a17b"
-  },
-  {
-   "cached_input_per_1m": 0.2,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 512288,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Nemotron 3 Ultra 550b A55b",
-   "output_per_1m": 3.6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-nemotron-3-ultra-550b-a55b",
-   "url": "/model/together-ai-nemotron-3-ultra-550b-a55b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.6,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Nous Hermes 2 Mixtral 8x7B DPO",
-   "output_per_1m": 0.6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-nous-hermes-2-mixtral-8x7b-dpo",
-   "url": "/model/together-ai-nous-hermes-2-mixtral-8x7b-dpo"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.55,
-   "kind": "chat",
-   "max_output": null,
-   "name": "DeepSeek R1 0528 Tput",
-   "output_per_1m": 2.19,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-r1-0528-tput",
-   "url": "/model/together-ai-deepseek-r1-0528-tput"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 256000,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Kimi K2.5",
-   "output_per_1m": 2.8,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-kimi-k2-5",
-   "url": "/model/together-ai-kimi-k2-5"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true
@@ -34778,22 +31597,6 @@
    "url": "/model/together-ai-qwen3-6-plus"
   },
   {
-   "cached_input_per_1m": 0.1,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 524288,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Inkling Small",
-   "output_per_1m": 1.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-inkling-small",
-   "url": "/model/together-ai-inkling-small"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 262144,
@@ -34806,68 +31609,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-kimi-k2-5-fp4",
    "url": "/model/together-ai-kimi-k2-5-fp4"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 262144,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 Coder Next FP8",
-   "output_per_1m": 1.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-coder-next-fp8",
-   "url": "/model/together-ai-qwen3-coder-next-fp8"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 262144,
-   "input_per_1m": 0.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 VL 32B Instruct",
-   "output_per_1m": 1.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-vl-32b-instruct",
-   "url": "/model/together-ai-qwen3-vl-32b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 202752,
-   "input_per_1m": 0.45,
-   "kind": "chat",
-   "max_output": null,
-   "name": "GLM 4.7",
-   "output_per_1m": 2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-glm-4-7",
-   "url": "/model/together-ai-glm-4-7"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.39,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Gemma 4 31B It",
-   "output_per_1m": 0.97,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-gemma-4-31b-it",
-   "url": "/model/together-ai-gemma-4-31b-it"
   },
   {
    "cached_input_per_1m": 0.04,
@@ -34981,22 +31722,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 0.27,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Llama 4 Maverick 17B 128E Instruct FP8",
-   "output_per_1m": 0.85,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-llama-4-maverick-17b-128e-instruct-fp8",
-   "url": "/model/together-ai-llama-4-maverick-17b-128e-instruct-fp8"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
    "input_per_1m": 0.2,
@@ -35008,82 +31733,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-4-1b-8b",
    "url": "/model/together-ai-together-ai-4-1b-8b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262000,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 235B A22B Instruct 2507 Tput",
-   "output_per_1m": 6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-235b-a22b-instruct-2507-tput",
-   "url": "/model/together-ai-qwen3-235b-a22b-instruct-2507-tput"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 40000,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 235B A22B Fp8 Tput",
-   "output_per_1m": 0.6,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-235b-a22b-fp8-tput",
-   "url": "/model/together-ai-qwen3-235b-a22b-fp8-tput"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 32768,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Mistral 7B Instruct V0.1",
-   "output_per_1m": 0.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-mistral-7b-instruct-v0-1",
-   "url": "/model/together-ai-mistral-7b-instruct-v0-1"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "GLM 4.5 Air FP8",
-   "output_per_1m": 1.1,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-glm-4-5-air-fp8",
-   "url": "/model/together-ai-glm-4-5-air-fp8"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 1048576,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Llama Guard 4 12B",
-   "output_per_1m": 0.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-llama-guard-4-12b",
-   "url": "/model/together-ai-llama-guard-4-12b"
   },
   {
    "cached_input_per_1m": null,
@@ -35112,94 +31761,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-mistral-7b-instruct-v0-3",
    "url": "/model/together-ai-mistral-7b-instruct-v0-3"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Llama 3 8b Chat Hf",
-   "output_per_1m": 0.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-llama-3-8b-chat-hf",
-   "url": "/model/together-ai-llama-3-8b-chat-hf"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Meta Llama 3 8B Instruct",
-   "output_per_1m": 0.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-meta-llama-3-8b-instruct",
-   "url": "/model/together-ai-meta-llama-3-8b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 0.18,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Llama 4 Scout 17B 16E Instruct",
-   "output_per_1m": 0.59,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-llama-4-scout-17b-16e-instruct",
-   "url": "/model/together-ai-llama-4-scout-17b-16e-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 0.18,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Meta Llama 3.1 8B Instruct Turbo",
-   "output_per_1m": 0.18,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-meta-llama-3-1-8b-instruct-turbo",
-   "url": "/model/together-ai-meta-llama-3-1-8b-instruct-turbo"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 262144,
-   "input_per_1m": 0.18,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 VL 8B Instruct",
-   "output_per_1m": 0.68,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-vl-8b-instruct",
-   "url": "/model/together-ai-qwen3-vl-8b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 0.18,
-   "kind": "chat",
-   "max_output": null,
-   "name": "DeepSeek R1 Distill Qwen 1.5B",
-   "output_per_1m": 0.18,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-deepseek-r1-distill-qwen-1-5b",
-   "url": "/model/together-ai-deepseek-r1-distill-qwen-1-5b"
   },
   {
    "cached_input_per_1m": null,
@@ -35235,38 +31796,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-gpt-oss-120b",
    "url": "/model/together-ai-gpt-oss-120b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 Next 80B A3B Instruct",
-   "output_per_1m": 1.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-next-80b-a3b-instruct",
-   "url": "/model/together-ai-qwen3-next-80b-a3b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3 Next 80B A3B Thinking",
-   "output_per_1m": 1.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-next-80b-a3b-thinking",
-   "url": "/model/together-ai-qwen3-next-80b-a3b-thinking"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -35320,22 +31849,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 32768,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Mistral Small 24B Instruct 2501",
-   "output_per_1m": 0.3,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-mistral-small-24b-instruct-2501",
-   "url": "/model/together-ai-mistral-small-24b-instruct-2501"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 32768,
    "input_per_1m": 0.1,
@@ -35361,20 +31874,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen3-8-flash",
    "url": "/model/together-ai-qwen3-8-flash"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 32768,
-   "input_per_1m": 0.06,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Gemma 3n E4B It",
-   "output_per_1m": 0.12,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-gemma-3n-e4b-it",
-   "url": "/model/together-ai-gemma-3n-e4b-it"
   },
   {
    "cached_input_per_1m": null,
@@ -35420,22 +31919,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.05,
-   "kind": "chat",
-   "max_output": null,
-   "name": "GPT Oss 20b",
-   "output_per_1m": 0.2,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-gpt-oss-20b",
-   "url": "/model/together-ai-gpt-oss-20b"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
    "input_per_1m": 0.045,
@@ -35447,20 +31930,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-trinity-mini",
    "url": "/model/together-ai-trinity-mini"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 514,
-   "input_per_1m": 0.02,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Multilingual E5 Large Instruct",
-   "output_per_1m": 0.02,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-multilingual-e5-large-instruct",
-   "url": "/model/together-ai-multilingual-e5-large-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -35517,22 +31986,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-bge-base-en-v1-5",
    "url": "/model/together-ai-bge-base-en-v1-5"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 0,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Llama 3.3 70B Instruct Turbo Free",
-   "output_per_1m": 0,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-llama-3-3-70b-instruct-turbo-free",
-   "url": "/model/together-ai-llama-3-3-70b-instruct-turbo-free"
   },
   {
    "cached_input_per_1m": null,
@@ -35716,20 +32169,6 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-grok-4-3",
    "url": "/model/vertex-ai-grok-4-3"
-  },
-  {
-   "cached_input_per_1m": 0.1,
-   "capabilities": {},
-   "context_window": null,
-   "input_per_1m": 1,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Gemini Robotics Er 2",
-   "output_per_1m": 5,
-   "provider": "Google Vertex AI",
-   "provider_slug": "vertex_ai",
-   "slug": "vertex-ai-gemini-robotics-er-2",
-   "url": "/model/vertex-ai-gemini-robotics-er-2"
   },
   {
    "cached_input_per_1m": 0.075,
