@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1953,
- "generated_at": "2026-09-23T00:10:56.793167+00:00",
+ "endpoints_tracked": 1956,
+ "generated_at": "2026-09-23T06:11:43.759784+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -166,20 +166,20 @@
    "provider": "voyage"
   },
   {
+   "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0.075,
+   "models": 21,
+   "provider": "vertex_ai"
+  },
+  {
    "category": "first-party",
    "label": "Anthropic",
    "max_input_per_1m": 10,
    "min_input_per_1m": 1,
    "models": 20,
    "provider": "anthropic"
-  },
-  {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 2,
-   "min_input_per_1m": 0.15,
-   "models": 18,
-   "provider": "vertex_ai"
   },
   {
    "category": "platform",

@@ -1,7 +1,7 @@
 {
- "count": 1953,
+ "count": 1956,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-23T00:10:56.793167+00:00",
+ "generated_at": "2026-09-23T06:11:43.759784+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1351,24 +1351,6 @@
    "url": "/model/gemini-gemini-pro-latest"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "audio": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": null,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Gemini Robotics Er 2 Streaming Preview",
-   "output_per_1m": 10,
-   "provider": "Google Gemini",
-   "provider_slug": "gemini",
-   "slug": "gemini-gemini-robotics-er-2-streaming-preview",
-   "url": "/model/gemini-gemini-robotics-er-2-streaming-preview"
-  },
-  {
    "cached_input_per_1m": 0.15,
    "capabilities": {
     "audio": true,
@@ -1496,6 +1478,24 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-2-5-pro-preview-tts",
    "url": "/model/gemini-gemini-2-5-pro-preview-tts"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "audio": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini Robotics Er 2 Streaming Preview",
+   "output_per_1m": 5,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-robotics-er-2-streaming-preview",
+   "url": "/model/gemini-gemini-robotics-er-2-streaming-preview"
   },
   {
    "cached_input_per_1m": 0.075,
@@ -8958,22 +8958,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 32000,
-   "input_per_1m": 10.4,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Mistral.mistral Large 2402 V1:0",
-   "output_per_1m": 31.2,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-mistral-mistral-large-2402-v1:0",
-   "url": "/model/bedrock-mistral-mistral-large-2402-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 100000,
    "input_per_1m": 8,
@@ -9069,6 +9053,22 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-us-meta-llama3-1-405b-instruct-v1:0",
    "url": "/model/bedrock-us-meta-llama3-1-405b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 32000,
+   "input_per_1m": 5.2,
+   "kind": "chat",
+   "max_output": 8191,
+   "name": "Mistral.mistral Large 2402 V1:0",
+   "output_per_1m": 15.6,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-mistral-mistral-large-2402-v1:0",
+   "url": "/model/bedrock-mistral-mistral-large-2402-v1:0"
   },
   {
    "cached_input_per_1m": 0.24,
@@ -9384,20 +9384,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
-   "input_per_1m": 1.5,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Cohere.command Text V14",
-   "output_per_1m": 2,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-cohere-command-text-v14",
-   "url": "/model/bedrock-cohere-command-text-v14"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
    "context_window": 42000,
    "input_per_1m": 1.3,
    "kind": "chat",
@@ -9427,6 +9413,20 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-anthropic-claude-haiku-4-5-20251001-v1:0",
    "url": "/model/bedrock-anthropic-claude-haiku-4-5-20251001-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 4096,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Cohere.command Text V14",
+   "output_per_1m": 2,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-cohere-command-text-v14",
+   "url": "/model/bedrock-cohere-command-text-v14"
   },
   {
    "cached_input_per_1m": null,
@@ -9825,6 +9825,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "tools": true,
     "vision": true
    },
    "context_window": 128000,
@@ -10211,7 +10212,9 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": 128000,
    "input_per_1m": 0.072,
    "kind": "chat",
@@ -32115,6 +32118,23 @@
    "url": "/model/vertex-ai-gemini-omni-1-1-flash"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 57920,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 57920,
+   "name": "Gemini Omni 1.1 Flash Preview",
+   "output_per_1m": 9,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-omni-1-1-flash-preview",
+   "url": "/model/vertex-ai-gemini-omni-1-1-flash-preview"
+  },
+  {
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "prompt_caching": true,
@@ -32328,6 +32348,34 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemma-4-26b-a4b-it",
    "url": "/model/vertex-ai-gemma-4-26b-a4b-it"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 2.0 Flash",
+   "output_per_1m": 0.6,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-2-0-flash",
+   "url": "/model/vertex-ai-gemini-2-0-flash"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.075,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 2.0 Flash Lite",
+   "output_per_1m": 0.3,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-2-0-flash-lite",
+   "url": "/model/vertex-ai-gemini-2-0-flash-lite"
   },
   {
    "cached_input_per_1m": null,
