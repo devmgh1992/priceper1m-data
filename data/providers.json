@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1979,
- "generated_at": "2026-09-24T00:09:07.198491+00:00",
+ "endpoints_tracked": 2041,
+ "generated_at": "2026-09-24T06:13:40.658823+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "OpenRouter",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0,
-   "models": 472,
+   "models": 473,
    "provider": "openrouter"
   },
   {
@@ -42,8 +42,16 @@
    "label": "Azure OpenAI",
    "max_input_per_1m": 75,
    "min_input_per_1m": 0.02,
-   "models": 103,
+   "models": 108,
    "provider": "azure"
+  },
+  {
+   "category": "first-party",
+   "label": "OpenAI",
+   "max_input_per_1m": 150,
+   "min_input_per_1m": 0.02,
+   "models": 104,
+   "provider": "openai"
   },
   {
    "category": "platform",
@@ -54,12 +62,12 @@
    "provider": "bedrock"
   },
   {
-   "category": "first-party",
-   "label": "OpenAI",
-   "max_input_per_1m": 150,
-   "min_input_per_1m": 0.02,
-   "models": 93,
-   "provider": "openai"
+   "category": "platform",
+   "label": "Together AI",
+   "max_input_per_1m": 3.5,
+   "min_input_per_1m": 0,
+   "models": 86,
+   "provider": "together_ai"
   },
   {
    "category": "first-party",
@@ -94,14 +102,6 @@
    "provider": "mistral"
   },
   {
-   "category": "platform",
-   "label": "Together AI",
-   "max_input_per_1m": 3.5,
-   "min_input_per_1m": 0,
-   "models": 47,
-   "provider": "together_ai"
-  },
-  {
    "category": "first-party",
    "label": "xAI",
    "max_input_per_1m": 2,
@@ -110,20 +110,20 @@
    "provider": "xai"
   },
   {
+   "category": "first-party",
+   "label": "Google Gemini",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0,
+   "models": 41,
+   "provider": "gemini"
+  },
+  {
    "category": "platform",
    "label": "Replicate",
    "max_input_per_1m": 15,
    "min_input_per_1m": 0.03,
    "models": 40,
    "provider": "replicate"
-  },
-  {
-   "category": "first-party",
-   "label": "Google Gemini",
-   "max_input_per_1m": 2,
-   "min_input_per_1m": 0,
-   "models": 36,
-   "provider": "gemini"
   },
   {
    "category": "platform",
@@ -159,19 +159,19 @@
   },
   {
    "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 2,
+   "min_input_per_1m": 0.075,
+   "models": 22,
+   "provider": "vertex_ai"
+  },
+  {
+   "category": "platform",
    "label": "Voyage AI",
    "max_input_per_1m": 0.18,
    "min_input_per_1m": 0.02,
    "models": 22,
    "provider": "voyage"
-  },
-  {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 2,
-   "min_input_per_1m": 0.075,
-   "models": 21,
-   "provider": "vertex_ai"
   },
   {
    "category": "first-party",

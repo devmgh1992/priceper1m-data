@@ -1,7 +1,7 @@
 {
- "count": 1979,
+ "count": 2041,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-24T00:09:07.198491+00:00",
+ "generated_at": "2026-09-24T06:13:40.658823+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1291,6 +1291,38 @@
    "url": "/model/deepseek-deepseek-coder"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Deep Research Preview 04 2026",
+   "output_per_1m": 12,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-deep-research-preview-04-2026",
+   "url": "/model/gemini-deep-research-preview-04-2026"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Deep Research Max Preview 04 2026",
+   "output_per_1m": 12,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-deep-research-max-preview-04-2026",
+   "url": "/model/gemini-deep-research-max-preview-04-2026"
+  },
+  {
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "audio": true,
@@ -1704,6 +1736,26 @@
    "input_per_1m": 0.25,
    "kind": "chat",
    "max_output": 65536,
+   "name": "Gemini 3.1 Flash Lite Preview",
+   "output_per_1m": 1.5,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-3-1-flash-lite-preview",
+   "url": "/model/gemini-gemini-3-1-flash-lite-preview"
+  },
+  {
+   "cached_input_per_1m": 0.025,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.25,
+   "kind": "chat",
+   "max_output": 65536,
    "name": "Gemini 3.1 Flash Lite",
    "output_per_1m": 1.5,
    "provider": "Google Gemini",
@@ -1727,6 +1779,23 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-embedding-2",
    "url": "/model/gemini-gemini-embedding-2"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "audio": true,
+    "vision": true
+   },
+   "context_window": 8192,
+   "input_per_1m": 0.2,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Gemini Embedding 2 Preview",
+   "output_per_1m": 0,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-embedding-2-preview",
+   "url": "/model/gemini-gemini-embedding-2-preview"
   },
   {
    "cached_input_per_1m": null,
@@ -1935,6 +2004,20 @@
    "provider_slug": "gemini",
    "slug": "gemini-lyria-3-5",
    "url": "/model/gemini-lyria-3-5"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 1048576,
+   "input_per_1m": 0,
+   "kind": "audio",
+   "max_output": 65536,
+   "name": "Lyria Realtime Exp",
+   "output_per_1m": 0,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-lyria-realtime-exp",
+   "url": "/model/gemini-lyria-realtime-exp"
   },
   {
    "cached_input_per_1m": 0.15,
@@ -3609,6 +3692,24 @@
    "url": "/model/openai-gpt-6-astra"
   },
   {
+   "cached_input_per_1m": 2.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": 100000,
+   "name": "O3 Deep Research",
+   "output_per_1m": 40,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-o3-deep-research",
+   "url": "/model/openai-o3-deep-research"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -4115,6 +4216,24 @@
    "url": "/model/openai-o3-2025-04-16"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 100000,
+   "name": "O4 Mini Deep Research",
+   "output_per_1m": 8,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-o4-mini-deep-research",
+   "url": "/model/openai-o4-mini-deep-research"
+  },
+  {
    "cached_input_per_1m": 0.175,
    "capabilities": {
     "prompt_caching": true,
@@ -4132,6 +4251,43 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-5-2",
    "url": "/model/openai-gpt-5-2"
+  },
+  {
+   "cached_input_per_1m": 0.175,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 272000,
+   "input_per_1m": 1.75,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.2 Codex",
+   "output_per_1m": 14,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-2-codex",
+   "url": "/model/openai-gpt-5-2-codex"
+  },
+  {
+   "cached_input_per_1m": 0.175,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 1.75,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5.2 Chat",
+   "output_per_1m": 14,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-2-chat-latest",
+   "url": "/model/openai-gpt-5-2-chat-latest"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -4172,6 +4328,24 @@
    "url": "/model/openai-gpt-5-3-codex"
   },
   {
+   "cached_input_per_1m": 0.175,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 1.75,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5.3 Chat",
+   "output_per_1m": 14,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-3-chat-latest",
+   "url": "/model/openai-gpt-5-3-chat-latest"
+  },
+  {
    "cached_input_per_1m": 0.125,
    "capabilities": {
     "prompt_caching": true,
@@ -4202,12 +4376,87 @@
    "input_per_1m": 1.25,
    "kind": "chat",
    "max_output": 128000,
+   "name": "GPT 5 Codex",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-codex",
+   "url": "/model/openai-gpt-5-codex"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 272000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 128000,
    "name": "GPT 5.1",
    "output_per_1m": 10,
    "provider": "OpenAI",
    "provider_slug": "openai",
    "slug": "openai-gpt-5-1",
    "url": "/model/openai-gpt-5-1"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 400000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.1 Codex Max",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-1-codex-max",
+   "url": "/model/openai-gpt-5-1-codex-max"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 400000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.1 Codex",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-1-codex",
+   "url": "/model/openai-gpt-5-1-codex"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5.1 Chat",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-1-chat-latest",
+   "url": "/model/openai-gpt-5-1-chat-latest"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -4264,6 +4513,24 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-5-chat",
    "url": "/model/openai-gpt-5-chat"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5 Chat",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-chat-latest",
+   "url": "/model/openai-gpt-5-chat-latest"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -4533,6 +4800,25 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-4-1-mini-2025-04-14",
    "url": "/model/openai-gpt-4-1-mini-2025-04-14"
+  },
+  {
+   "cached_input_per_1m": 0.025,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 400000,
+   "input_per_1m": 0.25,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 5.1 Codex Mini",
+   "output_per_1m": 2,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-1-codex-mini",
+   "url": "/model/openai-gpt-5-1-codex-mini"
   },
   {
    "cached_input_per_1m": 0.025,
@@ -6918,6 +7204,22 @@
    "url": "/model/azure-o1-2024-12-17"
   },
   {
+   "cached_input_per_1m": 8.25,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 16.5,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "O1 Preview",
+   "output_per_1m": 66,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-o1-preview",
+   "url": "/model/azure-o1-preview"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -7668,6 +7970,40 @@
    "cached_input_per_1m": 0.175,
    "capabilities": {
     "prompt_caching": true,
+    "tools": true
+   },
+   "context_window": 111616,
+   "input_per_1m": 1.75,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5.2 Chat",
+   "output_per_1m": 14,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-2-chat",
+   "url": "/model/azure-gpt-5-2-chat"
+  },
+  {
+   "cached_input_per_1m": 0.175,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true
+   },
+   "context_window": 111616,
+   "input_per_1m": 1.75,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5.3 Chat",
+   "output_per_1m": 14,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-3-chat",
+   "url": "/model/azure-gpt-5-3-chat"
+  },
+  {
+   "cached_input_per_1m": 0.175,
+   "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -7891,6 +8227,41 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-codex",
    "url": "/model/azure-gpt-5-codex"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "prompt_caching": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5 Chat",
+   "output_per_1m": 10,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-chat",
+   "url": "/model/azure-gpt-5-chat"
+  },
+  {
+   "cached_input_per_1m": 0.125,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 111616,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 5.1 Chat",
+   "output_per_1m": 10,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-5-1-chat",
+   "url": "/model/azure-gpt-5-1-chat"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -14389,18 +14760,18 @@
    "url": "/model/fireworks-ai-kimi-k3-fast"
   },
   {
-   "cached_input_per_1m": 0.33,
+   "cached_input_per_1m": 0.45,
    "capabilities": {
     "reasoning": true,
     "tools": true,
     "vision": true
    },
    "context_window": 1048576,
-   "input_per_1m": 3.3,
+   "input_per_1m": 4.5,
    "kind": "chat",
    "max_output": 131072,
    "name": "Kimi K3 Us",
-   "output_per_1m": 16.5,
+   "output_per_1m": 22.5,
    "provider": "Fireworks AI",
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-kimi-k3-us",
@@ -24671,24 +25042,6 @@
    "input_per_1m": 1.32,
    "kind": "chat",
    "max_output": 384000,
-   "name": "Deepseek V4 Pro 0813",
-   "output_per_1m": 3.96,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro-0813",
-   "url": "/model/openrouter-deepseek-v4-pro-0813"
-  },
-  {
-   "cached_input_per_1m": 0.044,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 1.32,
-   "kind": "chat",
-   "max_output": 384000,
    "name": "Deepseek Pro",
    "output_per_1m": 3.96,
    "provider": "OpenRouter",
@@ -25565,6 +25918,24 @@
    "url": "/model/openrouter-sakana-namazu"
   },
   {
+   "cached_input_per_1m": 0.0783,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.9396,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.8792,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 262144,
@@ -25577,24 +25948,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-morph-v3-large",
    "url": "/model/openrouter-morph-v3-large"
-  },
-  {
-   "cached_input_per_1m": 0.07337,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.88044,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.76088,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro",
-   "url": "/model/openrouter-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": 0.0875,
@@ -25658,6 +26011,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-l3-1-euryale-70b",
    "url": "/model/openrouter-l3-1-euryale-70b"
+  },
+  {
+   "cached_input_per_1m": 0.156,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.84,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.3",
+   "output_per_1m": 2.64,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3",
+   "url": "/model/openrouter-glm-5-3"
   },
   {
    "cached_input_per_1m": 0.042,
@@ -25981,24 +26352,6 @@
    "url": "/model/openrouter-kat-coder-pro-v2-5"
   },
   {
-   "cached_input_per_1m": 0.12,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.72,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.3:batch",
-   "output_per_1m": 2.4,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-3:batch",
-   "url": "/model/openrouter-glm-5-3:batch"
-  },
-  {
    "cached_input_per_1m": 0.18,
    "capabilities": {
     "prompt_caching": true,
@@ -26097,24 +26450,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen-2-5-coder-32b-instruct",
    "url": "/model/openrouter-qwen-2-5-coder-32b-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.12142,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.6538,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.3",
-   "output_per_1m": 2.0548,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-3",
-   "url": "/model/openrouter-glm-5-3"
   },
   {
    "cached_input_per_1m": 0.12142,
@@ -26653,6 +26988,24 @@
    "url": "/model/openrouter-seed-2-0-code"
   },
   {
+   "cached_input_per_1m": 0.0154,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.462,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro 0813",
+   "output_per_1m": 1.386,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro-0813",
+   "url": "/model/openrouter-deepseek-v4-pro-0813"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -26725,6 +27078,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-inkling-small",
    "url": "/model/openrouter-inkling-small"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.45,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.3:batch",
+   "output_per_1m": 2,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3:batch",
+   "url": "/model/openrouter-glm-5-3:batch"
   },
   {
    "cached_input_per_1m": 0.0036,
@@ -27066,7 +27437,7 @@
    "url": "/model/openrouter-gpt-5-4-mini:batch"
   },
   {
-   "cached_input_per_1m": 0.075,
+   "cached_input_per_1m": 0.09,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -27223,25 +27594,6 @@
    "url": "/model/openrouter-qwen3-5-35b-a3b"
   },
   {
-   "cached_input_per_1m": 0.006,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4.1 Flash",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-1-flash",
-   "url": "/model/openrouter-deepseek-v4-1-flash"
-  },
-  {
    "cached_input_per_1m": 0.03,
    "capabilities": {
     "audio": true,
@@ -27260,6 +27612,23 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gemini-2-5-flash",
    "url": "/model/openrouter-gemini-2-5-flash"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 204800,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Minimax M2",
+   "output_per_1m": 1.2,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-minimax-m2",
+   "url": "/model/openrouter-minimax-m2"
   },
   {
    "cached_input_per_1m": 0.1,
@@ -27688,23 +28057,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen-plus",
    "url": "/model/openrouter-qwen-plus"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 204800,
-   "input_per_1m": 0.255,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Minimax M2",
-   "output_per_1m": 1.02,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-minimax-m2",
-   "url": "/model/openrouter-minimax-m2"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -28712,6 +29064,25 @@
    "url": "/model/openrouter-qwen3-8-omni-flash"
   },
   {
+   "cached_input_per_1m": 0.0042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.14,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek V4.1 Flash",
+   "output_per_1m": 0.42,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-1-flash",
+   "url": "/model/openrouter-deepseek-v4-1-flash"
+  },
+  {
    "cached_input_per_1m": 0.0028,
    "capabilities": {
     "audio": true,
@@ -29122,6 +29493,22 @@
    "url": "/model/openrouter-voxtral-small-24b-2507"
   },
   {
+   "cached_input_per_1m": 0.07,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "Qwen3 Next 80b A3b Instruct",
+   "output_per_1m": 1.1,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-next-80b-a3b-instruct",
+   "url": "/model/openrouter-qwen3-next-80b-a3b-instruct"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true,
@@ -29466,22 +29853,6 @@
    "url": "/model/openrouter-gemma-4-31b-it"
   },
   {
-   "cached_input_per_1m": 0.07,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.09,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Qwen3 Next 80b A3b Instruct",
-   "output_per_1m": 1.1,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-next-80b-a3b-instruct",
-   "url": "/model/openrouter-qwen3-next-80b-a3b-instruct"
-  },
-  {
    "cached_input_per_1m": 0.018,
    "capabilities": {
     "prompt_caching": true,
@@ -29498,6 +29869,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-solar-pro4",
    "url": "/model/openrouter-solar-pro4"
+  },
+  {
+   "cached_input_per_1m": 0.017721,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.088606,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Flash",
+   "output_per_1m": 0.177212,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash",
+   "url": "/model/openrouter-deepseek-v4-flash"
   },
   {
    "cached_input_per_1m": 0.0175,
@@ -29529,6 +29918,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-mythomax-l2-13b",
    "url": "/model/openrouter-mythomax-l2-13b"
+  },
+  {
+   "cached_input_per_1m": 0.04,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.08,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Nemotron 3.5 Lightning",
+   "output_per_1m": 0.2,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-nemotron-3-5-lightning",
+   "url": "/model/openrouter-nemotron-3-5-lightning"
   },
   {
    "cached_input_per_1m": null,
@@ -29737,24 +30144,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-hy-mt2-7b",
    "url": "/model/openrouter-hy-mt2-7b"
-  },
-  {
-   "cached_input_per_1m": 0.04,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.07,
-   "kind": "chat",
-   "max_output": 235929,
-   "name": "Nemotron 3.5 Lightning",
-   "output_per_1m": 0.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-nemotron-3-5-lightning",
-   "url": "/model/openrouter-nemotron-3-5-lightning"
   },
   {
    "cached_input_per_1m": null,
@@ -30156,24 +30545,6 @@
    "url": "/model/openrouter-gpt-6-luna:batch"
   },
   {
-   "cached_input_per_1m": 0.0098,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.049,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Flash",
-   "output_per_1m": 0.098,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash",
-   "url": "/model/openrouter-deepseek-v4-flash"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -30215,7 +30586,7 @@
    "kind": "chat",
    "max_output": 943718,
    "name": "Deepseek V4 Flash 0731",
-   "output_per_1m": 0.64,
+   "output_per_1m": 0.32,
    "provider": "OpenRouter",
    "provider_slug": "openrouter",
    "slug": "openrouter-deepseek-v4-flash-0731",
@@ -30335,6 +30706,23 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-schematron-v2-turbo",
    "url": "/model/openrouter-schematron-v2-turbo"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 0.0296,
+   "kind": "chat",
+   "max_output": 117964,
+   "name": "GPT Oss 120b:batch",
+   "output_per_1m": 0.136,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-oss-120b:batch",
+   "url": "/model/openrouter-gpt-oss-120b:batch"
   },
   {
    "cached_input_per_1m": null,
@@ -31774,6 +32162,48 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 Coder 480B A35B Instruct FP8",
+   "output_per_1m": 2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
+   "url": "/model/together-ai-qwen3-coder-480b-a35b-instruct-fp8"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek R1 Distill Llama 70B",
+   "output_per_1m": 2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-r1-distill-llama-70b",
+   "url": "/model/together-ai-deepseek-r1-distill-llama-70b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 1.95,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 VL 72B Instruct",
+   "output_per_1m": 8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-vl-72b-instruct",
+   "url": "/model/together-ai-qwen2-5-vl-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
    "context_window": null,
    "input_per_1m": 1.8,
    "kind": "chat",
@@ -31784,6 +32214,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-81-1b-110b",
    "url": "/model/together-ai-together-ai-81-1b-110b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 1.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek R1 Distill Qwen 14B",
+   "output_per_1m": 1.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-r1-distill-qwen-14b",
+   "url": "/model/together-ai-deepseek-r1-distill-qwen-14b"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -31838,6 +32282,20 @@
    "url": "/model/together-ai-glm-5-3"
   },
   {
+   "cached_input_per_1m": 0.26,
+   "capabilities": {},
+   "context_window": 202752,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GLM 5.1",
+   "output_per_1m": 4.4,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-glm-5-1",
+   "url": "/model/together-ai-glm-5-1"
+  },
+  {
    "cached_input_per_1m": 0.13,
    "capabilities": {
     "prompt_caching": true,
@@ -31883,6 +32341,62 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen2-5-72b-instruct",
    "url": "/model/together-ai-qwen2-5-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "QwQ 32B",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwq-32b",
+   "url": "/model/together-ai-qwq-32b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2 VL 72B Instruct",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-vl-72b-instruct",
+   "url": "/model/together-ai-qwen2-vl-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 72B Instruct Turbo",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-72b-instruct-turbo",
+   "url": "/model/together-ai-qwen2-5-72b-instruct-turbo"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K2.6",
+   "output_per_1m": 4.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-kimi-k2-6",
+   "url": "/model/together-ai-kimi-k2-6"
   },
   {
    "cached_input_per_1m": null,
@@ -31936,6 +32450,34 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
+   "context_window": 202752,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GLM 5",
+   "output_per_1m": 3.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-glm-5",
+   "url": "/model/together-ai-glm-5"
+  },
+  {
+   "cached_input_per_1m": 0.19,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.95,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K2.7 Code",
+   "output_per_1m": 4,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-kimi-k2-7-code",
+   "url": "/model/together-ai-kimi-k2-7-code"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
    "context_window": null,
    "input_per_1m": 0.9,
    "kind": "chat",
@@ -31946,6 +32488,62 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-41-1b-80b",
    "url": "/model/together-ai-together-ai-41-1b-80b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.9,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2 72B Instruct",
+   "output_per_1m": 0.9,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-72b-instruct",
+   "url": "/model/together-ai-qwen2-72b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.88,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 70B Instruct Turbo",
+   "output_per_1m": 0.88,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-meta-llama-3-70b-instruct-turbo",
+   "url": "/model/together-ai-meta-llama-3-70b-instruct-turbo"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 0.88,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3.1 70B Instruct Turbo",
+   "output_per_1m": 0.88,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-meta-llama-3-1-70b-instruct-turbo",
+   "url": "/model/together-ai-meta-llama-3-1-70b-instruct-turbo"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.88,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3.1 Nemotron 70B Instruct HF",
+   "output_per_1m": 0.88,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-1-nemotron-70b-instruct-hf",
+   "url": "/model/together-ai-llama-3-1-nemotron-70b-instruct-hf"
   },
   {
    "cached_input_per_1m": null,
@@ -31977,6 +32575,48 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 16384,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen2.5 Coder 32B Instruct",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen2-5-coder-32b-instruct",
+   "url": "/model/together-ai-qwen2-5-coder-32b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 16384,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Deepseek Coder 33b Instruct",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-coder-33b-instruct",
+   "url": "/model/together-ai-deepseek-coder-33b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemma 2 27b It",
+   "output_per_1m": 0.8,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-gemma-2-27b-it",
+   "url": "/model/together-ai-gemma-2-27b-it"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
     "tools": true
@@ -31991,6 +32631,76 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-glm-4-6",
    "url": "/model/together-ai-glm-4-6"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+   "output_per_1m": 0.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-nous-hermes-2-mixtral-8x7b-dpo",
+   "url": "/model/together-ai-nous-hermes-2-mixtral-8x7b-dpo"
+  },
+  {
+   "cached_input_per_1m": 0.35,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3.5 397B A17B",
+   "output_per_1m": 3.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-5-397b-a17b",
+   "url": "/model/together-ai-qwen3-5-397b-a17b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek V3.1",
+   "output_per_1m": 1.7,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-v3-1",
+   "url": "/model/together-ai-deepseek-v3-1"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Mixtral 8x7B Instruct V0.1",
+   "output_per_1m": 0.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-mixtral-8x7b-instruct-v0-1",
+   "url": "/model/together-ai-mixtral-8x7b-instruct-v0-1"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {},
+   "context_window": 512288,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Nemotron 3 Ultra 550b A55b",
+   "output_per_1m": 3.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-nemotron-3-ultra-550b-a55b",
+   "url": "/model/together-ai-nemotron-3-ultra-550b-a55b"
   },
   {
    "cached_input_per_1m": null,
@@ -32021,6 +32731,62 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-kimi-k2-5-fp4",
    "url": "/model/together-ai-kimi-k2-5-fp4"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 Coder Next FP8",
+   "output_per_1m": 1.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-coder-next-fp8",
+   "url": "/model/together-ai-qwen3-coder-next-fp8"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 VL 32B Instruct",
+   "output_per_1m": 1.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-vl-32b-instruct",
+   "url": "/model/together-ai-qwen3-vl-32b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 202752,
+   "input_per_1m": 0.45,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GLM 4.7",
+   "output_per_1m": 2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-glm-4-7",
+   "url": "/model/together-ai-glm-4-7"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.39,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemma 4 31B It",
+   "output_per_1m": 0.97,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-gemma-4-31b-it",
+   "url": "/model/together-ai-gemma-4-31b-it"
   },
   {
    "cached_input_per_1m": 0.04,
@@ -32176,6 +32942,118 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 3 8b Chat Hf",
+   "output_per_1m": 0.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-3-8b-chat-hf",
+   "url": "/model/together-ai-llama-3-8b-chat-hf"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 8B Instruct",
+   "output_per_1m": 0.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-meta-llama-3-8b-instruct",
+   "url": "/model/together-ai-meta-llama-3-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Mistral 7B Instruct V0.1",
+   "output_per_1m": 0.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-mistral-7b-instruct-v0-1",
+   "url": "/model/together-ai-mistral-7b-instruct-v0-1"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GLM 4.5 Air FP8",
+   "output_per_1m": 1.1,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-glm-4-5-air-fp8",
+   "url": "/model/together-ai-glm-4-5-air-fp8"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.18,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 VL 8B Instruct",
+   "output_per_1m": 0.68,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-vl-8b-instruct",
+   "url": "/model/together-ai-qwen3-vl-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 0.18,
+   "kind": "chat",
+   "max_output": null,
+   "name": "DeepSeek R1 Distill Qwen 1.5B",
+   "output_per_1m": 0.18,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-r1-distill-qwen-1-5b",
+   "url": "/model/together-ai-deepseek-r1-distill-qwen-1-5b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 1048576,
+   "input_per_1m": 0.18,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 4 Scout 17B 16E Instruct",
+   "output_per_1m": 0.59,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-llama-4-scout-17b-16e-instruct",
+   "url": "/model/together-ai-llama-4-scout-17b-16e-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 0.18,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3.1 8B Instruct Turbo",
+   "output_per_1m": 0.18,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-meta-llama-3-1-8b-instruct-turbo",
+   "url": "/model/together-ai-meta-llama-3-1-8b-instruct-turbo"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
     "tools": true,
@@ -32229,6 +33107,34 @@
    "url": "/model/together-ai-glm-5-3-flash"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 Next 80B A3B Instruct",
+   "output_per_1m": 1.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-next-80b-a3b-instruct",
+   "url": "/model/together-ai-qwen3-next-80b-a3b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 262144,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 Next 80B A3B Thinking",
+   "output_per_1m": 1.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-next-80b-a3b-thinking",
+   "url": "/model/together-ai-qwen3-next-80b-a3b-thinking"
+  },
+  {
    "cached_input_per_1m": 0.03,
    "capabilities": {
     "prompt_caching": true,
@@ -32272,6 +33178,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen-2-1-5b-instruct",
    "url": "/model/together-ai-qwen-2-1-5b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Mistral Small 24B Instruct 2501",
+   "output_per_1m": 0.3,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-mistral-small-24b-instruct-2501",
+   "url": "/model/together-ai-mistral-small-24b-instruct-2501"
   },
   {
    "cached_input_per_1m": null,
@@ -32328,6 +33248,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-llama-3-2-3b-instruct",
    "url": "/model/together-ai-llama-3-2-3b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 131072,
+   "input_per_1m": 0.05,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT Oss 20b",
+   "output_per_1m": 0.2,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-gpt-oss-20b",
+   "url": "/model/together-ai-gpt-oss-20b"
   },
   {
    "cached_input_per_1m": null,
@@ -32525,6 +33459,25 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-3-5-flash",
    "url": "/model/vertex-ai-gemini-3-5-flash"
+  },
+  {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini 3.8 Flash Cyber",
+   "output_per_1m": 7.5,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-3-8-flash-cyber",
+   "url": "/model/vertex-ai-gemini-3-8-flash-cyber"
   },
   {
    "cached_input_per_1m": null,
