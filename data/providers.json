@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2042,
- "generated_at": "2026-09-24T12:11:05.595508+00:00",
+ "endpoints_tracked": 2044,
+ "generated_at": "2026-09-24T18:11:27.075720+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -42,7 +42,7 @@
    "label": "Azure OpenAI",
    "max_input_per_1m": 75,
    "min_input_per_1m": 0.02,
-   "models": 108,
+   "models": 110,
    "provider": "azure"
   },
   {
