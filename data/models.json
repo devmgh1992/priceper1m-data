@@ -1,7 +1,7 @@
 {
- "count": 2041,
+ "count": 2042,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-24T06:13:40.658823+00:00",
+ "generated_at": "2026-09-24T12:11:05.595508+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -23772,6 +23772,25 @@
    "url": "/model/openrouter-claude-sonnet-4-5"
   },
   {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Ember 1",
+   "output_per_1m": 15,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-ember-1",
+   "url": "/model/openrouter-ember-1"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -26352,25 +26371,6 @@
    "url": "/model/openrouter-kat-coder-pro-v2-5"
   },
   {
-   "cached_input_per_1m": 0.18,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.7062,
-   "kind": "chat",
-   "max_output": 235929,
-   "name": "Kimi K2.7 Code",
-   "output_per_1m": 3.3,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-kimi-k2-7-code",
-   "url": "/model/openrouter-kimi-k2-7-code"
-  },
-  {
    "cached_input_per_1m": 0.14,
    "capabilities": {
     "reasoning": true,
@@ -26450,6 +26450,25 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen-2-5-coder-32b-instruct",
    "url": "/model/openrouter-qwen-2-5-coder-32b-instruct"
+  },
+  {
+   "cached_input_per_1m": 0.18,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.6562,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Kimi K2.7 Code",
+   "output_per_1m": 3.3,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-kimi-k2-7-code",
+   "url": "/model/openrouter-kimi-k2-7-code"
   },
   {
    "cached_input_per_1m": 0.12142,
@@ -29511,6 +29530,22 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 32000,
+   "name": "Qwen3 30b A3b Instruct 2507",
+   "output_per_1m": 0.3,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+   "url": "/model/openrouter-qwen3-30b-a3b-instruct-2507"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "tools": true,
     "vision": true
    },
@@ -30546,22 +30581,6 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.04815,
-   "kind": "chat",
-   "max_output": 32000,
-   "name": "Qwen3 30b A3b Instruct 2507",
-   "output_per_1m": 0.19305,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
-   "url": "/model/openrouter-qwen3-30b-a3b-instruct-2507"
-  },
-  {
-   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
    "input_per_1m": 0.044,
@@ -30573,24 +30592,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-hy-mt2-1-8b",
    "url": "/model/openrouter-hy-mt2-1-8b"
-  },
-  {
-   "cached_input_per_1m": 0.016,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.04,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Flash 0731",
-   "output_per_1m": 0.32,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-0731",
-   "url": "/model/openrouter-deepseek-v4-flash-0731"
   },
   {
    "cached_input_per_1m": 0.016,
@@ -30671,6 +30672,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-nova-micro-v1",
    "url": "/model/openrouter-nova-micro-v1"
+  },
+  {
+   "cached_input_per_1m": 0.016,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.03,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek V4 Flash 0731",
+   "output_per_1m": 0.32,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash-0731",
+   "url": "/model/openrouter-deepseek-v4-flash-0731"
   },
   {
    "cached_input_per_1m": 0.006,

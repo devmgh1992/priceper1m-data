@@ -1838,6 +1838,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Ember 1",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-ember-1",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Kimi K3",
      "new": 3,
@@ -2908,36 +2918,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Kimi K2.7 Code",
-     "new": 0.7062,
-     "old": 0.71,
-     "pct": -0.54,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k2-7-code",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Kimi K2.7 Code",
-     "new": 3.3,
-     "old": 3.5,
-     "pct": -5.71,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k2-7-code",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Kimi K2.7 Code",
-     "new": 0.18,
-     "old": 0.15,
-     "pct": 20,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k2-7-code",
-     "type": "changed"
-    },
-    {
      "field": "cached_input_per_1m",
      "name": "Deepseek R1",
      "new": 0.14,
@@ -3015,6 +2995,36 @@
      "pct": -12.73,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen-2-5-coder-32b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 0.6562,
+     "old": 0.71,
+     "pct": -7.58,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 3.3,
+     "old": 3.5,
+     "pct": -5.71,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 0.18,
+     "old": 0.15,
+     "pct": 20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
      "type": "changed"
     },
     {
@@ -4588,6 +4598,16 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "Qwen3 30b A3b Instruct 2507",
+     "new": 0.1,
+     "old": 0.09,
+     "pct": 11.11,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "GPT Luna",
      "new": 0.1,
@@ -5188,26 +5208,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Qwen3 30b A3b Instruct 2507",
-     "new": 0.04815,
-     "old": 0.09,
-     "pct": -46.5,
-     "provider": "OpenRouter",
-     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Qwen3 30b A3b Instruct 2507",
-     "new": 0.19305,
-     "old": 0.3,
-     "pct": -35.65,
-     "provider": "OpenRouter",
-     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
-     "type": "changed"
-    },
-    {
      "field": null,
      "name": "Hy Mt2 1.8b",
      "new": 0.044,
@@ -5216,26 +5216,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-hy-mt2-1-8b",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Flash 0731",
-     "new": 0.04,
-     "old": 0.065,
-     "pct": -38.46,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-0731",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Flash 0731",
-     "new": 0.32,
-     "old": 0.18,
-     "pct": 77.78,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-0731",
-     "type": "changed"
     },
     {
      "field": null,
@@ -5286,6 +5266,26 @@
      "provider": "OpenRouter",
      "slug": "openrouter-nova-micro-v1",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.03,
+     "old": 0.065,
+     "pct": -53.85,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.32,
+     "old": 0.18,
+     "pct": 77.78,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
     },
     {
      "field": null,
@@ -7660,7 +7660,7 @@
    ],
    "count": 765,
    "date": "2026-09-24",
-   "generated_at": "2026-09-24T06:13:40.658823+00:00"
+   "generated_at": "2026-09-24T12:11:05.595508+00:00"
   },
   {
    "baseline": true,
