@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1973,
- "generated_at": "2026-09-23T18:10:11.577718+00:00",
+ "endpoints_tracked": 1979,
+ "generated_at": "2026-09-24T00:09:07.198491+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "OpenRouter",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0,
-   "models": 470,
+   "models": 472,
    "provider": "openrouter"
   },
   {
@@ -18,7 +18,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 271,
+   "models": 273,
    "provider": "fireworks_ai"
   },
   {
@@ -98,7 +98,7 @@
    "label": "Together AI",
    "max_input_per_1m": 3.5,
    "min_input_per_1m": 0,
-   "models": 46,
+   "models": 47,
    "provider": "together_ai"
   },
   {
@@ -154,7 +154,7 @@
    "label": "Baseten",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.1,
-   "models": 25,
+   "models": 26,
    "provider": "baseten"
   },
   {

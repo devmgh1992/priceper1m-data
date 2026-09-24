@@ -1,5 +1,5 @@
 {
- "count_changes": 754,
+ "count_changes": 762,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1029,6 +1029,16 @@
     },
     {
      "field": null,
+     "name": "GLM 5.3 Fast",
+     "new": 2.1,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-glm-5-3-fast",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "GLM 5.2 Fast",
      "new": 2.1,
      "old": null,
@@ -1319,6 +1329,16 @@
     },
     {
      "field": null,
+     "name": "Ember 1",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-ember-1",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Glm 5p3 Fast",
      "new": 2.1,
      "old": null,
@@ -1326,6 +1346,46 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-glm-5p3-fast",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.2,
+     "old": 1.74,
+     "pct": -31.03,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.2,
+     "old": 3.48,
+     "pct": -65.52,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.6,
+     "old": 0.145,
+     "pct": 313.79,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Pro",
+     "new": 131072,
+     "old": 384000,
+     "pct": -65.87,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4-pro",
+     "type": "changed"
     },
     {
      "field": null,
@@ -1549,6 +1609,16 @@
     },
     {
      "field": null,
+     "name": "Qwen3.8 Max Prime",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-8-max-prime",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Claude Opus",
      "new": 4,
      "old": null,
@@ -1655,6 +1725,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-sonar-pro-search",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Glm 5.3 Prime",
+     "new": 2.8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3-prime",
      "type": "added"
     },
     {
@@ -5369,6 +5449,16 @@
     },
     {
      "field": null,
+     "name": "Tev1 4B Experimental",
+     "new": 0.042,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-tev1-4b-experimental",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Qwen2 1.5B Instruct",
      "new": 0.02,
      "old": null,
@@ -6899,16 +6989,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4 Pro",
-     "new": null,
-     "old": 1.74,
-     "pct": null,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-deepseek-v4-pro",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "Minimax M2p7",
      "new": null,
      "old": 0.3,
@@ -7548,9 +7628,9 @@
      "type": "removed"
     }
    ],
-   "count": 754,
-   "date": "2026-09-23",
-   "generated_at": "2026-09-23T18:10:11.577718+00:00"
+   "count": 762,
+   "date": "2026-09-24",
+   "generated_at": "2026-09-24T00:09:07.198491+00:00"
   },
   {
    "baseline": true,

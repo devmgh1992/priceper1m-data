@@ -1,7 +1,7 @@
 {
- "count": 1973,
+ "count": 1979,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-23T18:10:11.577718+00:00",
+ "generated_at": "2026-09-24T00:09:07.198491+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -8542,6 +8542,25 @@
    "input_per_1m": 2.1,
    "kind": "chat",
    "max_output": 262144,
+   "name": "GLM 5.3 Fast",
+   "output_per_1m": 6.6,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-glm-5-3-fast",
+   "url": "/model/baseten-glm-5-3-fast"
+  },
+  {
+   "cached_input_per_1m": 0.21,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.1,
+   "kind": "chat",
+   "max_output": 262144,
    "name": "GLM 5.2 Fast",
    "output_per_1m": 6.6,
    "provider": "Baseten",
@@ -14464,6 +14483,24 @@
    "url": "/model/fireworks-ai-kimi-k3"
   },
   {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Ember 1",
+   "output_per_1m": 15,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-ember-1",
+   "url": "/model/fireworks-ai-ember-1"
+  },
+  {
    "cached_input_per_1m": 0.52,
    "capabilities": {
     "reasoning": true,
@@ -14810,6 +14847,23 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-mixtral-8x22b-instruct",
    "url": "/model/fireworks-ai-mixtral-8x22b-instruct"
+  },
+  {
+   "cached_input_per_1m": 0.6,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.2,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4-pro",
+   "url": "/model/fireworks-ai-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": 0.17,
@@ -23217,6 +23271,25 @@
    "url": "/model/openrouter-claude-opus-5-5"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Qwen3.8 Max Prime",
+   "output_per_1m": 12,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-8-max-prime",
+   "url": "/model/openrouter-qwen3-8-max-prime"
+  },
+  {
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "prompt_caching": true,
@@ -23466,6 +23539,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-sonar-pro-search",
    "url": "/model/openrouter-sonar-pro-search"
+  },
+  {
+   "cached_input_per_1m": 0.56,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2.8,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.3 Prime",
+   "output_per_1m": 8.8,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3-prime",
+   "url": "/model/openrouter-glm-5-3-prime"
   },
   {
    "cached_input_per_1m": 1.25,
@@ -32251,6 +32342,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-trinity-mini",
    "url": "/model/together-ai-trinity-mini"
+  },
+  {
+   "cached_input_per_1m": 0.042,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.042,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Tev1 4B Experimental",
+   "output_per_1m": 0,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-tev1-4b-experimental",
+   "url": "/model/together-ai-tev1-4b-experimental"
   },
   {
    "cached_input_per_1m": null,
