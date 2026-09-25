@@ -1,7 +1,7 @@
 {
- "count": 2044,
+ "count": 2048,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-25T00:22:20.308271+00:00",
+ "generated_at": "2026-09-25T06:08:58.096722+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -14963,6 +14963,23 @@
    "context_window": 1048576,
    "input_per_1m": 2.1,
    "kind": "chat",
+   "max_output": 128000,
+   "name": "Glm 5p3 Us",
+   "output_per_1m": 6.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-us",
+   "url": "/model/fireworks-ai-glm-5p3-us"
+  },
+  {
+   "cached_input_per_1m": 0.39,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.1,
+   "kind": "chat",
    "max_output": null,
    "name": "Glm 5p3 Fast",
    "output_per_1m": 6.6,
@@ -16589,6 +16606,25 @@
    "url": "/model/fireworks-ai-qwen3-coder-480b-a35b-instruct"
   },
   {
+   "cached_input_per_1m": 0.009,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.45,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash Us",
+   "output_per_1m": 1.8,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-us",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-us"
+  },
+  {
    "cached_input_per_1m": 0.08,
    "capabilities": {
     "reasoning": true,
@@ -16670,6 +16706,23 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-minimax-m2",
    "url": "/model/fireworks-ai-minimax-m2"
+  },
+  {
+   "cached_input_per_1m": 0.045,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.225,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Glm 5p3 Flash Us",
+   "output_per_1m": 0.75,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-flash-us",
+   "url": "/model/fireworks-ai-glm-5p3-flash-us"
   },
   {
    "cached_input_per_1m": null,
@@ -25987,24 +26040,6 @@
    "url": "/model/openrouter-sakana-namazu"
   },
   {
-   "cached_input_per_1m": 0.076052,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.91263,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.82526,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro",
-   "url": "/model/openrouter-deepseek-v4-pro"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 262144,
@@ -26080,6 +26115,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-l3-1-euryale-70b",
    "url": "/model/openrouter-l3-1-euryale-70b"
+  },
+  {
+   "cached_input_per_1m": 0.070412,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.844944,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.689888,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": 0.042,
@@ -27037,6 +27090,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-seed-2-0-code",
    "url": "/model/openrouter-seed-2-0-code"
+  },
+  {
+   "cached_input_per_1m": 0.05,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.5,
+   "kind": "chat",
+   "max_output": 209715,
+   "name": "Mistral Large 2512",
+   "output_per_1m": 1.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-mistral-large-2512",
+   "url": "/model/openrouter-mistral-large-2512"
   },
   {
    "cached_input_per_1m": 0.0154,
@@ -28902,25 +28973,6 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 1310720,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Glm 5.3 Flash",
-   "output_per_1m": 0.5,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-3-flash",
-   "url": "/model/openrouter-glm-5-3-flash"
-  },
-  {
-   "cached_input_per_1m": 0.05,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
    "context_window": 262144,
    "input_per_1m": 0.15,
    "kind": "chat",
@@ -29955,24 +30007,6 @@
    "url": "/model/openrouter-qwen3-235b-a22b-2507"
   },
   {
-   "cached_input_per_1m": 0.0168,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.084,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Flash",
-   "output_per_1m": 0.168,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash",
-   "url": "/model/openrouter-deepseek-v4-flash"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
@@ -30610,6 +30644,43 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gpt-6-luna:batch",
    "url": "/model/openrouter-gpt-6-luna:batch"
+  },
+  {
+   "cached_input_per_1m": 0.0098,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.049,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Flash",
+   "output_per_1m": 0.098,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash",
+   "url": "/model/openrouter-deepseek-v4-flash"
+  },
+  {
+   "cached_input_per_1m": 0.0285,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1310720,
+   "input_per_1m": 0.045,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Glm 5.3 Flash",
+   "output_per_1m": 0.6,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-3-flash",
+   "url": "/model/openrouter-glm-5-3-flash"
   },
   {
    "cached_input_per_1m": null,
