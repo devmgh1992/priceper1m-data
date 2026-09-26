@@ -1,7 +1,7 @@
 {
- "count": 2051,
+ "count": 2052,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-26T12:08:00.015712+00:00",
+ "generated_at": "2026-09-26T18:13:05.053555+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -11698,6 +11698,25 @@
    "url": "/model/databricks-databricks-gpt-5-5"
   },
   {
+   "cached_input_per_1m": 0.19999,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 4.00001,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks Claude Opus 5 5",
+   "output_per_1m": 19.99998,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-claude-opus-5-5",
+   "url": "/model/databricks-databricks-claude-opus-5-5"
+  },
+  {
    "cached_input_per_1m": 0.39998,
    "capabilities": {
     "prompt_caching": true,
@@ -16709,25 +16728,6 @@
    "url": "/model/fireworks-ai-minimax-m2"
   },
   {
-   "cached_input_per_1m": 0.006,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 393216,
-   "name": "Deepseek V4p1 Flash",
-   "output_per_1m": 1.2,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-deepseek-v4p1-flash",
-   "url": "/model/fireworks-ai-deepseek-v4p1-flash"
-  },
-  {
    "cached_input_per_1m": 0.045,
    "capabilities": {
     "tools": true,
@@ -16861,6 +16861,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4-flash-0731",
    "url": "/model/fireworks-ai-deepseek-v4-flash-0731"
+  },
+  {
+   "cached_input_per_1m": 0.007,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.22,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash",
+   "output_per_1m": 0.66,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash"
   },
   {
    "cached_input_per_1m": 0.007,
