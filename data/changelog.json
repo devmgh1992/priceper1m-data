@@ -1,5 +1,5 @@
 {
- "count_changes": 784,
+ "count_changes": 790,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3658,46 +3658,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Glm 5.3",
-     "new": 0.3794,
-     "old": 1.4,
-     "pct": -72.9,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Glm 5.3",
-     "new": 1.1924,
-     "old": 4.4,
-     "pct": -72.9,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Glm 5.3",
-     "new": 0.07046,
-     "old": 0.14,
-     "pct": -49.67,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Glm 5.3",
-     "new": 131072,
-     "old": 262144,
-     "pct": -50,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-3",
-     "type": "changed"
-    },
-    {
      "field": null,
      "name": "Gemini 3.6 Flash:batch",
      "new": 0.375,
@@ -3888,36 +3848,6 @@
      "type": "changed"
     },
     {
-     "field": "input_per_1m",
-     "name": "Minimax M2",
-     "new": 0.3,
-     "old": 0.255,
-     "pct": 17.65,
-     "provider": "OpenRouter",
-     "slug": "openrouter-minimax-m2",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Minimax M2",
-     "new": 1.2,
-     "old": 1.02,
-     "pct": 17.65,
-     "provider": "OpenRouter",
-     "slug": "openrouter-minimax-m2",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Minimax M2",
-     "new": 131072,
-     "old": 204800,
-     "pct": -36,
-     "provider": "OpenRouter",
-     "slug": "openrouter-minimax-m2",
-     "type": "changed"
-    },
-    {
      "field": "cached_input_per_1m",
      "name": "Qwen3 Coder",
      "new": 0.1,
@@ -4078,36 +4008,6 @@
      "type": "changed"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.264,
-     "old": 0.57948,
-     "pct": -54.44,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.792,
-     "old": 1.73844,
-     "pct": -54.44,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.0088,
-     "old": 0.019316,
-     "pct": -54.44,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
      "field": "max_output",
      "name": "Qwen3.5 122b A10b",
      "new": 235929,
@@ -4125,6 +4025,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen-plus-2025-07-28",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Minimax M2",
+     "new": 131072,
+     "old": 204800,
+     "pct": -36,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2",
      "type": "changed"
     },
     {
@@ -4248,6 +4158,86 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 0.2476,
+     "old": 0.57948,
+     "pct": -57.27,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 3.5,
+     "old": 1.73844,
+     "pct": 101.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 0.2475,
+     "old": 0.019316,
+     "pct": 1181.32,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 943718,
+     "old": 384000,
+     "pct": 145.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.238,
+     "old": 1.4,
+     "pct": -83,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.748,
+     "old": 4.4,
+     "pct": -83,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.3",
+     "new": 0.0391,
+     "old": 0.14,
+     "pct": -72.07,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.3",
+     "new": 943718,
+     "old": 262144,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
      "field": "context_window",
      "name": "Qwen3 235b A22b Thinking 2507",
      "new": 131072,
@@ -4275,6 +4265,46 @@
      "pct": 145.76,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-flash-vision-exp",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Minimax M2.7",
+     "new": 0.21,
+     "old": 0.3,
+     "pct": -30,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Minimax M2.7",
+     "new": 0.84,
+     "old": 1.2,
+     "pct": -30,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Minimax M2.7",
+     "new": 0.042,
+     "old": 0.06,
+     "pct": -30,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Minimax M2.7",
+     "new": 176947,
+     "old": 131072,
+     "pct": 35,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
      "type": "changed"
     },
     {
@@ -4616,6 +4646,36 @@
      "provider": "OpenRouter",
      "slug": "openrouter-hy3",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3 30b A3b",
+     "new": 0.13,
+     "old": 0.12,
+     "pct": 8.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3 30b A3b",
+     "new": 0.52,
+     "old": 0.5,
+     "pct": 4,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3 30b A3b",
+     "new": 8192,
+     "old": 16384,
+     "pct": -50,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b",
+     "type": "changed"
     },
     {
      "field": null,
@@ -5500,9 +5560,9 @@
     {
      "field": "input_per_1m",
      "name": "Deepseek V4 Flash 0731",
-     "new": 0.022,
+     "new": 0.021,
      "old": 0.065,
-     "pct": -66.15,
+     "pct": -67.69,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-flash-0731",
      "type": "changed"
@@ -7848,9 +7908,9 @@
      "type": "removed"
     }
    ],
-   "count": 784,
+   "count": 790,
    "date": "2026-09-27",
-   "generated_at": "2026-09-27T00:08:54.484873+00:00"
+   "generated_at": "2026-09-27T12:09:47.687761+00:00"
   },
   {
    "baseline": true,
