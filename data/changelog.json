@@ -1,5 +1,5 @@
 {
- "count_changes": 816,
+ "count_changes": 824,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -618,6 +618,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "GPT 6.1 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-1-sol",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "GPT 5.1 Codex Max",
      "new": 400000,
@@ -1068,6 +1078,26 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "GPT 6.1 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-1-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.1 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-6-1-sol-2026-09-29",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "GPT 5.2 Chat",
      "new": 111616,
@@ -1375,6 +1405,16 @@
      "pct": null,
      "provider": "Baseten",
      "slug": "baseten-nvidia-nemotron-3-ultra-550b-a55b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4.1 Flash Fast",
+     "new": 0.6,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-1-flash-fast",
      "type": "added"
     },
     {
@@ -2589,6 +2629,26 @@
     },
     {
      "field": null,
+     "name": "GPT 6.1 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-1-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.1 Sol Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-1-sol-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Claude Sonnet 5.5",
      "new": 2,
      "old": null,
@@ -3065,6 +3125,26 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-gpt-6-sol:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.1 Sol Pro:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-1-sol-pro:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.1 Sol:batch",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-1-sol:batch",
      "type": "added"
     },
     {
@@ -8168,9 +8248,9 @@
      "type": "removed"
     }
    ],
-   "count": 816,
+   "count": 824,
    "date": "2026-09-29",
-   "generated_at": "2026-09-29T12:11:22.474674+00:00"
+   "generated_at": "2026-09-29T18:10:30.854402+00:00"
   },
   {
    "baseline": true,

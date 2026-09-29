@@ -1,7 +1,7 @@
 {
- "count": 2057,
+ "count": 2065,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-29T12:11:22.474674+00:00",
+ "generated_at": "2026-09-29T18:10:30.854402+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -4253,6 +4253,25 @@
    "url": "/model/openai-o4-mini-deep-research"
   },
   {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-1-sol",
+   "url": "/model/openai-gpt-6-1-sol"
+  },
+  {
    "cached_input_per_1m": 0.175,
    "capabilities": {
     "prompt_caching": true,
@@ -7996,6 +8015,44 @@
    "url": "/model/azure-gpt-6-sol-2026-09-22"
   },
   {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol",
+   "output_per_1m": 10,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-6-1-sol",
+   "url": "/model/azure-gpt-6-1-sol"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol",
+   "output_per_1m": 10,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-6-1-sol-2026-09-29",
+   "url": "/model/azure-gpt-6-1-sol-2026-09-29"
+  },
+  {
    "cached_input_per_1m": 0.5,
    "capabilities": {
     "prompt_caching": true,
@@ -9255,6 +9312,25 @@
    "provider_slug": "baseten",
    "slug": "baseten-nvidia-nemotron-3-ultra-550b-a55b",
    "url": "/model/baseten-nvidia-nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "cached_input_per_1m": 0.14,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "DeepSeek V4.1 Flash Fast",
+   "output_per_1m": 2.4,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-deepseek-v4-1-flash-fast",
+   "url": "/model/baseten-deepseek-v4-1-flash-fast"
   },
   {
    "cached_input_per_1m": null,
@@ -25007,6 +25083,44 @@
    "url": "/model/openrouter-claude-opus-5-5:batch"
   },
   {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-1-sol",
+   "url": "/model/openrouter-gpt-6-1-sol"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol Pro",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-1-sol-pro",
+   "url": "/model/openrouter-gpt-6-1-sol-pro"
+  },
+  {
    "cached_input_per_1m": 0.2,
    "capabilities": {
     "prompt_caching": true,
@@ -26093,6 +26207,44 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gpt-6-sol:batch",
    "url": "/model/openrouter-gpt-6-sol:batch"
+  },
+  {
+   "cached_input_per_1m": 0.05,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol Pro:batch",
+   "output_per_1m": 5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-1-sol-pro:batch",
+   "url": "/model/openrouter-gpt-6-1-sol-pro:batch"
+  },
+  {
+   "cached_input_per_1m": 0.05,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol:batch",
+   "output_per_1m": 5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-1-sol:batch",
+   "url": "/model/openrouter-gpt-6-1-sol:batch"
   },
   {
    "cached_input_per_1m": 0.16,
