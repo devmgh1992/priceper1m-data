@@ -1,7 +1,7 @@
 {
  "count": 2057,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-29T00:09:05.245144+00:00",
+ "generated_at": "2026-09-29T12:11:22.474674+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -19565,12 +19565,14 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 0.3,
    "kind": "chat",
-   "max_output": 1048576,
+   "max_output": 384000,
    "name": "DeepSeek V4.1 Flash",
    "output_per_1m": 1.2,
    "provider": "Nebius",
