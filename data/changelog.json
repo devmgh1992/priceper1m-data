@@ -1,5 +1,5 @@
 {
- "count_changes": 794,
+ "count_changes": 816,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -36,6 +36,16 @@
      "provider": "Anthropic",
      "slug": "anthropic-claude-sonnet-4-5-20250929",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 5 5",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-sonnet-5-5",
+     "type": "added"
     },
     {
      "field": "context_window",
@@ -645,6 +655,16 @@
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-6-luna",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 5 5",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-claude-sonnet-5-5",
      "type": "added"
     },
     {
@@ -1489,6 +1509,76 @@
     },
     {
      "field": "input_per_1m",
+     "name": "Meta.llama3 1 405b Instruct V1:0",
+     "new": 2.4,
+     "old": 5.32,
+     "pct": -54.89,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-1-405b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Meta.llama3 1 405b Instruct V1:0",
+     "new": 2.4,
+     "old": 16,
+     "pct": -85,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-1-405b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Us.meta.llama3 1 405b Instruct V1:0",
+     "new": 2.4,
+     "old": 5.32,
+     "pct": -54.89,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-1-405b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Us.meta.llama3 1 405b Instruct V1:0",
+     "new": 2.4,
+     "old": 16,
+     "pct": -85,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-1-405b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude Sonnet 5 5",
+     "new": 2.4,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-sonnet-5-5",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Mistral.mistral Large 2407 V1:0",
+     "new": 2,
+     "old": 3,
+     "pct": -33.33,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-mistral-large-2407-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Mistral.mistral Large 2407 V1:0",
+     "new": 6,
+     "old": 9,
+     "pct": -33.33,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-mistral-large-2407-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
      "name": "Cohere.command Text V14",
      "new": 1,
      "old": 1.5,
@@ -1505,6 +1595,86 @@
      "pct": null,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-amazon-nova-pro-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Meta.llama3 1 70b Instruct V1:0",
+     "new": 0.72,
+     "old": 0.99,
+     "pct": -27.27,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-1-70b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Meta.llama3 1 70b Instruct V1:0",
+     "new": 0.72,
+     "old": 0.99,
+     "pct": -27.27,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-1-70b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Meta.llama3 2 90b Instruct V1:0",
+     "new": 0.72,
+     "old": 2,
+     "pct": -64,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-2-90b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Meta.llama3 2 90b Instruct V1:0",
+     "new": 0.72,
+     "old": 2,
+     "pct": -64,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-2-90b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Us.meta.llama3 1 70b Instruct V1:0",
+     "new": 0.72,
+     "old": 0.99,
+     "pct": -27.27,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-1-70b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Us.meta.llama3 1 70b Instruct V1:0",
+     "new": 0.72,
+     "old": 0.99,
+     "pct": -27.27,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-1-70b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Us.meta.llama3 2 90b Instruct V1:0",
+     "new": 0.72,
+     "old": 2,
+     "pct": -64,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-2-90b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Us.meta.llama3 2 90b Instruct V1:0",
+     "new": 0.72,
+     "old": 2,
+     "pct": -64,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-2-90b-instruct-v1:0",
      "type": "changed"
     },
     {
@@ -1546,6 +1716,46 @@
      "provider": "Amazon Bedrock",
      "slug": "bedrock-qwen-qwen3-next-80b-a3b",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Meta.llama3 2 11b Instruct V1:0",
+     "new": 0.16,
+     "old": 0.35,
+     "pct": -54.29,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-2-11b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Meta.llama3 2 11b Instruct V1:0",
+     "new": 0.16,
+     "old": 0.35,
+     "pct": -54.29,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-2-11b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Us.meta.llama3 2 11b Instruct V1:0",
+     "new": 0.16,
+     "old": 0.35,
+     "pct": -54.29,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-2-11b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Us.meta.llama3 2 11b Instruct V1:0",
+     "new": 0.16,
+     "old": 0.35,
+     "pct": -54.29,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-2-11b-instruct-v1:0",
+     "type": "changed"
     },
     {
      "field": "cached_input_per_1m",
@@ -2375,6 +2585,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-claude-opus-5-5:batch",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 5.5",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-sonnet-5-5",
      "type": "added"
     },
     {
@@ -7948,9 +8168,9 @@
      "type": "removed"
     }
    ],
-   "count": 794,
-   "date": "2026-09-28",
-   "generated_at": "2026-09-28T18:09:29.144106+00:00"
+   "count": 816,
+   "date": "2026-09-29",
+   "generated_at": "2026-09-29T00:09:05.245144+00:00"
   },
   {
    "baseline": true,

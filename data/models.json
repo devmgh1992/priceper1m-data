@@ -1,7 +1,7 @@
 {
- "count": 2053,
+ "count": 2057,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-28T18:09:29.144106+00:00",
+ "generated_at": "2026-09-29T00:09:05.245144+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -513,6 +513,25 @@
    "provider_slug": "anthropic",
    "slug": "anthropic-claude-sonnet-5",
    "url": "/model/anthropic-claude-sonnet-5"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Sonnet 5 5",
+   "output_per_1m": 10,
+   "provider": "Anthropic",
+   "provider_slug": "anthropic",
+   "slug": "anthropic-claude-sonnet-5-5",
+   "url": "/model/anthropic-claude-sonnet-5-5"
   },
   {
    "cached_input_per_1m": 0.1,
@@ -5455,6 +5474,22 @@
    "url": "/model/perplexity-grok-4-5"
   },
   {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Sonnet 5 5",
+   "output_per_1m": 10,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-claude-sonnet-5-5",
+   "url": "/model/perplexity-claude-sonnet-5-5"
+  },
+  {
    "cached_input_per_1m": 0.175,
    "capabilities": {
     "reasoning": true,
@@ -9544,38 +9579,6 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 128000,
-   "input_per_1m": 5.32,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Meta.llama3 1 405b Instruct V1:0",
-   "output_per_1m": 16,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-meta-llama3-1-405b-instruct-v1:0",
-   "url": "/model/bedrock-meta-llama3-1-405b-instruct-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 5.32,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Us.meta.llama3 1 405b Instruct V1:0",
-   "output_per_1m": 16,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-us-meta-llama3-1-405b-instruct-v1:0",
-   "url": "/model/bedrock-us-meta-llama3-1-405b-instruct-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
    "context_window": 32000,
    "input_per_1m": 5.2,
    "kind": "chat",
@@ -9767,22 +9770,6 @@
    "url": "/model/bedrock-eu-anthropic-claude-3-7-sonnet-20250219-v1:0"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 8191,
-   "name": "Mistral.mistral Large 2407 V1:0",
-   "output_per_1m": 9,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-mistral-mistral-large-2407-v1:0",
-   "url": "/model/bedrock-mistral-mistral-large-2407-v1:0"
-  },
-  {
    "cached_input_per_1m": 0.3,
    "capabilities": {
     "tools": true,
@@ -9818,6 +9805,38 @@
    "url": "/model/bedrock-us-anthropic-claude-3-5-sonnet-20241022-v2:0"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 2.4,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Meta.llama3 1 405b Instruct V1:0",
+   "output_per_1m": 2.4,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-meta-llama3-1-405b-instruct-v1:0",
+   "url": "/model/bedrock-meta-llama3-1-405b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 2.4,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Us.meta.llama3 1 405b Instruct V1:0",
+   "output_per_1m": 2.4,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-us-meta-llama3-1-405b-instruct-v1:0",
+   "url": "/model/bedrock-us-meta-llama3-1-405b-instruct-v1:0"
+  },
+  {
    "cached_input_per_1m": 0.24,
    "capabilities": {
     "prompt_caching": true,
@@ -9837,6 +9856,25 @@
    "url": "/model/bedrock-anthropic-claude-sonnet-5"
   },
   {
+   "cached_input_per_1m": 0.24,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2.4,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Sonnet 5 5",
+   "output_per_1m": 12,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-sonnet-5-5",
+   "url": "/model/bedrock-anthropic-claude-sonnet-5-5"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 256000,
@@ -9853,36 +9891,18 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true,
-    "vision": true
+    "tools": true
    },
    "context_window": 128000,
    "input_per_1m": 2,
    "kind": "chat",
-   "max_output": 4096,
-   "name": "Meta.llama3 2 90b Instruct V1:0",
-   "output_per_1m": 2,
+   "max_output": 8191,
+   "name": "Mistral.mistral Large 2407 V1:0",
+   "output_per_1m": 6,
    "provider": "Amazon Bedrock",
    "provider_slug": "bedrock",
-   "slug": "bedrock-meta-llama3-2-90b-instruct-v1:0",
-   "url": "/model/bedrock-meta-llama3-2-90b-instruct-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Us.meta.llama3 2 90b Instruct V1:0",
-   "output_per_1m": 2,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-us-meta-llama3-2-90b-instruct-v1:0",
-   "url": "/model/bedrock-us-meta-llama3-2-90b-instruct-v1:0"
+   "slug": "bedrock-mistral-mistral-large-2407-v1:0",
+   "url": "/model/bedrock-mistral-mistral-large-2407-v1:0"
   },
   {
    "cached_input_per_1m": null,
@@ -9977,38 +9997,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-zai-glm-5",
    "url": "/model/bedrock-zai-glm-5"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.99,
-   "kind": "chat",
-   "max_output": 2048,
-   "name": "Meta.llama3 1 70b Instruct V1:0",
-   "output_per_1m": 0.99,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-meta-llama3-1-70b-instruct-v1:0",
-   "url": "/model/bedrock-meta-llama3-1-70b-instruct-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.99,
-   "kind": "chat",
-   "max_output": 2048,
-   "name": "Us.meta.llama3 1 70b Instruct V1:0",
-   "output_per_1m": 0.99,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-us-meta-llama3-1-70b-instruct-v1:0",
-   "url": "/model/bedrock-us-meta-llama3-1-70b-instruct-v1:0"
   },
   {
    "cached_input_per_1m": 0.24,
@@ -10177,6 +10165,72 @@
    "capabilities": {
     "tools": true
    },
+   "context_window": 128000,
+   "input_per_1m": 0.72,
+   "kind": "chat",
+   "max_output": 2048,
+   "name": "Meta.llama3 1 70b Instruct V1:0",
+   "output_per_1m": 0.72,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-meta-llama3-1-70b-instruct-v1:0",
+   "url": "/model/bedrock-meta-llama3-1-70b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.72,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Meta.llama3 2 90b Instruct V1:0",
+   "output_per_1m": 0.72,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-meta-llama3-2-90b-instruct-v1:0",
+   "url": "/model/bedrock-meta-llama3-2-90b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.72,
+   "kind": "chat",
+   "max_output": 2048,
+   "name": "Us.meta.llama3 1 70b Instruct V1:0",
+   "output_per_1m": 0.72,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-us-meta-llama3-1-70b-instruct-v1:0",
+   "url": "/model/bedrock-us-meta-llama3-1-70b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.72,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Us.meta.llama3 2 90b Instruct V1:0",
+   "output_per_1m": 0.72,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-us-meta-llama3-2-90b-instruct-v1:0",
+   "url": "/model/bedrock-us-meta-llama3-2-90b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
    "context_window": 262144,
    "input_per_1m": 0.6,
    "kind": "chat",
@@ -10276,40 +10330,6 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-meta-llama3-8b-instruct-v1:0",
    "url": "/model/bedrock-meta-llama3-8b-instruct-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.35,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Meta.llama3 2 11b Instruct V1:0",
-   "output_per_1m": 0.35,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-meta-llama3-2-11b-instruct-v1:0",
-   "url": "/model/bedrock-meta-llama3-2-11b-instruct-v1:0"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 0.35,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "Us.meta.llama3 2 11b Instruct V1:0",
-   "output_per_1m": 0.35,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-us-meta-llama3-2-11b-instruct-v1:0",
-   "url": "/model/bedrock-us-meta-llama3-2-11b-instruct-v1:0"
   },
   {
    "cached_input_per_1m": null,
@@ -10481,6 +10501,40 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-openai-gpt-oss-120b-1:0",
    "url": "/model/bedrock-openai-gpt-oss-120b-1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.16,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Meta.llama3 2 11b Instruct V1:0",
+   "output_per_1m": 0.16,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-meta-llama3-2-11b-instruct-v1:0",
+   "url": "/model/bedrock-meta-llama3-2-11b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.16,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Us.meta.llama3 2 11b Instruct V1:0",
+   "output_per_1m": 0.16,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-us-meta-llama3-2-11b-instruct-v1:0",
+   "url": "/model/bedrock-us-meta-llama3-2-11b-instruct-v1:0"
   },
   {
    "cached_input_per_1m": null,
@@ -24949,6 +25003,25 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-claude-opus-5-5:batch",
    "url": "/model/openrouter-claude-opus-5-5:batch"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Sonnet 5.5",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-claude-sonnet-5-5",
+   "url": "/model/openrouter-claude-sonnet-5-5"
   },
   {
    "cached_input_per_1m": 0.175,
