@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2065,
- "generated_at": "2026-09-29T18:10:30.854402+00:00",
+ "endpoints_tracked": 2067,
+ "generated_at": "2026-09-30T00:09:48.555237+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "OpenRouter",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0,
-   "models": 482,
+   "models": 483,
    "provider": "openrouter"
   },
   {
@@ -114,7 +114,7 @@
    "label": "Google Gemini",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0,
-   "models": 41,
+   "models": 42,
    "provider": "gemini"
   },
   {
