@@ -1,5 +1,5 @@
 {
- "count_changes": 850,
+ "count_changes": 853,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2026,6 +2026,36 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-v4p1-flash-us",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4p1 Flash",
+     "new": 0.3,
+     "old": 0.22,
+     "pct": 36.36,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4p1 Flash",
+     "new": 1.2,
+     "old": 0.66,
+     "pct": 81.82,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4p1 Flash",
+     "new": 0.006,
+     "old": 0.007,
+     "pct": -14.29,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash",
+     "type": "changed"
     },
     {
      "field": null,
@@ -8508,9 +8538,9 @@
      "type": "removed"
     }
    ],
-   "count": 850,
+   "count": 853,
    "date": "2026-10-01",
-   "generated_at": "2026-10-01T12:11:08.880597+00:00"
+   "generated_at": "2026-10-01T18:21:14.732151+00:00"
   },
   {
    "baseline": true,
