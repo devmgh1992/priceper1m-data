@@ -1,7 +1,7 @@
 {
  "count": 2067,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-09-30T18:11:59.311302+00:00",
+ "generated_at": "2026-10-01T06:08:52.279738+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -9422,7 +9422,7 @@
    "context_window": 1048576,
    "input_per_1m": 0.3,
    "kind": "chat",
-   "max_output": 32768,
+   "max_output": 262144,
    "name": "DeepSeek V4.1 Flash",
    "output_per_1m": 1.2,
    "provider": "Baseten",
@@ -24125,25 +24125,6 @@
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 943718,
-   "name": "Kimi K3",
-   "output_per_1m": 15,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-kimi-k3",
-   "url": "/model/openrouter-kimi-k3"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 943718,
    "name": "Kimi",
    "output_per_1m": 15,
    "provider": "OpenRouter",
@@ -25385,24 +25366,6 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 204800,
-   "input_per_1m": 1.4,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.1",
-   "output_per_1m": 4.4,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-1",
-   "url": "/model/openrouter-glm-5-1"
-  },
-  {
-   "cached_input_per_1m": 0.26,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
    "context_window": 1310720,
    "input_per_1m": 1.4,
    "kind": "chat",
@@ -25413,6 +25376,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-glm-5-3",
    "url": "/model/openrouter-glm-5-3"
+  },
+  {
+   "cached_input_per_1m": 0.044,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.32,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4 Pro 0813",
+   "output_per_1m": 3.96,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro-0813",
+   "url": "/model/openrouter-deepseek-v4-pro-0813"
   },
   {
    "cached_input_per_1m": 0.044,
@@ -26302,6 +26283,24 @@
    "url": "/model/openrouter-claude-sonnet-5-5:batch"
   },
   {
+   "cached_input_per_1m": 0.17914,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 204800,
+   "input_per_1m": 0.9646,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Glm 5.1",
+   "output_per_1m": 3.0316,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-1",
+   "url": "/model/openrouter-glm-5-1"
+  },
+  {
    "cached_input_per_1m": 0.15,
    "capabilities": {
     "prompt_caching": true,
@@ -26319,24 +26318,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-sakana-namazu",
    "url": "/model/openrouter-sakana-namazu"
-  },
-  {
-   "cached_input_per_1m": 0.079025,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.9483,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Pro",
-   "output_per_1m": 1.8966,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro",
-   "url": "/model/openrouter-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": null,
@@ -26528,6 +26509,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-morph-v3-fast",
    "url": "/model/openrouter-morph-v3-fast"
+  },
+  {
+   "cached_input_per_1m": 0.06525,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.783,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.566,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
   },
   {
    "cached_input_per_1m": null,
@@ -26804,6 +26803,25 @@
    "url": "/model/openrouter-hermes-3-llama-3-1-70b"
   },
   {
+   "cached_input_per_1m": 0.18,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.6712,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Kimi K2.7 Code",
+   "output_per_1m": 3.35,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-kimi-k2-7-code",
+   "url": "/model/openrouter-kimi-k2-7-code"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 32768,
@@ -26816,25 +26834,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen-2-5-coder-32b-instruct",
    "url": "/model/openrouter-qwen-2-5-coder-32b-instruct"
-  },
-  {
-   "cached_input_per_1m": 0.18,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.6562,
-   "kind": "chat",
-   "max_output": 235929,
-   "name": "Kimi K2.7 Code",
-   "output_per_1m": 3.3,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-kimi-k2-7-code",
-   "url": "/model/openrouter-kimi-k2-7-code"
   },
   {
    "cached_input_per_1m": 0.12142,
@@ -26917,24 +26916,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-l3-3-euryale-70b",
    "url": "/model/openrouter-l3-3-euryale-70b"
-  },
-  {
-   "cached_input_per_1m": 0.12064,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.6496,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Glm 5.2",
-   "output_per_1m": 2.0416,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-glm-5-2",
-   "url": "/model/openrouter-glm-5-2"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -27907,6 +27888,25 @@
    "url": "/model/openrouter-remm-slerp-l2-13b"
   },
   {
+   "cached_input_per_1m": 0.04,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 0.35,
+   "kind": "chat",
+   "max_output": 117964,
+   "name": "Muse Glimmer 30b",
+   "output_per_1m": 1.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-muse-glimmer-30b",
+   "url": "/model/openrouter-muse-glimmer-30b"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -27923,6 +27923,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-6-plus",
    "url": "/model/openrouter-qwen3-6-plus"
+  },
+  {
+   "cached_input_per_1m": 0.26,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3249,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Glm 5.2",
+   "output_per_1m": 3.99,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-glm-5-2",
+   "url": "/model/openrouter-glm-5-2"
   },
   {
    "cached_input_per_1m": 0.064,
@@ -27961,25 +27979,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-6-27b",
    "url": "/model/openrouter-qwen3-6-27b"
-  },
-  {
-   "cached_input_per_1m": 0.006,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4.1 Flash",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-1-flash",
-   "url": "/model/openrouter-deepseek-v4-1-flash"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -28111,24 +28110,6 @@
    "url": "/model/openrouter-qwen3-5-plus-20260420"
   },
   {
-   "cached_input_per_1m": 0.06,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 204800,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 176947,
-   "name": "Minimax M2.7",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-minimax-m2-7",
-   "url": "/model/openrouter-minimax-m2-7"
-  },
-  {
    "cached_input_per_1m": 0.03,
    "capabilities": {
     "prompt_caching": true
@@ -28179,6 +28160,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gemini-2-5-flash-image",
    "url": "/model/openrouter-gemini-2-5-flash-image"
+  },
+  {
+   "cached_input_per_1m": 0.135,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 163840,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Deepseek V3.1 Terminus",
+   "output_per_1m": 1,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v3-1-terminus",
+   "url": "/model/openrouter-deepseek-v3-1-terminus"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -28253,25 +28252,6 @@
    "url": "/model/openrouter-longcat-2-0"
   },
   {
-   "cached_input_per_1m": 0.04,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 16384,
-   "name": "Muse Glimmer 30b",
-   "output_per_1m": 1.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-muse-glimmer-30b",
-   "url": "/model/openrouter-muse-glimmer-30b"
-  },
-  {
    "cached_input_per_1m": 0.15,
    "capabilities": {
     "prompt_caching": true
@@ -28341,6 +28321,25 @@
    "url": "/model/openrouter-deepseek-v3-2"
   },
   {
+   "cached_input_per_1m": 0.27,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.28,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Kimi K3",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-kimi-k3",
+   "url": "/model/openrouter-kimi-k3"
+  },
+  {
    "cached_input_per_1m": 0.02,
    "capabilities": {
     "reasoning": true,
@@ -28374,24 +28373,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-minimax-m2-5",
    "url": "/model/openrouter-minimax-m2-5"
-  },
-  {
-   "cached_input_per_1m": 0.135,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 163840,
-   "input_per_1m": 0.27,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "Deepseek V3.1 Terminus",
-   "output_per_1m": 1,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v3-1-terminus",
-   "url": "/model/openrouter-deepseek-v3-1-terminus"
   },
   {
    "cached_input_per_1m": null,
@@ -28735,24 +28716,6 @@
    "url": "/model/openrouter-gpt-3-5-turbo:batch"
   },
   {
-   "cached_input_per_1m": 0.172,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.24298,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Pro 0813",
-   "output_per_1m": 4.2,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-pro-0813",
-   "url": "/model/openrouter-deepseek-v4-pro-0813"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -28803,6 +28766,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen-vl-plus",
    "url": "/model/openrouter-qwen-vl-plus"
+  },
+  {
+   "cached_input_per_1m": 0.042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 204800,
+   "input_per_1m": 0.21,
+   "kind": "chat",
+   "max_output": 176947,
+   "name": "Minimax M2.7",
+   "output_per_1m": 0.84,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-minimax-m2-7",
+   "url": "/model/openrouter-minimax-m2-7"
   },
   {
    "cached_input_per_1m": 0.1,
@@ -29214,24 +29195,6 @@
    "cached_input_per_1m": 0.075,
    "capabilities": {
     "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.15,
-   "kind": "chat",
-   "max_output": 65536,
-   "name": "GPT Oss 120b",
-   "output_per_1m": 0.6,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-gpt-oss-120b",
-   "url": "/model/openrouter-gpt-oss-120b"
-  },
-  {
-   "cached_input_per_1m": 0.075,
-   "capabilities": {
-    "prompt_caching": true,
     "tools": true,
     "vision": true
    },
@@ -29559,24 +29522,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-mimo-v2-5",
    "url": "/model/openrouter-mimo-v2-5"
-  },
-  {
-   "cached_input_per_1m": 0.028,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.14,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Deepseek V4 Flash",
-   "output_per_1m": 0.28,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash",
-   "url": "/model/openrouter-deepseek-v4-flash"
   },
   {
    "cached_input_per_1m": null,
@@ -29966,22 +29911,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-next-80b-a3b-instruct",
    "url": "/model/openrouter-qwen3-next-80b-a3b-instruct"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.1,
-   "kind": "chat",
-   "max_output": 235929,
-   "name": "Qwen3 30b A3b Instruct 2507",
-   "output_per_1m": 0.3,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
-   "url": "/model/openrouter-qwen3-30b-a3b-instruct-2507"
   },
   {
    "cached_input_per_1m": null,
@@ -30410,6 +30339,43 @@
    "url": "/model/openrouter-gemma-3-27b-it"
   },
   {
+   "cached_input_per_1m": 0.015708,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.07854,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Deepseek V4 Flash",
+   "output_per_1m": 0.15708,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash",
+   "url": "/model/openrouter-deepseek-v4-flash"
+  },
+  {
+   "cached_input_per_1m": 0.0425,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.0765,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Gemma 4 26b A4b It",
+   "output_per_1m": 0.255,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gemma-4-26b-a4b-it",
+   "url": "/model/openrouter-gemma-4-26b-a4b-it"
+  },
+  {
    "cached_input_per_1m": 0.0375,
    "capabilities": {
     "prompt_caching": true,
@@ -30594,25 +30560,6 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-phi-4",
    "url": "/model/openrouter-phi-4"
-  },
-  {
-   "cached_input_per_1m": 0.0375,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.0675,
-   "kind": "chat",
-   "max_output": 235929,
-   "name": "Gemma 4 26b A4b It",
-   "output_per_1m": 0.225,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-gemma-4-26b-a4b-it",
-   "url": "/model/openrouter-gemma-4-26b-a4b-it"
   },
   {
    "cached_input_per_1m": null,
@@ -30984,6 +30931,22 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.04815,
+   "kind": "chat",
+   "max_output": 32000,
+   "name": "Qwen3 30b A3b Instruct 2507",
+   "output_per_1m": 0.19305,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+   "url": "/model/openrouter-qwen3-30b-a3b-instruct-2507"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
    "input_per_1m": 0.044,
@@ -31059,6 +31022,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-command-r7b-12-2024",
    "url": "/model/openrouter-command-r7b-12-2024"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 0.037,
+   "kind": "chat",
+   "max_output": 117964,
+   "name": "GPT Oss 120b",
+   "output_per_1m": 0.17,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-oss-120b",
+   "url": "/model/openrouter-gpt-oss-120b"
   },
   {
    "cached_input_per_1m": null,
@@ -31234,6 +31215,25 @@
    "url": "/model/openrouter-ling-3-0-flash-vl"
   },
   {
+   "cached_input_per_1m": 0.00291,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.0198,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek V4.1 Flash",
+   "output_per_1m": 0.396,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-1-flash",
+   "url": "/model/openrouter-deepseek-v4-1-flash"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -31267,24 +31267,6 @@
    "url": "/model/openrouter-gpt-oss-20b"
   },
   {
-   "cached_input_per_1m": 0.016,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1310720,
-   "input_per_1m": 0.018,
-   "kind": "chat",
-   "max_output": 943718,
-   "name": "Deepseek V4 Flash 0731",
-   "output_per_1m": 0.32,
-   "provider": "OpenRouter",
-   "provider_slug": "openrouter",
-   "slug": "openrouter-deepseek-v4-flash-0731",
-   "url": "/model/openrouter-deepseek-v4-flash-0731"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 131000,
@@ -31297,6 +31279,24 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-granite-4-0-h-micro",
    "url": "/model/openrouter-granite-4-0-h-micro"
+  },
+  {
+   "cached_input_per_1m": 0.0089,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.0089,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Deepseek V4 Flash 0731",
+   "output_per_1m": 1.28,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash-0731",
+   "url": "/model/openrouter-deepseek-v4-flash-0731"
   },
   {
    "cached_input_per_1m": null,
@@ -31744,7 +31744,7 @@
    "context_window": 1000000,
    "input_per_1m": 0,
    "kind": "chat",
-   "max_output": 128000,
+   "max_output": 524288,
    "name": "Space Bunny Alpha",
    "output_per_1m": 0,
    "provider": "OpenRouter",

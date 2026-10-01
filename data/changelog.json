@@ -1,5 +1,5 @@
 {
- "count_changes": 845,
+ "count_changes": 850,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2358,36 +2358,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Kimi K3",
-     "new": 3,
-     "old": 2.1,
-     "pct": 42.86,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k3",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Kimi K3",
-     "new": 15,
-     "old": 10.53,
-     "pct": 42.45,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k3",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Kimi K3",
-     "new": 0.3,
-     "old": 0.235,
-     "pct": 27.66,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k3",
-     "type": "changed"
-    },
-    {
      "field": null,
      "name": "Kimi",
      "new": 3,
@@ -2878,56 +2848,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Glm 5.1",
-     "new": 1.4,
-     "old": 0.966,
-     "pct": 44.93,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-1",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Glm 5.1",
-     "new": 4.4,
-     "old": 3.036,
-     "pct": 44.93,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-1",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Glm 5.1",
-     "new": 0.26,
-     "old": 0.1794,
-     "pct": 44.93,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-1",
-     "type": "changed"
-    },
-    {
-     "field": "context_window",
-     "name": "Glm 5.1",
-     "new": 204800,
-     "old": 202752,
-     "pct": 1.01,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-1",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Glm 5.1",
-     "new": 131072,
-     "old": 65535,
-     "pct": 100,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-1",
-     "type": "changed"
-    },
-    {
      "field": "cached_input_per_1m",
      "name": "Glm 5.3",
      "new": 0.26,
@@ -2945,6 +2865,46 @@
      "pct": 260,
      "provider": "OpenRouter",
      "slug": "openrouter-glm-5-3",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 1.32,
+     "old": 0.57948,
+     "pct": 127.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 3.96,
+     "old": 1.73844,
+     "pct": 127.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 0.044,
+     "old": 0.019316,
+     "pct": 127.79,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Pro 0813",
+     "new": 393216,
+     "old": 384000,
+     "pct": 2.4,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro-0813",
      "type": "changed"
     },
     {
@@ -3308,6 +3268,56 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Glm 5.1",
+     "new": 0.9646,
+     "old": 0.966,
+     "pct": -0.14,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.1",
+     "new": 3.0316,
+     "old": 3.036,
+     "pct": -0.14,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.1",
+     "new": 0.17914,
+     "old": 0.1794,
+     "pct": -0.14,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 5.1",
+     "new": 204800,
+     "old": 202752,
+     "pct": 1.01,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.1",
+     "new": 131072,
+     "old": 65535,
+     "pct": 100,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-1",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Sakana Namazu",
      "new": 0.95,
@@ -3316,36 +3326,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-sakana-namazu",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.9483,
-     "old": 0.859908,
-     "pct": 10.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 1.8966,
-     "old": 1.719816,
-     "pct": 10.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro",
-     "new": 0.079025,
-     "old": 0.071659,
-     "pct": 10.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "changed"
     },
     {
      "field": null,
@@ -3436,6 +3416,36 @@
      "provider": "OpenRouter",
      "slug": "openrouter-morph-v3-fast",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.783,
+     "old": 0.859908,
+     "pct": -8.94,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.566,
+     "old": 1.719816,
+     "pct": -8.94,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.06525,
+     "old": 0.071659,
+     "pct": -8.94,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
     },
     {
      "field": "context_window",
@@ -3558,6 +3568,36 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 0.6712,
+     "old": 0.71,
+     "pct": -5.46,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 3.35,
+     "old": 3.5,
+     "pct": -4.29,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Kimi K2.7 Code",
+     "new": 0.18,
+     "old": 0.15,
+     "pct": 20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k2-7-code",
+     "type": "changed"
+    },
+    {
      "field": "context_window",
      "name": "Qwen 2.5 Coder 32b Instruct",
      "new": 32768,
@@ -3575,36 +3615,6 @@
      "pct": -12.73,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen-2-5-coder-32b-instruct",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Kimi K2.7 Code",
-     "new": 0.6562,
-     "old": 0.71,
-     "pct": -7.58,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k2-7-code",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Kimi K2.7 Code",
-     "new": 3.3,
-     "old": 3.5,
-     "pct": -5.71,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k2-7-code",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Kimi K2.7 Code",
-     "new": 0.18,
-     "old": 0.15,
-     "pct": 20,
-     "provider": "OpenRouter",
-     "slug": "openrouter-kimi-k2-7-code",
      "type": "changed"
     },
     {
@@ -3676,36 +3686,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-l3-3-euryale-70b",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Glm 5.2",
-     "new": 0.6496,
-     "old": 0.6,
-     "pct": 8.27,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Glm 5.2",
-     "new": 2.0416,
-     "old": 2,
-     "pct": 2.08,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Glm 5.2",
-     "new": 0.12064,
-     "old": 0.15,
-     "pct": -19.57,
-     "provider": "OpenRouter",
-     "slug": "openrouter-glm-5-2",
-     "type": "changed"
     },
     {
      "field": null,
@@ -4268,6 +4248,56 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Muse Glimmer 30b",
+     "new": 0.35,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-muse-glimmer-30b",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Glm 5.2",
+     "new": 0.3249,
+     "old": 0.6,
+     "pct": -45.85,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Glm 5.2",
+     "new": 3.99,
+     "old": 2,
+     "pct": 99.5,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Glm 5.2",
+     "new": 0.26,
+     "old": 0.15,
+     "pct": 73.33,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Glm 5.2",
+     "new": 943718,
+     "old": 131072,
+     "pct": 620,
+     "provider": "OpenRouter",
+     "slug": "openrouter-glm-5-2",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Qwen3.6 27b",
      "new": 0.32,
@@ -4305,46 +4335,6 @@
      "pct": 25,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-6-27b",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Deepseek V4.1 Flash",
-     "new": 0.3,
-     "old": 0.15,
-     "pct": 100,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-1-flash",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4.1 Flash",
-     "new": 1.2,
-     "old": 0.6,
-     "pct": 100,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-1-flash",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4.1 Flash",
-     "new": 0.006,
-     "old": 0.003,
-     "pct": 100,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-1-flash",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Deepseek V4.1 Flash",
-     "new": 943718,
-     "old": 384000,
-     "pct": 145.76,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-1-flash",
      "type": "changed"
     },
     {
@@ -4428,13 +4418,23 @@
      "type": "changed"
     },
     {
-     "field": "max_output",
-     "name": "Minimax M2.7",
-     "new": 176947,
-     "old": 131072,
-     "pct": 35,
+     "field": "input_per_1m",
+     "name": "Deepseek V3.1 Terminus",
+     "new": 0.3,
+     "old": 0.27,
+     "pct": 11.11,
      "provider": "OpenRouter",
-     "slug": "openrouter-minimax-m2-7",
+     "slug": "openrouter-deepseek-v3-1-terminus",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V3.1 Terminus",
+     "new": 65536,
+     "old": 32768,
+     "pct": 100,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v3-1-terminus",
      "type": "changed"
     },
     {
@@ -4465,16 +4465,6 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-longcat-2-0",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Muse Glimmer 30b",
-     "new": 0.3,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-muse-glimmer-30b",
      "type": "added"
     },
     {
@@ -4575,6 +4565,36 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v3-2",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Kimi K3",
+     "new": 0.28,
+     "old": 2.1,
+     "pct": -86.67,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K3",
+     "new": 10,
+     "old": 10.53,
+     "pct": -5.03,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Kimi K3",
+     "new": 0.27,
+     "old": 0.235,
+     "pct": 14.89,
+     "provider": "OpenRouter",
+     "slug": "openrouter-kimi-k3",
      "type": "changed"
     },
     {
@@ -4778,46 +4798,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.24298,
-     "old": 0.57948,
-     "pct": -58.07,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 4.2,
-     "old": 1.73844,
-     "pct": 141.6,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 0.172,
-     "old": 0.019316,
-     "pct": 790.45,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Deepseek V4 Pro 0813",
-     "new": 943718,
-     "old": 384000,
-     "pct": 145.76,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro-0813",
-     "type": "changed"
-    },
-    {
      "field": "context_window",
      "name": "Qwen3 235b A22b Thinking 2507",
      "new": 131072,
@@ -4875,6 +4855,46 @@
      "pct": -31.73,
      "provider": "OpenRouter",
      "slug": "openrouter-deepseek-v4-flash-vision-exp",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Minimax M2.7",
+     "new": 0.21,
+     "old": 0.3,
+     "pct": -30,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Minimax M2.7",
+     "new": 0.84,
+     "old": 1.2,
+     "pct": -30,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Minimax M2.7",
+     "new": 0.042,
+     "old": 0.06,
+     "pct": -30,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Minimax M2.7",
+     "new": 176947,
+     "old": 131072,
+     "pct": 35,
+     "provider": "OpenRouter",
+     "slug": "openrouter-minimax-m2-7",
      "type": "changed"
     },
     {
@@ -5049,46 +5069,6 @@
     },
     {
      "field": "input_per_1m",
-     "name": "GPT Oss 120b",
-     "new": 0.15,
-     "old": 0.037,
-     "pct": 305.41,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gpt-oss-120b",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "GPT Oss 120b",
-     "new": 0.6,
-     "old": 0.17,
-     "pct": 252.94,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gpt-oss-120b",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "GPT Oss 120b",
-     "new": 0.075,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gpt-oss-120b",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "GPT Oss 120b",
-     "new": 65536,
-     "old": 32768,
-     "pct": 100,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gpt-oss-120b",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
      "name": "Qwen3.6 35b A3b",
      "new": 0.15,
      "old": 0.1,
@@ -5215,36 +5195,6 @@
      "pct": 0.14,
      "provider": "OpenRouter",
      "slug": "openrouter-mimo-v2-5",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Flash",
-     "new": 0.14,
-     "old": 0.0854,
-     "pct": 63.93,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Flash",
-     "new": 0.28,
-     "old": 0.1708,
-     "pct": 63.93,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Deepseek V4 Flash",
-     "new": 0.028,
-     "old": 0.01708,
-     "pct": 63.93,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
      "type": "changed"
     },
     {
@@ -5385,26 +5335,6 @@
      "pct": 11.11,
      "provider": "OpenRouter",
      "slug": "openrouter-qwen3-next-80b-a3b-instruct",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Qwen3 30b A3b Instruct 2507",
-     "new": 0.1,
-     "old": 0.09,
-     "pct": 11.11,
-     "provider": "OpenRouter",
-     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Qwen3 30b A3b Instruct 2507",
-     "new": 235929,
-     "old": 32000,
-     "pct": 637.28,
-     "provider": "OpenRouter",
-     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
      "type": "changed"
     },
     {
@@ -5688,6 +5618,76 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.07854,
+     "old": 0.0854,
+     "pct": -8.03,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.15708,
+     "old": 0.1708,
+     "pct": -8.03,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.015708,
+     "old": 0.01708,
+     "pct": -8.03,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Gemma 4 26b A4b It",
+     "new": 0.0765,
+     "old": 0.042,
+     "pct": 82.14,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Gemma 4 26b A4b It",
+     "new": 0.255,
+     "old": 0.22,
+     "pct": 15.91,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Gemma 4 26b A4b It",
+     "new": 0.0425,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemma 4 26b A4b It",
+     "new": 235929,
+     "old": 16384,
+     "pct": 1340,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemma-4-26b-a4b-it",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Seed 1.6 Flash",
      "new": 0.075,
@@ -5776,46 +5776,6 @@
      "provider": "OpenRouter",
      "slug": "openrouter-phi-4",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Gemma 4 26b A4b It",
-     "new": 0.0675,
-     "old": 0.042,
-     "pct": 60.71,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gemma-4-26b-a4b-it",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Gemma 4 26b A4b It",
-     "new": 0.225,
-     "old": 0.22,
-     "pct": 2.27,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gemma-4-26b-a4b-it",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Gemma 4 26b A4b It",
-     "new": 0.0375,
-     "old": null,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gemma-4-26b-a4b-it",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Gemma 4 26b A4b It",
-     "new": 235929,
-     "old": 16384,
-     "pct": 1340,
-     "provider": "OpenRouter",
-     "slug": "openrouter-gemma-4-26b-a4b-it",
-     "type": "changed"
     },
     {
      "field": "input_per_1m",
@@ -5988,6 +5948,26 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Qwen3 30b A3b Instruct 2507",
+     "new": 0.04815,
+     "old": 0.09,
+     "pct": -46.5,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3 30b A3b Instruct 2507",
+     "new": 0.19305,
+     "old": 0.3,
+     "pct": -35.65,
+     "provider": "OpenRouter",
+     "slug": "openrouter-qwen3-30b-a3b-instruct-2507",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Hy Mt2 1.8b",
      "new": 0.044,
@@ -6036,6 +6016,16 @@
      "provider": "OpenRouter",
      "slug": "openrouter-command-r7b-12-2024",
      "type": "added"
+    },
+    {
+     "field": "max_output",
+     "name": "GPT Oss 120b",
+     "new": 117964,
+     "old": 32768,
+     "pct": 260,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-oss-120b",
+     "type": "changed"
     },
     {
      "field": null,
@@ -6119,6 +6109,46 @@
     },
     {
      "field": "input_per_1m",
+     "name": "Deepseek V4.1 Flash",
+     "new": 0.0198,
+     "old": 0.15,
+     "pct": -86.8,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4.1 Flash",
+     "new": 0.396,
+     "old": 0.6,
+     "pct": -34,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4.1 Flash",
+     "new": 0.00291,
+     "old": 0.003,
+     "pct": -3,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4.1 Flash",
+     "new": 943718,
+     "old": 384000,
+     "pct": 145.76,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-1-flash",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
      "name": "GPT Oss 20b",
      "new": 0.018,
      "old": 0.03,
@@ -6148,26 +6178,6 @@
      "type": "changed"
     },
     {
-     "field": "input_per_1m",
-     "name": "Deepseek V4 Flash 0731",
-     "new": 0.018,
-     "old": 0.065,
-     "pct": -72.31,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-0731",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Deepseek V4 Flash 0731",
-     "new": 0.32,
-     "old": 0.18,
-     "pct": 77.78,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash-0731",
-     "type": "changed"
-    },
-    {
      "field": null,
      "name": "Granite 4.0 H Micro",
      "new": 0.017,
@@ -6176,6 +6186,46 @@
      "provider": "OpenRouter",
      "slug": "openrouter-granite-4-0-h-micro",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.0089,
+     "old": 0.065,
+     "pct": -86.31,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 1.28,
+     "old": 0.18,
+     "pct": 611.11,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 0.0089,
+     "old": 0.016,
+     "pct": -44.38,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Deepseek V4 Flash 0731",
+     "new": 1048576,
+     "old": 1310720,
+     "pct": -20,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash-0731",
+     "type": "changed"
     },
     {
      "field": "context_window",
@@ -8458,9 +8508,9 @@
      "type": "removed"
     }
    ],
-   "count": 845,
-   "date": "2026-09-30",
-   "generated_at": "2026-09-30T18:11:59.311302+00:00"
+   "count": 850,
+   "date": "2026-10-01",
+   "generated_at": "2026-10-01T06:08:52.279738+00:00"
   },
   {
    "baseline": true,
