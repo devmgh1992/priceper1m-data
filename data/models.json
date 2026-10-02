@@ -1,7 +1,7 @@
 {
- "count": 2067,
+ "count": 2079,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-01T18:21:14.732151+00:00",
+ "generated_at": "2026-10-02T00:11:24.360217+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -2031,7 +2031,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 1048576,
+   "context_window": 131072,
    "input_per_1m": 0,
    "kind": "audio",
    "max_output": 65536,
@@ -5208,6 +5208,20 @@
    "url": "/model/perplexity-claude-fable-5"
   },
   {
+   "cached_input_per_1m": 0.25,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Fable 5 1",
+   "output_per_1m": 50,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-claude-fable-5-1",
+   "url": "/model/perplexity-claude-fable-5-1"
+  },
+  {
    "cached_input_per_1m": 0.5,
    "capabilities": {
     "tools": true
@@ -5296,28 +5310,42 @@
    "input_per_1m": 5,
    "kind": "chat",
    "max_output": null,
-   "name": "GPT 5.6 Sol",
-   "output_per_1m": 30,
-   "provider": "Perplexity",
-   "provider_slug": "perplexity",
-   "slug": "perplexity-gpt-5-6-sol",
-   "url": "/model/perplexity-gpt-5-6-sol"
-  },
-  {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": null,
-   "input_per_1m": 5,
-   "kind": "chat",
-   "max_output": null,
    "name": "GPT 5.5",
    "output_per_1m": 30,
    "provider": "Perplexity",
    "provider_slug": "perplexity",
    "slug": "perplexity-gpt-5-5",
    "url": "/model/perplexity-gpt-5-5"
+  },
+  {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.6 Sol",
+   "output_per_1m": 20,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-5-6-sol",
+   "url": "/model/perplexity-gpt-5-6-sol"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Opus 5 5",
+   "output_per_1m": 20,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-claude-opus-5-5",
+   "url": "/model/perplexity-claude-opus-5-5"
   },
   {
    "cached_input_per_1m": null,
@@ -5525,6 +5553,48 @@
    "provider_slug": "perplexity",
    "slug": "perplexity-claude-sonnet-5-5",
    "url": "/model/perplexity-claude-sonnet-5-5"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 6.1 Sol",
+   "output_per_1m": 10,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-6-1-sol",
+   "url": "/model/perplexity-gpt-6-1-sol"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 6 Sol",
+   "output_per_1m": 10,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-6-sol",
+   "url": "/model/perplexity-gpt-6-sol"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Grok 4.7",
+   "output_per_1m": 6,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-grok-4-7",
+   "url": "/model/perplexity-grok-4-7"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -5813,6 +5883,20 @@
    "url": "/model/perplexity-gemini-3-7-flash"
   },
   {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.75,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 3.8 Flash",
+   "output_per_1m": 3.75,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gemini-3-8-flash",
+   "url": "/model/perplexity-gemini-3-8-flash"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 16384,
@@ -6041,6 +6125,20 @@
    "provider_slug": "perplexity",
    "slug": "perplexity-deepseek-v4-flash-0731",
    "url": "/model/perplexity-deepseek-v4-flash-0731"
+  },
+  {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 6 Luna",
+   "output_per_1m": 0.5,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-6-luna",
+   "url": "/model/perplexity-gpt-6-luna"
   },
   {
    "cached_input_per_1m": null,
@@ -19411,7 +19509,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 1048576,
+   "context_window": 1024000,
    "input_per_1m": 1.4,
    "kind": "chat",
    "max_output": null,
@@ -19428,7 +19526,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": null,
+   "context_window": 979000,
    "input_per_1m": 1.32,
    "kind": "chat",
    "max_output": null,
@@ -19660,10 +19758,27 @@
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.45,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3.8 27B",
+   "output_per_1m": 3,
+   "provider": "Nebius",
+   "provider_slug": "nebius",
+   "slug": "nebius-qwen3-8-27b",
+   "url": "/model/nebius-qwen3-8-27b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
-   "context_window": 1048576,
+   "context_window": 1048000,
    "input_per_1m": 0.3,
    "kind": "chat",
    "max_output": 384000,
@@ -19846,7 +19961,8 @@
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
-    "tools": true
+    "tools": true,
+    "vision": true
    },
    "context_window": 1024000,
    "input_per_1m": 0.15,
@@ -26497,6 +26613,24 @@
    "url": "/model/openrouter-nova-pro-v1"
   },
   {
+   "cached_input_per_1m": 0.03,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.8,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Pareto 26.10 Preview",
+   "output_per_1m": 3.2,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-pareto-26-10-preview",
+   "url": "/model/openrouter-pareto-26-10-preview"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 81920,
@@ -31597,6 +31731,23 @@
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0,
+   "kind": "chat",
+   "max_output": 235929,
+   "name": "Apodex 1.1 Mini:free",
+   "output_per_1m": 0,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-apodex-1-1-mini:free",
+   "url": "/model/openrouter-apodex-1-1-mini:free"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -33915,6 +34066,25 @@
    "url": "/model/vertex-ai-grok-4-6"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 524288,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 524288,
+   "name": "Grok 4.7",
+   "output_per_1m": 6,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-grok-4-7",
+   "url": "/model/vertex-ai-grok-4-7"
+  },
+  {
    "cached_input_per_1m": 0.15,
    "capabilities": {
     "audio": true,
@@ -34324,6 +34494,20 @@
    "provider_slug": "voyage",
    "slug": "voyage-voyage-large-2",
    "url": "/model/voyage-voyage-large-2"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 16000,
+   "input_per_1m": 0.12,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Voyage Large 2 Instruct",
+   "output_per_1m": 0,
+   "provider": "Voyage AI",
+   "provider_slug": "voyage",
+   "slug": "voyage-voyage-large-2-instruct",
+   "url": "/model/voyage-voyage-large-2-instruct"
   },
   {
    "cached_input_per_1m": null,

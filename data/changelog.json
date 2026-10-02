@@ -1,5 +1,5 @@
 {
- "count_changes": 853,
+ "count_changes": 869,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -438,6 +438,16 @@
      "type": "changed"
     },
     {
+     "field": "context_window",
+     "name": "Lyria 3.5",
+     "new": 131072,
+     "old": 1048576,
+     "pct": -87.5,
+     "provider": "Google Gemini",
+     "slug": "gemini-lyria-3-5",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Lyria Realtime Exp",
      "new": 0,
@@ -699,12 +709,112 @@
     },
     {
      "field": null,
+     "name": "Claude Fable 5 1",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-claude-fable-5-1",
+     "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 5.6 Sol",
+     "new": 4,
+     "old": 5,
+     "pct": -20,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-5-6-sol",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 5.6 Sol",
+     "new": 20,
+     "old": 30,
+     "pct": -33.33,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-5-6-sol",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 5.6 Sol",
+     "new": 0.4,
+     "old": 0.5,
+     "pct": -20,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-5-6-sol",
+     "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 5 5",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-claude-opus-5-5",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Claude Sonnet 5 5",
      "new": 2,
      "old": null,
      "pct": null,
      "provider": "Perplexity",
      "slug": "perplexity-claude-sonnet-5-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.1 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-6-1-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-6-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.7",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-grok-4-7",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.8 Flash",
+     "new": 0.75,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gemini-3-8-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Luna",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-6-luna",
      "type": "added"
     },
     {
@@ -2109,6 +2219,16 @@
     },
     {
      "field": null,
+     "name": "Qwen3.8 27B",
+     "new": 0.45,
+     "old": null,
+     "pct": null,
+     "provider": "Nebius",
+     "slug": "nebius-qwen3-8-27b",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "DeepSeek V4.1 Flash",
      "new": 0.3,
      "old": null,
@@ -3435,6 +3555,16 @@
      "pct": null,
      "provider": "OpenRouter",
      "slug": "openrouter-nova-pro-v1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Pareto 26.10 Preview",
+     "new": 0.8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-pareto-26-10-preview",
      "type": "added"
     },
     {
@@ -6299,6 +6429,16 @@
     },
     {
      "field": null,
+     "name": "Apodex 1.1 Mini:free",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-apodex-1-1-mini:free",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Dots 3 Note Preview:free",
      "new": 0,
      "old": null,
@@ -6809,6 +6949,16 @@
     },
     {
      "field": null,
+     "name": "Grok 4.7",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-grok-4-7",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Gemini 3.8 Flash Cyber",
      "new": 1.5,
      "old": null,
@@ -6865,6 +7015,16 @@
      "pct": null,
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemini-2-0-flash-lite",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Voyage Large 2 Instruct",
+     "new": 0.12,
+     "old": null,
+     "pct": null,
+     "provider": "Voyage AI",
+     "slug": "voyage-voyage-large-2-instruct",
      "type": "added"
     },
     {
@@ -8538,9 +8698,9 @@
      "type": "removed"
     }
    ],
-   "count": 853,
-   "date": "2026-10-01",
-   "generated_at": "2026-10-01T18:21:14.732151+00:00"
+   "count": 869,
+   "date": "2026-10-02",
+   "generated_at": "2026-10-02T00:11:24.360217+00:00"
   },
   {
    "baseline": true,
