@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2080,
- "generated_at": "2026-10-03T18:10:03.780880+00:00",
+ "endpoints_tracked": 2082,
+ "generated_at": "2026-10-04T06:08:29.395132+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -222,6 +222,14 @@
    "provider": "deepseek"
   },
   {
+   "category": "first-party",
+   "label": "Cohere",
+   "max_input_per_1m": 100,
+   "min_input_per_1m": 0.08,
+   "models": 8,
+   "provider": "cohere"
+  },
+  {
    "category": "platform",
    "label": "SambaNova",
    "max_input_per_1m": 5,
@@ -244,14 +252,6 @@
    "min_input_per_1m": 0.03,
    "models": 7,
    "provider": "groq"
-  },
-  {
-   "category": "first-party",
-   "label": "Cohere",
-   "max_input_per_1m": 100,
-   "min_input_per_1m": 0.1,
-   "models": 6,
-   "provider": "cohere"
   },
   {
    "category": "first-party",
