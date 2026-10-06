@@ -1,7 +1,7 @@
 {
- "count": 2082,
+ "count": 2083,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-06T06:08:52.225365+00:00",
+ "generated_at": "2026-10-06T18:12:54.522156+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1342,7 +1342,7 @@
    "capabilities": {
     "vision": true
    },
-   "context_window": 131072,
+   "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": 65536,
@@ -1358,7 +1358,7 @@
    "capabilities": {
     "vision": true
    },
-   "context_window": 131072,
+   "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": 65536,
@@ -8981,6 +8981,22 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-4o-mini",
    "url": "/model/azure-gpt-4o-mini"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 0.14,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Model Router",
+   "output_per_1m": 0,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-model-router",
+   "url": "/model/azure-model-router"
   },
   {
    "cached_input_per_1m": null,
@@ -32767,25 +32783,6 @@
    "url": "/model/together-ai-llama-3-1-405b-instruct"
   },
   {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Kimi K3",
-   "output_per_1m": 15,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-kimi-k3",
-   "url": "/model/together-ai-kimi-k3"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 163840,
@@ -32798,6 +32795,25 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-r1-0528",
    "url": "/model/together-ai-deepseek-r1-0528"
+  },
+  {
+   "cached_input_per_1m": 0.27,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.7,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K3",
+   "output_per_1m": 13.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-kimi-k3",
+   "url": "/model/together-ai-kimi-k3"
   },
   {
    "cached_input_per_1m": 0.25,
@@ -33779,6 +33795,20 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
+   "context_window": 1000000,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3.8 Flash",
+   "output_per_1m": 0.47,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-8-flash",
+   "url": "/model/together-ai-qwen3-8-flash"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
    "context_window": 262144,
    "input_per_1m": 0.15,
    "kind": "chat",
@@ -33862,20 +33892,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-mistral-small-24b-instruct-2501",
    "url": "/model/together-ai-mistral-small-24b-instruct-2501"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 1000000,
-   "input_per_1m": 0.09,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3.8 Flash",
-   "output_per_1m": 0.282,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-8-flash",
-   "url": "/model/together-ai-qwen3-8-flash"
   },
   {
    "cached_input_per_1m": null,

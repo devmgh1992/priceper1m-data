@@ -1,5 +1,5 @@
 {
- "count_changes": 872,
+ "count_changes": 874,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1475,6 +1475,16 @@
      "pct": null,
      "provider": "Azure OpenAI",
      "slug": "azure-gpt-5-6-luna-2026-07-09",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Model Router",
+     "new": 0.14,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-model-router",
      "type": "added"
     },
     {
@@ -6598,6 +6608,36 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Kimi K3",
+     "new": 2.7,
+     "old": 3,
+     "pct": -10,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Kimi K3",
+     "new": 13.5,
+     "old": 15,
+     "pct": -10,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k3",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Kimi K3",
+     "new": 0.27,
+     "old": 0.3,
+     "pct": -10,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k3",
+     "type": "changed"
+    },
+    {
      "field": "context_window",
      "name": "Qwen3 Coder 480B A35B Instruct FP8",
      "new": 262144,
@@ -6905,26 +6945,6 @@
      "pct": null,
      "provider": "Together AI",
      "slug": "together-ai-meta-llama-3-1-8b-instruct-turbo",
-     "type": "changed"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Qwen3.8 Flash",
-     "new": 0.09,
-     "old": 0.15,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-8-flash",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Qwen3.8 Flash",
-     "new": 0.282,
-     "old": 0.47,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-8-flash",
      "type": "changed"
     },
     {
@@ -8728,9 +8748,9 @@
      "type": "removed"
     }
    ],
-   "count": 872,
+   "count": 874,
    "date": "2026-10-06",
-   "generated_at": "2026-10-06T06:08:52.225365+00:00"
+   "generated_at": "2026-10-06T18:12:54.522156+00:00"
   },
   {
    "baseline": true,
