@@ -1,5 +1,5 @@
 {
- "count_changes": 878,
+ "count_changes": 879,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2015,6 +2015,16 @@
      "pct": -64,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-us-meta-llama3-2-90b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen.qwen3 Coder Next",
+     "new": 16384,
+     "old": 8192,
+     "pct": 100,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-qwen-qwen3-coder-next",
      "type": "changed"
     },
     {
@@ -8788,9 +8798,9 @@
      "type": "removed"
     }
    ],
-   "count": 878,
+   "count": 879,
    "date": "2026-10-07",
-   "generated_at": "2026-10-07T12:10:23.321178+00:00"
+   "generated_at": "2026-10-07T18:08:58.732176+00:00"
   },
   {
    "baseline": true,

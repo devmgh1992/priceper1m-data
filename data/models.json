@@ -1,7 +1,7 @@
 {
  "count": 2087,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-07T12:10:23.321178+00:00",
+ "generated_at": "2026-10-07T18:08:58.732176+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -10508,7 +10508,7 @@
    "context_window": 262144,
    "input_per_1m": 0.6,
    "kind": "chat",
-   "max_output": 8192,
+   "max_output": 16384,
    "name": "Qwen.qwen3 Coder Next",
    "output_per_1m": 1.44,
    "provider": "Amazon Bedrock",
@@ -10748,7 +10748,7 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 128000,
+   "context_window": 262144,
    "input_per_1m": 0.18,
    "kind": "chat",
    "max_output": 8192,
