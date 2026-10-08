@@ -1,7 +1,7 @@
 {
- "count": 2087,
+ "count": 2091,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-07T18:08:58.732176+00:00",
+ "generated_at": "2026-10-08T06:09:26.784146+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -515,7 +515,7 @@
    "url": "/model/anthropic-claude-sonnet-5"
   },
   {
-   "cached_input_per_1m": 0.2,
+   "cached_input_per_1m": 0.1,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -570,6 +570,25 @@
    "provider_slug": "anthropic",
    "slug": "anthropic-claude-haiku-4-5",
    "url": "/model/anthropic-claude-haiku-4-5"
+  },
+  {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Haiku 5 5",
+   "output_per_1m": 0.5,
+   "provider": "Anthropic",
+   "provider_slug": "anthropic",
+   "slug": "anthropic-claude-haiku-5-5",
+   "url": "/model/anthropic-claude-haiku-5-5"
   },
   {
    "cached_input_per_1m": null,
@@ -6207,6 +6226,22 @@
    "url": "/model/perplexity-gpt-6-luna"
   },
   {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Haiku 5 5",
+   "output_per_1m": 0.5,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-claude-haiku-5-5",
+   "url": "/model/perplexity-claude-haiku-5-5"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 4096,
@@ -10130,7 +10165,7 @@
    "url": "/model/bedrock-anthropic-claude-sonnet-5"
   },
   {
-   "cached_input_per_1m": 0.24,
+   "cached_input_per_1m": 0.12,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -10915,6 +10950,25 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-global-cohere-embed-v4:0",
    "url": "/model/bedrock-global-cohere-embed-v4:0"
+  },
+  {
+   "cached_input_per_1m": 0.012,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.12,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Haiku 5 5",
+   "output_per_1m": 0.6,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-haiku-5-5",
+   "url": "/model/bedrock-anthropic-claude-haiku-5-5"
   },
   {
    "cached_input_per_1m": null,
@@ -30021,6 +30075,25 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-qwen3-vl-32b-instruct",
    "url": "/model/openrouter-qwen3-vl-32b-instruct"
+  },
+  {
+   "cached_input_per_1m": 0.01,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Haiku 5.5",
+   "output_per_1m": 0.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-claude-haiku-5-5",
+   "url": "/model/openrouter-claude-haiku-5-5"
   },
   {
    "cached_input_per_1m": 0.1,

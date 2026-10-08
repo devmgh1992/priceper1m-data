@@ -1,5 +1,5 @@
 {
- "count_changes": 879,
+ "count_changes": 883,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -45,6 +45,16 @@
      "pct": null,
      "provider": "Anthropic",
      "slug": "anthropic-claude-sonnet-5-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Haiku 5 5",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-haiku-5-5",
      "type": "added"
     },
     {
@@ -855,6 +865,16 @@
      "pct": null,
      "provider": "Perplexity",
      "slug": "perplexity-gpt-6-luna",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Haiku 5 5",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-claude-haiku-5-5",
      "type": "added"
     },
     {
@@ -2106,6 +2126,16 @@
      "provider": "Amazon Bedrock",
      "slug": "bedrock-us-meta-llama3-2-11b-instruct-v1:0",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude Haiku 5 5",
+     "new": 0.12,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-haiku-5-5",
+     "type": "added"
     },
     {
      "field": "cached_input_per_1m",
@@ -5468,6 +5498,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Claude Haiku 5.5",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-haiku-5-5",
+     "type": "added"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Ui Tars 1.5 7b",
      "new": 0.1,
@@ -8798,9 +8838,9 @@
      "type": "removed"
     }
    ],
-   "count": 879,
-   "date": "2026-10-07",
-   "generated_at": "2026-10-07T18:08:58.732176+00:00"
+   "count": 883,
+   "date": "2026-10-08",
+   "generated_at": "2026-10-08T06:09:26.784146+00:00"
   },
   {
    "baseline": true,
