@@ -1,5 +1,5 @@
 {
- "count_changes": 904,
+ "count_changes": 901,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -6978,36 +6978,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Qwen3.7 Max",
-     "new": 1.5,
-     "old": 2.5,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Qwen3.7 Max",
-     "new": 4.5,
-     "old": 7.5,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Qwen3.7 Max",
-     "new": 0.3,
-     "old": 0.5,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
      "field": null,
      "name": "Qwen2.5 72B Instruct",
      "new": 1.2,
@@ -9048,9 +9018,9 @@
      "type": "removed"
     }
    ],
-   "count": 904,
+   "count": 901,
    "date": "2026-10-09",
-   "generated_at": "2026-10-09T12:11:46.380966+00:00"
+   "generated_at": "2026-10-09T18:10:25.115477+00:00"
   },
   {
    "baseline": true,

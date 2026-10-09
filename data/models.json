@@ -1,7 +1,7 @@
 {
  "count": 2096,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-09T12:11:46.380966+00:00",
+ "generated_at": "2026-10-09T18:10:25.115477+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -33049,6 +33049,22 @@
    "url": "/model/together-ai-kimi-k3"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3.7 Max",
+   "output_per_1m": 7.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-7-max",
+   "url": "/model/together-ai-qwen3-7-max"
+  },
+  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true
@@ -33133,22 +33149,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-r1-distill-qwen-14b",
    "url": "/model/together-ai-deepseek-r1-distill-qwen-14b"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 1.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3.7 Max",
-   "output_per_1m": 4.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-7-max",
-   "url": "/model/together-ai-qwen3-7-max"
   },
   {
    "cached_input_per_1m": 0.26,
