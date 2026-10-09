@@ -1,8 +1,8 @@
 {
  "count": 33,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2091,
- "generated_at": "2026-10-08T18:09:00.767171+00:00",
+ "endpoints_tracked": 2096,
+ "generated_at": "2026-10-09T06:08:59.763429+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "OpenRouter",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0,
-   "models": 489,
+   "models": 492,
    "provider": "openrouter"
   },
   {
@@ -58,7 +58,7 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 27.5,
    "min_input_per_1m": 0.02,
-   "models": 100,
+   "models": 102,
    "provider": "bedrock"
   },
   {
