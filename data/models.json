@@ -1,7 +1,7 @@
 {
  "count": 1610,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-10T12:09:44.456102+00:00",
+ "generated_at": "2026-10-10T18:08:14.469943+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -10298,20 +10298,6 @@
    "url": "/model/bedrock-meta-llama2-70b-chat-v1"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 42000,
-   "input_per_1m": 1.3,
-   "kind": "chat",
-   "max_output": 8000,
-   "name": "Amazon.titan Text Express V1",
-   "output_per_1m": 1.7,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-amazon-titan-text-express-v1",
-   "url": "/model/bedrock-amazon-titan-text-express-v1"
-  },
-  {
    "cached_input_per_1m": 0.12,
    "capabilities": {
     "prompt_caching": true,
@@ -10713,20 +10699,6 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 42000,
-   "input_per_1m": 0.3,
-   "kind": "chat",
-   "max_output": 4000,
-   "name": "Amazon.titan Text Lite V1",
-   "output_per_1m": 0.4,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-amazon-titan-text-lite-v1",
-   "url": "/model/bedrock-amazon-titan-text-lite-v1"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
    "context_window": 4096,
    "input_per_1m": 0.3,
    "kind": "chat",
@@ -10817,6 +10789,20 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-ai21-jamba-1-5-mini-v1:0",
    "url": "/model/bedrock-ai21-jamba-1-5-mini-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 42000,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": 8000,
+   "name": "Amazon.titan Text Express V1",
+   "output_per_1m": 0.6,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-amazon-titan-text-express-v1",
+   "url": "/model/bedrock-amazon-titan-text-express-v1"
   },
   {
    "cached_input_per_1m": null,
@@ -10914,6 +10900,20 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-us-meta-llama3-2-11b-instruct-v1:0",
    "url": "/model/bedrock-us-meta-llama3-2-11b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 42000,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 4000,
+   "name": "Amazon.titan Text Lite V1",
+   "output_per_1m": 0.2,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-amazon-titan-text-lite-v1",
+   "url": "/model/bedrock-amazon-titan-text-lite-v1"
   },
   {
    "cached_input_per_1m": null,
