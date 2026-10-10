@@ -1,18 +1,10 @@
 {
- "count": 33,
+ "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 2096,
- "generated_at": "2026-10-09T18:10:25.115477+00:00",
+ "endpoints_tracked": 1610,
+ "generated_at": "2026-10-10T06:08:31.026379+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
-  {
-   "category": "platform",
-   "label": "OpenRouter",
-   "max_input_per_1m": 150,
-   "min_input_per_1m": 0,
-   "models": 492,
-   "provider": "openrouter"
-  },
   {
    "category": "platform",
    "label": "Fireworks AI",
@@ -50,7 +42,7 @@
    "label": "OpenAI",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0.02,
-   "models": 105,
+   "models": 106,
    "provider": "openai"
   },
   {
@@ -58,7 +50,7 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 27.5,
    "min_input_per_1m": 0.02,
-   "models": 102,
+   "models": 103,
    "provider": "bedrock"
   },
   {
@@ -74,7 +66,7 @@
    "label": "Perplexity",
    "max_input_per_1m": 10,
    "min_input_per_1m": 0,
-   "models": 75,
+   "models": 79,
    "provider": "perplexity"
   },
   {
