@@ -1,5 +1,5 @@
 {
- "count_changes": 732,
+ "count_changes": 742,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1888,6 +1888,16 @@
      "type": "changed"
     },
     {
+     "field": "max_output",
+     "name": "Mistral.mistral Large 2402 V1:0",
+     "new": 4096,
+     "old": 8191,
+     "pct": -49.99,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-mistral-large-2402-v1:0",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Anthropic.claude Opus 5 5",
      "new": 4.8,
@@ -1948,6 +1958,16 @@
      "type": "added"
     },
     {
+     "field": "max_output",
+     "name": "Ai21.jamba 1 5 Large V1:0",
+     "new": 4096,
+     "old": 256000,
+     "pct": -98.4,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-ai21-jamba-1-5-large-v1:0",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Mistral.mistral Large 2407 V1:0",
      "new": 2,
@@ -1975,6 +1995,16 @@
      "pct": -33.33,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-cohere-command-text-v14",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral.mistral Small 2402 V1:0",
+     "new": 4096,
+     "old": 8191,
+     "pct": -49.99,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-mistral-small-2402-v1:0",
      "type": "changed"
     },
     {
@@ -2038,6 +2068,16 @@
      "type": "changed"
     },
     {
+     "field": "max_output",
+     "name": "Meta.llama3 1 70b Instruct V1:0",
+     "new": 4096,
+     "old": 2048,
+     "pct": 100,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-1-70b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Meta.llama3 2 90b Instruct V1:0",
      "new": 0.72,
@@ -2073,6 +2113,16 @@
      "new": 0.72,
      "old": 0.99,
      "pct": -27.27,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-1-70b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Us.meta.llama3 1 70b Instruct V1:0",
+     "new": 4096,
+     "old": 2048,
+     "pct": 100,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-us-meta-llama3-1-70b-instruct-v1:0",
      "type": "changed"
@@ -2105,6 +2155,16 @@
      "pct": 100,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-qwen-qwen3-coder-next",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral.mixtral 8x7b Instruct V0:1",
+     "new": 4096,
+     "old": 8191,
+     "pct": -49.99,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-mixtral-8x7b-instruct-v0:1",
      "type": "changed"
     },
     {
@@ -2148,6 +2208,36 @@
      "type": "changed"
     },
     {
+     "field": "max_output",
+     "name": "Meta.llama3 1 8b Instruct V1:0",
+     "new": 4096,
+     "old": 2048,
+     "pct": 100,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-meta-llama3-1-8b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Us.meta.llama3 1 8b Instruct V1:0",
+     "new": 4096,
+     "old": 2048,
+     "pct": 100,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-us-meta-llama3-1-8b-instruct-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Ai21.jamba 1 5 Mini V1:0",
+     "new": 4096,
+     "old": 256000,
+     "pct": -98.4,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-ai21-jamba-1-5-mini-v1:0",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Amazon.titan Text Express V1",
      "new": 0.2,
@@ -2165,6 +2255,16 @@
      "pct": -64.71,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-amazon-titan-text-express-v1",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral.mistral 7b Instruct V0:2",
+     "new": 4096,
+     "old": 8191,
+     "pct": -49.99,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-mistral-7b-instruct-v0:2",
      "type": "changed"
     },
     {
@@ -7328,9 +7428,9 @@
      "type": "removed"
     }
    ],
-   "count": 732,
-   "date": "2026-10-11",
-   "generated_at": "2026-10-11T18:08:25.281826+00:00"
+   "count": 742,
+   "date": "2026-10-12",
+   "generated_at": "2026-10-12T06:09:09.886983+00:00"
   },
   {
    "baseline": true,
