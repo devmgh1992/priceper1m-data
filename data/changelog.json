@@ -218,6 +218,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Gemini 4 Argon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-4-argon",
+     "type": "added"
+    },
+    {
      "field": "max_output",
      "name": "Gemini 3.5 Flash",
      "new": 65536,
@@ -2778,36 +2788,6 @@
      "type": "added"
     },
     {
-     "field": "input_per_1m",
-     "name": "Kimi K3",
-     "new": 2.7,
-     "old": 3,
-     "pct": -10,
-     "provider": "Together AI",
-     "slug": "together-ai-kimi-k3",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Kimi K3",
-     "new": 13.5,
-     "old": 15,
-     "pct": -10,
-     "provider": "Together AI",
-     "slug": "together-ai-kimi-k3",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Kimi K3",
-     "new": 0.27,
-     "old": 0.3,
-     "pct": -10,
-     "provider": "Together AI",
-     "slug": "together-ai-kimi-k3",
-     "type": "changed"
-    },
-    {
      "field": "context_window",
      "name": "Qwen3 Coder 480B A35B Instruct FP8",
      "new": 262144,
@@ -3139,12 +3119,32 @@
     },
     {
      "field": null,
+     "name": "Gemini 4 Argon Cyber Permissive",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-argon-cyber-permissive",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Grok 4.7",
      "new": 2,
      "old": null,
      "pct": null,
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-grok-4-7",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Argon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-argon",
      "type": "added"
     },
     {
@@ -7510,7 +7510,7 @@
    ],
    "count": 750,
    "date": "2026-10-13",
-   "generated_at": "2026-10-13T12:10:40.405211+00:00"
+   "generated_at": "2026-10-13T18:19:45.178171+00:00"
   },
   {
    "baseline": true,

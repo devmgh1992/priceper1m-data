@@ -1,7 +1,7 @@
 {
- "count": 1618,
+ "count": 1621,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-13T12:10:40.405211+00:00",
+ "generated_at": "2026-10-13T18:19:45.178171+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1464,6 +1464,26 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-pro-latest",
    "url": "/model/gemini-gemini-pro-latest"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini 4 Argon",
+   "output_per_1m": 10,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-4-argon",
+   "url": "/model/gemini-gemini-4-argon"
   },
   {
    "cached_input_per_1m": 0.15,
@@ -24429,6 +24449,25 @@
    "url": "/model/together-ai-llama-3-1-405b-instruct"
   },
   {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K3",
+   "output_per_1m": 15,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-kimi-k3",
+   "url": "/model/together-ai-kimi-k3"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 163840,
@@ -24441,25 +24480,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-r1-0528",
    "url": "/model/together-ai-deepseek-r1-0528"
-  },
-  {
-   "cached_input_per_1m": 0.27,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 2.7,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Kimi K3",
-   "output_per_1m": 13.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-kimi-k3",
-   "url": "/model/together-ai-kimi-k3"
   },
   {
    "cached_input_per_1m": 0.5,
@@ -25703,6 +25723,26 @@
     "vision": true
    },
    "context_window": 1048576,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Argon Cyber Permissive",
+   "output_per_1m": 20,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-argon-cyber-permissive",
+   "url": "/model/vertex-ai-gemini-4-argon-cyber-permissive"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": 65535,
@@ -25790,6 +25830,26 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-grok-4-7",
    "url": "/model/vertex-ai-grok-4-7"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Argon",
+   "output_per_1m": 10,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-argon",
+   "url": "/model/vertex-ai-gemini-4-argon"
   },
   {
    "cached_input_per_1m": 0.15,
