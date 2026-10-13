@@ -1,7 +1,7 @@
 {
- "count": 1617,
+ "count": 1618,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-13T00:08:37.703238+00:00",
+ "generated_at": "2026-10-13T12:10:40.405211+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -7730,6 +7730,55 @@
     "tools": true
    },
    "context_window": 128000,
+   "input_per_1m": 11,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "GPT 4 Turbo",
+   "output_per_1m": 33,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-4-turbo",
+   "url": "/model/azure-gpt-4-turbo"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 11,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "GPT 4 Turbo",
+   "output_per_1m": 33,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-4-turbo-2024-04-09",
+   "url": "/model/azure-gpt-4-turbo-2024-04-09"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 11,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "GPT 4 Turbo Vision Preview",
+   "output_per_1m": 33,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-4-turbo-vision-preview",
+   "url": "/model/azure-gpt-4-turbo-vision-preview"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 128000,
    "input_per_1m": 10,
    "kind": "chat",
    "max_output": 4096,
@@ -7755,55 +7804,6 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-4-1106-preview",
    "url": "/model/azure-gpt-4-1106-preview"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 4 Turbo",
-   "output_per_1m": 30,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-4-turbo",
-   "url": "/model/azure-gpt-4-turbo"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 4 Turbo",
-   "output_per_1m": 30,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-4-turbo-2024-04-09",
-   "url": "/model/azure-gpt-4-turbo-2024-04-09"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "vision": true
-   },
-   "context_window": 128000,
-   "input_per_1m": 10,
-   "kind": "chat",
-   "max_output": 4096,
-   "name": "GPT 4 Turbo Vision Preview",
-   "output_per_1m": 30,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-gpt-4-turbo-vision-preview",
-   "url": "/model/azure-gpt-4-turbo-vision-preview"
   },
   {
    "cached_input_per_1m": 1,
@@ -9253,6 +9253,20 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.143,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Text Embedding 3 Large",
+   "output_per_1m": 0,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-text-embedding-3-large",
+   "url": "/model/azure-text-embedding-3-large"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "vision": true
    },
@@ -9270,22 +9284,8 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 0.13,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Text Embedding 3 Large",
-   "output_per_1m": 0,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-text-embedding-3-large",
-   "url": "/model/azure-text-embedding-3-large"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {},
    "context_window": 8191,
-   "input_per_1m": 0.1,
+   "input_per_1m": 0.11,
    "kind": "embedding",
    "max_output": null,
    "name": "Ada",
@@ -9294,6 +9294,20 @@
    "provider_slug": "azure",
    "slug": "azure-ada",
    "url": "/model/azure-ada"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.11,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Text Embedding Ada 002",
+   "output_per_1m": 0,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-text-embedding-ada-002",
+   "url": "/model/azure-text-embedding-ada-002"
   },
   {
    "cached_input_per_1m": 0.025,
@@ -9370,20 +9384,6 @@
    "url": "/model/azure-gpt-6-luna-2026-09-22"
   },
   {
-   "cached_input_per_1m": null,
-   "capabilities": {},
-   "context_window": 8192,
-   "input_per_1m": 0.1,
-   "kind": "embedding",
-   "max_output": null,
-   "name": "Text Embedding Ada 002",
-   "output_per_1m": 0,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-text-embedding-ada-002",
-   "url": "/model/azure-text-embedding-ada-002"
-  },
-  {
    "cached_input_per_1m": 0.0055,
    "capabilities": {
     "prompt_caching": true,
@@ -9425,7 +9425,7 @@
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
-   "input_per_1m": 0.02,
+   "input_per_1m": 0.022,
    "kind": "embedding",
    "max_output": null,
    "name": "Text Embedding 3 Small",
@@ -25916,6 +25916,26 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-grok-4-3",
    "url": "/model/vertex-ai-grok-4-3"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini Robotics Er 2 Preview",
+   "output_per_1m": 5,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-robotics-er-2-preview",
+   "url": "/model/vertex-ai-gemini-robotics-er-2-preview"
   },
   {
    "cached_input_per_1m": 0.075,

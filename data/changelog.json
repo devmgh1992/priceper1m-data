@@ -1,5 +1,5 @@
 {
- "count_changes": 739,
+ "count_changes": 750,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1178,6 +1178,66 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "GPT 4 Turbo",
+     "new": 11,
+     "old": 10,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4-turbo",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 4 Turbo",
+     "new": 33,
+     "old": 30,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4-turbo",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 4 Turbo",
+     "new": 11,
+     "old": 10,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4-turbo-2024-04-09",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 4 Turbo",
+     "new": 33,
+     "old": 30,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4-turbo-2024-04-09",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 4 Turbo Vision Preview",
+     "new": 11,
+     "old": 10,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4-turbo-vision-preview",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 4 Turbo Vision Preview",
+     "new": 33,
+     "old": 30,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4-turbo-vision-preview",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "GPT 6 Astra",
      "new": 10,
@@ -1588,6 +1648,26 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "Text Embedding 3 Large",
+     "new": 0.143,
+     "old": 0.13,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-text-embedding-3-large",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Text Embedding 3 Large",
+     "new": 8192,
+     "old": 8191,
+     "pct": 0.01,
+     "provider": "Azure OpenAI",
+     "slug": "azure-text-embedding-3-large",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Model Router",
      "new": 0.14,
@@ -1598,13 +1678,33 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Ada",
+     "new": 0.11,
+     "old": 0.1,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-ada",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Text Embedding Ada 002",
+     "new": 0.11,
+     "old": 0.1,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-text-embedding-ada-002",
+     "type": "changed"
+    },
+    {
      "field": "context_window",
-     "name": "Text Embedding 3 Large",
+     "name": "Text Embedding Ada 002",
      "new": 8192,
      "old": 8191,
      "pct": 0.01,
      "provider": "Azure OpenAI",
-     "slug": "azure-text-embedding-3-large",
+     "slug": "azure-text-embedding-ada-002",
      "type": "changed"
     },
     {
@@ -1628,13 +1728,13 @@
      "type": "added"
     },
     {
-     "field": "context_window",
-     "name": "Text Embedding Ada 002",
-     "new": 8192,
-     "old": 8191,
-     "pct": 0.01,
+     "field": "input_per_1m",
+     "name": "Text Embedding 3 Small",
+     "new": 0.022,
+     "old": 0.02,
+     "pct": 10,
      "provider": "Azure OpenAI",
-     "slug": "azure-text-embedding-ada-002",
+     "slug": "azure-text-embedding-3-small",
      "type": "changed"
     },
     {
@@ -3075,6 +3175,16 @@
      "pct": null,
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemini-omni-1-1-flash-preview",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini Robotics Er 2 Preview",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-robotics-er-2-preview",
      "type": "added"
     },
     {
@@ -7398,9 +7508,9 @@
      "type": "removed"
     }
    ],
-   "count": 739,
+   "count": 750,
    "date": "2026-10-13",
-   "generated_at": "2026-10-13T00:08:37.703238+00:00"
+   "generated_at": "2026-10-13T12:10:40.405211+00:00"
   },
   {
    "baseline": true,
