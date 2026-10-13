@@ -1,7 +1,7 @@
 {
- "count": 1610,
+ "count": 1617,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-12T12:10:03.484346+00:00",
+ "generated_at": "2026-10-13T00:08:37.703238+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -2104,6 +2104,25 @@
    "url": "/model/gemini-lyria-realtime-exp"
   },
   {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Muse Wonder 1.0",
+   "output_per_1m": 20,
+   "provider": "Meta",
+   "provider_slug": "meta",
+   "slug": "meta-muse-wonder-1-0",
+   "url": "/model/meta-muse-wonder-1-0"
+  },
+  {
    "cached_input_per_1m": 0.15,
    "capabilities": {
     "prompt_caching": true,
@@ -3832,6 +3851,24 @@
    "url": "/model/openai-o3-deep-research"
   },
   {
+   "cached_input_per_1m": 2.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": 100000,
+   "name": "O3 Deep Research",
+   "output_per_1m": 40,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-o3-deep-research-2025-06-26",
+   "url": "/model/openai-o3-deep-research-2025-06-26"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -4031,6 +4068,24 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 8192,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 1024,
+   "name": "Computer Use Preview",
+   "output_per_1m": 12,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-computer-use-preview-2025-03-11",
+   "url": "/model/openai-computer-use-preview-2025-03-11"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "prompt_caching": true
    },
    "context_window": 16385,
@@ -4202,6 +4257,24 @@
    "url": "/model/openai-gpt-4o-search-preview"
   },
   {
+   "cached_input_per_1m": 1.25,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 2.5,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 4o Search Preview",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-4o-search-preview-2025-03-11",
+   "url": "/model/openai-gpt-4o-search-preview-2025-03-11"
+  },
+  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true,
@@ -4368,6 +4441,24 @@
    "provider_slug": "openai",
    "slug": "openai-o4-mini-deep-research",
    "url": "/model/openai-o4-mini-deep-research"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 100000,
+   "name": "O4 Mini Deep Research",
+   "output_per_1m": 8,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-o4-mini-deep-research-2025-06-26",
+   "url": "/model/openai-o4-mini-deep-research-2025-06-26"
   },
   {
    "cached_input_per_1m": 0.1,
@@ -4883,6 +4974,23 @@
    "output_per_1m": 2.4,
    "provider": "OpenAI",
    "provider_slug": "openai",
+   "slug": "openai-gpt-audio-mini-2025-10-06",
+   "url": "/model/openai-gpt-audio-mini-2025-10-06"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "audio": true,
+    "tools": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT Audio Mini",
+   "output_per_1m": 2.4,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
    "slug": "openai-gpt-audio-mini-2025-12-15",
    "url": "/model/openai-gpt-audio-mini-2025-12-15"
   },
@@ -5140,6 +5248,24 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-4o-mini-search-preview",
    "url": "/model/openai-gpt-4o-mini-search-preview"
+  },
+  {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 128000,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 16384,
+   "name": "GPT 4o Mini Search Preview",
+   "output_per_1m": 0.6,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-4o-mini-search-preview-2025-03-11",
+   "url": "/model/openai-gpt-4o-mini-search-preview-2025-03-11"
   },
   {
    "cached_input_per_1m": null,
@@ -25484,7 +25610,7 @@
    "url": "/model/together-ai-trinity-mini"
   },
   {
-   "cached_input_per_1m": 0.042,
+   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 32768,
    "input_per_1m": 0.042,

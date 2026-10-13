@@ -1,5 +1,5 @@
 {
- "count_changes": 742,
+ "count_changes": 739,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -468,6 +468,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Muse Wonder 1.0",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Meta",
+     "slug": "meta-muse-wonder-1-0",
+     "type": "added"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Pixtral Large",
      "new": 0.2,
@@ -686,6 +696,16 @@
      "provider": "OpenAI",
      "slug": "openai-gpt-daybreak-blue-latest",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Computer Use Preview",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-computer-use-preview-2025-03-11",
+     "type": "added"
     },
     {
      "field": null,
@@ -3759,16 +3779,6 @@
     },
     {
      "field": null,
-     "name": "O3 Deep Research",
-     "new": null,
-     "old": 10,
-     "pct": null,
-     "provider": "OpenAI",
-     "slug": "openai-o3-deep-research-2025-06-26",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "Chatgpt 4o",
      "new": null,
      "old": 5,
@@ -3789,26 +3799,6 @@
     },
     {
      "field": null,
-     "name": "GPT 4o Search Preview",
-     "new": null,
-     "old": 2.5,
-     "pct": null,
-     "provider": "OpenAI",
-     "slug": "openai-gpt-4o-search-preview-2025-03-11",
-     "type": "removed"
-    },
-    {
-     "field": null,
-     "name": "O4 Mini Deep Research",
-     "new": null,
-     "old": 2,
-     "pct": null,
-     "provider": "OpenAI",
-     "slug": "openai-o4-mini-deep-research-2025-06-26",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "Codex Mini",
      "new": null,
      "old": 1.5,
@@ -3819,32 +3809,12 @@
     },
     {
      "field": null,
-     "name": "GPT Audio Mini",
-     "new": null,
-     "old": 0.6,
-     "pct": null,
-     "provider": "OpenAI",
-     "slug": "openai-gpt-audio-mini-2025-10-06",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "GPT 4o Mini Audio Preview",
      "new": null,
      "old": 0.15,
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-4o-mini-audio-preview",
-     "type": "removed"
-    },
-    {
-     "field": null,
-     "name": "GPT 4o Mini Search Preview",
-     "new": null,
-     "old": 0.15,
-     "pct": null,
-     "provider": "OpenAI",
-     "slug": "openai-gpt-4o-mini-search-preview-2025-03-11",
      "type": "removed"
     },
     {
@@ -7428,9 +7398,9 @@
      "type": "removed"
     }
    ],
-   "count": 742,
-   "date": "2026-10-12",
-   "generated_at": "2026-10-12T12:10:03.484346+00:00"
+   "count": 739,
+   "date": "2026-10-13",
+   "generated_at": "2026-10-13T00:08:37.703238+00:00"
   },
   {
    "baseline": true,

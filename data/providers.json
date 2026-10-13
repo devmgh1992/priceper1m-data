@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1610,
- "generated_at": "2026-10-12T12:10:03.484346+00:00",
+ "endpoints_tracked": 1617,
+ "generated_at": "2026-10-13T00:08:37.703238+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -42,7 +42,7 @@
    "label": "OpenAI",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0.02,
-   "models": 106,
+   "models": 112,
    "provider": "openai"
   },
   {
@@ -247,19 +247,19 @@
   },
   {
    "category": "first-party",
+   "label": "Meta",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0.1,
+   "models": 6,
+   "provider": "meta"
+  },
+  {
+   "category": "first-party",
    "label": "MiniMax",
    "max_input_per_1m": 0.3,
    "min_input_per_1m": 0.3,
    "models": 6,
    "provider": "minimax"
-  },
-  {
-   "category": "first-party",
-   "label": "Meta",
-   "max_input_per_1m": 1.25,
-   "min_input_per_1m": 0.1,
-   "models": 5,
-   "provider": "meta"
   }
  ]
 }
