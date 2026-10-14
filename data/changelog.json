@@ -1,5 +1,5 @@
 {
- "count_changes": 750,
+ "count_changes": 779,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2038,6 +2038,26 @@
      "type": "added"
     },
     {
+     "field": "context_window",
+     "name": "Anthropic.claude 3 5 Sonnet 20240620 V1:0",
+     "new": 200000,
+     "old": 1000000,
+     "pct": -80,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-5-sonnet-20240620-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Anthropic.claude 3 5 Sonnet 20241022 V2:0",
+     "new": 200000,
+     "old": 1000000,
+     "pct": -80,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-5-sonnet-20241022-v2:0",
+     "type": "changed"
+    },
+    {
      "field": "input_per_1m",
      "name": "Meta.llama3 1 405b Instruct V1:0",
      "new": 2.4,
@@ -2588,6 +2608,36 @@
      "type": "changed"
     },
     {
+     "field": "context_window",
+     "name": "Deepseek R1",
+     "new": 163840,
+     "old": 128000,
+     "pct": 28,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-r1",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Deepseek R1 0528",
+     "new": 163840,
+     "old": 160000,
+     "pct": 2.4,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-r1-0528",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Llama V3p1 405b Instruct",
+     "new": 131072,
+     "old": 128000,
+     "pct": 2.4,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-llama-v3p1-405b-instruct",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Ember 1",
      "new": 3,
@@ -2616,6 +2666,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-glm-5p3-fast",
      "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 5p1",
+     "new": 202752,
+     "old": 202800,
+     "pct": -0.02,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-5p1",
+     "type": "changed"
     },
     {
      "field": "input_per_1m",
@@ -2658,6 +2718,76 @@
      "type": "changed"
     },
     {
+     "field": "context_window",
+     "name": "Deepseek V3",
+     "new": 131072,
+     "old": 128000,
+     "pct": 2.4,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v3",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Llama V3p2 90b Vision Instruct",
+     "new": 131072,
+     "old": 16384,
+     "pct": 700,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-llama-v3p2-90b-vision-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen3 Coder 480b Instruct Bf16",
+     "new": 262144,
+     "old": 4096,
+     "pct": 6300,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-qwen3-coder-480b-instruct-bf16",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 4p7",
+     "new": 202752,
+     "old": 202800,
+     "pct": -0.02,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-4p7",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Deepseek R1 Basic",
+     "new": 163840,
+     "old": 128000,
+     "pct": 28,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-r1-basic",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 4p5",
+     "new": 131072,
+     "old": 128000,
+     "pct": 2.4,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-4p5",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 4p6",
+     "new": 202752,
+     "old": 202800,
+     "pct": -0.02,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-4p6",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Deepseek V4p1 Flash Us",
      "new": 0.45,
@@ -2666,6 +2796,26 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-v4p1-flash-us",
      "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Minimax M2p1",
+     "new": 196608,
+     "old": 204800,
+     "pct": -4,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-minimax-m2p1",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Minimax M2",
+     "new": 196608,
+     "old": 4096,
+     "pct": 4700,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-minimax-m2",
+     "type": "changed"
     },
     {
      "field": "input_per_1m",
@@ -2706,6 +2856,116 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-glm-5p3-flash-us",
      "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "Glm 4p5 Air",
+     "new": 131072,
+     "old": 128000,
+     "pct": 2.4,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-4p5-air",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Llama V3p2 11b Vision Instruct",
+     "new": 131072,
+     "old": 16384,
+     "pct": 700,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-llama-v3p2-11b-vision-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Nvidia Nemotron Nano 12b V2",
+     "new": 128000,
+     "old": 131072,
+     "pct": -2.34,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-nvidia-nemotron-nano-12b-v2",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Nvidia Nemotron Nano 9b V2",
+     "new": 128000,
+     "old": 131072,
+     "pct": -2.34,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-nvidia-nemotron-nano-9b-v2",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Qwen3 Vl 8b Instruct",
+     "new": 262144,
+     "old": 4096,
+     "pct": 6300,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-qwen3-vl-8b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Llama V3p1 8b Instruct",
+     "new": 131072,
+     "old": 16384,
+     "pct": 700,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-llama-v3p1-8b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Llama V3p2 1b Instruct",
+     "new": 131072,
+     "old": 16384,
+     "pct": 700,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-llama-v3p2-1b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Llama V3p2 3b Instruct",
+     "new": 131072,
+     "old": 16384,
+     "pct": 700,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-llama-v3p2-3b-instruct",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Ernie 4p5 21b A3b Pt",
+     "new": 131072,
+     "old": 4096,
+     "pct": 3100,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-ernie-4p5-21b-a3b-pt",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Ernie 4p5 300b A47b Pt",
+     "new": 131072,
+     "old": 4096,
+     "pct": 3100,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-ernie-4p5-300b-a47b-pt",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Nemotron Nano V2 12b Vl",
+     "new": 131072,
+     "old": 4096,
+     "pct": 3100,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-nemotron-nano-v2-12b-vl",
+     "type": "changed"
     },
     {
      "field": "context_window",
@@ -2826,6 +3086,36 @@
      "provider": "Together AI",
      "slug": "together-ai-deepseek-r1-distill-qwen-14b",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3.7 Max",
+     "new": 1.5,
+     "old": 2.5,
+     "pct": -40,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3.7 Max",
+     "new": 4.5,
+     "old": 7.5,
+     "pct": -40,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3.7 Max",
+     "new": 0.3,
+     "old": 0.5,
+     "pct": -40,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
     },
     {
      "field": null,
@@ -7508,9 +7798,9 @@
      "type": "removed"
     }
    ],
-   "count": 750,
-   "date": "2026-10-13",
-   "generated_at": "2026-10-13T18:19:45.178171+00:00"
+   "count": 779,
+   "date": "2026-10-14",
+   "generated_at": "2026-10-14T00:09:18.812787+00:00"
   },
   {
    "baseline": true,

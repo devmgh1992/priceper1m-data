@@ -1,7 +1,7 @@
 {
  "count": 1621,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-13T18:19:45.178171+00:00",
+ "generated_at": "2026-10-14T00:09:18.812787+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -10211,7 +10211,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 1000000,
+   "context_window": 200000,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 4096,
@@ -10229,7 +10229,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 1000000,
+   "context_window": 200000,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 8192,
@@ -15472,7 +15472,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 128000,
+   "context_window": 163840,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 20480,
@@ -15486,7 +15486,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 160000,
+   "context_window": 163840,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 160000,
@@ -15502,7 +15502,7 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 128000,
+   "context_window": 131072,
    "input_per_1m": 3,
    "kind": "chat",
    "max_output": 16384,
@@ -15708,7 +15708,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 202800,
+   "context_window": 202752,
    "input_per_1m": 1.4,
    "kind": "chat",
    "max_output": 131072,
@@ -16001,7 +16001,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 128000,
+   "context_window": 131072,
    "input_per_1m": 0.9,
    "kind": "chat",
    "max_output": 8192,
@@ -16047,7 +16047,7 @@
    "capabilities": {
     "vision": true
    },
-   "context_window": 16384,
+   "context_window": 131072,
    "input_per_1m": 0.9,
    "kind": "chat",
    "max_output": 16384,
@@ -16791,7 +16791,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
+   "context_window": 262144,
    "input_per_1m": 0.9,
    "kind": "chat",
    "max_output": 4096,
@@ -16906,7 +16906,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 202800,
+   "context_window": 202752,
    "input_per_1m": 0.6,
    "kind": "chat",
    "max_output": 202800,
@@ -17050,7 +17050,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 128000,
+   "context_window": 163840,
    "input_per_1m": 0.55,
    "kind": "chat",
    "max_output": 20480,
@@ -17067,7 +17067,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 128000,
+   "context_window": 131072,
    "input_per_1m": 0.55,
    "kind": "chat",
    "max_output": 96000,
@@ -17084,7 +17084,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 202800,
+   "context_window": 202752,
    "input_per_1m": 0.55,
    "kind": "chat",
    "max_output": 202800,
@@ -17325,7 +17325,7 @@
    "capabilities": {
     "tools": true
    },
-   "context_window": 204800,
+   "context_window": 196608,
    "input_per_1m": 0.3,
    "kind": "chat",
    "max_output": 204800,
@@ -17356,7 +17356,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
+   "context_window": 196608,
    "input_per_1m": 0.3,
    "kind": "chat",
    "max_output": 4096,
@@ -17409,7 +17409,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 128000,
+   "context_window": 131072,
    "input_per_1m": 0.22,
    "kind": "chat",
    "max_output": 96000,
@@ -17543,7 +17543,7 @@
    "capabilities": {
     "vision": true
    },
-   "context_window": 16384,
+   "context_window": 131072,
    "input_per_1m": 0.2,
    "kind": "chat",
    "max_output": 16384,
@@ -18229,7 +18229,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 131072,
+   "context_window": 128000,
    "input_per_1m": 0.2,
    "kind": "chat",
    "max_output": 131072,
@@ -18243,7 +18243,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 131072,
+   "context_window": 128000,
    "input_per_1m": 0.2,
    "kind": "chat",
    "max_output": 131072,
@@ -18567,7 +18567,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
+   "context_window": 262144,
    "input_per_1m": 0.2,
    "kind": "chat",
    "max_output": 4096,
@@ -18828,7 +18828,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 16384,
+   "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 16384,
@@ -18842,7 +18842,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 16384,
+   "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 16384,
@@ -18856,7 +18856,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 16384,
+   "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 16384,
@@ -18926,7 +18926,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
+   "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 4096,
@@ -18940,7 +18940,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
+   "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 4096,
@@ -19108,7 +19108,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {},
-   "context_window": 4096,
+   "context_window": 131072,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 4096,
@@ -24482,22 +24482,6 @@
    "url": "/model/together-ai-deepseek-r1-0528"
   },
   {
-   "cached_input_per_1m": 0.5,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 2.5,
-   "kind": "chat",
-   "max_output": null,
-   "name": "Qwen3.7 Max",
-   "output_per_1m": 7.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-7-max",
-   "url": "/model/together-ai-qwen3-7-max"
-  },
-  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true
@@ -24582,6 +24566,22 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-r1-distill-qwen-14b",
    "url": "/model/together-ai-deepseek-r1-distill-qwen-14b"
+  },
+  {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3.7 Max",
+   "output_per_1m": 4.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-7-max",
+   "url": "/model/together-ai-qwen3-7-max"
   },
   {
    "cached_input_per_1m": 0.26,
