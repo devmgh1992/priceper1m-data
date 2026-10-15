@@ -1,7 +1,7 @@
 {
- "count": 1621,
+ "count": 1622,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-15T12:10:12.422634+00:00",
+ "generated_at": "2026-10-15T18:08:32.378966+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -25499,6 +25499,25 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen3-next-80b-a3b-thinking",
    "url": "/model/together-ai-qwen3-next-80b-a3b-thinking"
+  },
+  {
+   "cached_input_per_1m": 0.02,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "NVIDIA Nemotron 3.5 Super VL",
+   "output_per_1m": 0.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-nvidia-nemotron-3-5-super-vl",
+   "url": "/model/together-ai-nvidia-nemotron-3-5-super-vl"
   },
   {
    "cached_input_per_1m": 0.03,

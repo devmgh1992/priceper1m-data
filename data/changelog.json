@@ -1,5 +1,5 @@
 {
- "count_changes": 779,
+ "count_changes": 780,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3356,6 +3356,16 @@
      "provider": "Together AI",
      "slug": "together-ai-meta-llama-3-1-8b-instruct-turbo",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "NVIDIA Nemotron 3.5 Super VL",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-nvidia-nemotron-3-5-super-vl",
+     "type": "added"
     },
     {
      "field": null,
@@ -7798,9 +7808,9 @@
      "type": "removed"
     }
    ],
-   "count": 779,
+   "count": 780,
    "date": "2026-10-15",
-   "generated_at": "2026-10-15T12:10:12.422634+00:00"
+   "generated_at": "2026-10-15T18:08:32.378966+00:00"
   },
   {
    "baseline": true,
