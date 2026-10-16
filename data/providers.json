@@ -2,7 +2,7 @@
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
  "endpoints_tracked": 1627,
- "generated_at": "2026-10-16T12:09:24.116141+00:00",
+ "generated_at": "2026-10-16T18:08:17.927434+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
