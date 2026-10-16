@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1625,
- "generated_at": "2026-10-16T00:09:12.186331+00:00",
+ "endpoints_tracked": 1627,
+ "generated_at": "2026-10-16T06:12:17.295140+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -126,6 +126,14 @@
    "provider": "cloudflare"
   },
   {
+   "category": "platform",
+   "label": "Baseten",
+   "max_input_per_1m": 3,
+   "min_input_per_1m": 0.1,
+   "models": 29,
+   "provider": "baseten"
+  },
+  {
    "category": "local",
    "label": "Ollama",
    "max_input_per_1m": 0,
@@ -140,14 +148,6 @@
    "min_input_per_1m": 0.05,
    "models": 27,
    "provider": "dashscope"
-  },
-  {
-   "category": "platform",
-   "label": "Baseten",
-   "max_input_per_1m": 3,
-   "min_input_per_1m": 0.1,
-   "models": 27,
-   "provider": "baseten"
   },
   {
    "category": "platform",
