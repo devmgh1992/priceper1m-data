@@ -1,5 +1,5 @@
 {
- "count_changes": 780,
+ "count_changes": 783,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -665,6 +665,16 @@
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-5-5-cyber",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.5 Cyber Preview",
+     "new": 12.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-5-cyber-preview",
      "type": "added"
     },
     {
@@ -2678,6 +2688,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Muse Spark Open",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-muse-spark-open",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Deepseek V4 Pro",
      "new": 1.2,
@@ -3116,6 +3136,16 @@
      "provider": "Together AI",
      "slug": "together-ai-qwen3-7-max",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Muse Spark Open 816B A42B",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-muse-spark-open-816b-a42b",
+     "type": "added"
     },
     {
      "field": null,
@@ -7808,9 +7838,9 @@
      "type": "removed"
     }
    ],
-   "count": 780,
-   "date": "2026-10-15",
-   "generated_at": "2026-10-15T18:08:32.378966+00:00"
+   "count": 783,
+   "date": "2026-10-16",
+   "generated_at": "2026-10-16T00:09:12.186331+00:00"
   },
   {
    "baseline": true,

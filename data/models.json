@@ -1,7 +1,7 @@
 {
- "count": 1622,
+ "count": 1625,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-15T18:08:32.378966+00:00",
+ "generated_at": "2026-10-16T00:09:12.186331+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1477,7 +1477,7 @@
    "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
-   "max_output": 65536,
+   "max_output": 1048576,
    "name": "Gemini 4 Argon",
    "output_per_1m": 10,
    "provider": "Google Gemini",
@@ -3779,6 +3779,22 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-5-5-cyber",
    "url": "/model/openai-gpt-5-5-cyber"
+  },
+  {
+   "cached_input_per_1m": 1.25,
+   "capabilities": {
+    "reasoning": true
+   },
+   "context_window": null,
+   "input_per_1m": 12.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.5 Cyber Preview",
+   "output_per_1m": 75,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-5-5-cyber-preview",
+   "url": "/model/openai-gpt-5-5-cyber-preview"
   },
   {
    "cached_input_per_1m": null,
@@ -15771,6 +15787,23 @@
    "url": "/model/fireworks-ai-deepseek-v4-pro-0813"
   },
   {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Muse Spark Open",
+   "output_per_1m": 4.25,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-muse-spark-open",
+   "url": "/model/fireworks-ai-muse-spark-open"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 65536,
@@ -24665,6 +24698,23 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-v3",
    "url": "/model/together-ai-deepseek-v3"
+  },
+  {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Muse Spark Open 816B A42B",
+   "output_per_1m": 4.25,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-muse-spark-open-816b-a42b",
+   "url": "/model/together-ai-muse-spark-open-816b-a42b"
   },
   {
    "cached_input_per_1m": null,

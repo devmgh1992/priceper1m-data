@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1622,
- "generated_at": "2026-10-15T18:08:32.378966+00:00",
+ "endpoints_tracked": 1625,
+ "generated_at": "2026-10-16T00:09:12.186331+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 276,
+   "models": 277,
    "provider": "fireworks_ai"
   },
   {
@@ -30,20 +30,20 @@
    "provider": "novita"
   },
   {
+   "category": "first-party",
+   "label": "OpenAI",
+   "max_input_per_1m": 150,
+   "min_input_per_1m": 0.02,
+   "models": 113,
+   "provider": "openai"
+  },
+  {
    "category": "platform",
    "label": "Azure OpenAI",
    "max_input_per_1m": 75,
    "min_input_per_1m": 0.022,
    "models": 113,
    "provider": "azure"
-  },
-  {
-   "category": "first-party",
-   "label": "OpenAI",
-   "max_input_per_1m": 150,
-   "min_input_per_1m": 0.02,
-   "models": 112,
-   "provider": "openai"
   },
   {
    "category": "platform",
@@ -58,7 +58,7 @@
    "label": "Together AI",
    "max_input_per_1m": 3.5,
    "min_input_per_1m": 0,
-   "models": 88,
+   "models": 89,
    "provider": "together_ai"
   },
   {
