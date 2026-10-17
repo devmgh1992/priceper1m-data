@@ -1,7 +1,7 @@
 {
- "count": 1630,
+ "count": 1632,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-17T12:18:03.678147+00:00",
+ "generated_at": "2026-10-17T18:11:50.460193+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -14846,6 +14846,44 @@
    "provider_slug": "deepinfra",
    "slug": "deepinfra-hy3",
    "url": "/model/deepinfra-hy3"
+  },
+  {
+   "cached_input_per_1m": 0.0042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.14,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "DeepSeek V4.1 Flash",
+   "output_per_1m": 0.42,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-deepseek-v4-1-flash",
+   "url": "/model/deepinfra-deepseek-v4-1-flash"
+  },
+  {
+   "cached_input_per_1m": 0.0042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.14,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "DeepSeek V4.1 Flash 1017",
+   "output_per_1m": 0.42,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-deepseek-v4-1-flash-1017",
+   "url": "/model/deepinfra-deepseek-v4-1-flash-1017"
   },
   {
    "cached_input_per_1m": null,

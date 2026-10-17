@@ -1,5 +1,5 @@
 {
- "count_changes": 788,
+ "count_changes": 790,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2615,6 +2615,26 @@
      "pct": null,
      "provider": "Databricks",
      "slug": "databricks-databricks-claude-opus-5-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4.1 Flash",
+     "new": 0.14,
+     "old": null,
+     "pct": null,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-deepseek-v4-1-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4.1 Flash 1017",
+     "new": 0.14,
+     "old": null,
+     "pct": null,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-deepseek-v4-1-flash-1017",
      "type": "added"
     },
     {
@@ -7888,9 +7908,9 @@
      "type": "removed"
     }
    ],
-   "count": 788,
+   "count": 790,
    "date": "2026-10-17",
-   "generated_at": "2026-10-17T12:18:03.678147+00:00"
+   "generated_at": "2026-10-17T18:11:50.460193+00:00"
   },
   {
    "baseline": true,
