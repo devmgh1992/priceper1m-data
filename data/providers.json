@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1632,
- "generated_at": "2026-10-18T06:08:46.924146+00:00",
+ "endpoints_tracked": 1635,
+ "generated_at": "2026-10-18T12:09:11.922210+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 277,
+   "models": 278,
    "provider": "fireworks_ai"
   },
   {
@@ -122,7 +122,7 @@
    "label": "Baseten",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.1,
-   "models": 30,
+   "models": 32,
    "provider": "baseten"
   },
   {

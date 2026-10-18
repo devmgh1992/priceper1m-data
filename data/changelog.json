@@ -1,5 +1,5 @@
 {
- "count_changes": 790,
+ "count_changes": 793,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1929,6 +1929,16 @@
     },
     {
      "field": null,
+     "name": "DeepSeek V4.1 Flash 1017 Fast",
+     "new": 0.6,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-1-flash-1017-fast",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Inkling Small",
      "new": 0.5,
      "old": null,
@@ -1945,6 +1955,16 @@
      "pct": null,
      "provider": "Baseten",
      "slug": "baseten-deepseek-v4-1-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "DeepSeek V4.1 Flash 1017",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-deepseek-v4-1-flash-1017",
      "type": "added"
     },
     {
@@ -2916,6 +2936,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-v4p1-flash",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4p1 Flash 1017",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash-1017",
+     "type": "added"
     },
     {
      "field": null,
@@ -7908,9 +7938,9 @@
      "type": "removed"
     }
    ],
-   "count": 790,
+   "count": 793,
    "date": "2026-10-18",
-   "generated_at": "2026-10-18T06:08:46.924146+00:00"
+   "generated_at": "2026-10-18T12:09:11.922210+00:00"
   },
   {
    "baseline": true,
