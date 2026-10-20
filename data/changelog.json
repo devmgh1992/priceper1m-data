@@ -1,5 +1,5 @@
 {
- "count_changes": 794,
+ "count_changes": 795,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3006,6 +3006,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-qwen3-vl-8b-instruct",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Minimax M3p1 Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-minimax-m3p1-flash",
+     "type": "added"
     },
     {
      "field": "context_window",
@@ -7948,9 +7958,9 @@
      "type": "removed"
     }
    ],
-   "count": 794,
-   "date": "2026-10-19",
-   "generated_at": "2026-10-19T18:07:31.575700+00:00"
+   "count": 795,
+   "date": "2026-10-20",
+   "generated_at": "2026-10-20T00:08:10.729787+00:00"
   },
   {
    "baseline": true,

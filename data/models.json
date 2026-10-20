@@ -1,7 +1,7 @@
 {
- "count": 1636,
+ "count": 1637,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-19T18:07:31.575700+00:00",
+ "generated_at": "2026-10-20T00:08:10.729787+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -18992,6 +18992,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-glm-5p3-flash",
    "url": "/model/fireworks-ai-glm-5p3-flash"
+  },
+  {
+   "cached_input_per_1m": 0.015,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Minimax M3p1 Flash",
+   "output_per_1m": 0.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-minimax-m3p1-flash",
+   "url": "/model/fireworks-ai-minimax-m3p1-flash"
   },
   {
    "cached_input_per_1m": 0.028,
