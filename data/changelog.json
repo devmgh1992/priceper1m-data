@@ -1,5 +1,5 @@
 {
- "count_changes": 795,
+ "count_changes": 807,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1169,6 +1169,36 @@
     },
     {
      "field": "input_per_1m",
+     "name": "O1",
+     "new": 16.5,
+     "old": 15,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "O1",
+     "new": 66,
+     "old": 60,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "O1",
+     "new": 8.25,
+     "old": 7.5,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o1",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
      "name": "O1 Preview",
      "new": 16.5,
      "old": 15,
@@ -1388,6 +1418,36 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "GPT 4o",
+     "new": 2.75,
+     "old": 2.5,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 4o",
+     "new": 11,
+     "old": 10,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 4o",
+     "new": 1.375,
+     "old": 1.25,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o",
+     "type": "changed"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "GPT 4o",
      "new": 1.375,
@@ -1599,6 +1659,36 @@
     },
     {
      "field": "input_per_1m",
+     "name": "O3 Mini",
+     "new": 1.21,
+     "old": 1.1,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o3-mini",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "O3 Mini",
+     "new": 4.84,
+     "old": 4.4,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o3-mini",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "O3 Mini",
+     "new": 0.605,
+     "old": 0.55,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-o3-mini",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
      "name": "O1 Mini",
      "new": 1.1,
      "old": 1.21,
@@ -1646,6 +1736,36 @@
      "provider": "Azure OpenAI",
      "slug": "azure-gpt-5-6-luna-2026-07-09",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "GPT 4o Mini",
+     "new": 0.165,
+     "old": 0.15,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o-mini",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "GPT 4o Mini",
+     "new": 0.66,
+     "old": 0.6,
+     "pct": 10,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o-mini",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "GPT 4o Mini",
+     "new": 0.083,
+     "old": null,
+     "pct": null,
+     "provider": "Azure OpenAI",
+     "slug": "azure-gpt-4o-mini",
+     "type": "changed"
     },
     {
      "field": "input_per_1m",
@@ -7958,9 +8078,9 @@
      "type": "removed"
     }
    ],
-   "count": 795,
+   "count": 807,
    "date": "2026-10-20",
-   "generated_at": "2026-10-20T12:07:50.303966+00:00"
+   "generated_at": "2026-10-20T18:07:38.288781+00:00"
   },
   {
    "baseline": true,

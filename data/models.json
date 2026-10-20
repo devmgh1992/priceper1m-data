@@ -1,7 +1,7 @@
 {
  "count": 1637,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-20T12:07:50.303966+00:00",
+ "generated_at": "2026-10-20T18:07:38.288781+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -7703,6 +7703,24 @@
    "output_per_1m": 66,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
+   "slug": "azure-o1",
+   "url": "/model/azure-o1"
+  },
+  {
+   "cached_input_per_1m": 8.25,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 16.5,
+   "kind": "chat",
+   "max_output": 100000,
+   "name": "O1",
+   "output_per_1m": 66,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
    "slug": "azure-o1-2024-12-17",
    "url": "/model/azure-o1-2024-12-17"
   },
@@ -7740,25 +7758,6 @@
    "provider_slug": "azure",
    "slug": "azure-gpt-5-pro",
    "url": "/model/azure-gpt-5-pro"
-  },
-  {
-   "cached_input_per_1m": 7.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "O1",
-   "output_per_1m": 60,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-o1",
-   "url": "/model/azure-o1"
   },
   {
    "cached_input_per_1m": null,
@@ -8196,26 +8195,25 @@
    "output_per_1m": 11,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
-   "slug": "azure-gpt-4o-2024-11-20",
-   "url": "/model/azure-gpt-4o-2024-11-20"
+   "slug": "azure-gpt-4o",
+   "url": "/model/azure-gpt-4o"
   },
   {
-   "cached_input_per_1m": 1.25,
+   "cached_input_per_1m": 1.375,
    "capabilities": {
-    "prompt_caching": true,
     "tools": true,
     "vision": true
    },
    "context_window": 128000,
-   "input_per_1m": 2.5,
+   "input_per_1m": 2.75,
    "kind": "chat",
    "max_output": 16384,
    "name": "GPT 4o",
-   "output_per_1m": 10,
+   "output_per_1m": 11,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
-   "slug": "azure-gpt-4o",
-   "url": "/model/azure-gpt-4o"
+   "slug": "azure-gpt-4o-2024-11-20",
+   "url": "/model/azure-gpt-4o-2024-11-20"
   },
   {
    "cached_input_per_1m": null,
@@ -8870,6 +8868,23 @@
    "output_per_1m": 4.84,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
+   "slug": "azure-o3-mini",
+   "url": "/model/azure-o3-mini"
+  },
+  {
+   "cached_input_per_1m": 0.605,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 1.21,
+   "kind": "chat",
+   "max_output": 100000,
+   "name": "O3 Mini",
+   "output_per_1m": 4.84,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
    "slug": "azure-o3-mini-2025-01-31",
    "url": "/model/azure-o3-mini-2025-01-31"
   },
@@ -8890,23 +8905,6 @@
    "provider_slug": "azure",
    "slug": "azure-o1-mini",
    "url": "/model/azure-o1-mini"
-  },
-  {
-   "cached_input_per_1m": 0.55,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 1.1,
-   "kind": "chat",
-   "max_output": 100000,
-   "name": "O3 Mini",
-   "output_per_1m": 4.4,
-   "provider": "Azure OpenAI",
-   "provider_slug": "azure",
-   "slug": "azure-o3-mini",
-   "url": "/model/azure-o3-mini"
   },
   {
    "cached_input_per_1m": 0.275,
@@ -9251,25 +9249,26 @@
    "output_per_1m": 0.66,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
-   "slug": "azure-gpt-4o-mini-2024-07-18",
-   "url": "/model/azure-gpt-4o-mini-2024-07-18"
+   "slug": "azure-gpt-4o-mini",
+   "url": "/model/azure-gpt-4o-mini"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.083,
    "capabilities": {
+    "prompt_caching": true,
     "tools": true,
     "vision": true
    },
    "context_window": 128000,
-   "input_per_1m": 0.15,
+   "input_per_1m": 0.165,
    "kind": "chat",
    "max_output": 16384,
    "name": "GPT 4o Mini",
-   "output_per_1m": 0.6,
+   "output_per_1m": 0.66,
    "provider": "Azure OpenAI",
    "provider_slug": "azure",
-   "slug": "azure-gpt-4o-mini",
-   "url": "/model/azure-gpt-4o-mini"
+   "slug": "azure-gpt-4o-mini-2024-07-18",
+   "url": "/model/azure-gpt-4o-mini-2024-07-18"
   },
   {
    "cached_input_per_1m": null,
