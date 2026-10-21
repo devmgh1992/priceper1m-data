@@ -1,7 +1,7 @@
 {
- "count": 1637,
+ "count": 1638,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-20T18:07:38.288781+00:00",
+ "generated_at": "2026-10-21T00:08:03.331584+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -17448,6 +17448,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4p1-flash-us",
    "url": "/model/fireworks-ai-deepseek-v4p1-flash-us"
+  },
+  {
+   "cached_input_per_1m": 0.009,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.45,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash 1017 Us",
+   "output_per_1m": 1.8,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-us",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-us"
   },
   {
    "cached_input_per_1m": 0.08,
