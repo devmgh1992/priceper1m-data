@@ -1949,16 +1949,6 @@
     },
     {
      "field": null,
-     "name": "Beam 1.0",
-     "new": 1.3,
-     "old": null,
-     "pct": null,
-     "provider": "Baseten",
-     "slug": "baseten-beam-1-0",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Muse Spark Open",
      "new": 1.25,
      "old": null,
@@ -2065,6 +2055,16 @@
      "pct": null,
      "provider": "Baseten",
      "slug": "baseten-inkling-small",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Beam 1.0",
+     "new": 0.4,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-beam-1-0",
      "type": "added"
     },
     {
@@ -8090,7 +8090,7 @@
    ],
    "count": 808,
    "date": "2026-10-21",
-   "generated_at": "2026-10-21T00:08:03.331584+00:00"
+   "generated_at": "2026-10-21T12:08:07.658964+00:00"
   },
   {
    "baseline": true,
