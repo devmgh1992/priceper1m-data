@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1638,
- "generated_at": "2026-10-23T18:07:44.549688+00:00",
+ "endpoints_tracked": 1639,
+ "generated_at": "2026-10-24T00:07:51.407250+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -58,7 +58,7 @@
    "label": "Together AI",
    "max_input_per_1m": 3.5,
    "min_input_per_1m": 0,
-   "models": 91,
+   "models": 92,
    "provider": "together_ai"
   },
   {

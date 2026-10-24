@@ -1,5 +1,5 @@
 {
- "count_changes": 808,
+ "count_changes": 809,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3636,6 +3636,16 @@
      "provider": "Together AI",
      "slug": "together-ai-meta-llama-3-1-8b-instruct-turbo",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "MiniMax M3.1 Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-minimax-m3-1-flash",
+     "type": "added"
     },
     {
      "field": null,
@@ -8088,9 +8098,9 @@
      "type": "removed"
     }
    ],
-   "count": 808,
-   "date": "2026-10-23",
-   "generated_at": "2026-10-23T18:07:44.549688+00:00"
+   "count": 809,
+   "date": "2026-10-24",
+   "generated_at": "2026-10-24T00:07:51.407250+00:00"
   },
   {
    "baseline": true,

@@ -1,7 +1,7 @@
 {
- "count": 1638,
+ "count": 1639,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-23T18:07:44.549688+00:00",
+ "generated_at": "2026-10-24T00:07:51.407250+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -25730,6 +25730,22 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-gpt-oss-120b",
    "url": "/model/together-ai-gpt-oss-120b"
+  },
+  {
+   "cached_input_per_1m": 0.015,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "MiniMax M3.1 Flash",
+   "output_per_1m": 0.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-minimax-m3-1-flash",
+   "url": "/model/together-ai-minimax-m3-1-flash"
   },
   {
    "cached_input_per_1m": 0.03,
