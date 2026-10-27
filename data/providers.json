@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1639,
- "generated_at": "2026-10-24T12:17:09.531567+00:00",
+ "endpoints_tracked": 1657,
+ "generated_at": "2026-10-27T22:15:19.293743+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -30,11 +30,19 @@
    "provider": "novita"
   },
   {
+   "category": "platform",
+   "label": "Amazon Bedrock",
+   "max_input_per_1m": 27.5,
+   "min_input_per_1m": 0.02,
+   "models": 117,
+   "provider": "bedrock"
+  },
+  {
    "category": "first-party",
    "label": "OpenAI",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0.02,
-   "models": 113,
+   "models": 114,
    "provider": "openai"
   },
   {
@@ -44,14 +52,6 @@
    "min_input_per_1m": 0.022,
    "models": 113,
    "provider": "azure"
-  },
-  {
-   "category": "platform",
-   "label": "Amazon Bedrock",
-   "max_input_per_1m": 27.5,
-   "min_input_per_1m": 0.02,
-   "models": 103,
-   "provider": "bedrock"
   },
   {
    "category": "platform",
@@ -90,7 +90,7 @@
    "label": "Mistral AI",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0,
-   "models": 52,
+   "models": 53,
    "provider": "mistral"
   },
   {
@@ -214,6 +214,14 @@
    "provider": "deepseek"
   },
   {
+   "category": "platform",
+   "label": "Cerebras",
+   "max_input_per_1m": 0.99,
+   "min_input_per_1m": 0.1,
+   "models": 9,
+   "provider": "cerebras"
+  },
+  {
    "category": "first-party",
    "label": "Cohere",
    "max_input_per_1m": 100,
@@ -228,14 +236,6 @@
    "min_input_per_1m": 0.22,
    "models": 8,
    "provider": "sambanova"
-  },
-  {
-   "category": "platform",
-   "label": "Cerebras",
-   "max_input_per_1m": 0.99,
-   "min_input_per_1m": 0.1,
-   "models": 7,
-   "provider": "cerebras"
   },
   {
    "category": "platform",
