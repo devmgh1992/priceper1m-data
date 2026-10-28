@@ -1,7 +1,7 @@
 {
- "count": 1657,
+ "count": 1684,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-28T12:57:05.740121+00:00",
+ "generated_at": "2026-10-28T22:36:32.837258+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -2598,7 +2598,7 @@
    "url": "/model/mistral-glm-5-2"
   },
   {
-   "cached_input_per_1m": 0.068,
+   "cached_input_per_1m": 0.14,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -2606,18 +2606,18 @@
     "vision": true
    },
    "context_window": 1048576,
-   "input_per_1m": 0.68,
+   "input_per_1m": 1.36,
    "kind": "chat",
    "max_output": 1048576,
    "name": "Mistral Large 4",
-   "output_per_1m": 2.09,
+   "output_per_1m": 4.18,
    "provider": "Mistral AI",
    "provider_slug": "mistral",
    "slug": "mistral-mistral-large-4",
    "url": "/model/mistral-mistral-large-4"
   },
   {
-   "cached_input_per_1m": 0.068,
+   "cached_input_per_1m": 0.14,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -2625,11 +2625,11 @@
     "vision": true
    },
    "context_window": 1048576,
-   "input_per_1m": 0.68,
+   "input_per_1m": 1.36,
    "kind": "chat",
    "max_output": 1048576,
    "name": "Mistral Large 4 0",
-   "output_per_1m": 2.09,
+   "output_per_1m": 4.18,
    "provider": "Mistral AI",
    "provider_slug": "mistral",
    "slug": "mistral-mistral-large-4-0",
@@ -2689,6 +2689,7 @@
   {
    "cached_input_per_1m": 0.04,
    "capabilities": {
+    "reasoning": true,
     "tools": true
    },
    "context_window": 256000,
@@ -2705,6 +2706,7 @@
   {
    "cached_input_per_1m": 0.04,
    "capabilities": {
+    "reasoning": true,
     "tools": true
    },
    "context_window": 256000,
@@ -2721,6 +2723,7 @@
   {
    "cached_input_per_1m": 0.04,
    "capabilities": {
+    "reasoning": true,
     "tools": true
    },
    "context_window": 256000,
@@ -2765,6 +2768,24 @@
    "provider_slug": "mistral",
    "slug": "mistral-codestral-latest",
    "url": "/model/mistral-codestral-latest"
+  },
+  {
+   "cached_input_per_1m": 0.007,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Deepseek V4 1 Flash 1017",
+   "output_per_1m": 1.2,
+   "provider": "Mistral AI",
+   "provider_slug": "mistral",
+   "slug": "mistral-deepseek-v4-1-flash-1017",
+   "url": "/model/mistral-deepseek-v4-1-flash-1017"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -3064,6 +3085,7 @@
   {
    "cached_input_per_1m": 0.01,
    "capabilities": {
+    "reasoning": true,
     "tools": true
    },
    "context_window": 256000,
@@ -3176,6 +3198,7 @@
   {
    "cached_input_per_1m": 0.01,
    "capabilities": {
+    "reasoning": true,
     "tools": true
    },
    "context_window": 32000,
@@ -3241,6 +3264,7 @@
   {
    "cached_input_per_1m": 0.3,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -3255,6 +3279,25 @@
    "provider_slug": "moonshot",
    "slug": "moonshot-kimi-k3",
    "url": "/model/moonshot-kimi-k3"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Kimi K3.1 Pro",
+   "output_per_1m": 10,
+   "provider": "Moonshot AI",
+   "provider_slug": "moonshot",
+   "slug": "moonshot-kimi-k3-1-pro",
+   "url": "/model/moonshot-kimi-k3-1-pro"
   },
   {
    "cached_input_per_1m": null,
@@ -8984,6 +9027,25 @@
    "url": "/model/azure-o4-mini-2025-04-16"
   },
   {
+   "cached_input_per_1m": 0.05,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Terra",
+   "output_per_1m": 5,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-6-1-terra",
+   "url": "/model/azure-gpt-6-1-terra"
+  },
+  {
    "cached_input_per_1m": 0.075,
    "capabilities": {
     "prompt_caching": true,
@@ -10466,7 +10528,7 @@
    "context_window": 200000,
    "input_per_1m": 3.6,
    "kind": "chat",
-   "max_output": 8192,
+   "max_output": 64000,
    "name": "Anthropic.claude Sonnet 4 5 20250929 V1:0",
    "output_per_1m": 18,
    "provider": "Amazon Bedrock",
@@ -10485,7 +10547,7 @@
    "context_window": 200000,
    "input_per_1m": 3.6,
    "kind": "chat",
-   "max_output": 8192,
+   "max_output": 64000,
    "name": "Claude Sonnet 4 5 20250929 V1:0",
    "output_per_1m": 18,
    "provider": "Amazon Bedrock",
@@ -12594,11 +12656,30 @@
    "kind": "chat",
    "max_output": 128000,
    "name": "Databricks GPT 5 5 Pro",
-   "output_per_1m": 180.00003,
+   "output_per_1m": 180.0001,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gpt-5-5-pro",
    "url": "/model/databricks-databricks-gpt-5-5-pro"
+  },
+  {
+   "cached_input_per_1m": 29.99997,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 29.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 5 4 Pro",
+   "output_per_1m": 180.0001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-5-4-pro",
+   "url": "/model/databricks-databricks-gpt-5-4-pro"
   },
   {
    "cached_input_per_1m": 1.50003,
@@ -12612,7 +12693,7 @@
    "kind": "chat",
    "max_output": 32000,
    "name": "Databricks Claude Opus 4",
-   "output_per_1m": 75.00003,
+   "output_per_1m": 75.0001,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-databricks-claude-opus-4",
@@ -12630,7 +12711,7 @@
    "kind": "chat",
    "max_output": 32000,
    "name": "Databricks Claude Opus 4 1",
-   "output_per_1m": 75.00003,
+   "output_per_1m": 75.0001,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-databricks-claude-opus-4-1",
@@ -12644,7 +12725,7 @@
     "tools": true
    },
    "context_window": 1000000,
-   "input_per_1m": 10.00006,
+   "input_per_1m": 9.99999,
    "kind": "chat",
    "max_output": 128000,
    "name": "Databricks Claude Fable 5",
@@ -12655,7 +12736,7 @@
    "url": "/model/databricks-databricks-claude-fable-5"
   },
   {
-   "cached_input_per_1m": 0.25004,
+   "cached_input_per_1m": 0.24997,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -12663,7 +12744,7 @@
     "vision": true
    },
    "context_window": 1000000,
-   "input_per_1m": 10.00006,
+   "input_per_1m": 9.99999,
    "kind": "chat",
    "max_output": 128000,
    "name": "Databricks Claude Fable 5 1",
@@ -12672,6 +12753,25 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-claude-fable-5-1",
    "url": "/model/databricks-databricks-claude-fable-5-1"
+  },
+  {
+   "cached_input_per_1m": 1.00002,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 9.99999,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 6 Astra",
+   "output_per_1m": 50.00002,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-6-astra",
+   "url": "/model/databricks-databricks-gpt-6-astra"
   },
   {
    "cached_input_per_1m": 0.50001,
@@ -12906,25 +13006,6 @@
    "context_window": 1000000,
    "input_per_1m": 2.99999,
    "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks Claude Sonnet 5",
-   "output_per_1m": 15.00002,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-claude-sonnet-5",
-   "url": "/model/databricks-databricks-claude-sonnet-5"
-  },
-  {
-   "cached_input_per_1m": 0.30002,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 2.99999,
-   "kind": "chat",
    "max_output": 1048576,
    "name": "Databricks Kimi K3",
    "output_per_1m": 15.00002,
@@ -12932,6 +13013,22 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-kimi-k3",
    "url": "/model/databricks-databricks-kimi-k3"
+  },
+  {
+   "cached_input_per_1m": 2.49998,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 65536,
+   "input_per_1m": 2.49998,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Databricks Gemini 3 Pro Image",
+   "output_per_1m": 15.00002,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-3-pro-image",
+   "url": "/model/databricks-databricks-gemini-3-pro-image"
   },
   {
    "cached_input_per_1m": 0.24997,
@@ -12990,25 +13087,6 @@
    "url": "/model/databricks-databricks-gpt-5-4"
   },
   {
-   "cached_input_per_1m": 0.24997,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 922000,
-   "input_per_1m": 2.49998,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks GPT 5 6 Terra",
-   "output_per_1m": 15.00002,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-gpt-5-6-terra",
-   "url": "/model/databricks-databricks-gpt-5-6-terra"
-  },
-  {
    "cached_input_per_1m": 0.62503,
    "capabilities": {
     "prompt_caching": true,
@@ -13027,23 +13105,137 @@
    "url": "/model/databricks-databricks-grok-4-6"
   },
   {
-   "cached_input_per_1m": 0.18753,
+   "cached_input_per_1m": 0.12502,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
    },
    "context_window": 1048576,
-   "input_per_1m": 1.87502,
+   "input_per_1m": 2.49998,
    "kind": "chat",
-   "max_output": 65536,
-   "name": "Databricks Gemini 3 6 Flash",
-   "output_per_1m": 9.37503,
+   "max_output": 1048576,
+   "name": "Databricks Gemini 4 Argon",
+   "output_per_1m": 12.49997,
    "provider": "Databricks",
    "provider_slug": "databricks",
-   "slug": "databricks-databricks-gemini-3-6-flash",
-   "url": "/model/databricks-databricks-gemini-3-6-flash"
+   "slug": "databricks-databricks-gemini-4-argon",
+   "url": "/model/databricks-databricks-gemini-4-argon"
+  },
+  {
+   "cached_input_per_1m": 0.62503,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 500000,
+   "input_per_1m": 2.49998,
+   "kind": "chat",
+   "max_output": 500000,
+   "name": "Databricks Grok 4 7",
+   "output_per_1m": 7.50001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-grok-4-7",
+   "url": "/model/databricks-databricks-grok-4-7"
+  },
+  {
+   "cached_input_per_1m": 0.19999,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks Claude Sonnet 5",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-claude-sonnet-5",
+   "url": "/model/databricks-databricks-claude-sonnet-5"
+  },
+  {
+   "cached_input_per_1m": 0.19999,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 5 6 Terra",
+   "output_per_1m": 12.00003,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-5-6-terra",
+   "url": "/model/databricks-databricks-gpt-5-6-terra"
+  },
+  {
+   "cached_input_per_1m": 0.10003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks Claude Sonnet 5 5",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-claude-sonnet-5-5",
+   "url": "/model/databricks-databricks-claude-sonnet-5-5"
+  },
+  {
+   "cached_input_per_1m": 0.10003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 6 1 Sol",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-6-1-sol",
+   "url": "/model/databricks-databricks-gpt-6-1-sol"
+  },
+  {
+   "cached_input_per_1m": 0.19999,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 6 Sol",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-6-sol",
+   "url": "/model/databricks-databricks-gpt-6-sol"
   },
   {
    "cached_input_per_1m": 0.18753,
@@ -13225,25 +13417,6 @@
    "url": "/model/databricks-databricks-claude-haiku-4-5"
   },
   {
-   "cached_input_per_1m": 0.10003,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 922000,
-   "input_per_1m": 1.00002,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Databricks GPT 5 6 Luna",
-   "output_per_1m": 5.99998,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-gpt-5-6-luna",
-   "url": "/model/databricks-databricks-gpt-5-6-luna"
-  },
-  {
    "cached_input_per_1m": 0.17003,
    "capabilities": {
     "prompt_caching": true,
@@ -13263,6 +13436,99 @@
    "url": "/model/databricks-databricks-inkling"
   },
   {
+   "cached_input_per_1m": 0.04998,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 1.00002,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 6 1 Terra",
+   "output_per_1m": 5.00003,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-6-1-terra",
+   "url": "/model/databricks-databricks-gpt-6-1-terra"
+  },
+  {
+   "cached_input_per_1m": 0.18998,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.94997,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "Databricks Kimi K2 7",
+   "output_per_1m": 4.00001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-kimi-k2-7",
+   "url": "/model/databricks-databricks-kimi-k2-7"
+  },
+  {
+   "cached_input_per_1m": 0.07497,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.74998,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Databricks Gemini 3 8 Flash",
+   "output_per_1m": 3.74997,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-3-8-flash",
+   "url": "/model/databricks-databricks-gemini-3-8-flash"
+  },
+  {
+   "cached_input_per_1m": 0.07497,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.74998,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Databricks Gemini 3 7 Flash",
+   "output_per_1m": 3.74997,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-3-7-flash",
+   "url": "/model/databricks-databricks-gemini-3-7-flash"
+  },
+  {
+   "cached_input_per_1m": 0.07497,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.74998,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Databricks Gemini 3 6 Flash",
+   "output_per_1m": 3.74997,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-3-6-flash",
+   "url": "/model/databricks-databricks-gemini-3-6-flash"
+  },
+  {
    "cached_input_per_1m": 0.07497,
    "capabilities": {
     "prompt_caching": true,
@@ -13280,6 +13546,22 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gpt-5-4-mini",
    "url": "/model/databricks-databricks-gpt-5-4-mini"
+  },
+  {
+   "cached_input_per_1m": 0.62503,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 0.62503,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Databricks Gemini 3 1 Flash Image",
+   "output_per_1m": 3.74997,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-3-1-flash-image",
+   "url": "/model/databricks-databricks-gemini-3-1-flash-image"
   },
   {
    "cached_input_per_1m": 0.06251,
@@ -13367,6 +13649,22 @@
    "url": "/model/databricks-databricks-gemini-3-1-flash-lite"
   },
   {
+   "cached_input_per_1m": 0.31248,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 65536,
+   "input_per_1m": 0.31248,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Databricks Gemini 3 1 Flash Lite Image",
+   "output_per_1m": 1.87502,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-3-1-flash-lite-image",
+   "url": "/model/databricks-databricks-gemini-3-1-flash-lite-image"
+  },
+  {
    "cached_input_per_1m": 0.030002,
    "capabilities": {
     "audio": true,
@@ -13385,6 +13683,44 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gemini-2-5-flash",
    "url": "/model/databricks-databricks-gemini-2-5-flash"
+  },
+  {
+   "cached_input_per_1m": 0.03003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.30002,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Databricks Deepseek V4 1 Flash",
+   "output_per_1m": 1.20001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-deepseek-v4-1-flash",
+   "url": "/model/databricks-databricks-deepseek-v4-1-flash"
+  },
+  {
+   "cached_input_per_1m": 0.007,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.30002,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Databricks Deepseek V4 1 Flash 1017",
+   "output_per_1m": 1.20001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-deepseek-v4-1-flash-1017",
+   "url": "/model/databricks-databricks-deepseek-v4-1-flash-1017"
   },
   {
    "cached_input_per_1m": 0.02499,
@@ -13438,6 +13774,25 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gpt-5-4-nano",
    "url": "/model/databricks-databricks-gpt-5-4-nano"
+  },
+  {
+   "cached_input_per_1m": 0.02002,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 0.19999,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 5 6 Luna",
+   "output_per_1m": 1.20001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-5-6-luna",
+   "url": "/model/databricks-databricks-gpt-5-6-luna"
   },
   {
    "cached_input_per_1m": 0.15001,
@@ -13549,6 +13904,26 @@
    "url": "/model/databricks-databricks-gte-large-en"
   },
   {
+   "cached_input_per_1m": 0.01253,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.12502,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Databricks Gemini 2 5 Flash Lite",
+   "output_per_1m": 0.50001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-2-5-flash-lite",
+   "url": "/model/databricks-databricks-gemini-2-5-flash-lite"
+  },
+  {
    "cached_input_per_1m": 0.10003,
    "capabilities": {},
    "context_window": 512,
@@ -13561,6 +13936,44 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-bge-large-en",
    "url": "/model/databricks-databricks-bge-large-en"
+  },
+  {
+   "cached_input_per_1m": 0.01001,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 0.10003,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks Claude Haiku 5 5",
+   "output_per_1m": 0.50001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-claude-haiku-5-5",
+   "url": "/model/databricks-databricks-claude-haiku-5-5"
+  },
+  {
+   "cached_input_per_1m": 0.01001,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 0.10003,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks GPT 6 Luna",
+   "output_per_1m": 0.50001,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gpt-6-luna",
+   "url": "/model/databricks-databricks-gpt-6-luna"
   },
   {
    "cached_input_per_1m": 0.07,
@@ -16135,6 +16548,25 @@
    "url": "/model/fireworks-ai-glm-5p3-fast"
   },
   {
+   "cached_input_per_1m": 0.21,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.1,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Kimi K3 Spot",
+   "output_per_1m": 10.5,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-kimi-k3-spot",
+   "url": "/model/fireworks-ai-kimi-k3-spot"
+  },
+  {
    "cached_input_per_1m": 0.3,
    "capabilities": {
     "reasoning": true,
@@ -16465,6 +16897,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-inkling",
    "url": "/model/fireworks-ai-inkling"
+  },
+  {
+   "cached_input_per_1m": 0.182,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.98,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Glm 5p3 Spot",
+   "output_per_1m": 3.08,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-spot",
+   "url": "/model/fireworks-ai-glm-5p3-spot"
   },
   {
    "cached_input_per_1m": 0.16,
@@ -18081,6 +18531,44 @@
    "url": "/model/fireworks-ai-deepseek-v4-flash-vision-exp"
   },
   {
+   "cached_input_per_1m": 0.0042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.21,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash Spot",
+   "output_per_1m": 0.84,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-spot",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-spot"
+  },
+  {
+   "cached_input_per_1m": 0.0042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.21,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash 1017 Spot",
+   "output_per_1m": 0.84,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-spot",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-spot"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "vision": true
@@ -19386,6 +19874,24 @@
    "url": "/model/fireworks-ai-deepseek-v4-flash"
   },
   {
+   "cached_input_per_1m": 0.021,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.105,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Spot Deepseek V4 Flash",
+   "output_per_1m": 0.21,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-spot-deepseek-v4-flash",
+   "url": "/model/fireworks-ai-spot-deepseek-v4-flash"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 131072,
@@ -20056,6 +20562,7 @@
   {
    "cached_input_per_1m": 0.075,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true
    },
@@ -20073,6 +20580,7 @@
   {
    "cached_input_per_1m": 0.0375,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true
    },
@@ -20090,6 +20598,7 @@
   {
    "cached_input_per_1m": 0.037,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true
    },
@@ -25059,6 +25568,22 @@
    "url": "/model/together-ai-deepseek-r1-0528"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2.5,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Qwen3.7 Max",
+   "output_per_1m": 7.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-7-max",
+   "url": "/model/together-ai-qwen3-7-max"
+  },
+  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true
@@ -25143,22 +25668,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-r1-distill-qwen-14b",
    "url": "/model/together-ai-deepseek-r1-distill-qwen-14b"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 1.5,
-   "kind": "chat",
-   "max_output": 1000000,
-   "name": "Qwen3.7 Max",
-   "output_per_1m": 4.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-7-max",
-   "url": "/model/together-ai-qwen3-7-max"
   },
   {
    "cached_input_per_1m": 0.26,

@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1657,
- "generated_at": "2026-10-28T12:57:05.740121+00:00",
+ "endpoints_tracked": 1684,
+ "generated_at": "2026-10-28T22:36:32.837258+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 280,
+   "models": 285,
    "provider": "fireworks_ai"
   },
   {
@@ -50,7 +50,7 @@
    "label": "Azure OpenAI",
    "max_input_per_1m": 75,
    "min_input_per_1m": 0.022,
-   "models": 113,
+   "models": 114,
    "provider": "azure"
   },
   {
@@ -71,6 +71,14 @@
   },
   {
    "category": "platform",
+   "label": "Databricks",
+   "max_input_per_1m": 29.99997,
+   "min_input_per_1m": 0.02002,
+   "models": 77,
+   "provider": "databricks"
+  },
+  {
+   "category": "platform",
    "label": "Nebius",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.01,
@@ -78,19 +86,11 @@
    "provider": "nebius"
   },
   {
-   "category": "platform",
-   "label": "Databricks",
-   "max_input_per_1m": 29.99997,
-   "min_input_per_1m": 0.02002,
-   "models": 58,
-   "provider": "databricks"
-  },
-  {
    "category": "first-party",
    "label": "Mistral AI",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0,
-   "models": 53,
+   "models": 54,
    "provider": "mistral"
   },
   {
@@ -202,7 +202,7 @@
    "label": "Moonshot AI",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.2,
-   "models": 11,
+   "models": 12,
    "provider": "moonshot"
   },
   {
