@@ -1,7 +1,7 @@
 {
  "count": 1686,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-29T05:50:11.667924+00:00",
+ "generated_at": "2026-10-29T13:03:29.779970+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -18345,7 +18345,8 @@
    "cached_input_per_1m": 0.06,
    "capabilities": {
     "reasoning": true,
-    "tools": true
+    "tools": true,
+    "vision": true
    },
    "context_window": 512000,
    "input_per_1m": 0.3,
