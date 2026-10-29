@@ -1,5 +1,5 @@
 {
- "count_changes": 989,
+ "count_changes": 991,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2949,6 +2949,16 @@
     },
     {
      "field": null,
+     "name": "Mistral.voxtral Small 24b 2507",
+     "new": 0.103,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-voxtral-small-24b-2507",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Claude Haiku 5 5",
      "new": 0.1,
      "old": null,
@@ -2986,6 +2996,16 @@
      "provider": "Amazon Bedrock",
      "slug": "bedrock-amazon-nova-micro-v1:0",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Mistral.voxtral Mini 3b 2507",
+     "new": 0.0412,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-mistral-voxtral-mini-3b-2507",
+     "type": "added"
     },
     {
      "field": null,
@@ -9898,9 +9918,9 @@
      "type": "removed"
     }
    ],
-   "count": 989,
-   "date": "2026-10-28",
-   "generated_at": "2026-10-28T22:36:32.837258+00:00"
+   "count": 991,
+   "date": "2026-10-29",
+   "generated_at": "2026-10-29T05:50:11.667924+00:00"
   },
   {
    "baseline": true,

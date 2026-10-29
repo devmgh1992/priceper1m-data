@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1684,
- "generated_at": "2026-10-28T22:36:32.837258+00:00",
+ "endpoints_tracked": 1686,
+ "generated_at": "2026-10-29T05:50:11.667924+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -34,7 +34,7 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 27.5,
    "min_input_per_1m": 0.02,
-   "models": 117,
+   "models": 119,
    "provider": "bedrock"
   },
   {

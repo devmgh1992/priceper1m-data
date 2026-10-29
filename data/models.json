@@ -1,7 +1,7 @@
 {
- "count": 1684,
+ "count": 1686,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-28T22:36:32.837258+00:00",
+ "generated_at": "2026-10-29T05:50:11.667924+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -11647,6 +11647,22 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {
+    "audio": true
+   },
+   "context_window": 32768,
+   "input_per_1m": 0.103,
+   "kind": "chat",
+   "max_output": 8192,
+   "name": "Mistral.voxtral Small 24b 2507",
+   "output_per_1m": 0.309,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-mistral-voxtral-small-24b-2507",
+   "url": "/model/bedrock-mistral-voxtral-small-24b-2507"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
    "input_per_1m": 0.1,
@@ -11835,6 +11851,22 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-amazon-nova-micro-v1:0",
    "url": "/model/bedrock-amazon-nova-micro-v1:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "audio": true
+   },
+   "context_window": 32768,
+   "input_per_1m": 0.0412,
+   "kind": "chat",
+   "max_output": 8192,
+   "name": "Mistral.voxtral Mini 3b 2507",
+   "output_per_1m": 0.0412,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-mistral-voxtral-mini-3b-2507",
+   "url": "/model/bedrock-mistral-voxtral-mini-3b-2507"
   },
   {
    "cached_input_per_1m": null,
