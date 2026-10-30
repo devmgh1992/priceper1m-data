@@ -1,7 +1,7 @@
 {
- "count": 1687,
+ "count": 1688,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-30T12:57:08.487682+00:00",
+ "generated_at": "2026-10-30T22:21:54.999475+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -3768,6 +3768,25 @@
    "provider_slug": "openai",
    "slug": "openai-o1-2024-12-17",
    "url": "/model/openai-o1-2024-12-17"
+  },
+  {
+   "cached_input_per_1m": 1.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 15,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Rosalind",
+   "output_per_1m": 75,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-rosalind",
+   "url": "/model/openai-gpt-6-rosalind"
   },
   {
    "cached_input_per_1m": 1.25,
