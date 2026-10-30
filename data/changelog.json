@@ -1,5 +1,5 @@
 {
- "count_changes": 991,
+ "count_changes": 995,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -4468,6 +4468,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Ultramarine 1 Flash Us",
+     "new": 0.225,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-ultramarine-1-flash-us",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Glm 4p5 Air",
      "new": 131072,
@@ -4739,16 +4749,6 @@
     },
     {
      "field": "max_output",
-     "name": "Qwen3.7 Max",
-     "new": 1000000,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
      "name": "Qwen3.8 2.4T A95B",
      "new": 1010000,
      "old": null,
@@ -4806,6 +4806,46 @@
      "provider": "Together AI",
      "slug": "together-ai-deepseek-r1-distill-qwen-14b",
      "type": "added"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Qwen3.7 Max",
+     "new": 1.5,
+     "old": 2.5,
+     "pct": -40,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Qwen3.7 Max",
+     "new": 4.5,
+     "old": 7.5,
+     "pct": -40,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Qwen3.7 Max",
+     "new": 0.3,
+     "old": 0.5,
+     "pct": -40,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Qwen3.7 Max",
+     "new": 1000000,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
     },
     {
      "field": "max_output",
@@ -9918,9 +9958,9 @@
      "type": "removed"
     }
    ],
-   "count": 991,
-   "date": "2026-10-29",
-   "generated_at": "2026-10-29T22:46:14.559780+00:00"
+   "count": 995,
+   "date": "2026-10-30",
+   "generated_at": "2026-10-30T05:50:43.964362+00:00"
   },
   {
    "baseline": true,
