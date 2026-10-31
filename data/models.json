@@ -1,7 +1,7 @@
 {
- "count": 1688,
+ "count": 1689,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-10-31T12:32:27.660759+00:00",
+ "generated_at": "2026-10-31T21:36:39.315154+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -3984,6 +3984,25 @@
    "provider_slug": "openai",
    "slug": "openai-o3-deep-research-2025-06-26",
    "url": "/model/openai-o3-deep-research-2025-06-26"
+  },
+  {
+   "cached_input_per_1m": 1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Astra Law",
+   "output_per_1m": 50,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-astra-law",
+   "url": "/model/openai-gpt-6-astra-law"
   },
   {
    "cached_input_per_1m": null,

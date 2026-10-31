@@ -1,5 +1,5 @@
 {
- "count_changes": 996,
+ "count_changes": 997,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -715,6 +715,16 @@
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-5-5-cyber-preview",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Astra Law",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-astra-law",
      "type": "added"
     },
     {
@@ -9968,9 +9978,9 @@
      "type": "removed"
     }
    ],
-   "count": 996,
+   "count": 997,
    "date": "2026-10-31",
-   "generated_at": "2026-10-31T12:32:27.660759+00:00"
+   "generated_at": "2026-10-31T21:36:39.315154+00:00"
   },
   {
    "baseline": true,
