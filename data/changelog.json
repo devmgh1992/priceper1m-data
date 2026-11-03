@@ -540,7 +540,7 @@
     {
      "field": null,
      "name": "Mistral Large 4",
-     "new": 1.36,
+     "new": 0.7,
      "old": null,
      "pct": null,
      "provider": "Mistral AI",
@@ -550,7 +550,7 @@
     {
      "field": null,
      "name": "Mistral Large 4 0",
-     "new": 1.36,
+     "new": 0.7,
      "old": null,
      "pct": null,
      "provider": "Mistral AI",
@@ -9990,7 +9990,7 @@
    ],
    "count": 998,
    "date": "2026-11-03",
-   "generated_at": "2026-11-03T00:58:41.629099+00:00"
+   "generated_at": "2026-11-03T14:17:18.487035+00:00"
   },
   {
    "baseline": true,
