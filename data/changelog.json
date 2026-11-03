@@ -1,5 +1,5 @@
 {
- "count_changes": 997,
+ "count_changes": 998,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -2625,6 +2625,16 @@
      "pct": null,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-amazon-nova-pro-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Deepseek.v3.2",
+     "new": 156000,
+     "old": 163840,
+     "pct": -4.79,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-deepseek-v3-2",
      "type": "changed"
     },
     {
@@ -9978,9 +9988,9 @@
      "type": "removed"
     }
    ],
-   "count": 997,
-   "date": "2026-11-02",
-   "generated_at": "2026-11-02T15:55:30.864701+00:00"
+   "count": 998,
+   "date": "2026-11-03",
+   "generated_at": "2026-11-03T00:58:41.629099+00:00"
   },
   {
    "baseline": true,
