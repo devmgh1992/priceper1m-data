@@ -1,5 +1,5 @@
 {
- "count_changes": 1034,
+ "count_changes": 1036,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -4279,6 +4279,16 @@
     },
     {
      "field": null,
+     "name": "Deepseek V4p1 Flash 1017 Ultrafast",
+     "new": 2.4,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash-1017-ultrafast",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Glm 5p3 Us",
      "new": 2.1,
      "old": null,
@@ -4548,16 +4558,6 @@
      "type": "added"
     },
     {
-     "field": null,
-     "name": "Ultramarine 1 Flash Us",
-     "new": 0.225,
-     "old": null,
-     "pct": null,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-ultramarine-1-flash-us",
-     "type": "added"
-    },
-    {
      "field": "context_window",
      "name": "Glm 4p5 Air",
      "new": 131072,
@@ -4655,6 +4655,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-minimax-m3p1-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Ultramarine 1 Flash Us",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-ultramarine-1-flash-us",
      "type": "added"
     },
     {
@@ -5186,6 +5196,16 @@
      "provider": "Together AI",
      "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K3.1 Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-kimi-k3-1-pro",
+     "type": "added"
     },
     {
      "field": null,
@@ -10348,9 +10368,9 @@
      "type": "removed"
     }
    ],
-   "count": 1034,
+   "count": 1036,
    "date": "2026-11-04",
-   "generated_at": "2026-11-04T06:24:27.750085+00:00"
+   "generated_at": "2026-11-04T19:46:11.930345+00:00"
   },
   {
    "baseline": true,

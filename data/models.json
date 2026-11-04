@@ -1,7 +1,7 @@
 {
- "count": 1669,
+ "count": 1671,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-04T06:24:27.750085+00:00",
+ "generated_at": "2026-11-04T19:46:11.930345+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -16427,6 +16427,25 @@
    "url": "/model/fireworks-ai-glm-5p1-fast"
   },
   {
+   "cached_input_per_1m": 0.048,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.4,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash 1017 Ultrafast",
+   "output_per_1m": 9.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-ultrafast",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-ultrafast"
+  },
+  {
    "cached_input_per_1m": 0.21,
    "capabilities": {
     "reasoning": true,
@@ -18344,22 +18363,6 @@
    "url": "/model/fireworks-ai-glm-5p3-flash-us"
   },
   {
-   "cached_input_per_1m": 0.045,
-   "capabilities": {
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.225,
-   "kind": "chat",
-   "max_output": 1048576,
-   "name": "Ultramarine 1 Flash Us",
-   "output_per_1m": 0.75,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-ultramarine-1-flash-us",
-   "url": "/model/fireworks-ai-ultramarine-1-flash-us"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -19819,6 +19822,22 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-minimax-m3p1-flash",
    "url": "/model/fireworks-ai-minimax-m3p1-flash"
+  },
+  {
+   "cached_input_per_1m": 0.03,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Ultramarine 1 Flash Us",
+   "output_per_1m": 0.5,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-ultramarine-1-flash-us",
+   "url": "/model/fireworks-ai-ultramarine-1-flash-us"
   },
   {
    "cached_input_per_1m": 0.028,
@@ -25618,6 +25637,25 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen3-coder-480b-a35b-instruct-fp8",
    "url": "/model/together-ai-qwen3-coder-480b-a35b-instruct-fp8"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Kimi K3.1 Pro",
+   "output_per_1m": 10,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-kimi-k3-1-pro",
+   "url": "/model/together-ai-kimi-k3-1-pro"
   },
   {
    "cached_input_per_1m": null,

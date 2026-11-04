@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1669,
- "generated_at": "2026-11-04T06:24:27.750085+00:00",
+ "endpoints_tracked": 1671,
+ "generated_at": "2026-11-04T19:46:11.930345+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 286,
+   "models": 287,
    "provider": "fireworks_ai"
   },
   {
@@ -63,19 +63,19 @@
   },
   {
    "category": "platform",
+   "label": "Together AI",
+   "max_input_per_1m": 3.5,
+   "min_input_per_1m": 0,
+   "models": 78,
+   "provider": "together_ai"
+  },
+  {
+   "category": "platform",
    "label": "Databricks",
    "max_input_per_1m": 29.99997,
    "min_input_per_1m": 0.02002,
    "models": 77,
    "provider": "databricks"
-  },
-  {
-   "category": "platform",
-   "label": "Together AI",
-   "max_input_per_1m": 3.5,
-   "min_input_per_1m": 0,
-   "models": 77,
-   "provider": "together_ai"
   },
   {
    "category": "platform",
