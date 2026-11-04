@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1689,
- "generated_at": "2026-11-03T14:17:18.487035+00:00",
+ "endpoints_tracked": 1669,
+ "generated_at": "2026-11-04T06:24:27.750085+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -48,25 +48,17 @@
   {
    "category": "platform",
    "label": "Azure OpenAI",
-   "max_input_per_1m": 75,
+   "max_input_per_1m": 30,
    "min_input_per_1m": 0.022,
-   "models": 114,
+   "models": 105,
    "provider": "azure"
-  },
-  {
-   "category": "platform",
-   "label": "Together AI",
-   "max_input_per_1m": 3.5,
-   "min_input_per_1m": 0,
-   "models": 92,
-   "provider": "together_ai"
   },
   {
    "category": "first-party",
    "label": "Perplexity",
    "max_input_per_1m": 10,
    "min_input_per_1m": 0,
-   "models": 79,
+   "models": 81,
    "provider": "perplexity"
   },
   {
@@ -79,10 +71,18 @@
   },
   {
    "category": "platform",
+   "label": "Together AI",
+   "max_input_per_1m": 3.5,
+   "min_input_per_1m": 0,
+   "models": 77,
+   "provider": "together_ai"
+  },
+  {
+   "category": "platform",
    "label": "Nebius",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.01,
-   "models": 61,
+   "models": 65,
    "provider": "nebius"
   },
   {
@@ -214,14 +214,6 @@
    "provider": "deepseek"
   },
   {
-   "category": "platform",
-   "label": "Cerebras",
-   "max_input_per_1m": 0.99,
-   "min_input_per_1m": 0.1,
-   "models": 9,
-   "provider": "cerebras"
-  },
-  {
    "category": "first-party",
    "label": "Cohere",
    "max_input_per_1m": 100,
@@ -231,19 +223,19 @@
   },
   {
    "category": "platform",
+   "label": "Cerebras",
+   "max_input_per_1m": 0.99,
+   "min_input_per_1m": 0.1,
+   "models": 8,
+   "provider": "cerebras"
+  },
+  {
+   "category": "platform",
    "label": "SambaNova",
    "max_input_per_1m": 5,
    "min_input_per_1m": 0.22,
    "models": 8,
    "provider": "sambanova"
-  },
-  {
-   "category": "platform",
-   "label": "Groq",
-   "max_input_per_1m": 0.8,
-   "min_input_per_1m": 0.03,
-   "models": 7,
-   "provider": "groq"
   },
   {
    "category": "first-party",
@@ -260,6 +252,14 @@
    "min_input_per_1m": 0.3,
    "models": 6,
    "provider": "minimax"
+  },
+  {
+   "category": "platform",
+   "label": "Groq",
+   "max_input_per_1m": 0.8,
+   "min_input_per_1m": 0.03,
+   "models": 6,
+   "provider": "groq"
   }
  ]
 }
