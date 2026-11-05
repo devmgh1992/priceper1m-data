@@ -1,7 +1,7 @@
 {
- "count": 1676,
+ "count": 1678,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-05T06:48:06.928705+00:00",
+ "generated_at": "2026-11-05T19:58:07.221606+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1530,7 +1530,7 @@
     "reasoning": true,
     "vision": true
    },
-   "context_window": 1048576,
+   "context_window": 131072,
    "input_per_1m": 1.5,
    "kind": "chat",
    "max_output": 65536,
@@ -1540,6 +1540,23 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-omni-1-1-flash",
    "url": "/model/gemini-gemini-omni-1-1-flash"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Gemini Omni 1.2 Flash",
+   "output_per_1m": 9,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-omni-1-2-flash",
+   "url": "/model/gemini-gemini-omni-1-2-flash"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -27033,6 +27050,23 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-omni-1-1-flash-preview",
    "url": "/model/vertex-ai-gemini-omni-1-1-flash-preview"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 260640,
+   "name": "Gemini Omni 1.2 Flash",
+   "output_per_1m": 9,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-omni-1-2-flash",
+   "url": "/model/vertex-ai-gemini-omni-1-2-flash"
   },
   {
    "cached_input_per_1m": 0.2,

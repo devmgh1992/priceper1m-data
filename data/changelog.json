@@ -1,5 +1,5 @@
 {
- "count_changes": 1044,
+ "count_changes": 1045,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -238,14 +238,14 @@
      "type": "changed"
     },
     {
-     "field": "context_window",
-     "name": "Gemini Omni 1.1 Flash",
-     "new": 1048576,
-     "old": 131072,
-     "pct": 700,
+     "field": null,
+     "name": "Gemini Omni 1.2 Flash",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
      "provider": "Google Gemini",
-     "slug": "gemini-gemini-omni-1-1-flash",
-     "type": "changed"
+     "slug": "gemini-gemini-omni-1-2-flash",
+     "type": "added"
     },
     {
      "field": "max_output",
@@ -6009,6 +6009,16 @@
     },
     {
      "field": null,
+     "name": "Gemini Omni 1.2 Flash",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-omni-1-2-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Gemini Robotics Er 2 Preview",
      "new": 1,
      "old": null,
@@ -10448,9 +10458,9 @@
      "type": "removed"
     }
    ],
-   "count": 1044,
+   "count": 1045,
    "date": "2026-11-05",
-   "generated_at": "2026-11-05T06:48:06.928705+00:00"
+   "generated_at": "2026-11-05T19:58:07.221606+00:00"
   },
   {
    "baseline": true,
