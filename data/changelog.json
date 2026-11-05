@@ -1,5 +1,5 @@
 {
- "count_changes": 1036,
+ "count_changes": 1044,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -696,6 +696,36 @@
      "provider": "OpenAI",
      "slug": "openai-gpt-6-rosalind",
      "type": "added"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT 5.6 Cyber",
+     "new": 272000,
+     "old": 400000,
+     "pct": -32,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-5-6-cyber",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Daybreak Red",
+     "new": 272000,
+     "old": 400000,
+     "pct": -32,
+     "provider": "OpenAI",
+     "slug": "openai-daybreak-red-latest",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "GPT Daybreak Red",
+     "new": 272000,
+     "old": 400000,
+     "pct": -32,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-daybreak-red-latest",
+     "type": "changed"
     },
     {
      "field": null,
@@ -2039,6 +2069,16 @@
     },
     {
      "field": null,
+     "name": "Kimi K3.1 Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Baseten",
+     "slug": "baseten-kimi-k3-1-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "DeepSeek V4 Pro",
      "new": 1.74,
      "old": null,
@@ -2785,6 +2825,46 @@
      "pct": -80.4,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-minimax-minimax-m2-5",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": 0.3,
+     "old": 0.25,
+     "pct": 20,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": 1.5,
+     "old": 1.25,
+     "pct": 20,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": null,
+     "old": 0.025,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
+     "new": 195904,
+     "old": 200000,
+     "pct": -2.05,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
      "type": "changed"
     },
     {
@@ -4318,6 +4398,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Kimi K3p1 Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-kimi-k3p1-pro",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Glm 5p1",
      "new": 202752,
@@ -5626,6 +5716,16 @@
      "provider": "Together AI",
      "slug": "together-ai-glm-4-5-air-fp8",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Ripple 65B Preview",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-ripple-65b-preview",
+     "type": "added"
     },
     {
      "field": "max_output",
@@ -7039,16 +7139,6 @@
     },
     {
      "field": null,
-     "name": "Anthropic.claude 3 7 Sonnet 20250219 V1:0",
-     "new": null,
-     "old": 3.6,
-     "pct": null,
-     "provider": "Amazon Bedrock",
-     "slug": "bedrock-anthropic-claude-3-7-sonnet-20250219-v1:0",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "Anthropic.claude 3 Sonnet 20240229 V1:0",
      "new": null,
      "old": 3,
@@ -7125,16 +7215,6 @@
      "pct": null,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-cohere-command-r-v1:0",
-     "type": "removed"
-    },
-    {
-     "field": null,
-     "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
-     "new": null,
-     "old": 0.25,
-     "pct": null,
-     "provider": "Amazon Bedrock",
-     "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
      "type": "removed"
     },
     {
@@ -10368,9 +10448,9 @@
      "type": "removed"
     }
    ],
-   "count": 1036,
-   "date": "2026-11-04",
-   "generated_at": "2026-11-04T19:46:11.930345+00:00"
+   "count": 1044,
+   "date": "2026-11-05",
+   "generated_at": "2026-11-05T06:48:06.928705+00:00"
   },
   {
    "baseline": true,

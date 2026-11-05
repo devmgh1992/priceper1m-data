@@ -1,7 +1,7 @@
 {
- "count": 1671,
+ "count": 1676,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-04T19:46:11.930345+00:00",
+ "generated_at": "2026-11-05T06:48:06.928705+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -3796,7 +3796,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 400000,
+   "context_window": 272000,
    "input_per_1m": 12.5,
    "kind": "chat",
    "max_output": 128000,
@@ -3815,7 +3815,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 400000,
+   "context_window": 272000,
    "input_per_1m": 12.5,
    "kind": "chat",
    "max_output": 128000,
@@ -3834,7 +3834,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 400000,
+   "context_window": 272000,
    "input_per_1m": 12.5,
    "kind": "chat",
    "max_output": 128000,
@@ -9556,6 +9556,25 @@
    "url": "/model/baseten-glm-5-2-fast"
   },
   {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "Kimi K3.1 Pro",
+   "output_per_1m": 10,
+   "provider": "Baseten",
+   "provider_slug": "baseten",
+   "slug": "baseten-kimi-k3-1-pro",
+   "url": "/model/baseten-kimi-k3-1-pro"
+  },
+  {
    "cached_input_per_1m": 0.145,
    "capabilities": {
     "prompt_caching": true,
@@ -10482,6 +10501,25 @@
    "url": "/model/bedrock-claude-sonnet-4-5-20250929-v1:0"
   },
   {
+   "cached_input_per_1m": 0.36,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 3.6,
+   "kind": "chat",
+   "max_output": 8192,
+   "name": "Anthropic.claude 3 7 Sonnet 20250219 V1:0",
+   "output_per_1m": 18,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-3-7-sonnet-20250219-v1:0",
+   "url": "/model/bedrock-anthropic-claude-3-7-sonnet-20250219-v1:0"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 8192,
@@ -11240,6 +11278,23 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-cohere-command-light-text-v14",
    "url": "/model/bedrock-cohere-command-light-text-v14"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 195904,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 4096,
+   "name": "Anthropic.claude 3 Haiku 20240307 V1:0",
+   "output_per_1m": 1.5,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-3-haiku-20240307-v1:0",
+   "url": "/model/bedrock-anthropic-claude-3-haiku-20240307-v1:0"
   },
   {
    "cached_input_per_1m": null,
@@ -16567,6 +16622,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-qwen3p8-max",
    "url": "/model/fireworks-ai-qwen3p8-max"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Kimi K3p1 Pro",
+   "output_per_1m": 10,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-kimi-k3p1-pro",
+   "url": "/model/fireworks-ai-kimi-k3p1-pro"
   },
   {
    "cached_input_per_1m": 0.38,
@@ -26350,6 +26423,22 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-glm-4-5-air-fp8",
    "url": "/model/together-ai-glm-4-5-air-fp8"
+  },
+  {
+   "cached_input_per_1m": 0.02,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Ripple 65B Preview",
+   "output_per_1m": 0.6,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-ripple-65b-preview",
+   "url": "/model/together-ai-ripple-65b-preview"
   },
   {
    "cached_input_per_1m": null,
