@@ -1,5 +1,5 @@
 {
- "count_changes": 1045,
+ "count_changes": 1048,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -685,6 +685,16 @@
      "pct": null,
      "provider": "Moonshot AI",
      "slug": "moonshot-kimi-k3-1-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Cyber",
+     "new": 20,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-cyber",
      "type": "added"
     },
     {
@@ -3369,6 +3379,16 @@
     },
     {
      "field": null,
+     "name": "Databricks Kimi K3 1 Pro",
+     "new": 1.99997,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-kimi-k3-1-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Databricks GPT 6 1 Terra",
      "new": 1.00002,
      "old": null,
@@ -4856,6 +4876,16 @@
      "provider": "Nebius",
      "slug": "nebius-kimi-k3",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K3.1 Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Nebius",
+     "slug": "nebius-kimi-k3-1-pro",
+     "type": "added"
     },
     {
      "field": "cached_input_per_1m",
@@ -10458,9 +10488,9 @@
      "type": "removed"
     }
    ],
-   "count": 1045,
-   "date": "2026-11-05",
-   "generated_at": "2026-11-05T19:58:07.221606+00:00"
+   "count": 1048,
+   "date": "2026-11-06",
+   "generated_at": "2026-11-06T06:48:48.392802+00:00"
   },
   {
    "baseline": true,

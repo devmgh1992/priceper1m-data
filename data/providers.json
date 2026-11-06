@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1678,
- "generated_at": "2026-11-05T19:58:07.221606+00:00",
+ "endpoints_tracked": 1681,
+ "generated_at": "2026-11-06T06:48:48.392802+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -42,7 +42,7 @@
    "label": "OpenAI",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0.02,
-   "models": 116,
+   "models": 117,
    "provider": "openai"
   },
   {
@@ -74,7 +74,7 @@
    "label": "Databricks",
    "max_input_per_1m": 29.99997,
    "min_input_per_1m": 0.02002,
-   "models": 77,
+   "models": 78,
    "provider": "databricks"
   },
   {
@@ -82,7 +82,7 @@
    "label": "Nebius",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.01,
-   "models": 65,
+   "models": 66,
    "provider": "nebius"
   },
   {

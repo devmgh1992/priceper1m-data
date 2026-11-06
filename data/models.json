@@ -1,7 +1,7 @@
 {
- "count": 1678,
+ "count": 1681,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-05T19:58:07.221606+00:00",
+ "generated_at": "2026-11-06T06:48:48.392802+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -2791,7 +2791,8 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
-    "tools": true
+    "tools": true,
+    "vision": true
    },
    "context_window": 1048576,
    "input_per_1m": 0.3,
@@ -3709,6 +3710,25 @@
    "provider_slug": "openai",
    "slug": "openai-o3-pro-2025-06-10",
    "url": "/model/openai-o3-pro-2025-06-10"
+  },
+  {
+   "cached_input_per_1m": 2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 20,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Cyber",
+   "output_per_1m": 100,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-cyber",
+   "url": "/model/openai-gpt-6-cyber"
   },
   {
    "cached_input_per_1m": null,
@@ -13252,6 +13272,25 @@
    "url": "/model/databricks-databricks-gpt-6-sol"
   },
   {
+   "cached_input_per_1m": 0.19999,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Databricks Kimi K3 1 Pro",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-kimi-k3-1-pro",
+   "url": "/model/databricks-databricks-kimi-k3-1-pro"
+  },
+  {
    "cached_input_per_1m": 0.18753,
    "capabilities": {
     "audio": true,
@@ -20973,6 +21012,25 @@
    "provider_slug": "nebius",
    "slug": "nebius-kimi-k3",
    "url": "/model/nebius-kimi-k3"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K3.1 Pro",
+   "output_per_1m": 10,
+   "provider": "Nebius",
+   "provider_slug": "nebius",
+   "slug": "nebius-kimi-k3-1-pro",
+   "url": "/model/nebius-kimi-k3-1-pro"
   },
   {
    "cached_input_per_1m": 0.14,
