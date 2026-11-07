@@ -1,7 +1,7 @@
 {
  "count": 1681,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-06T19:25:23.773718+00:00",
+ "generated_at": "2026-11-07T05:59:16.688744+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -9603,7 +9603,7 @@
    "context_window": 1000000,
    "input_per_1m": 2,
    "kind": "chat",
-   "max_output": 262144,
+   "max_output": 1048576,
    "name": "Kimi K3.1 Pro",
    "output_per_1m": 10,
    "provider": "Baseten",
