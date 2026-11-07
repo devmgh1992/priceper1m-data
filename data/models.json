@@ -1,7 +1,7 @@
 {
- "count": 1681,
+ "count": 1683,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-07T13:03:21.340295+00:00",
+ "generated_at": "2026-11-07T21:51:59.042742+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -3278,6 +3278,25 @@
    "provider_slug": "mistral",
    "slug": "mistral-labs-leanstral-1-5-1",
    "url": "/model/mistral-labs-leanstral-1-5-1"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Kimi K3.1 Pro Highspeed",
+   "output_per_1m": 20,
+   "provider": "Moonshot AI",
+   "provider_slug": "moonshot",
+   "slug": "moonshot-kimi-k3-1-pro-highspeed",
+   "url": "/model/moonshot-kimi-k3-1-pro-highspeed"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -25757,6 +25776,22 @@
    "url": "/model/together-ai-deepseek-r1-0528"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 2.5,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Qwen3.7 Max",
+   "output_per_1m": 7.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen3-7-max",
+   "url": "/model/together-ai-qwen3-7-max"
+  },
+  {
    "cached_input_per_1m": 0.25,
    "capabilities": {
     "prompt_caching": true
@@ -25832,22 +25867,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-together-ai-81-1b-110b",
    "url": "/model/together-ai-together-ai-81-1b-110b"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
-    "prompt_caching": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 1.5,
-   "kind": "chat",
-   "max_output": 1000000,
-   "name": "Qwen3.7 Max",
-   "output_per_1m": 4.5,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen3-7-max",
-   "url": "/model/together-ai-qwen3-7-max"
   },
   {
    "cached_input_per_1m": 0.26,
@@ -26668,6 +26687,20 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-qwen3-next-80b-a3b-thinking",
    "url": "/model/together-ai-qwen3-next-80b-a3b-thinking"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Rnj 1 Instruct",
+   "output_per_1m": 0.15,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-rnj-1-instruct",
+   "url": "/model/together-ai-rnj-1-instruct"
   },
   {
    "cached_input_per_1m": 0.02,

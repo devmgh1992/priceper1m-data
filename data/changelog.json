@@ -1,5 +1,5 @@
 {
- "count_changes": 1048,
+ "count_changes": 1047,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -676,6 +676,16 @@
      "provider": "Mistral AI",
      "slug": "mistral-mistral-small",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Kimi K3.1 Pro Highspeed",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Moonshot AI",
+     "slug": "moonshot-kimi-k3-1-pro-highspeed",
+     "type": "added"
     },
     {
      "field": null,
@@ -5289,6 +5299,16 @@
     },
     {
      "field": "max_output",
+     "name": "Qwen3.7 Max",
+     "new": 1000000,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen3-7-max",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
      "name": "Qwen3.8 2.4T A95B",
      "new": 1010000,
      "old": null,
@@ -5336,46 +5356,6 @@
      "provider": "Together AI",
      "slug": "together-ai-qwen2-5-vl-72b-instruct",
      "type": "added"
-    },
-    {
-     "field": "input_per_1m",
-     "name": "Qwen3.7 Max",
-     "new": 1.5,
-     "old": 2.5,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
-     "field": "output_per_1m",
-     "name": "Qwen3.7 Max",
-     "new": 4.5,
-     "old": 7.5,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
-     "field": "cached_input_per_1m",
-     "name": "Qwen3.7 Max",
-     "new": 0.3,
-     "old": 0.5,
-     "pct": -40,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Qwen3.7 Max",
-     "new": 1000000,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen3-7-max",
-     "type": "changed"
     },
     {
      "field": "max_output",
@@ -5866,6 +5846,16 @@
      "provider": "Together AI",
      "slug": "together-ai-qwen3-next-80b-a3b-thinking",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Rnj 1 Instruct",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-rnj-1-instruct",
+     "type": "added"
     },
     {
      "field": null,
@@ -10488,9 +10478,9 @@
      "type": "removed"
     }
    ],
-   "count": 1048,
+   "count": 1047,
    "date": "2026-11-07",
-   "generated_at": "2026-11-07T13:03:21.340295+00:00"
+   "generated_at": "2026-11-07T21:51:59.042742+00:00"
   },
   {
    "baseline": true,
