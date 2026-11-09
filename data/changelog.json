@@ -1,5 +1,5 @@
 {
- "count_changes": 1047,
+ "count_changes": 1051,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -7,6 +7,16 @@
   {
    "baseline": false,
    "changes": [
+    {
+     "field": null,
+     "name": "Claude Fable 5 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-fable-5-2",
+     "type": "added"
+    },
     {
      "field": null,
      "name": "Claude Opus 5 5",
@@ -485,6 +495,16 @@
      "pct": null,
      "provider": "Meta",
      "slug": "meta-muse-wonder-1-0",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "MiniMax M3.1 Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "MiniMax",
+     "slug": "minimax-minimax-m3-1-flash",
      "type": "added"
     },
     {
@@ -2378,6 +2398,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Claude Fable 5 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-claude-fable-5-2",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Mistral.mistral Large 2402 V1:0",
      "new": 5.2,
@@ -4225,6 +4255,16 @@
      "pct": null,
      "provider": "DeepInfra",
      "slug": "deepinfra-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "NVIDIA Nemotron 3 Super 120B A12B",
+     "new": 0.075,
+     "old": 0.085,
+     "pct": -11.76,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-nvidia-nemotron-3-super-120b-a12b",
      "type": "changed"
     },
     {
@@ -10478,9 +10518,9 @@
      "type": "removed"
     }
    ],
-   "count": 1047,
+   "count": 1051,
    "date": "2026-11-09",
-   "generated_at": "2026-11-09T06:32:05.827236+00:00"
+   "generated_at": "2026-11-09T22:23:14.737563+00:00"
   },
   {
    "baseline": true,

@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1683,
- "generated_at": "2026-11-09T06:32:05.827236+00:00",
+ "endpoints_tracked": 1686,
+ "generated_at": "2026-11-09T22:23:14.737563+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -34,7 +34,7 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 27.5,
    "min_input_per_1m": 0.02,
-   "models": 121,
+   "models": 122,
    "provider": "bedrock"
   },
   {
@@ -158,20 +158,20 @@
    "provider": "vertex_ai"
   },
   {
+   "category": "first-party",
+   "label": "Anthropic",
+   "max_input_per_1m": 10,
+   "min_input_per_1m": 0.1,
+   "models": 23,
+   "provider": "anthropic"
+  },
+  {
    "category": "platform",
    "label": "Voyage AI",
    "max_input_per_1m": 0.18,
    "min_input_per_1m": 0.02,
    "models": 23,
    "provider": "voyage"
-  },
-  {
-   "category": "first-party",
-   "label": "Anthropic",
-   "max_input_per_1m": 10,
-   "min_input_per_1m": 0.1,
-   "models": 22,
-   "provider": "anthropic"
   },
   {
    "category": "platform",
@@ -239,19 +239,19 @@
   },
   {
    "category": "first-party",
+   "label": "MiniMax",
+   "max_input_per_1m": 0.3,
+   "min_input_per_1m": 0.15,
+   "models": 7,
+   "provider": "minimax"
+  },
+  {
+   "category": "first-party",
    "label": "Meta",
    "max_input_per_1m": 4,
    "min_input_per_1m": 0.1,
    "models": 6,
    "provider": "meta"
-  },
-  {
-   "category": "first-party",
-   "label": "MiniMax",
-   "max_input_per_1m": 0.3,
-   "min_input_per_1m": 0.3,
-   "models": 6,
-   "provider": "minimax"
   },
   {
    "category": "platform",
