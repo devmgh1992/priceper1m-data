@@ -1,7 +1,7 @@
 {
- "count": 1690,
+ "count": 1694,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-10T07:20:02.990213+00:00",
+ "generated_at": "2026-11-10T19:45:06.699979+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -266,6 +266,25 @@
    "provider_slug": "anthropic",
    "slug": "anthropic-claude-mythos-preview",
    "url": "/model/anthropic-claude-mythos-preview"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Mythos 5 2",
+   "output_per_1m": 40,
+   "provider": "Anthropic",
+   "provider_slug": "anthropic",
+   "slug": "anthropic-claude-mythos-5-2",
+   "url": "/model/anthropic-claude-mythos-5-2"
   },
   {
    "cached_input_per_1m": 0.2,
@@ -1503,6 +1522,26 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-4-argon",
    "url": "/model/gemini-gemini-4-argon"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Carbon",
+   "output_per_1m": 10,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-4-carbon",
+   "url": "/model/gemini-gemini-4-carbon"
   },
   {
    "cached_input_per_1m": 0.15,
@@ -27096,6 +27135,26 @@
     "vision": true
    },
    "context_window": 1048576,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Carbon Cyber Permissive",
+   "output_per_1m": 20,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-carbon-cyber-permissive",
+   "url": "/model/vertex-ai-gemini-4-carbon-cyber-permissive"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": 65535,
@@ -27203,6 +27262,26 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-4-argon",
    "url": "/model/vertex-ai-gemini-4-argon"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Carbon",
+   "output_per_1m": 10,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-carbon",
+   "url": "/model/vertex-ai-gemini-4-carbon"
   },
   {
    "cached_input_per_1m": 0.15,

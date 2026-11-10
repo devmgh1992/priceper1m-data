@@ -1,5 +1,5 @@
 {
- "count_changes": 1055,
+ "count_changes": 1059,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -7,6 +7,16 @@
   {
    "baseline": false,
    "changes": [
+    {
+     "field": null,
+     "name": "Claude Mythos 5 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Anthropic",
+     "slug": "anthropic-claude-mythos-5-2",
+     "type": "added"
+    },
     {
      "field": null,
      "name": "Claude Fable 5 2",
@@ -235,6 +245,16 @@
      "pct": null,
      "provider": "Google Gemini",
      "slug": "gemini-gemini-4-argon",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Carbon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-4-carbon",
      "type": "added"
     },
     {
@@ -6059,6 +6079,16 @@
     },
     {
      "field": null,
+     "name": "Gemini 4 Carbon Cyber Permissive",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-carbon-cyber-permissive",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Grok 4.7",
      "new": 2,
      "old": null,
@@ -6075,6 +6105,16 @@
      "pct": null,
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemini-4-argon",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Carbon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-carbon",
      "type": "added"
     },
     {
@@ -10558,9 +10598,9 @@
      "type": "removed"
     }
    ],
-   "count": 1055,
+   "count": 1059,
    "date": "2026-11-10",
-   "generated_at": "2026-11-10T07:20:02.990213+00:00"
+   "generated_at": "2026-11-10T19:45:06.699979+00:00"
   },
   {
    "baseline": true,

@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1690,
- "generated_at": "2026-11-10T07:20:02.990213+00:00",
+ "endpoints_tracked": 1694,
+ "generated_at": "2026-11-10T19:45:06.699979+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -98,7 +98,7 @@
    "label": "Google Gemini",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0,
-   "models": 44,
+   "models": 45,
    "provider": "gemini"
   },
   {
@@ -142,6 +142,14 @@
    "provider": "ollama"
   },
   {
+   "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0.075,
+   "models": 29,
+   "provider": "vertex_ai"
+  },
+  {
    "category": "first-party",
    "label": "Alibaba DashScope",
    "max_input_per_1m": 2.5,
@@ -150,19 +158,11 @@
    "provider": "dashscope"
   },
   {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 4,
-   "min_input_per_1m": 0.075,
-   "models": 27,
-   "provider": "vertex_ai"
-  },
-  {
    "category": "first-party",
    "label": "Anthropic",
    "max_input_per_1m": 10,
    "min_input_per_1m": 0.1,
-   "models": 23,
+   "models": 24,
    "provider": "anthropic"
   },
   {
