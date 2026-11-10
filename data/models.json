@@ -1,7 +1,7 @@
 {
- "count": 1686,
+ "count": 1690,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-09T22:23:14.737563+00:00",
+ "generated_at": "2026-11-10T07:20:02.990213+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -2234,6 +2234,25 @@
    "provider_slug": "meta",
    "slug": "meta-muse-spark-1-3",
    "url": "/model/meta-muse-spark-1-3"
+  },
+  {
+   "cached_input_per_1m": 0.004,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": 524288,
+   "name": "Muse Ember 1.0",
+   "output_per_1m": 0.5,
+   "provider": "Meta",
+   "provider_slug": "meta",
+   "slug": "meta-muse-ember-1-0",
+   "url": "/model/meta-muse-ember-1-0"
   },
   {
    "cached_input_per_1m": 0.002,
@@ -10321,6 +10340,44 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-claude-fable-5-1",
    "url": "/model/bedrock-claude-fable-5-1"
+  },
+  {
+   "cached_input_per_1m": 0.24,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 9.6,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Fable 5 2",
+   "output_per_1m": 48,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-fable-5-2",
+   "url": "/model/bedrock-anthropic-claude-fable-5-2"
+  },
+  {
+   "cached_input_per_1m": 0.24,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 9.6,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Mythos 5 2",
+   "output_per_1m": 48,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-mythos-5-2",
+   "url": "/model/bedrock-anthropic-claude-mythos-5-2"
   },
   {
    "cached_input_per_1m": null,
@@ -26272,6 +26329,24 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-nemotron-3-ultra-550b-a55b",
    "url": "/model/together-ai-nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "cached_input_per_1m": 0.06,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": 262144,
+   "name": "Glimpse 1.0",
+   "output_per_1m": 3,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-glimpse-1-0",
+   "url": "/model/together-ai-glimpse-1-0"
   },
   {
    "cached_input_per_1m": null,

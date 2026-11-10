@@ -1,5 +1,5 @@
 {
- "count_changes": 1051,
+ "count_changes": 1055,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -495,6 +495,16 @@
      "pct": null,
      "provider": "Meta",
      "slug": "meta-muse-wonder-1-0",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Muse Ember 1.0",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Meta",
+     "slug": "meta-muse-ember-1-0",
      "type": "added"
     },
     {
@@ -2395,6 +2405,26 @@
      "pct": null,
      "provider": "Amazon Bedrock",
      "slug": "bedrock-claude-fable-5-1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude Fable 5 2",
+     "new": 9.6,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-fable-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Anthropic.claude Mythos 5 2",
+     "new": 9.6,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-anthropic-claude-mythos-5-2",
      "type": "added"
     },
     {
@@ -5606,6 +5636,16 @@
      "provider": "Together AI",
      "slug": "together-ai-nemotron-3-ultra-550b-a55b",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glimpse 1.0",
+     "new": 0.6,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-glimpse-1-0",
+     "type": "added"
     },
     {
      "field": "max_output",
@@ -10518,9 +10558,9 @@
      "type": "removed"
     }
    ],
-   "count": 1051,
-   "date": "2026-11-09",
-   "generated_at": "2026-11-09T22:23:14.737563+00:00"
+   "count": 1055,
+   "date": "2026-11-10",
+   "generated_at": "2026-11-10T07:20:02.990213+00:00"
   },
   {
    "baseline": true,
