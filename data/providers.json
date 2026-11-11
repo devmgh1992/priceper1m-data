@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1694,
- "generated_at": "2026-11-10T19:45:06.699979+00:00",
+ "endpoints_tracked": 1747,
+ "generated_at": "2026-11-11T06:23:12.613828+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 288,
+   "models": 296,
    "provider": "fireworks_ai"
   },
   {
@@ -54,6 +54,14 @@
    "provider": "azure"
   },
   {
+   "category": "platform",
+   "label": "Replicate",
+   "max_input_per_1m": 20,
+   "min_input_per_1m": 0,
+   "models": 83,
+   "provider": "replicate"
+  },
+  {
    "category": "first-party",
    "label": "Perplexity",
    "max_input_per_1m": 10,
@@ -74,7 +82,7 @@
    "label": "Databricks",
    "max_input_per_1m": 29.99997,
    "min_input_per_1m": 0.02002,
-   "models": 78,
+   "models": 80,
    "provider": "databricks"
   },
   {
@@ -108,14 +116,6 @@
    "min_input_per_1m": 1,
    "models": 43,
    "provider": "xai"
-  },
-  {
-   "category": "platform",
-   "label": "Replicate",
-   "max_input_per_1m": 15,
-   "min_input_per_1m": 0.03,
-   "models": 40,
-   "provider": "replicate"
   },
   {
    "category": "platform",

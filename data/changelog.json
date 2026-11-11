@@ -1,5 +1,5 @@
 {
- "count_changes": 1059,
+ "count_changes": 1113,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3339,6 +3339,26 @@
     },
     {
      "field": null,
+     "name": "Databricks Claude Fable 5 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-claude-fable-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "System.ai.claude Fable 5 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-system-ai-claude-fable-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Databricks Claude Opus 5 5",
      "new": 4.00001,
      "old": null,
@@ -3615,6 +3635,16 @@
      "pct": -79.99,
      "provider": "Databricks",
      "slug": "databricks-databricks-gpt-5-6-luna",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Databricks Meta Llama 3 1 8b Instruct",
+     "new": 128000,
+     "old": 200000,
+     "pct": -36,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-meta-llama-3-1-8b-instruct",
      "type": "changed"
     },
     {
@@ -4438,6 +4468,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Kimi Fast",
+     "new": 4.5,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-kimi-fast-latest",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Deepseek R1",
      "new": 163840,
@@ -4466,6 +4506,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-llama-v3p1-405b-instruct",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Kimi",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-kimi-latest",
+     "type": "added"
     },
     {
      "field": null,
@@ -4509,12 +4559,32 @@
     },
     {
      "field": null,
+     "name": "Glm Fast",
+     "new": 2.1,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-fast-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Kimi K3 Spot",
      "new": 2.1,
      "old": null,
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-kimi-k3-spot",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen Max",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-qwen-max-latest",
      "type": "added"
     },
     {
@@ -4536,6 +4606,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-glm-5p1",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glm",
+     "new": 1.4,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-latest",
+     "type": "added"
     },
     {
      "field": null,
@@ -4708,6 +4788,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Minimax",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-minimax-latest",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Minimax M2",
      "new": 196608,
@@ -4755,6 +4845,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-v4p1-flash-1017",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek Flash",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-flash-latest",
      "type": "added"
     },
     {
@@ -4856,6 +4956,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-glm-5p3-flash",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glm Flash",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-flash-latest",
+     "type": "added"
     },
     {
      "field": null,
@@ -5358,6 +5468,246 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Snowflake Arctic Instruct",
+     "new": 20,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-snowflake-arctic-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5 Pro",
+     "new": 15,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Fable 5",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-fable-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Fable 5.2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-fable-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.6",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-opus-4-6",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 4.7",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-opus-4-7",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Opus 5.5",
+     "new": 4,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-opus-5-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 4.6",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-sonnet-4-6",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.4",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-4",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Terra",
+     "new": 2.5,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-6-terra",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Sonnet 5",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-claude-sonnet-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.1 Pro",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gemini-3-1-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-6-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Carbon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gemini-4-carbon",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.2",
+     "new": 1.75,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3.5 Flash",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gemini-3-5-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.1",
+     "new": 1.25,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 5.6 Luna",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gpt-5-6-luna",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.6",
+     "new": 0.95,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-kimi-k2-6",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2.5",
+     "new": 0.72,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-kimi-k2-5",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi K2 Thinking",
+     "new": 0.66,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-kimi-k2-thinking",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3 70b",
+     "new": 0.65,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-meta-llama-3-70b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3 70b Instruct",
+     "new": 0.65,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-meta-llama-3-70b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 3 Flash",
+     "new": 0.5,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-gemini-3-flash",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Gemini 2.5 Flash",
      "new": 0.3,
@@ -5366,6 +5716,196 @@
      "provider": "Replicate",
      "slug": "replicate-gemini-2-5-flash",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Qwen3 7 Plus",
+     "new": 0.276,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-qwen3-7-plus",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Isaac 0.1",
+     "new": 0.26,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-isaac-0-1",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Maverick Instruct",
+     "new": 0.25,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-llama-4-maverick-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Llama Guard 4 12b",
+     "new": 0.2,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-llama-guard-4-12b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Llama 4 Scout Instruct",
+     "new": 0.17,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-llama-4-scout-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 20b Code Instruct 8k",
+     "new": 0.1,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-20b-code-instruct-8k",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 4.0 H Small",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-4-0-h-small",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 4.1 8b",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-4-1-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 4.2 8b",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-4-2-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite Vision 4.1 4b",
+     "new": 0.06,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-vision-4-1-4b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 3.0 8b Instruct",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-3-0-8b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 8b Code Instruct 128k",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-8b-code-instruct-128k",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3 8b",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-meta-llama-3-8b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Meta Llama 3 8b Instruct",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-meta-llama-3-8b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 3.0 2b Instruct",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-3-0-2b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 3.1 2b Instruct",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-3-1-2b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 3.1 8b Instruct",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-3-1-8b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite 3.2 8b Instruct",
+     "new": 0.03,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-3-2-8b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Granite Vision 3.3 2b",
+     "new": 0,
+     "old": null,
+     "pct": null,
+     "provider": "Replicate",
+     "slug": "replicate-granite-vision-3-3-2b",
+     "type": "added"
     },
     {
      "field": null,
@@ -10598,9 +11138,9 @@
      "type": "removed"
     }
    ],
-   "count": 1059,
-   "date": "2026-11-10",
-   "generated_at": "2026-11-10T19:45:06.699979+00:00"
+   "count": 1113,
+   "date": "2026-11-11",
+   "generated_at": "2026-11-11T06:23:12.613828+00:00"
   },
   {
    "baseline": true,

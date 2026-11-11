@@ -1,7 +1,7 @@
 {
- "count": 1694,
+ "count": 1747,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-10T19:45:06.699979+00:00",
+ "generated_at": "2026-11-11T06:23:12.613828+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -3346,7 +3346,9 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 262144,
    "input_per_1m": 0,
@@ -3362,7 +3364,9 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 262144,
    "input_per_1m": 0,
@@ -12980,6 +12984,44 @@
    "url": "/model/databricks-databricks-gpt-6-astra"
   },
   {
+   "cached_input_per_1m": 8,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Databricks Claude Fable 5 2",
+   "output_per_1m": 40,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-claude-fable-5-2",
+   "url": "/model/databricks-databricks-claude-fable-5-2"
+  },
+  {
+   "cached_input_per_1m": 8,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "System.ai.claude Fable 5 2",
+   "output_per_1m": 40,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-claude-fable-5-2",
+   "url": "/model/databricks-system-ai-claude-fable-5-2"
+  },
+  {
    "cached_input_per_1m": 0.50001,
    "capabilities": {
     "prompt_caching": true,
@@ -14074,7 +14116,7 @@
   {
    "cached_input_per_1m": 0.15001,
    "capabilities": {},
-   "context_window": 200000,
+   "context_window": 128000,
    "input_per_1m": 0.15001,
    "kind": "chat",
    "max_output": 128000,
@@ -16599,6 +16641,24 @@
    "url": "/model/fireworks-ai-kimi-k3-us"
   },
   {
+   "cached_input_per_1m": 0.45,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 4.5,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Kimi Fast",
+   "output_per_1m": 22.5,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-kimi-fast-latest",
+   "url": "/model/fireworks-ai-kimi-fast-latest"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 163840,
@@ -16673,6 +16733,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-kimi-k3",
    "url": "/model/fireworks-ai-kimi-k3"
+  },
+  {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Kimi",
+   "output_per_1m": 15,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-kimi-latest",
+   "url": "/model/fireworks-ai-kimi-latest"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -16797,6 +16875,23 @@
    "url": "/model/fireworks-ai-glm-5p3-fast"
   },
   {
+   "cached_input_per_1m": 0.39,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2.1,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Glm Fast",
+   "output_per_1m": 6.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-fast-latest",
+   "url": "/model/fireworks-ai-glm-fast-latest"
+  },
+  {
    "cached_input_per_1m": 0.21,
    "capabilities": {
     "prompt_caching": true,
@@ -16850,6 +16945,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-qwen3p8-max",
    "url": "/model/fireworks-ai-qwen3p8-max"
+  },
+  {
+   "cached_input_per_1m": 0.25,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen Max",
+   "output_per_1m": 6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-qwen-max-latest",
+   "url": "/model/fireworks-ai-qwen-max-latest"
   },
   {
    "cached_input_per_1m": 0.2,
@@ -16937,6 +17050,23 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-glm-5p3",
    "url": "/model/fireworks-ai-glm-5p3"
+  },
+  {
+   "cached_input_per_1m": 0.26,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.4,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Glm",
+   "output_per_1m": 4.4,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-latest",
+   "url": "/model/fireworks-ai-glm-latest"
   },
   {
    "cached_input_per_1m": 0.044,
@@ -18595,6 +18725,24 @@
    "url": "/model/fireworks-ai-minimax-m3"
   },
   {
+   "cached_input_per_1m": 0.06,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 512000,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 512000,
+   "name": "Minimax",
+   "output_per_1m": 1.2,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-minimax-latest",
+   "url": "/model/fireworks-ai-minimax-latest"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 196608,
@@ -18645,6 +18793,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4p1-flash-1017",
    "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017"
+  },
+  {
+   "cached_input_per_1m": 0.006,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek Flash",
+   "output_per_1m": 1.2,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-flash-latest",
+   "url": "/model/fireworks-ai-deepseek-flash-latest"
   },
   {
    "cached_input_per_1m": 0.045,
@@ -20105,6 +20272,23 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-glm-5p3-flash",
    "url": "/model/fireworks-ai-glm-5p3-flash"
+  },
+  {
+   "cached_input_per_1m": 0.03,
+   "capabilities": {
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Glm Flash",
+   "output_per_1m": 0.5,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-flash-latest",
+   "url": "/model/fireworks-ai-glm-flash-latest"
   },
   {
    "cached_input_per_1m": 0.015,
@@ -25117,6 +25301,20 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 20,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Snowflake Arctic Instruct",
+   "output_per_1m": 20,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-snowflake-arctic-instruct",
+   "url": "/model/replicate-snowflake-arctic-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true
    },
@@ -25134,6 +25332,54 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5 Pro",
+   "output_per_1m": 120,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-pro",
+   "url": "/model/replicate-gpt-5-pro"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Fable 5",
+   "output_per_1m": 50,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-fable-5",
+   "url": "/model/replicate-claude-fable-5"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Fable 5.2",
+   "output_per_1m": 40,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-fable-5-2",
+   "url": "/model/replicate-claude-fable-5-2"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "tools": true
    },
    "context_window": null,
@@ -25146,6 +25392,54 @@
    "provider_slug": "replicate",
    "slug": "replicate-grok-4",
    "url": "/model/replicate-grok-4"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Opus 4.6",
+   "output_per_1m": 25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-opus-4-6",
+   "url": "/model/replicate-claude-opus-4-6"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Opus 4.7",
+   "output_per_1m": 25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-opus-4-7",
+   "url": "/model/replicate-claude-opus-4-7"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 4,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Opus 5.5",
+   "output_per_1m": 20,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-opus-5-5",
+   "url": "/model/replicate-claude-opus-5-5"
   },
   {
    "cached_input_per_1m": null,
@@ -25238,6 +25532,22 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Sonnet 4.6",
+   "output_per_1m": 15,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-sonnet-4-6",
+   "url": "/model/replicate-claude-sonnet-4-6"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "audio": true,
     "tools": true,
     "vision": true
@@ -25256,7 +25566,42 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 2.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.4",
+   "output_per_1m": 15,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-4",
+   "url": "/model/replicate-gpt-5-4"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 2.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.6 Terra",
+   "output_per_1m": 15,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-6-terra",
+   "url": "/model/replicate-gpt-5-6-terra"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "audio": true,
+    "reasoning": true,
     "vision": true
    },
    "context_window": null,
@@ -25290,6 +25635,108 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Sonnet 5",
+   "output_per_1m": 10,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-claude-sonnet-5",
+   "url": "/model/replicate-claude-sonnet-5"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 3.1 Pro",
+   "output_per_1m": 12,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gemini-3-1-pro",
+   "url": "/model/replicate-gemini-3-1-pro"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.6 Sol",
+   "output_per_1m": 10,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-6-sol",
+   "url": "/model/replicate-gpt-5-6-sol"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "audio": true,
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 65535,
+   "name": "Gemini 4 Carbon",
+   "output_per_1m": 10,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gemini-4-carbon",
+   "url": "/model/replicate-gemini-4-carbon"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 1.75,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.2",
+   "output_per_1m": 14,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-2",
+   "url": "/model/replicate-gpt-5-2"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 3.5 Flash",
+   "output_per_1m": 9,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gemini-3-5-flash",
+   "url": "/model/replicate-gemini-3-5-flash"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "tools": true
    },
    "context_window": 65536,
@@ -25306,6 +25753,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -25319,6 +25767,23 @@
    "provider_slug": "replicate",
    "slug": "replicate-gpt-5",
    "url": "/model/replicate-gpt-5"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 1.25,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.1",
+   "output_per_1m": 10,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-1",
+   "url": "/model/replicate-gpt-5-1"
   },
   {
    "cached_input_per_1m": null,
@@ -25392,6 +25857,56 @@
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 5.6 Luna",
+   "output_per_1m": 6,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gpt-5-6-luna",
+   "url": "/model/replicate-gpt-5-6-luna"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.95,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K2.6",
+   "output_per_1m": 4,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-kimi-k2-6",
+   "url": "/model/replicate-kimi-k2-6"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.72,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K2.5",
+   "output_per_1m": 3.6,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-kimi-k2-5",
+   "url": "/model/replicate-kimi-k2-5"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
     "tools": true
    },
    "context_window": 163840,
@@ -25404,6 +25919,20 @@
    "provider_slug": "replicate",
    "slug": "replicate-deepseek-v3-1",
    "url": "/model/replicate-deepseek-v3-1"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.66,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Kimi K2 Thinking",
+   "output_per_1m": 2.7,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-kimi-k2-thinking",
+   "url": "/model/replicate-kimi-k2-thinking"
   },
   {
    "cached_input_per_1m": null,
@@ -25463,6 +25992,51 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.65,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 70b",
+   "output_per_1m": 2.75,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-meta-llama-3-70b",
+   "url": "/model/replicate-meta-llama-3-70b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.65,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 70b Instruct",
+   "output_per_1m": 2.75,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-meta-llama-3-70b-instruct",
+   "url": "/model/replicate-meta-llama-3-70b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 3 Flash",
+   "output_per_1m": 3,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-gemini-3-flash",
+   "url": "/model/replicate-gemini-3-flash"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true,
     "vision": true
@@ -25512,6 +26086,22 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.276,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen3 7 Plus",
+   "output_per_1m": 1.101,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-qwen3-7-plus",
+   "url": "/model/replicate-qwen3-7-plus"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
     "tools": true
    },
    "context_window": null,
@@ -25528,6 +26118,23 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.26,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Isaac 0.1",
+   "output_per_1m": 2.17,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-isaac-0-1",
+   "url": "/model/replicate-isaac-0-1"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -25544,6 +26151,36 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.25,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 4 Maverick Instruct",
+   "output_per_1m": 0.95,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-llama-4-maverick-instruct",
+   "url": "/model/replicate-llama-4-maverick-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama Guard 4 12b",
+   "output_per_1m": 0.2,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-llama-guard-4-12b",
+   "url": "/model/replicate-llama-guard-4-12b"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -25557,6 +26194,20 @@
    "provider_slug": "replicate",
    "slug": "replicate-gpt-oss-120b",
    "url": "/model/replicate-gpt-oss-120b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.17,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Llama 4 Scout Instruct",
+   "output_per_1m": 0.65,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-llama-4-scout-instruct",
+   "url": "/model/replicate-llama-4-scout-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -25621,6 +26272,20 @@
   },
   {
    "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 20b Code Instruct 8k",
+   "output_per_1m": 0.5,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-20b-code-instruct-8k",
+   "url": "/model/replicate-granite-20b-code-instruct-8k"
+  },
+  {
+   "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
    },
@@ -25634,6 +26299,71 @@
    "provider_slug": "replicate",
    "slug": "replicate-gpt-oss-20b",
    "url": "/model/replicate-gpt-oss-20b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 4.0 H Small",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-4-0-h-small",
+   "url": "/model/replicate-granite-4-0-h-small"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 4.1 8b",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-4-1-8b",
+   "url": "/model/replicate-granite-4-1-8b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 4.2 8b",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-4-2-8b",
+   "url": "/model/replicate-granite-4-2-8b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite Vision 4.1 4b",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-vision-4-1-4b",
+   "url": "/model/replicate-granite-vision-4-1-4b"
   },
   {
    "cached_input_per_1m": null,
@@ -25722,7 +26452,9 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": null,
    "input_per_1m": 0.05,
@@ -25734,6 +26466,62 @@
    "provider_slug": "replicate",
    "slug": "replicate-gpt-5-nano",
    "url": "/model/replicate-gpt-5-nano"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.05,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 3.0 8b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-3-0-8b-instruct",
+   "url": "/model/replicate-granite-3-0-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.05,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 8b Code Instruct 128k",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-8b-code-instruct-128k",
+   "url": "/model/replicate-granite-8b-code-instruct-128k"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.05,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 8b",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-meta-llama-3-8b",
+   "url": "/model/replicate-meta-llama-3-8b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.05,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Meta Llama 3 8b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-meta-llama-3-8b-instruct",
+   "url": "/model/replicate-meta-llama-3-8b-instruct"
   },
   {
    "cached_input_per_1m": null,
@@ -25750,6 +26538,78 @@
    "provider_slug": "replicate",
    "slug": "replicate-granite-3-3-8b-instruct",
    "url": "/model/replicate-granite-3-3-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.03,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 3.0 2b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-3-0-2b-instruct",
+   "url": "/model/replicate-granite-3-0-2b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.03,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 3.1 2b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-3-1-2b-instruct",
+   "url": "/model/replicate-granite-3-1-2b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.03,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 3.1 8b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-3-1-8b-instruct",
+   "url": "/model/replicate-granite-3-1-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.03,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite 3.2 8b Instruct",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-3-2-8b-instruct",
+   "url": "/model/replicate-granite-3-2-8b-instruct"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": null,
+   "input_per_1m": 0,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Granite Vision 3.3 2b",
+   "output_per_1m": 0.25,
+   "provider": "Replicate",
+   "provider_slug": "replicate",
+   "slug": "replicate-granite-vision-3-3-2b",
+   "url": "/model/replicate-granite-vision-3-3-2b"
   },
   {
    "cached_input_per_1m": null,
