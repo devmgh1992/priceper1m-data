@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1747,
- "generated_at": "2026-11-11T06:23:12.613828+00:00",
+ "endpoints_tracked": 1749,
+ "generated_at": "2026-11-11T19:37:20.266246+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -17,7 +17,7 @@
    "category": "platform",
    "label": "DeepInfra",
    "max_input_per_1m": 16.5,
-   "min_input_per_1m": 0.019,
+   "min_input_per_1m": 0.02,
    "models": 136,
    "provider": "deepinfra"
   },
@@ -62,6 +62,14 @@
    "provider": "replicate"
   },
   {
+   "category": "platform",
+   "label": "Databricks",
+   "max_input_per_1m": 29.99997,
+   "min_input_per_1m": 0.02002,
+   "models": 82,
+   "provider": "databricks"
+  },
+  {
    "category": "first-party",
    "label": "Perplexity",
    "max_input_per_1m": 10,
@@ -76,14 +84,6 @@
    "min_input_per_1m": 0,
    "models": 81,
    "provider": "together_ai"
-  },
-  {
-   "category": "platform",
-   "label": "Databricks",
-   "max_input_per_1m": 29.99997,
-   "min_input_per_1m": 0.02002,
-   "models": 80,
-   "provider": "databricks"
   },
   {
    "category": "platform",

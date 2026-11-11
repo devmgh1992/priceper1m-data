@@ -1,7 +1,7 @@
 {
- "count": 1747,
+ "count": 1749,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-11T06:23:12.613828+00:00",
+ "generated_at": "2026-11-11T19:37:20.266246+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -13392,6 +13392,46 @@
    "url": "/model/databricks-databricks-grok-4-7"
   },
   {
+   "cached_input_per_1m": 2,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Databricks Gemini 4 Carbon",
+   "output_per_1m": 10,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-4-carbon",
+   "url": "/model/databricks-databricks-gemini-4-carbon"
+  },
+  {
+   "cached_input_per_1m": 2,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "System.ai.gemini 4 Carbon",
+   "output_per_1m": 10,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-gemini-4-carbon",
+   "url": "/model/databricks-system-ai-gemini-4-carbon"
+  },
+  {
    "cached_input_per_1m": 0.19999,
    "capabilities": {
     "prompt_caching": true,
@@ -14431,6 +14471,24 @@
    "url": "/model/deepinfra-claude-sonnet-4-6"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Claude Sonnet 5",
+   "output_per_1m": 15,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-claude-sonnet-5",
+   "url": "/model/deepinfra-claude-sonnet-5"
+  },
+  {
    "cached_input_per_1m": 0.285,
    "capabilities": {
     "prompt_caching": true,
@@ -14482,24 +14540,6 @@
    "provider_slug": "deepinfra",
    "slug": "deepinfra-qwen3-8-2-4t-a95b",
    "url": "/model/deepinfra-qwen3-8-2-4t-a95b"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 2,
-   "kind": "chat",
-   "max_output": 1000000,
-   "name": "Claude Sonnet 5",
-   "output_per_1m": 10,
-   "provider": "DeepInfra",
-   "provider_slug": "deepinfra",
-   "slug": "deepinfra-claude-sonnet-5",
-   "url": "/model/deepinfra-claude-sonnet-5"
   },
   {
    "cached_input_per_1m": null,
@@ -16199,24 +16239,6 @@
    "url": "/model/deepinfra-gemma-3-27b-it"
   },
   {
-   "cached_input_per_1m": 0.04,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 262144,
-   "input_per_1m": 0.08,
-   "kind": "chat",
-   "max_output": null,
-   "name": "NVIDIA Nemotron 3.5 Lightning",
-   "output_per_1m": 0.2,
-   "provider": "DeepInfra",
-   "provider_slug": "deepinfra",
-   "slug": "deepinfra-nvidia-nemotron-3-5-lightning",
-   "url": "/model/deepinfra-nvidia-nemotron-3-5-lightning"
-  },
-  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -16282,6 +16304,24 @@
    "provider_slug": "deepinfra",
    "slug": "deepinfra-gemma-4-26b-a4b-it",
    "url": "/model/deepinfra-gemma-4-26b-a4b-it"
+  },
+  {
+   "cached_input_per_1m": 0.04,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.06,
+   "kind": "chat",
+   "max_output": null,
+   "name": "NVIDIA Nemotron 3.5 Lightning",
+   "output_per_1m": 0.16,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-nvidia-nemotron-3-5-lightning",
+   "url": "/model/deepinfra-nvidia-nemotron-3-5-lightning"
   },
   {
    "cached_input_per_1m": 0.01,
@@ -16545,6 +16585,22 @@
     "tools": true
    },
    "context_window": 131072,
+   "input_per_1m": 0.029,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Mistral Nemo Instruct 2407",
+   "output_per_1m": 0.03,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-mistral-nemo-instruct-2407",
+   "url": "/model/deepinfra-mistral-nemo-instruct-2407"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "tools": true
+   },
+   "context_window": 131072,
    "input_per_1m": 0.02,
    "kind": "chat",
    "max_output": 131072,
@@ -16587,22 +16643,6 @@
    "provider_slug": "deepinfra",
    "slug": "deepinfra-gemma-4-e4b-it",
    "url": "/model/deepinfra-gemma-4-e4b-it"
-  },
-  {
-   "cached_input_per_1m": null,
-   "capabilities": {
-    "tools": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 0.019,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Mistral Nemo Instruct 2407",
-   "output_per_1m": 0.03,
-   "provider": "DeepInfra",
-   "provider_slug": "deepinfra",
-   "slug": "deepinfra-mistral-nemo-instruct-2407",
-   "url": "/model/deepinfra-mistral-nemo-instruct-2407"
   },
   {
    "cached_input_per_1m": 0.45,
@@ -28155,7 +28195,7 @@
    "context_window": 1048576,
    "input_per_1m": 1.5,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 3.5 Flash",
    "output_per_1m": 9,
    "provider": "Google Vertex AI",
@@ -28378,7 +28418,7 @@
    "context_window": 1048576,
    "input_per_1m": 0.5,
    "kind": "chat",
-   "max_output": 65535,
+   "max_output": 65536,
    "name": "Gemini 3 Flash Preview",
    "output_per_1m": 3,
    "provider": "Google Vertex AI",

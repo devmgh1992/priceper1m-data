@@ -1,5 +1,5 @@
 {
- "count_changes": 1113,
+ "count_changes": 1122,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3398,6 +3398,26 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Databricks Gemini 4 Carbon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-gemini-4-carbon",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "System.ai.gemini 4 Carbon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-system-ai-gemini-4-carbon",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Databricks Claude Sonnet 5",
      "new": 1.99997,
@@ -3728,6 +3748,36 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "Claude Sonnet 5",
+     "new": 3,
+     "old": 2,
+     "pct": 50,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-claude-sonnet-5",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Claude Sonnet 5",
+     "new": 15,
+     "old": 10,
+     "pct": 50,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-claude-sonnet-5",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Claude Sonnet 5",
+     "new": 1000000,
+     "old": null,
+     "pct": null,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-claude-sonnet-5",
+     "type": "changed"
+    },
+    {
      "field": "max_output",
      "name": "Kimi K3",
      "new": 1048576,
@@ -3755,16 +3805,6 @@
      "pct": null,
      "provider": "DeepInfra",
      "slug": "deepinfra-qwen3-8-2-4t-a95b",
-     "type": "changed"
-    },
-    {
-     "field": "max_output",
-     "name": "Claude Sonnet 5",
-     "new": 1000000,
-     "old": null,
-     "pct": null,
-     "provider": "DeepInfra",
-     "slug": "deepinfra-claude-sonnet-5",
      "type": "changed"
     },
     {
@@ -4368,6 +4408,26 @@
      "type": "changed"
     },
     {
+     "field": "input_per_1m",
+     "name": "NVIDIA Nemotron 3.5 Lightning",
+     "new": 0.06,
+     "old": 0.08,
+     "pct": -25,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-nvidia-nemotron-3-5-lightning",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "NVIDIA Nemotron 3.5 Lightning",
+     "new": 0.16,
+     "old": 0.2,
+     "pct": -20,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-nvidia-nemotron-3-5-lightning",
+     "type": "changed"
+    },
+    {
      "field": "max_output",
      "name": "GLM 4.7 Flash",
      "new": 202752,
@@ -4425,6 +4485,16 @@
      "pct": null,
      "provider": "DeepInfra",
      "slug": "deepinfra-nemotron-3-nano-30b-a3b",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Mistral Nemo Instruct 2407",
+     "new": 0.029,
+     "old": 0.019,
+     "pct": 52.63,
+     "provider": "DeepInfra",
+     "slug": "deepinfra-mistral-nemo-instruct-2407",
      "type": "changed"
     },
     {
@@ -6658,6 +6728,16 @@
      "type": "added"
     },
     {
+     "field": "max_output",
+     "name": "Gemini 3.5 Flash",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-3-5-flash",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Gemini 3.8 Flash Cyber",
      "new": 1.5,
@@ -6706,6 +6786,16 @@
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemini-robotics-er-2-preview",
      "type": "added"
+    },
+    {
+     "field": "max_output",
+     "name": "Gemini 3 Flash Preview",
+     "new": 65536,
+     "old": 65535,
+     "pct": 0,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-3-flash-preview",
+     "type": "changed"
     },
     {
      "field": null,
@@ -11138,9 +11228,9 @@
      "type": "removed"
     }
    ],
-   "count": 1113,
+   "count": 1122,
    "date": "2026-11-11",
-   "generated_at": "2026-11-11T06:23:12.613828+00:00"
+   "generated_at": "2026-11-11T19:37:20.266246+00:00"
   },
   {
    "baseline": true,
