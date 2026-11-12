@@ -1,7 +1,7 @@
 {
- "count": 1749,
+ "count": 1751,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-12T07:12:24.461487+00:00",
+ "generated_at": "2026-11-12T19:55:29.602599+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1615,6 +1615,26 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-omni-1-2-flash",
    "url": "/model/gemini-gemini-omni-1-2-flash"
+  },
+  {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Hydrogen",
+   "output_per_1m": 7.5,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-4-hydrogen",
+   "url": "/model/gemini-gemini-4-hydrogen"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -28269,6 +28289,26 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-omni-1-2-flash",
    "url": "/model/vertex-ai-gemini-omni-1-2-flash"
+  },
+  {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Hydrogen",
+   "output_per_1m": 7.5,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-hydrogen",
+   "url": "/model/vertex-ai-gemini-4-hydrogen"
   },
   {
    "cached_input_per_1m": 0.2,

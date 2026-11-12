@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1749,
- "generated_at": "2026-11-12T07:12:24.461487+00:00",
+ "endpoints_tracked": 1751,
+ "generated_at": "2026-11-12T19:55:29.602599+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -106,7 +106,7 @@
    "label": "Google Gemini",
    "max_input_per_1m": 2,
    "min_input_per_1m": 0,
-   "models": 45,
+   "models": 46,
    "provider": "gemini"
   },
   {
@@ -134,20 +134,20 @@
    "provider": "cloudflare"
   },
   {
+   "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0.075,
+   "models": 30,
+   "provider": "vertex_ai"
+  },
+  {
    "category": "local",
    "label": "Ollama",
    "max_input_per_1m": 0,
    "min_input_per_1m": 0,
    "models": 29,
    "provider": "ollama"
-  },
-  {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 4,
-   "min_input_per_1m": 0.075,
-   "models": 29,
-   "provider": "vertex_ai"
   },
   {
    "category": "first-party",

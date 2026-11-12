@@ -1,5 +1,5 @@
 {
- "count_changes": 1122,
+ "count_changes": 1124,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -275,6 +275,16 @@
      "pct": null,
      "provider": "Google Gemini",
      "slug": "gemini-gemini-omni-1-2-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Hydrogen",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-4-hydrogen",
      "type": "added"
     },
     {
@@ -6779,6 +6789,16 @@
     },
     {
      "field": null,
+     "name": "Gemini 4 Hydrogen",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-hydrogen",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Gemini Robotics Er 2 Preview",
      "new": 1,
      "old": null,
@@ -11228,9 +11248,9 @@
      "type": "removed"
     }
    ],
-   "count": 1122,
+   "count": 1124,
    "date": "2026-11-12",
-   "generated_at": "2026-11-12T07:12:24.461487+00:00"
+   "generated_at": "2026-11-12T19:55:29.602599+00:00"
   },
   {
    "baseline": true,
