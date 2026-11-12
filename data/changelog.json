@@ -3340,7 +3340,7 @@
     {
      "field": null,
      "name": "Databricks Claude Fable 5 2",
-     "new": 8,
+     "new": 8.00002,
      "old": null,
      "pct": null,
      "provider": "Databricks",
@@ -3350,7 +3350,7 @@
     {
      "field": null,
      "name": "System.ai.claude Fable 5 2",
-     "new": 8,
+     "new": 8.00002,
      "old": null,
      "pct": null,
      "provider": "Databricks",
@@ -11229,8 +11229,8 @@
     }
    ],
    "count": 1122,
-   "date": "2026-11-11",
-   "generated_at": "2026-11-11T19:37:20.266246+00:00"
+   "date": "2026-11-12",
+   "generated_at": "2026-11-12T07:12:24.461487+00:00"
   },
   {
    "baseline": true,

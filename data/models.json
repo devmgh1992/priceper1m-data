@@ -1,7 +1,7 @@
 {
  "count": 1749,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-11T19:37:20.266246+00:00",
+ "generated_at": "2026-11-12T07:12:24.461487+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -12984,7 +12984,7 @@
    "url": "/model/databricks-databricks-gpt-6-astra"
   },
   {
-   "cached_input_per_1m": 8,
+   "cached_input_per_1m": 0.19999,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -12992,18 +12992,18 @@
     "vision": true
    },
    "context_window": 1000000,
-   "input_per_1m": 8,
+   "input_per_1m": 8.00002,
    "kind": "chat",
    "max_output": 128000,
    "name": "Databricks Claude Fable 5 2",
-   "output_per_1m": 40,
+   "output_per_1m": 40.00003,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-databricks-claude-fable-5-2",
    "url": "/model/databricks-databricks-claude-fable-5-2"
   },
   {
-   "cached_input_per_1m": 8,
+   "cached_input_per_1m": 0.19999,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -13011,11 +13011,11 @@
     "vision": true
    },
    "context_window": 1000000,
-   "input_per_1m": 8,
+   "input_per_1m": 8.00002,
    "kind": "chat",
    "max_output": 128000,
    "name": "System.ai.claude Fable 5 2",
-   "output_per_1m": 40,
+   "output_per_1m": 40.00003,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-system-ai-claude-fable-5-2",
