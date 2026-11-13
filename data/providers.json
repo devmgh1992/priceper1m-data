@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1751,
- "generated_at": "2026-11-12T19:55:29.602599+00:00",
+ "endpoints_tracked": 1754,
+ "generated_at": "2026-11-13T06:46:39.009882+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -54,6 +54,14 @@
    "provider": "azure"
   },
   {
+   "category": "first-party",
+   "label": "Perplexity",
+   "max_input_per_1m": 10,
+   "min_input_per_1m": 0,
+   "models": 83,
+   "provider": "perplexity"
+  },
+  {
    "category": "platform",
    "label": "Replicate",
    "max_input_per_1m": 20,
@@ -70,19 +78,11 @@
    "provider": "databricks"
   },
   {
-   "category": "first-party",
-   "label": "Perplexity",
-   "max_input_per_1m": 10,
-   "min_input_per_1m": 0,
-   "models": 81,
-   "provider": "perplexity"
-  },
-  {
    "category": "platform",
    "label": "Together AI",
    "max_input_per_1m": 3.5,
    "min_input_per_1m": 0,
-   "models": 81,
+   "models": 82,
    "provider": "together_ai"
   },
   {

@@ -1,5 +1,5 @@
 {
- "count_changes": 1124,
+ "count_changes": 1127,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -978,6 +978,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Claude Fable 5 2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-claude-fable-5-2",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "GPT 5.6 Sol",
      "new": 4,
@@ -1055,6 +1065,16 @@
      "pct": null,
      "provider": "Perplexity",
      "slug": "perplexity-gemini-4-argon",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Carbon",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gemini-4-carbon",
      "type": "added"
     },
     {
@@ -6419,6 +6439,16 @@
     },
     {
      "field": null,
+     "name": "Inkling 2 Small",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-inkling-2-small",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Meta Llama 3.1 8B",
      "new": 0.2,
      "old": null,
@@ -11248,9 +11278,9 @@
      "type": "removed"
     }
    ],
-   "count": 1124,
-   "date": "2026-11-12",
-   "generated_at": "2026-11-12T19:55:29.602599+00:00"
+   "count": 1127,
+   "date": "2026-11-13",
+   "generated_at": "2026-11-13T06:46:39.009882+00:00"
   },
   {
    "baseline": true,

@@ -1,7 +1,7 @@
 {
- "count": 1751,
+ "count": 1754,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-12T19:55:29.602599+00:00",
+ "generated_at": "2026-11-13T06:46:39.009882+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -5792,6 +5792,20 @@
    "url": "/model/perplexity-gpt-6-astra"
   },
   {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Claude Fable 5 2",
+   "output_per_1m": 40,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-claude-fable-5-2",
+   "url": "/model/perplexity-claude-fable-5-2"
+  },
+  {
    "cached_input_per_1m": 0.5,
    "capabilities": {
     "tools": true
@@ -6103,6 +6117,20 @@
    "provider_slug": "perplexity",
    "slug": "perplexity-gemini-4-argon",
    "url": "/model/perplexity-gemini-4-argon"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 4 Carbon",
+   "output_per_1m": 10,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gemini-4-carbon",
+   "url": "/model/perplexity-gemini-4-carbon"
   },
   {
    "cached_input_per_1m": 0.5,
@@ -27538,6 +27566,25 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-deepseek-v4-1-flash-1017",
    "url": "/model/together-ai-deepseek-v4-1-flash-1017"
+  },
+  {
+   "cached_input_per_1m": 0.03,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Inkling 2 Small",
+   "output_per_1m": 1,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-inkling-2-small",
+   "url": "/model/together-ai-inkling-2-small"
   },
   {
    "cached_input_per_1m": null,
