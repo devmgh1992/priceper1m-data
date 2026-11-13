@@ -1,7 +1,7 @@
 {
- "count": 1754,
+ "count": 1755,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-13T06:46:39.009882+00:00",
+ "generated_at": "2026-11-13T19:43:25.617234+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -27322,6 +27322,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 262144,
@@ -28171,6 +28172,20 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-3-1-pro-preview-customtools",
    "url": "/model/vertex-ai-gemini-3-1-pro-preview-customtools"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Deep Research Preview 04 2026",
+   "output_per_1m": 12,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-deep-research-preview-04-2026",
+   "url": "/model/vertex-ai-deep-research-preview-04-2026"
   },
   {
    "cached_input_per_1m": 0.5,
