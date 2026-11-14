@@ -1,7 +1,7 @@
 {
- "count": 1755,
+ "count": 1760,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-13T19:43:25.617234+00:00",
+ "generated_at": "2026-11-14T06:25:04.319976+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -3268,7 +3268,7 @@
    "url": "/model/mistral-ministral-3b-latest"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.01,
    "capabilities": {},
    "context_window": 8192,
    "input_per_1m": 0.1,
@@ -3316,7 +3316,7 @@
    "url": "/model/mistral-voxtral-small-latest"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.01,
    "capabilities": {},
    "context_window": 8192,
    "input_per_1m": 0.1,
@@ -6254,6 +6254,20 @@
    "provider_slug": "perplexity",
    "slug": "perplexity-gemini-3-5-flash",
    "url": "/model/perplexity-gemini-3-5-flash"
+  },
+  {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Gemini 4 Hydrogen",
+   "output_per_1m": 7.5,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gemini-4-hydrogen",
+   "url": "/model/perplexity-gemini-4-hydrogen"
   },
   {
    "cached_input_per_1m": 0.15,
@@ -14540,6 +14554,7 @@
    "cached_input_per_1m": 0.285,
    "capabilities": {
     "prompt_caching": true,
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -14648,6 +14663,7 @@
    "cached_input_per_1m": 0.1,
    "capabilities": {
     "prompt_caching": true,
+    "reasoning": true,
     "tools": true
    },
    "context_window": 1048576,
@@ -14665,6 +14681,7 @@
    "cached_input_per_1m": 0.1,
    "capabilities": {
     "prompt_caching": true,
+    "reasoning": true,
     "tools": true
    },
    "context_window": 1048576,
@@ -14865,6 +14882,24 @@
    "provider_slug": "deepinfra",
    "slug": "deepinfra-l3-1-70b-euryale-v2-2",
    "url": "/model/deepinfra-l3-1-70b-euryale-v2-2"
+  },
+  {
+   "cached_input_per_1m": 0.042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.834,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Hy4 Preview",
+   "output_per_1m": 2.501,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-hy4-preview",
+   "url": "/model/deepinfra-hy4-preview"
   },
   {
    "cached_input_per_1m": 0.15,
@@ -15961,6 +15996,44 @@
    "url": "/model/deepinfra-qwen3-vl-30b-a3b-instruct"
   },
   {
+   "cached_input_per_1m": 0.03,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "GLM 5.3 Flash",
+   "output_per_1m": 0.5,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-glm-5-3-flash",
+   "url": "/model/deepinfra-glm-5-3-flash"
+  },
+  {
+   "cached_input_per_1m": 0.02,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": null,
+   "name": "NVIDIA Nemotron 3.5 Super VL",
+   "output_per_1m": 0.5,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-nvidia-nemotron-3-5-super-vl",
+   "url": "/model/deepinfra-nvidia-nemotron-3-5-super-vl"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -16050,6 +16123,26 @@
    "provider_slug": "deepinfra",
    "slug": "deepinfra-deepseek-v4-1-flash-1017",
    "url": "/model/deepinfra-deepseek-v4-1-flash-1017"
+  },
+  {
+   "cached_input_per_1m": 0.0028,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.14,
+   "kind": "chat",
+   "max_output": null,
+   "name": "MiMo V2.6 Flash",
+   "output_per_1m": 0.28,
+   "provider": "DeepInfra",
+   "provider_slug": "deepinfra",
+   "slug": "deepinfra-mimo-v2-6-flash",
+   "url": "/model/deepinfra-mimo-v2-6-flash"
   },
   {
    "cached_input_per_1m": null,
@@ -16843,6 +16936,7 @@
   {
    "cached_input_per_1m": 0.3,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -17055,6 +17149,7 @@
   {
    "cached_input_per_1m": 0.2,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -20347,6 +20442,7 @@
   {
    "cached_input_per_1m": 0.03,
    "capabilities": {
+    "prompt_caching": true,
     "tools": true,
     "vision": true
    },
@@ -20381,6 +20477,7 @@
   {
    "cached_input_per_1m": 0.015,
    "capabilities": {
+    "prompt_caching": true,
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -20399,6 +20496,7 @@
   {
    "cached_input_per_1m": 0.03,
    "capabilities": {
+    "prompt_caching": true,
     "vision": true
    },
    "context_window": 1048576,
@@ -28291,6 +28389,7 @@
     "audio": true,
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1048576,

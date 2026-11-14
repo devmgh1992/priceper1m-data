@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1755,
- "generated_at": "2026-11-13T19:43:25.617234+00:00",
+ "endpoints_tracked": 1760,
+ "generated_at": "2026-11-14T06:25:04.319976+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -18,7 +18,7 @@
    "label": "DeepInfra",
    "max_input_per_1m": 16.5,
    "min_input_per_1m": 0.02,
-   "models": 136,
+   "models": 140,
    "provider": "deepinfra"
   },
   {
@@ -58,7 +58,7 @@
    "label": "Perplexity",
    "max_input_per_1m": 10,
    "min_input_per_1m": 0,
-   "models": 83,
+   "models": 84,
    "provider": "perplexity"
   },
   {
