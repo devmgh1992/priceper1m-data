@@ -1,5 +1,5 @@
 {
- "count_changes": 1135,
+ "count_changes": 1138,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3318,6 +3318,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Inkling 2 Small",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Cloudflare Workers AI",
+     "slug": "cloudflare-inkling-2-small",
+     "type": "added"
+    },
+    {
      "field": "output_per_1m",
      "name": "Databricks GPT 5 5 Pro",
      "new": 180.0001,
@@ -5239,6 +5249,16 @@
     },
     {
      "field": "cached_input_per_1m",
+     "name": "GPT Oss Safeguard 20b",
+     "new": 0.0375,
+     "old": 0.037,
+     "pct": 1.35,
+     "provider": "Groq",
+     "slug": "groq-gpt-oss-safeguard-20b",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
      "name": "Kimi K3",
      "new": 0.3,
      "old": null,
@@ -5445,6 +5465,16 @@
      "pct": null,
      "provider": "Nebius",
      "slug": "nebius-nemotron-3-5-super-vl",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling 2 Small",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Nebius",
+     "slug": "nebius-inkling-2-small",
      "type": "added"
     },
     {
@@ -11358,9 +11388,9 @@
      "type": "removed"
     }
    ],
-   "count": 1135,
+   "count": 1138,
    "date": "2026-11-16",
-   "generated_at": "2026-11-16T06:31:22.267251+00:00"
+   "generated_at": "2026-11-16T22:03:27.391836+00:00"
   },
   {
    "baseline": true,

@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1760,
- "generated_at": "2026-11-16T06:31:22.267251+00:00",
+ "endpoints_tracked": 1762,
+ "generated_at": "2026-11-16T22:03:27.391836+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -90,7 +90,7 @@
    "label": "Nebius",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.01,
-   "models": 66,
+   "models": 67,
    "provider": "nebius"
   },
   {
@@ -127,19 +127,19 @@
   },
   {
    "category": "platform",
+   "label": "Cloudflare Workers AI",
+   "max_input_per_1m": 1.923,
+   "min_input_per_1m": 0,
+   "models": 31,
+   "provider": "cloudflare"
+  },
+  {
+   "category": "platform",
    "label": "Google Vertex AI",
    "max_input_per_1m": 4,
    "min_input_per_1m": 0.075,
    "models": 31,
    "provider": "vertex_ai"
-  },
-  {
-   "category": "platform",
-   "label": "Cloudflare Workers AI",
-   "max_input_per_1m": 1.923,
-   "min_input_per_1m": 0,
-   "models": 30,
-   "provider": "cloudflare"
   },
   {
    "category": "local",

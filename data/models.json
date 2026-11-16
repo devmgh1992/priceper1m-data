@@ -1,7 +1,7 @@
 {
- "count": 1760,
+ "count": 1762,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-16T06:31:22.267251+00:00",
+ "generated_at": "2026-11-16T22:03:27.391836+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -12686,6 +12686,24 @@
    "url": "/model/cloudflare-gpt-oss-120b"
   },
   {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Inkling 2 Small",
+   "output_per_1m": 1,
+   "provider": "Cloudflare Workers AI",
+   "provider_slug": "cloudflare",
+   "slug": "cloudflare-inkling-2-small",
+   "url": "/model/cloudflare-inkling-2-small"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "tools": true
@@ -21236,7 +21254,7 @@
    "url": "/model/groq-gpt-oss-20b"
   },
   {
-   "cached_input_per_1m": 0.037,
+   "cached_input_per_1m": 0.0375,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -21563,7 +21581,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": null,
+   "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": null,
@@ -22016,6 +22034,24 @@
    "provider_slug": "nebius",
    "slug": "nebius-nemotron-3-5-super-vl",
    "url": "/model/nebius-nemotron-3-5-super-vl"
+  },
+  {
+   "cached_input_per_1m": 0.06,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.3,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Inkling 2 Small",
+   "output_per_1m": 1,
+   "provider": "Nebius",
+   "provider_slug": "nebius",
+   "slug": "nebius-inkling-2-small",
+   "url": "/model/nebius-inkling-2-small"
   },
   {
    "cached_input_per_1m": null,
