@@ -1,7 +1,7 @@
 {
- "count": 1762,
+ "count": 1767,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-16T22:03:27.391836+00:00",
+ "generated_at": "2026-11-17T07:55:53.061631+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -811,6 +811,25 @@
    "provider_slug": "dashscope",
    "slug": "dashscope-qwen-max",
    "url": "/model/dashscope-qwen-max"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 991808,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Qwen4 Max",
+   "output_per_1m": 4.5,
+   "provider": "Alibaba DashScope",
+   "provider_slug": "dashscope",
+   "slug": "dashscope-qwen4-max",
+   "url": "/model/dashscope-qwen4-max"
   },
   {
    "cached_input_per_1m": 0.26,
@@ -9781,7 +9800,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 1000000,
+   "context_window": 1048576,
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": 1048576,
@@ -10409,6 +10428,44 @@
    "url": "/model/bedrock-anthropic-claude-fable-5-1"
   },
   {
+   "cached_input_per_1m": 1.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 11,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Fable 5",
+   "output_per_1m": 55,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-fable-5",
+   "url": "/model/bedrock-anthropic-claude-fable-5"
+  },
+  {
+   "cached_input_per_1m": 1.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 11,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Mythos 5",
+   "output_per_1m": 55,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-mythos-5",
+   "url": "/model/bedrock-anthropic-claude-mythos-5"
+  },
+  {
    "cached_input_per_1m": 1,
    "capabilities": {
     "prompt_caching": true,
@@ -10568,6 +10625,25 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-anthropic-claude-opus-5",
    "url": "/model/bedrock-anthropic-claude-opus-5"
+  },
+  {
+   "cached_input_per_1m": 0.55,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 5.5,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Anthropic.claude Opus 4 7",
+   "output_per_1m": 27.5,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-opus-4-7",
+   "url": "/model/bedrock-anthropic-claude-opus-4-7"
   },
   {
    "cached_input_per_1m": null,
@@ -10767,25 +10843,6 @@
    "context_window": 200000,
    "input_per_1m": 3.6,
    "kind": "chat",
-   "max_output": 64000,
-   "name": "Claude Sonnet 4 5 20250929 V1:0",
-   "output_per_1m": 18,
-   "provider": "Amazon Bedrock",
-   "provider_slug": "bedrock",
-   "slug": "bedrock-claude-sonnet-4-5-20250929-v1:0",
-   "url": "/model/bedrock-claude-sonnet-4-5-20250929-v1:0"
-  },
-  {
-   "cached_input_per_1m": 0.36,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 200000,
-   "input_per_1m": 3.6,
-   "kind": "chat",
    "max_output": 8192,
    "name": "Anthropic.claude 3 7 Sonnet 20250219 V1:0",
    "output_per_1m": 18,
@@ -10842,6 +10899,25 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-anthropic-claude-3-5-sonnet-20241022-v2:0",
    "url": "/model/bedrock-anthropic-claude-3-5-sonnet-20241022-v2:0"
+  },
+  {
+   "cached_input_per_1m": 0.3,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 64000,
+   "name": "Claude Sonnet 4 5 20250929 V1:0",
+   "output_per_1m": 15,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-claude-sonnet-4-5-20250929-v1:0",
+   "url": "/model/bedrock-claude-sonnet-4-5-20250929-v1:0"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -11140,6 +11216,25 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-anthropic-claude-haiku-4-5-20251001-v1:0",
    "url": "/model/bedrock-anthropic-claude-haiku-4-5-20251001-v1:0"
+  },
+  {
+   "cached_input_per_1m": 0.11,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 200000,
+   "input_per_1m": 1.1,
+   "kind": "chat",
+   "max_output": 64000,
+   "name": "Anthropic.claude Haiku 4 5",
+   "output_per_1m": 5.5,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-anthropic-claude-haiku-4-5",
+   "url": "/model/bedrock-anthropic-claude-haiku-4-5"
   },
   {
    "cached_input_per_1m": null,

@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1762,
- "generated_at": "2026-11-16T22:03:27.391836+00:00",
+ "endpoints_tracked": 1767,
+ "generated_at": "2026-11-17T07:55:53.061631+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -34,7 +34,7 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 27.5,
    "min_input_per_1m": 0.02,
-   "models": 124,
+   "models": 128,
    "provider": "bedrock"
   },
   {
@@ -154,7 +154,7 @@
    "label": "Alibaba DashScope",
    "max_input_per_1m": 2.5,
    "min_input_per_1m": 0.05,
-   "models": 27,
+   "models": 28,
    "provider": "dashscope"
   },
   {
