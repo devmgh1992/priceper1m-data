@@ -1,8 +1,8 @@
 {
  "count": 32,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1767,
- "generated_at": "2026-11-17T07:55:53.061631+00:00",
+ "endpoints_tracked": 1774,
+ "generated_at": "2026-11-17T20:56:30.242901+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -34,7 +34,7 @@
    "label": "Amazon Bedrock",
    "max_input_per_1m": 27.5,
    "min_input_per_1m": 0.02,
-   "models": 128,
+   "models": 129,
    "provider": "bedrock"
   },
   {
@@ -42,7 +42,7 @@
    "label": "OpenAI",
    "max_input_per_1m": 150,
    "min_input_per_1m": 0.02,
-   "models": 117,
+   "models": 120,
    "provider": "openai"
   },
   {
@@ -50,7 +50,7 @@
    "label": "Azure OpenAI",
    "max_input_per_1m": 30,
    "min_input_per_1m": 0.022,
-   "models": 105,
+   "models": 107,
    "provider": "azure"
   },
   {
@@ -63,19 +63,19 @@
   },
   {
    "category": "platform",
+   "label": "Databricks",
+   "max_input_per_1m": 29.99997,
+   "min_input_per_1m": 0.02002,
+   "models": 83,
+   "provider": "databricks"
+  },
+  {
+   "category": "platform",
    "label": "Replicate",
    "max_input_per_1m": 20,
    "min_input_per_1m": 0,
    "models": 83,
    "provider": "replicate"
-  },
-  {
-   "category": "platform",
-   "label": "Databricks",
-   "max_input_per_1m": 29.99997,
-   "min_input_per_1m": 0.02002,
-   "models": 82,
-   "provider": "databricks"
   },
   {
    "category": "platform",

@@ -1,7 +1,7 @@
 {
- "count": 1767,
+ "count": 1774,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-17T07:55:53.061631+00:00",
+ "generated_at": "2026-11-17T20:56:30.242901+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -813,7 +813,7 @@
    "url": "/model/dashscope-qwen-max"
   },
   {
-   "cached_input_per_1m": null,
+   "cached_input_per_1m": 0.075,
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
@@ -4200,6 +4200,44 @@
    "url": "/model/openai-gpt-6-astra-law"
   },
   {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Astra",
+   "output_per_1m": 40,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-2-astra",
+   "url": "/model/openai-gpt-6-2-astra"
+  },
+  {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Astra Law",
+   "output_per_1m": 40,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-2-astra-law",
+   "url": "/model/openai-gpt-6-2-astra-law"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -4809,6 +4847,25 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-6-1-sol",
    "url": "/model/openai-gpt-6-1-sol"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Sol",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-2-sol",
+   "url": "/model/openai-gpt-6-2-sol"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -8220,6 +8277,25 @@
    "url": "/model/azure-mistral-large-latest"
   },
   {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Astra",
+   "output_per_1m": 40,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-6-2-astra",
+   "url": "/model/azure-gpt-6-2-astra"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
@@ -8765,6 +8841,25 @@
    "provider_slug": "azure",
    "slug": "azure-o3-2025-04-16",
    "url": "/model/azure-o3-2025-04-16"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Sol",
+   "output_per_1m": 10,
+   "provider": "Azure OpenAI",
+   "provider_slug": "azure",
+   "slug": "azure-gpt-6-2-sol",
+   "url": "/model/azure-gpt-6-2-sol"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -11956,6 +12051,20 @@
    "input_per_1m": 0.12,
    "kind": "embedding",
    "max_output": null,
+   "name": "Eu.cohere.embed V4:0",
+   "output_per_1m": 0,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-eu-cohere-embed-v4:0",
+   "url": "/model/bedrock-eu-cohere-embed-v4:0"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 128000,
+   "input_per_1m": 0.12,
+   "kind": "embedding",
+   "max_output": null,
    "name": "Us.cohere.embed V4:0",
    "output_per_1m": 0,
    "provider": "Amazon Bedrock",
@@ -13772,6 +13881,22 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gpt-5-3-codex",
    "url": "/model/databricks-databricks-gpt-5-3-codex"
+  },
+  {
+   "cached_input_per_1m": 1.5,
+   "capabilities": {
+    "reasoning": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "System.ai.gemini 4 Hydrogen",
+   "output_per_1m": 7.5,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-gemini-4-hydrogen",
+   "url": "/model/databricks-system-ai-gemini-4-hydrogen"
   },
   {
    "cached_input_per_1m": 0.25998,
