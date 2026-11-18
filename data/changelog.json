@@ -1,5 +1,5 @@
 {
- "count_changes": 1153,
+ "count_changes": 1163,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -628,6 +628,56 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Mistral Large",
+     "new": 0.7,
+     "old": 0.5,
+     "pct": 40,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-latest",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Mistral Large",
+     "new": 2.1,
+     "old": 1.5,
+     "pct": 40,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-latest",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Mistral Large",
+     "new": 0.07,
+     "old": 0.05,
+     "pct": 40,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-latest",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Mistral Large",
+     "new": 1048576,
+     "old": 262144,
+     "pct": 300,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-latest",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Mistral Large",
+     "new": 1048576,
+     "old": 262144,
+     "pct": 300,
+     "provider": "Mistral AI",
+     "slug": "mistral-mistral-large-latest",
+     "type": "changed"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Devstral",
      "new": 0.04,
@@ -718,6 +768,26 @@
      "type": "changed"
     },
     {
+     "field": "context_window",
+     "name": "Ministral 3b 2512",
+     "new": 262144,
+     "old": 131072,
+     "pct": 100,
+     "provider": "Mistral AI",
+     "slug": "mistral-ministral-3b-2512",
+     "type": "changed"
+    },
+    {
+     "field": "context_window",
+     "name": "Ministral 3b",
+     "new": 262144,
+     "old": 131072,
+     "pct": 100,
+     "provider": "Mistral AI",
+     "slug": "mistral-ministral-3b-latest",
+     "type": "changed"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Mistral Embed 2312",
      "new": 0.01,
@@ -798,16 +868,6 @@
      "type": "added"
     },
     {
-     "field": null,
-     "name": "GPT 6 Rosalind",
-     "new": 15,
-     "old": null,
-     "pct": null,
-     "provider": "OpenAI",
-     "slug": "openai-gpt-6-rosalind",
-     "type": "added"
-    },
-    {
      "field": "context_window",
      "name": "GPT 5.6 Cyber",
      "new": 272000,
@@ -855,6 +915,16 @@
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-5-5-cyber-preview",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6 Rosalind",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-rosalind",
      "type": "added"
     },
     {
@@ -2848,6 +2918,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "In.openai.gpt 5.6 Terra",
+     "new": 2.2,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-in-openai-gpt-5-6-terra",
+     "type": "added"
+    },
+    {
      "field": "max_output",
      "name": "Ai21.jamba 1 5 Large V1:0",
      "new": 4096,
@@ -3206,6 +3286,16 @@
      "provider": "Amazon Bedrock",
      "slug": "bedrock-us-meta-llama3-1-8b-instruct-v1:0",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "In.openai.gpt 5.6 Luna",
+     "new": 0.22,
+     "old": null,
+     "pct": null,
+     "provider": "Amazon Bedrock",
+     "slug": "bedrock-in-openai-gpt-5-6-luna",
+     "type": "added"
     },
     {
      "field": "max_output",
@@ -6335,6 +6425,16 @@
      "pct": null,
      "provider": "Together AI",
      "slug": "together-ai-qwen2-5-vl-72b-instruct",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Qwen4 Max",
+     "new": 1.425,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen4-max",
      "type": "added"
     },
     {
@@ -11538,9 +11638,9 @@
      "type": "removed"
     }
    ],
-   "count": 1153,
+   "count": 1163,
    "date": "2026-11-18",
-   "generated_at": "2026-11-18T07:29:53.244739+00:00"
+   "generated_at": "2026-11-18T20:32:28.275739+00:00"
   },
   {
    "baseline": true,

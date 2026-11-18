@@ -1,7 +1,7 @@
 {
- "count": 1774,
+ "count": 1777,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-18T07:29:53.244739+00:00",
+ "generated_at": "2026-11-18T20:32:28.275739+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -2788,17 +2788,19 @@
    "url": "/model/mistral-mistral-large-4-0"
   },
   {
-   "cached_input_per_1m": 0.05,
+   "cached_input_per_1m": 0.07,
    "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
-   "context_window": 262144,
-   "input_per_1m": 0.5,
+   "context_window": 1048576,
+   "input_per_1m": 0.7,
    "kind": "chat",
-   "max_output": 262144,
+   "max_output": 1048576,
    "name": "Mistral Large",
-   "output_per_1m": 1.5,
+   "output_per_1m": 2.1,
    "provider": "Mistral AI",
    "provider_slug": "mistral",
    "slug": "mistral-mistral-large-latest",
@@ -3258,7 +3260,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 131072,
+   "context_window": 262144,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 131072,
@@ -3275,7 +3277,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 131072,
+   "context_window": 262144,
    "input_per_1m": 0.1,
    "kind": "chat",
    "max_output": 131072,
@@ -3965,25 +3967,6 @@
    "url": "/model/openai-o1-2024-12-17"
   },
   {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 922000,
-   "input_per_1m": 15,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "GPT 6 Rosalind",
-   "output_per_1m": 75,
-   "provider": "OpenAI",
-   "provider_slug": "openai",
-   "slug": "openai-gpt-6-rosalind",
-   "url": "/model/openai-gpt-6-rosalind"
-  },
-  {
    "cached_input_per_1m": 1.25,
    "capabilities": {
     "prompt_caching": true,
@@ -4179,6 +4162,25 @@
    "provider_slug": "openai",
    "slug": "openai-o3-deep-research-2025-06-26",
    "url": "/model/openai-o3-deep-research-2025-06-26"
+  },
+  {
+   "cached_input_per_1m": 1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Rosalind",
+   "output_per_1m": 50,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-rosalind",
+   "url": "/model/openai-gpt-6-rosalind"
   },
   {
    "cached_input_per_1m": 1,
@@ -11212,6 +11214,25 @@
    "url": "/model/bedrock-anthropic-claude-sonnet-5-5"
   },
   {
+   "cached_input_per_1m": 0.22,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2.2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "In.openai.gpt 5.6 Terra",
+   "output_per_1m": 13.2,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-in-openai-gpt-5-6-terra",
+   "url": "/model/bedrock-in-openai-gpt-5-6-terra"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": 256000,
@@ -11826,6 +11847,25 @@
    "provider_slug": "bedrock",
    "slug": "bedrock-us-meta-llama3-1-8b-instruct-v1:0",
    "url": "/model/bedrock-us-meta-llama3-1-8b-instruct-v1:0"
+  },
+  {
+   "cached_input_per_1m": 0.022,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 0.22,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "In.openai.gpt 5.6 Luna",
+   "output_per_1m": 1.32,
+   "provider": "Amazon Bedrock",
+   "provider_slug": "bedrock",
+   "slug": "bedrock-in-openai-gpt-5-6-luna",
+   "url": "/model/bedrock-in-openai-gpt-5-6-luna"
   },
   {
    "cached_input_per_1m": null,
@@ -27324,6 +27364,25 @@
    "url": "/model/together-ai-together-ai-81-1b-110b"
   },
   {
+   "cached_input_per_1m": 0.07125,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.425,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Qwen4 Max",
+   "output_per_1m": 4.275,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen4-max",
+   "url": "/model/together-ai-qwen4-max"
+  },
+  {
    "cached_input_per_1m": 0.26,
    "capabilities": {
     "prompt_caching": true,
@@ -27500,8 +27559,11 @@
   {
    "cached_input_per_1m": 0.17,
    "capabilities": {
+    "audio": true,
     "prompt_caching": true,
-    "tools": true
+    "reasoning": true,
+    "tools": true,
+    "vision": true
    },
    "context_window": 524288,
    "input_per_1m": 1,
