@@ -1,7 +1,7 @@
 {
- "count": 1777,
+ "count": 1789,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-18T20:32:28.275739+00:00",
+ "generated_at": "2026-11-19T07:27:47.211603+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1412,6 +1412,26 @@
    "provider_slug": "deepseek",
    "slug": "deepseek-deepseek-coder",
    "url": "/model/deepseek-deepseek-coder"
+  },
+  {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Neon",
+   "output_per_1m": 15,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-gemini-4-neon",
+   "url": "/model/gemini-gemini-4-neon"
   },
   {
    "cached_input_per_1m": null,
@@ -7332,6 +7352,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1000000,
@@ -7443,6 +7464,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1000000,
@@ -7461,6 +7483,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1000000,
@@ -7741,6 +7764,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1000000,
@@ -7759,6 +7783,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1000000,
@@ -7777,6 +7802,7 @@
    "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
+    "tools": true,
     "vision": true
    },
    "context_window": 1000000,
@@ -13346,6 +13372,25 @@
    "url": "/model/databricks-system-ai-claude-fable-5-2"
   },
   {
+   "cached_input_per_1m": 0.39998,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 8.00002,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "System.ai.gpt 6 2 Astra",
+   "output_per_1m": 40.00003,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-gpt-6-2-astra",
+   "url": "/model/databricks-system-ai-gpt-6-2-astra"
+  },
+  {
    "cached_input_per_1m": 0.50001,
    "capabilities": {
     "prompt_caching": true,
@@ -13867,6 +13912,25 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-kimi-k3-1-pro",
    "url": "/model/databricks-databricks-kimi-k3-1-pro"
+  },
+  {
+   "cached_input_per_1m": 0.10003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "System.ai.gpt 6 2 Sol",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-gpt-6-2-sol",
+   "url": "/model/databricks-system-ai-gpt-6-2-sol"
   },
   {
    "cached_input_per_1m": 0.18753,
@@ -17196,24 +17260,6 @@
   {
    "cached_input_per_1m": 0.3,
    "capabilities": {
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 3,
-   "kind": "chat",
-   "max_output": 131072,
-   "name": "Kimi",
-   "output_per_1m": 15,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-kimi-latest",
-   "url": "/model/fireworks-ai-kimi-latest"
-  },
-  {
-   "cached_input_per_1m": 0.3,
-   "capabilities": {
     "prompt_caching": true,
     "reasoning": true,
     "tools": true,
@@ -17387,6 +17433,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-kimi-k2p6-fast",
    "url": "/model/fireworks-ai-kimi-k2p6-fast"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Kimi",
+   "output_per_1m": 10,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-kimi-latest",
+   "url": "/model/fireworks-ai-kimi-latest"
   },
   {
    "cached_input_per_1m": 0.25,
@@ -21816,6 +21881,62 @@
    "url": "/model/hyperbolic-meta-llama-3-1-8b-instruct"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.05,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Jina Embeddings V5 Text Small",
+   "output_per_1m": 0,
+   "provider": "Jina AI",
+   "provider_slug": "jina_ai",
+   "slug": "jina-ai-jina-embeddings-v5-text-small",
+   "url": "/model/jina-ai-jina-embeddings-v5-text-small"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 32768,
+   "input_per_1m": 0.05,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Jina Embeddings V5 Omni Small",
+   "output_per_1m": 0,
+   "provider": "Jina AI",
+   "provider_slug": "jina_ai",
+   "slug": "jina-ai-jina-embeddings-v5-omni-small",
+   "url": "/model/jina-ai-jina-embeddings-v5-omni-small"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.02,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Jina Embeddings V5 Text Nano",
+   "output_per_1m": 0,
+   "provider": "Jina AI",
+   "provider_slug": "jina_ai",
+   "slug": "jina-ai-jina-embeddings-v5-text-nano",
+   "url": "/model/jina-ai-jina-embeddings-v5-text-nano"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": 8192,
+   "input_per_1m": 0.02,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Jina Embeddings V5 Omni Nano",
+   "output_per_1m": 0,
+   "provider": "Jina AI",
+   "provider_slug": "jina_ai",
+   "slug": "jina-ai-jina-embeddings-v5-omni-nano",
+   "url": "/model/jina-ai-jina-embeddings-v5-omni-nano"
+  },
+  {
    "cached_input_per_1m": 0.3,
    "capabilities": {
     "reasoning": true,
@@ -22178,7 +22299,7 @@
     "reasoning": true,
     "tools": true
    },
-   "context_window": 262144,
+   "context_window": 1000000,
    "input_per_1m": 0.45,
    "kind": "chat",
    "max_output": null,
@@ -25782,6 +25903,82 @@
    "url": "/model/ollama-vicuna"
   },
   {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Astra",
+   "output_per_1m": 40,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-2-astra",
+   "url": "/model/openrouter-gpt-6-2-astra"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Claude Fable 5.2",
+   "output_per_1m": 40,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-claude-fable-5-2",
+   "url": "/model/openrouter-claude-fable-5-2"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1050000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Sol",
+   "output_per_1m": 10,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gpt-6-2-sol",
+   "url": "/model/openrouter-gpt-6-2-sol"
+  },
+  {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 943718,
+   "name": "Gemini 4 Hydrogen",
+   "output_per_1m": 7.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-gemini-4-hydrogen",
+   "url": "/model/openrouter-gemini-4-hydrogen"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {},
    "context_window": null,
@@ -27273,7 +27470,8 @@
   {
    "cached_input_per_1m": 0.5,
    "capabilities": {
-    "prompt_caching": true
+    "prompt_caching": true,
+    "tools": true
    },
    "context_window": 1000000,
    "input_per_1m": 2.5,
@@ -27755,7 +27953,8 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
-    "reasoning": true
+    "reasoning": true,
+    "tools": true
    },
    "context_window": 1000000,
    "input_per_1m": 0.5,
@@ -27858,7 +28057,8 @@
   {
    "cached_input_per_1m": 0.04,
    "capabilities": {
-    "prompt_caching": true
+    "prompt_caching": true,
+    "tools": true
    },
    "context_window": 131072,
    "input_per_1m": 0.35,
@@ -27873,7 +28073,9 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": 1000000,
    "input_per_1m": 0.32,
    "kind": "chat",
@@ -28076,7 +28278,8 @@
   {
    "cached_input_per_1m": 0.02,
    "capabilities": {
-    "prompt_caching": true
+    "prompt_caching": true,
+    "tools": true
    },
    "context_window": 131072,
    "input_per_1m": 0.2,
@@ -28169,7 +28372,8 @@
   {
    "cached_input_per_1m": 0.015,
    "capabilities": {
-    "prompt_caching": true
+    "prompt_caching": true,
+    "tools": true
    },
    "context_window": 1048576,
    "input_per_1m": 0.15,
@@ -28203,7 +28407,9 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": 1000000,
    "input_per_1m": 0.15,
    "kind": "chat",
@@ -28477,7 +28683,9 @@
   },
   {
    "cached_input_per_1m": null,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": 262144,
    "input_per_1m": 0,
    "kind": "chat",
@@ -28528,6 +28736,26 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-4-carbon-cyber-permissive",
    "url": "/model/vertex-ai-gemini-4-carbon-cyber-permissive"
+  },
+  {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Neon",
+   "output_per_1m": 15,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-neon",
+   "url": "/model/vertex-ai-gemini-4-neon"
   },
   {
    "cached_input_per_1m": 0.2,

@@ -1,8 +1,8 @@
 {
- "count": 32,
+ "count": 34,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1777,
- "generated_at": "2026-11-18T20:32:28.275739+00:00",
+ "endpoints_tracked": 1789,
+ "generated_at": "2026-11-19T07:27:47.211603+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -54,20 +54,20 @@
    "provider": "azure"
   },
   {
+   "category": "platform",
+   "label": "Databricks",
+   "max_input_per_1m": 29.99997,
+   "min_input_per_1m": 0.02002,
+   "models": 85,
+   "provider": "databricks"
+  },
+  {
    "category": "first-party",
    "label": "Perplexity",
    "max_input_per_1m": 10,
    "min_input_per_1m": 0,
    "models": 84,
    "provider": "perplexity"
-  },
-  {
-   "category": "platform",
-   "label": "Databricks",
-   "max_input_per_1m": 29.99997,
-   "min_input_per_1m": 0.02002,
-   "models": 83,
-   "provider": "databricks"
   },
   {
    "category": "platform",
@@ -104,9 +104,9 @@
   {
    "category": "first-party",
    "label": "Google Gemini",
-   "max_input_per_1m": 2,
+   "max_input_per_1m": 3,
    "min_input_per_1m": 0,
-   "models": 46,
+   "models": 47,
    "provider": "gemini"
   },
   {
@@ -127,19 +127,19 @@
   },
   {
    "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0.075,
+   "models": 32,
+   "provider": "vertex_ai"
+  },
+  {
+   "category": "platform",
    "label": "Cloudflare Workers AI",
    "max_input_per_1m": 1.923,
    "min_input_per_1m": 0,
    "models": 31,
    "provider": "cloudflare"
-  },
-  {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 4,
-   "min_input_per_1m": 0.075,
-   "models": 31,
-   "provider": "vertex_ai"
   },
   {
    "category": "local",
@@ -260,6 +260,22 @@
    "min_input_per_1m": 0.03,
    "models": 6,
    "provider": "groq"
+  },
+  {
+   "category": "platform",
+   "label": "Jina AI",
+   "max_input_per_1m": 0.05,
+   "min_input_per_1m": 0.02,
+   "models": 4,
+   "provider": "jina_ai"
+  },
+  {
+   "category": "platform",
+   "label": "OpenRouter",
+   "max_input_per_1m": 8,
+   "min_input_per_1m": 1.5,
+   "models": 4,
+   "provider": "openrouter"
   }
  ]
 }

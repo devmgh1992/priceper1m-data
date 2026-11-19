@@ -1,5 +1,5 @@
 {
- "count_changes": 1163,
+ "count_changes": 1175,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -176,6 +176,16 @@
      "provider": "DeepSeek",
      "slug": "deepseek-deepseek-coder",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Neon",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Google Gemini",
+     "slug": "gemini-gemini-4-neon",
+     "type": "added"
     },
     {
      "field": null,
@@ -3659,6 +3669,16 @@
     },
     {
      "field": null,
+     "name": "System.ai.gpt 6 2 Astra",
+     "new": 8.00002,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-system-ai-gpt-6-2-astra",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Databricks Claude Opus 5 5",
      "new": 4.00001,
      "old": null,
@@ -3815,6 +3835,16 @@
      "pct": null,
      "provider": "Databricks",
      "slug": "databricks-databricks-kimi-k3-1-pro",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "System.ai.gpt 6 2 Sol",
+     "new": 1.99997,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-system-ai-gpt-6-2-sol",
      "type": "added"
     },
     {
@@ -4929,16 +4959,6 @@
     },
     {
      "field": null,
-     "name": "Kimi",
-     "new": 3,
-     "old": null,
-     "pct": null,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-kimi-latest",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Ember 1",
      "new": 3,
      "old": null,
@@ -4995,6 +5015,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-kimi-k3-spot",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Kimi",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-kimi-latest",
      "type": "added"
     },
     {
@@ -5498,6 +5528,46 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Jina Embeddings V5 Text Small",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "Jina AI",
+     "slug": "jina-ai-jina-embeddings-v5-text-small",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Jina Embeddings V5 Omni Small",
+     "new": 0.05,
+     "old": null,
+     "pct": null,
+     "provider": "Jina AI",
+     "slug": "jina-ai-jina-embeddings-v5-omni-small",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Jina Embeddings V5 Text Nano",
+     "new": 0.02,
+     "old": null,
+     "pct": null,
+     "provider": "Jina AI",
+     "slug": "jina-ai-jina-embeddings-v5-text-nano",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Jina Embeddings V5 Omni Nano",
+     "new": 0.02,
+     "old": null,
+     "pct": null,
+     "provider": "Jina AI",
+     "slug": "jina-ai-jina-embeddings-v5-omni-nano",
+     "type": "added"
+    },
+    {
      "field": "cached_input_per_1m",
      "name": "Kimi K3",
      "new": 0.3,
@@ -5906,6 +5976,46 @@
      "provider": "Novita AI",
      "slug": "novita-macaron-v1-tall",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.2 Astra",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-2-astra",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Claude Fable 5.2",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-claude-fable-5-2",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.2 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gpt-6-2-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Hydrogen",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "OpenRouter",
+     "slug": "openrouter-gemini-4-hydrogen",
+     "type": "added"
     },
     {
      "field": null,
@@ -7085,6 +7195,16 @@
      "pct": null,
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemini-4-carbon-cyber-permissive",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Neon",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-neon",
      "type": "added"
     },
     {
@@ -11638,9 +11758,9 @@
      "type": "removed"
     }
    ],
-   "count": 1163,
-   "date": "2026-11-18",
-   "generated_at": "2026-11-18T20:32:28.275739+00:00"
+   "count": 1175,
+   "date": "2026-11-19",
+   "generated_at": "2026-11-19T07:27:47.211603+00:00"
   },
   {
    "baseline": true,

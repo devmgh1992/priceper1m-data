@@ -1,5 +1,5 @@
-last sync: 2026-11-18T20:52:09Z
-models: 1777
-providers: 32
-changelog runs: 2 (1163 diffs)
-source generated_at: 2026-11-18T20:32:28.275739+00:00
+last sync: 2026-11-19T07:53:40Z
+models: 1789
+providers: 34
+changelog runs: 2 (1175 diffs)
+source generated_at: 2026-11-19T07:27:47.211603+00:00
