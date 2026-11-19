@@ -1,7 +1,7 @@
 {
- "count": 1789,
+ "count": 1790,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-19T07:27:47.211603+00:00",
+ "generated_at": "2026-11-19T20:38:33.765066+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1674,6 +1674,22 @@
    "provider_slug": "gemini",
    "slug": "gemini-gemini-4-hydrogen",
    "url": "/model/gemini-gemini-4-hydrogen"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "Genie 4",
+   "output_per_1m": 9,
+   "provider": "Google Gemini",
+   "provider_slug": "gemini",
+   "slug": "gemini-genie-4",
+   "url": "/model/gemini-genie-4"
   },
   {
    "cached_input_per_1m": 0.125,
@@ -17822,24 +17838,6 @@
    "url": "/model/fireworks-ai-inkling"
   },
   {
-   "cached_input_per_1m": 0.182,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.98,
-   "kind": "chat",
-   "max_output": 128000,
-   "name": "Glm 5p3 Spot",
-   "output_per_1m": 3.08,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-glm-5p3-spot",
-   "url": "/model/fireworks-ai-glm-5p3-spot"
-  },
-  {
    "cached_input_per_1m": 0.16,
    "capabilities": {
     "reasoning": true,
@@ -18778,6 +18776,24 @@
    "url": "/model/fireworks-ai-yi-34b-chat"
   },
   {
+   "cached_input_per_1m": 0.13,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.7,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Glm 5p3 Spot",
+   "output_per_1m": 2.2,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-spot",
+   "url": "/model/fireworks-ai-glm-5p3-spot"
+  },
+  {
    "cached_input_per_1m": 0.3,
    "capabilities": {
     "reasoning": true,
@@ -19490,44 +19506,6 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4-flash-vision-exp",
    "url": "/model/fireworks-ai-deepseek-v4-flash-vision-exp"
-  },
-  {
-   "cached_input_per_1m": 0.0042,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.21,
-   "kind": "chat",
-   "max_output": 393216,
-   "name": "Deepseek V4p1 Flash Spot",
-   "output_per_1m": 0.84,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-deepseek-v4p1-flash-spot",
-   "url": "/model/fireworks-ai-deepseek-v4p1-flash-spot"
-  },
-  {
-   "cached_input_per_1m": 0.0042,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.21,
-   "kind": "chat",
-   "max_output": 393216,
-   "name": "Deepseek V4p1 Flash 1017 Spot",
-   "output_per_1m": 0.84,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-spot",
-   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-spot"
   },
   {
    "cached_input_per_1m": null,
@@ -20837,6 +20815,44 @@
    "url": "/model/fireworks-ai-minimax-m3p1-flash"
   },
   {
+   "cached_input_per_1m": 0.003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash Spot",
+   "output_per_1m": 0.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-spot",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-spot"
+  },
+  {
+   "cached_input_per_1m": 0.003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash 1017 Spot",
+   "output_per_1m": 0.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-spot",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-spot"
+  },
+  {
    "cached_input_per_1m": 0.03,
    "capabilities": {
     "prompt_caching": true,
@@ -20869,24 +20885,6 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4-flash",
    "url": "/model/fireworks-ai-deepseek-v4-flash"
-  },
-  {
-   "cached_input_per_1m": 0.021,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 0.105,
-   "kind": "chat",
-   "max_output": 384000,
-   "name": "Spot Deepseek V4 Flash",
-   "output_per_1m": 0.21,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-spot-deepseek-v4-flash",
-   "url": "/model/fireworks-ai-spot-deepseek-v4-flash"
   },
   {
    "cached_input_per_1m": null,
@@ -21464,6 +21462,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-gpt-oss-20b",
    "url": "/model/fireworks-ai-gpt-oss-20b"
+  },
+  {
+   "cached_input_per_1m": 0.014,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.07,
+   "kind": "chat",
+   "max_output": 384000,
+   "name": "Spot Deepseek V4 Flash",
+   "output_per_1m": 0.14,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-spot-deepseek-v4-flash",
+   "url": "/model/fireworks-ai-spot-deepseek-v4-flash"
   },
   {
    "cached_input_per_1m": 0.01,
@@ -27562,25 +27578,6 @@
    "url": "/model/together-ai-together-ai-81-1b-110b"
   },
   {
-   "cached_input_per_1m": 0.07125,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 1.425,
-   "kind": "chat",
-   "max_output": 1000000,
-   "name": "Qwen4 Max",
-   "output_per_1m": 4.275,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen4-max",
-   "url": "/model/together-ai-qwen4-max"
-  },
-  {
    "cached_input_per_1m": 0.26,
    "capabilities": {
     "prompt_caching": true,
@@ -27721,6 +27718,25 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-kimi-k2-6",
    "url": "/model/together-ai-kimi-k2-6"
+  },
+  {
+   "cached_input_per_1m": 0.0525,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.05,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Qwen4 Max",
+   "output_per_1m": 3.15,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen4-max",
+   "url": "/model/together-ai-qwen4-max"
   },
   {
    "cached_input_per_1m": null,
