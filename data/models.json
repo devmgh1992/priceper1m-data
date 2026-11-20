@@ -1,7 +1,7 @@
 {
- "count": 1790,
+ "count": 1793,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-19T20:38:33.765066+00:00",
+ "generated_at": "2026-11-20T07:17:58.221002+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -13777,7 +13777,7 @@
    "url": "/model/databricks-databricks-grok-4-7"
   },
   {
-   "cached_input_per_1m": 2,
+   "cached_input_per_1m": 0.12502,
    "capabilities": {
     "audio": true,
     "prompt_caching": true,
@@ -13786,18 +13786,18 @@
     "vision": true
    },
    "context_window": 1048576,
-   "input_per_1m": 2,
+   "input_per_1m": 2.49998,
    "kind": "chat",
    "max_output": 1048576,
    "name": "Databricks Gemini 4 Carbon",
-   "output_per_1m": 10,
+   "output_per_1m": 12.49997,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gemini-4-carbon",
    "url": "/model/databricks-databricks-gemini-4-carbon"
   },
   {
-   "cached_input_per_1m": 2,
+   "cached_input_per_1m": 0.12502,
    "capabilities": {
     "audio": true,
     "prompt_caching": true,
@@ -13806,11 +13806,11 @@
     "vision": true
    },
    "context_window": 1048576,
-   "input_per_1m": 2,
+   "input_per_1m": 2.49998,
    "kind": "chat",
    "max_output": 1048576,
    "name": "System.ai.gemini 4 Carbon",
-   "output_per_1m": 10,
+   "output_per_1m": 12.49997,
    "provider": "Databricks",
    "provider_slug": "databricks",
    "slug": "databricks-system-ai-gemini-4-carbon",
@@ -13969,6 +13969,40 @@
    "url": "/model/databricks-databricks-gemini-3-5-flash"
   },
   {
+   "cached_input_per_1m": 0.09373,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.87502,
+   "kind": "chat",
+   "max_output": 65536,
+   "name": "System.ai.gemini 4 Hydrogen",
+   "output_per_1m": 9.37503,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-gemini-4-hydrogen",
+   "url": "/model/databricks-system-ai-gemini-4-hydrogen"
+  },
+  {
+   "cached_input_per_1m": 0.18753,
+   "capabilities": {
+    "prompt_caching": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 1.87502,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Databricks Gemini Nano Banana 2 1",
+   "output_per_1m": 9.37503,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-nano-banana-2-1",
+   "url": "/model/databricks-databricks-gemini-nano-banana-2-1"
+  },
+  {
    "cached_input_per_1m": 0.175,
    "capabilities": {
     "prompt_caching": true,
@@ -14001,22 +14035,6 @@
    "provider_slug": "databricks",
    "slug": "databricks-databricks-gpt-5-3-codex",
    "url": "/model/databricks-databricks-gpt-5-3-codex"
-  },
-  {
-   "cached_input_per_1m": 1.5,
-   "capabilities": {
-    "reasoning": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 1.5,
-   "kind": "chat",
-   "max_output": 65536,
-   "name": "System.ai.gemini 4 Hydrogen",
-   "output_per_1m": 7.5,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-system-ai-gemini-4-hydrogen",
-   "url": "/model/databricks-system-ai-gemini-4-hydrogen"
   },
   {
    "cached_input_per_1m": 0.25998,
@@ -17310,25 +17328,6 @@
    "url": "/model/fireworks-ai-glm-5p1-fast"
   },
   {
-   "cached_input_per_1m": 0.048,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1048576,
-   "input_per_1m": 2.4,
-   "kind": "chat",
-   "max_output": 393216,
-   "name": "Deepseek V4p1 Flash 1017 Ultrafast",
-   "output_per_1m": 9.6,
-   "provider": "Fireworks AI",
-   "provider_slug": "fireworks_ai",
-   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-ultrafast",
-   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-ultrafast"
-  },
-  {
    "cached_input_per_1m": 0.21,
    "capabilities": {
     "reasoning": true,
@@ -17819,6 +17818,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4-pro",
    "url": "/model/fireworks-ai-deepseek-v4-pro"
+  },
+  {
+   "cached_input_per_1m": 0.024,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.2,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash 1017 Ultrafast",
+   "output_per_1m": 4.8,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-ultrafast",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-ultrafast"
   },
   {
    "cached_input_per_1m": 0.17,
@@ -20851,6 +20869,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-deepseek-v4p1-flash-1017-spot",
    "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-spot"
+  },
+  {
+   "cached_input_per_1m": 0.003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.15,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4p1 Flash 1017 Flex",
+   "output_per_1m": 0.6,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-deepseek-v4p1-flash-1017-flex",
+   "url": "/model/fireworks-ai-deepseek-v4p1-flash-1017-flex"
   },
   {
    "cached_input_per_1m": 0.03,
@@ -27845,6 +27882,25 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-meta-llama-3-1-70b-instruct-turbo",
    "url": "/model/together-ai-meta-llama-3-1-70b-instruct-turbo"
+  },
+  {
+   "cached_input_per_1m": 0.042,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.834,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Hy4",
+   "output_per_1m": 2.501,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-hy4",
+   "url": "/model/together-ai-hy4"
   },
   {
    "cached_input_per_1m": null,

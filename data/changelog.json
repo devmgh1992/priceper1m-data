@@ -1,5 +1,5 @@
 {
- "count_changes": 1176,
+ "count_changes": 1179,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3730,7 +3730,7 @@
     {
      "field": null,
      "name": "Databricks Gemini 4 Carbon",
-     "new": 2,
+     "new": 2.49998,
      "old": null,
      "pct": null,
      "provider": "Databricks",
@@ -3740,7 +3740,7 @@
     {
      "field": null,
      "name": "System.ai.gemini 4 Carbon",
-     "new": 2,
+     "new": 2.49998,
      "old": null,
      "pct": null,
      "provider": "Databricks",
@@ -3860,11 +3860,21 @@
     {
      "field": null,
      "name": "System.ai.gemini 4 Hydrogen",
-     "new": 1.5,
+     "new": 1.87502,
      "old": null,
      "pct": null,
      "provider": "Databricks",
      "slug": "databricks-system-ai-gemini-4-hydrogen",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Databricks Gemini Nano Banana 2 1",
+     "new": 1.87502,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-gemini-nano-banana-2-1",
      "type": "added"
     },
     {
@@ -4979,16 +4989,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4p1 Flash 1017 Ultrafast",
-     "new": 2.4,
-     "old": null,
-     "pct": null,
-     "provider": "Fireworks AI",
-     "slug": "fireworks-ai-deepseek-v4p1-flash-1017-ultrafast",
-     "type": "added"
-    },
-    {
-     "field": null,
      "name": "Glm 5p3 Us",
      "new": 2.1,
      "old": null,
@@ -5126,6 +5126,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-v4-pro",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4p1 Flash 1017 Ultrafast",
+     "new": 1.2,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash-1017-ultrafast",
+     "type": "added"
     },
     {
      "field": "max_output",
@@ -5435,6 +5445,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-v4p1-flash-1017-spot",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Deepseek V4p1 Flash 1017 Flex",
+     "new": 0.15,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-deepseek-v4p1-flash-1017-flex",
      "type": "added"
     },
     {
@@ -6676,6 +6696,16 @@
      "provider": "Together AI",
      "slug": "together-ai-meta-llama-3-1-70b-instruct-turbo",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Hy4",
+     "new": 0.834,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-hy4",
+     "type": "added"
     },
     {
      "field": null,
@@ -11768,9 +11798,9 @@
      "type": "removed"
     }
    ],
-   "count": 1176,
-   "date": "2026-11-19",
-   "generated_at": "2026-11-19T20:38:33.765066+00:00"
+   "count": 1179,
+   "date": "2026-11-20",
+   "generated_at": "2026-11-20T07:17:58.221002+00:00"
   },
   {
    "baseline": true,
