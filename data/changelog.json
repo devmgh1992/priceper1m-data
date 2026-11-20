@@ -1,5 +1,5 @@
 {
- "count_changes": 1179,
+ "count_changes": 1183,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -1138,6 +1138,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "GPT 6.2 Astra",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-6-2-astra",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "GPT 5.6 Sol",
      "new": 4,
@@ -1239,6 +1249,16 @@
     },
     {
      "field": null,
+     "name": "GPT 6.2 Sol",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-6-2-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "GPT 6.1 Sol",
      "new": 2,
      "old": null,
@@ -1309,6 +1329,16 @@
     },
     {
      "field": null,
+     "name": "GPT 6.1 Terra",
+     "new": 1,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-gpt-6-1-terra",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Gemini 3.8 Flash",
      "new": 0.75,
      "old": null,
@@ -1325,6 +1355,16 @@
      "pct": null,
      "provider": "Perplexity",
      "slug": "perplexity-nemotron-3-5-super-120b-a12b",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Pplx Embed V2 Context 9b",
+     "new": 0.12,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-pplx-embed-v2-context-9b",
      "type": "added"
     },
     {
@@ -1355,6 +1395,16 @@
      "pct": null,
      "provider": "Perplexity",
      "slug": "perplexity-gpt-5-nano",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Pplx Embed V2 Context 0.6b",
+     "new": 0.02,
+     "old": null,
+     "pct": null,
+     "provider": "Perplexity",
+     "slug": "perplexity-pplx-embed-v2-context-0-6b",
      "type": "added"
     },
     {
@@ -3865,16 +3915,6 @@
      "pct": null,
      "provider": "Databricks",
      "slug": "databricks-system-ai-gemini-4-hydrogen",
-     "type": "added"
-    },
-    {
-     "field": null,
-     "name": "Databricks Gemini Nano Banana 2 1",
-     "new": 1.87502,
-     "old": null,
-     "pct": null,
-     "provider": "Databricks",
-     "slug": "databricks-databricks-gemini-nano-banana-2-1",
      "type": "added"
     },
     {
@@ -11798,9 +11838,9 @@
      "type": "removed"
     }
    ],
-   "count": 1179,
+   "count": 1183,
    "date": "2026-11-20",
-   "generated_at": "2026-11-20T07:17:58.221002+00:00"
+   "generated_at": "2026-11-20T20:22:36.037392+00:00"
   },
   {
    "baseline": true,

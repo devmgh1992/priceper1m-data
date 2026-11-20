@@ -1,7 +1,7 @@
 {
- "count": 1793,
+ "count": 1797,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-20T07:17:58.221002+00:00",
+ "generated_at": "2026-11-20T20:22:36.037392+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -1436,6 +1436,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
     "vision": true
    },
    "context_window": 1048576,
@@ -1452,6 +1453,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
     "vision": true
    },
    "context_window": 1048576,
@@ -1469,6 +1471,7 @@
    "cached_input_per_1m": null,
    "capabilities": {
     "prompt_caching": true,
+    "reasoning": true,
     "vision": true
    },
    "context_window": 1048576,
@@ -1714,6 +1717,7 @@
   {
    "cached_input_per_1m": null,
    "capabilities": {
+    "reasoning": true,
     "tools": true,
     "vision": true
    },
@@ -5920,6 +5924,20 @@
    "url": "/model/perplexity-claude-fable-5-2"
   },
   {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 6.2 Astra",
+   "output_per_1m": 40,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-6-2-astra",
+   "url": "/model/perplexity-gpt-6-2-astra"
+  },
+  {
    "cached_input_per_1m": 0.5,
    "capabilities": {
     "tools": true
@@ -6301,6 +6319,20 @@
    "input_per_1m": 2,
    "kind": "chat",
    "max_output": null,
+   "name": "GPT 6.2 Sol",
+   "output_per_1m": 10,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-6-2-sol",
+   "url": "/model/perplexity-gpt-6-2-sol"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": null,
    "name": "GPT 6.1 Sol",
    "output_per_1m": 10,
    "provider": "Perplexity",
@@ -6601,6 +6633,20 @@
    "provider_slug": "perplexity",
    "slug": "perplexity-claude-haiku-4-5",
    "url": "/model/perplexity-claude-haiku-4-5"
+  },
+  {
+   "cached_input_per_1m": 0.05,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 1,
+   "kind": "chat",
+   "max_output": null,
+   "name": "GPT 6.1 Terra",
+   "output_per_1m": 5,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-gpt-6-1-terra",
+   "url": "/model/perplexity-gpt-6-1-terra"
   },
   {
    "cached_input_per_1m": 0.19,
@@ -6909,6 +6955,20 @@
    "url": "/model/perplexity-deepseek-v4-flash-0731"
   },
   {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.12,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Pplx Embed V2 Context 9b",
+   "output_per_1m": null,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-pplx-embed-v2-context-9b",
+   "url": "/model/perplexity-pplx-embed-v2-context-9b"
+  },
+  {
    "cached_input_per_1m": 0.01,
    "capabilities": {},
    "context_window": null,
@@ -7035,6 +7095,20 @@
    "provider_slug": "perplexity",
    "slug": "perplexity-pplx-embed-v1-4b",
    "url": "/model/perplexity-pplx-embed-v1-4b"
+  },
+  {
+   "cached_input_per_1m": null,
+   "capabilities": {},
+   "context_window": null,
+   "input_per_1m": 0.02,
+   "kind": "embedding",
+   "max_output": null,
+   "name": "Pplx Embed V2 Context 0.6b",
+   "output_per_1m": null,
+   "provider": "Perplexity",
+   "provider_slug": "perplexity",
+   "slug": "perplexity-pplx-embed-v2-context-0-6b",
+   "url": "/model/perplexity-pplx-embed-v2-context-0-6b"
   },
   {
    "cached_input_per_1m": 0.00115,
@@ -13984,23 +14058,6 @@
    "provider_slug": "databricks",
    "slug": "databricks-system-ai-gemini-4-hydrogen",
    "url": "/model/databricks-system-ai-gemini-4-hydrogen"
-  },
-  {
-   "cached_input_per_1m": 0.18753,
-   "capabilities": {
-    "prompt_caching": true,
-    "vision": true
-   },
-   "context_window": 131072,
-   "input_per_1m": 1.87502,
-   "kind": "chat",
-   "max_output": 32768,
-   "name": "Databricks Gemini Nano Banana 2 1",
-   "output_per_1m": 9.37503,
-   "provider": "Databricks",
-   "provider_slug": "databricks",
-   "slug": "databricks-databricks-gemini-nano-banana-2-1",
-   "url": "/model/databricks-databricks-gemini-nano-banana-2-1"
   },
   {
    "cached_input_per_1m": 0.175,
