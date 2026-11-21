@@ -1,8 +1,8 @@
 {
  "count": 34,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1797,
- "generated_at": "2026-11-20T20:22:36.037392+00:00",
+ "endpoints_tracked": 1799,
+ "generated_at": "2026-11-21T07:10:00.245753+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -263,19 +263,19 @@
   },
   {
    "category": "platform",
+   "label": "OpenRouter",
+   "max_input_per_1m": 8,
+   "min_input_per_1m": 0.09,
+   "models": 6,
+   "provider": "openrouter"
+  },
+  {
+   "category": "platform",
    "label": "Jina AI",
    "max_input_per_1m": 0.05,
    "min_input_per_1m": 0.02,
    "models": 4,
    "provider": "jina_ai"
-  },
-  {
-   "category": "platform",
-   "label": "OpenRouter",
-   "max_input_per_1m": 8,
-   "min_input_per_1m": 1.5,
-   "models": 4,
-   "provider": "openrouter"
   }
  ]
 }

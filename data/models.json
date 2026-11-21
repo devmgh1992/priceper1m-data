@@ -1,7 +1,7 @@
 {
- "count": 1797,
+ "count": 1799,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-20T20:22:36.037392+00:00",
+ "generated_at": "2026-11-21T07:10:00.245753+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -22407,7 +22407,8 @@
    "cached_input_per_1m": 0.1,
    "capabilities": {
     "reasoning": true,
-    "tools": true
+    "tools": true,
+    "vision": true
    },
    "context_window": 1000000,
    "input_per_1m": 0.45,
@@ -26087,6 +26088,40 @@
    "provider_slug": "openrouter",
    "slug": "openrouter-gemini-4-hydrogen",
    "url": "/model/openrouter-gemini-4-hydrogen"
+  },
+  {
+   "cached_input_per_1m": 0.2,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.9,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4 Pro",
+   "output_per_1m": 1.5,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-pro",
+   "url": "/model/openrouter-deepseek-v4-pro"
+  },
+  {
+   "cached_input_per_1m": 0.018,
+   "capabilities": {
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.09,
+   "kind": "chat",
+   "max_output": 393216,
+   "name": "Deepseek V4 Flash",
+   "output_per_1m": 0.18,
+   "provider": "OpenRouter",
+   "provider_slug": "openrouter",
+   "slug": "openrouter-deepseek-v4-flash",
+   "url": "/model/openrouter-deepseek-v4-flash"
   },
   {
    "cached_input_per_1m": null,

@@ -1,5 +1,5 @@
 {
- "count_changes": 1183,
+ "count_changes": 1189,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -6088,6 +6088,86 @@
      "type": "added"
     },
     {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.9,
+     "old": 0.859908,
+     "pct": 4.66,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 1.5,
+     "old": 1.719816,
+     "pct": -12.78,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Pro",
+     "new": 0.2,
+     "old": 0.071659,
+     "pct": 179.1,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Pro",
+     "new": 393216,
+     "old": 384000,
+     "pct": 2.4,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-pro",
+     "type": "changed"
+    },
+    {
+     "field": "input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.09,
+     "old": 0.0854,
+     "pct": 5.39,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "output_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.18,
+     "old": 0.1708,
+     "pct": 5.39,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "cached_input_per_1m",
+     "name": "Deepseek V4 Flash",
+     "new": 0.018,
+     "old": 0.01708,
+     "pct": 5.39,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
+     "field": "max_output",
+     "name": "Deepseek V4 Flash",
+     "new": 393216,
+     "old": 384000,
+     "pct": 2.4,
+     "provider": "OpenRouter",
+     "slug": "openrouter-deepseek-v4-flash",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "Snowflake Arctic Instruct",
      "new": 20,
@@ -9769,16 +9849,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4 Pro",
-     "new": null,
-     "old": 0.859908,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-pro",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "Router",
      "new": null,
      "old": 0.85,
@@ -11149,16 +11219,6 @@
     },
     {
      "field": null,
-     "name": "Deepseek V4 Flash",
-     "new": null,
-     "old": 0.0854,
-     "pct": null,
-     "provider": "OpenRouter",
-     "slug": "openrouter-deepseek-v4-flash",
-     "type": "removed"
-    },
-    {
-     "field": null,
      "name": "Nemotron 3 Super 120b A12b",
      "new": null,
      "old": 0.085,
@@ -11838,9 +11898,9 @@
      "type": "removed"
     }
    ],
-   "count": 1183,
-   "date": "2026-11-20",
-   "generated_at": "2026-11-20T20:22:36.037392+00:00"
+   "count": 1189,
+   "date": "2026-11-21",
+   "generated_at": "2026-11-21T07:10:00.245753+00:00"
   },
   {
    "baseline": true,
