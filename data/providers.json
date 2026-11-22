@@ -1,8 +1,8 @@
 {
  "count": 34,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1799,
- "generated_at": "2026-11-21T19:16:31.429454+00:00",
+ "endpoints_tracked": 1803,
+ "generated_at": "2026-11-22T06:50:25.081097+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -10,7 +10,7 @@
    "label": "Fireworks AI",
    "max_input_per_1m": 4.5,
    "min_input_per_1m": 0,
-   "models": 297,
+   "models": 298,
    "provider": "fireworks_ai"
   },
   {
@@ -119,19 +119,19 @@
   },
   {
    "category": "platform",
+   "label": "Google Vertex AI",
+   "max_input_per_1m": 4,
+   "min_input_per_1m": 0.075,
+   "models": 35,
+   "provider": "vertex_ai"
+  },
+  {
+   "category": "platform",
    "label": "Baseten",
    "max_input_per_1m": 3,
    "min_input_per_1m": 0.1,
    "models": 33,
    "provider": "baseten"
-  },
-  {
-   "category": "platform",
-   "label": "Google Vertex AI",
-   "max_input_per_1m": 4,
-   "min_input_per_1m": 0.075,
-   "models": 32,
-   "provider": "vertex_ai"
   },
   {
    "category": "platform",
