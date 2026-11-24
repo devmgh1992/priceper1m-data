@@ -1,7 +1,7 @@
 {
- "count": 1805,
+ "count": 1811,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-24T09:55:45.495524+00:00",
+ "generated_at": "2026-11-24T22:27:24.348596+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -4242,6 +4242,25 @@
    "url": "/model/openai-gpt-6-astra-law"
   },
   {
+   "cached_input_per_1m": 1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 10,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6 Astra Healthcare",
+   "output_per_1m": 50,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-astra-healthcare",
+   "url": "/model/openai-gpt-6-astra-healthcare"
+  },
+  {
    "cached_input_per_1m": 0.4,
    "capabilities": {
     "prompt_caching": true,
@@ -4278,6 +4297,25 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-6-2-astra-law",
    "url": "/model/openai-gpt-6-2-astra-law"
+  },
+  {
+   "cached_input_per_1m": 0.4,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 8,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Astra Healthcare",
+   "output_per_1m": 40,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-2-astra-healthcare",
+   "url": "/model/openai-gpt-6-2-astra-healthcare"
   },
   {
    "cached_input_per_1m": null,
@@ -4908,6 +4946,44 @@
    "provider_slug": "openai",
    "slug": "openai-gpt-6-2-sol",
    "url": "/model/openai-gpt-6-2-sol"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.2 Sol Healthcare",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-2-sol-healthcare",
+   "url": "/model/openai-gpt-6-2-sol-healthcare"
+  },
+  {
+   "cached_input_per_1m": 0.1,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 922000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "GPT 6.1 Sol Healthcare",
+   "output_per_1m": 10,
+   "provider": "OpenAI",
+   "provider_slug": "openai",
+   "slug": "openai-gpt-6-1-sol-healthcare",
+   "url": "/model/openai-gpt-6-1-sol-healthcare"
   },
   {
    "cached_input_per_1m": 0.175,
@@ -17656,6 +17732,25 @@
    "url": "/model/fireworks-ai-kimi-k2p7-code-fast"
   },
   {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Qwen4 Max",
+   "output_per_1m": 4.5,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-qwen4-max",
+   "url": "/model/fireworks-ai-qwen4-max"
+  },
+  {
    "cached_input_per_1m": 0.26,
    "capabilities": {
     "reasoning": true,
@@ -21631,6 +21726,25 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-spot-deepseek-v4-flash",
    "url": "/model/fireworks-ai-spot-deepseek-v4-flash"
+  },
+  {
+   "cached_input_per_1m": 0.003,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 262144,
+   "input_per_1m": 0.07,
+   "kind": "chat",
+   "max_output": null,
+   "name": "Hy4 Flash",
+   "output_per_1m": 0.281,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-hy4-flash",
+   "url": "/model/fireworks-ai-hy4-flash"
   },
   {
    "cached_input_per_1m": 0.01,

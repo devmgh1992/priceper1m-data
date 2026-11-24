@@ -1,5 +1,5 @@
 {
- "count_changes": 1195,
+ "count_changes": 1201,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -959,6 +959,16 @@
     },
     {
      "field": null,
+     "name": "GPT 6 Astra Healthcare",
+     "new": 10,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-astra-healthcare",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "GPT 6.2 Astra",
      "new": 8,
      "old": null,
@@ -975,6 +985,16 @@
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-6-2-astra-law",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.2 Astra Healthcare",
+     "new": 8,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-2-astra-healthcare",
      "type": "added"
     },
     {
@@ -1055,6 +1075,26 @@
      "pct": null,
      "provider": "OpenAI",
      "slug": "openai-gpt-6-2-sol",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.2 Sol Healthcare",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-2-sol-healthcare",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "GPT 6.1 Sol Healthcare",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "OpenAI",
+     "slug": "openai-gpt-6-1-sol-healthcare",
      "type": "added"
     },
     {
@@ -5108,6 +5148,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Qwen4 Max",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-qwen4-max",
+     "type": "added"
+    },
+    {
      "field": "context_window",
      "name": "Glm 5p1",
      "new": 202752,
@@ -5585,6 +5635,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-spot-deepseek-v4-flash",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Hy4 Flash",
+     "new": 0.07,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-hy4-flash",
      "type": "added"
     },
     {
@@ -11958,9 +12018,9 @@
      "type": "removed"
     }
    ],
-   "count": 1195,
+   "count": 1201,
    "date": "2026-11-24",
-   "generated_at": "2026-11-24T09:55:45.495524+00:00"
+   "generated_at": "2026-11-24T22:27:24.348596+00:00"
   },
   {
    "baseline": true,
