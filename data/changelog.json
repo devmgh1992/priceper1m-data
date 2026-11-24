@@ -1,5 +1,5 @@
 {
- "count_changes": 1193,
+ "count_changes": 1195,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -6938,6 +6938,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "DeepSeek V4.1 Flash 1017 Fast",
+     "new": 0.6,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-deepseek-v4-1-flash-1017-fast",
+     "type": "added"
+    },
+    {
      "field": "max_output",
      "name": "Qwen3.6 Plus",
      "new": 1000000,
@@ -7385,6 +7395,16 @@
      "pct": null,
      "provider": "Google Vertex AI",
      "slug": "vertex-ai-gemini-4-neon",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Gemini 4 Neon Cyber Permissive",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Google Vertex AI",
+     "slug": "vertex-ai-gemini-4-neon-cyber-permissive",
      "type": "added"
     },
     {
@@ -11938,9 +11958,9 @@
      "type": "removed"
     }
    ],
-   "count": 1193,
+   "count": 1195,
    "date": "2026-11-23",
-   "generated_at": "2026-11-23T07:40:47.434096+00:00"
+   "generated_at": "2026-11-23T23:54:37.363739+00:00"
   },
   {
    "baseline": true,

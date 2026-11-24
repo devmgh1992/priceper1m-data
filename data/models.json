@@ -1,7 +1,7 @@
 {
- "count": 1803,
+ "count": 1805,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-23T07:40:47.434096+00:00",
+ "generated_at": "2026-11-23T23:54:37.363739+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -28134,6 +28134,25 @@
    "url": "/model/together-ai-glimpse-1-0"
   },
   {
+   "cached_input_per_1m": 0.012,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.6,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "DeepSeek V4.1 Flash 1017 Fast",
+   "output_per_1m": 2.4,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-deepseek-v4-1-flash-1017-fast",
+   "url": "/model/together-ai-deepseek-v4-1-flash-1017-fast"
+  },
+  {
    "cached_input_per_1m": null,
    "capabilities": {
     "reasoning": true,
@@ -28957,6 +28976,26 @@
    "provider_slug": "vertex_ai",
    "slug": "vertex-ai-gemini-4-neon",
    "url": "/model/vertex-ai-gemini-4-neon"
+  },
+  {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Gemini 4 Neon Cyber Permissive",
+   "output_per_1m": 15,
+   "provider": "Google Vertex AI",
+   "provider_slug": "vertex_ai",
+   "slug": "vertex-ai-gemini-4-neon-cyber-permissive",
+   "url": "/model/vertex-ai-gemini-4-neon-cyber-permissive"
   },
   {
    "cached_input_per_1m": 0.2,

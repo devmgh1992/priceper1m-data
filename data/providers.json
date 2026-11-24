@@ -1,8 +1,8 @@
 {
  "count": 34,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1803,
- "generated_at": "2026-11-23T07:40:47.434096+00:00",
+ "endpoints_tracked": 1805,
+ "generated_at": "2026-11-23T23:54:37.363739+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -74,7 +74,7 @@
    "label": "Together AI",
    "max_input_per_1m": 3.5,
    "min_input_per_1m": 0,
-   "models": 84,
+   "models": 85,
    "provider": "together_ai"
   },
   {
@@ -122,7 +122,7 @@
    "label": "Google Vertex AI",
    "max_input_per_1m": 4,
    "min_input_per_1m": 0.075,
-   "models": 35,
+   "models": 36,
    "provider": "vertex_ai"
   },
   {
