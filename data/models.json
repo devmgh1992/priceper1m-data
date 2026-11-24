@@ -1,7 +1,7 @@
 {
  "count": 1805,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-23T23:54:37.363739+00:00",
+ "generated_at": "2026-11-24T09:55:45.495524+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -5883,7 +5883,9 @@
   },
   {
    "cached_input_per_1m": 0.25,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 10,
    "kind": "chat",
@@ -5897,7 +5899,9 @@
   },
   {
    "cached_input_per_1m": 1,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 10,
    "kind": "chat",
@@ -5911,7 +5915,9 @@
   },
   {
    "cached_input_per_1m": 0.2,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 8,
    "kind": "chat",
@@ -5925,7 +5931,9 @@
   },
   {
    "cached_input_per_1m": 0.4,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 8,
    "kind": "chat",
@@ -6051,7 +6059,9 @@
   },
   {
    "cached_input_per_1m": 0.2,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 4,
    "kind": "chat",
@@ -6065,7 +6075,9 @@
   },
   {
    "cached_input_per_1m": 0.35,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 3.5,
    "kind": "chat",
@@ -6238,7 +6250,9 @@
   },
   {
    "cached_input_per_1m": 0.1,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 2,
    "kind": "chat",
@@ -6252,7 +6266,9 @@
   },
   {
    "cached_input_per_1m": 0.1,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 2,
    "kind": "chat",
@@ -6314,7 +6330,9 @@
   },
   {
    "cached_input_per_1m": 0.1,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 2,
    "kind": "chat",
@@ -6328,7 +6346,9 @@
   },
   {
    "cached_input_per_1m": 0.1,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 2,
    "kind": "chat",
@@ -6342,7 +6362,9 @@
   },
   {
    "cached_input_per_1m": 0.2,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 2,
    "kind": "chat",
@@ -6356,7 +6378,9 @@
   },
   {
    "cached_input_per_1m": 0.5,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 2,
    "kind": "chat",
@@ -6403,7 +6427,9 @@
   },
   {
    "cached_input_per_1m": 0.075,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 1.5,
    "kind": "chat",
@@ -6466,7 +6492,9 @@
   },
   {
    "cached_input_per_1m": 0.044,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 1.32,
    "kind": "chat",
@@ -6636,7 +6664,9 @@
   },
   {
    "cached_input_per_1m": 0.05,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 1,
    "kind": "chat",
@@ -6698,7 +6728,9 @@
   },
   {
    "cached_input_per_1m": 0.075,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 0.75,
    "kind": "chat",
@@ -6909,7 +6941,9 @@
   },
   {
    "cached_input_per_1m": 0.04,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 0.2,
    "kind": "chat",
@@ -6970,7 +7004,9 @@
   },
   {
    "cached_input_per_1m": 0.01,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 0.1,
    "kind": "chat",
@@ -7070,7 +7106,9 @@
   },
   {
    "cached_input_per_1m": 0.005,
-   "capabilities": {},
+   "capabilities": {
+    "tools": true
+   },
    "context_window": null,
    "input_per_1m": 0.05,
    "kind": "chat",
@@ -27726,6 +27764,25 @@
    "url": "/model/together-ai-together-ai-81-1b-110b"
   },
   {
+   "cached_input_per_1m": 0.075,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1000000,
+   "input_per_1m": 1.5,
+   "kind": "chat",
+   "max_output": 1000000,
+   "name": "Qwen4 Max",
+   "output_per_1m": 4.5,
+   "provider": "Together AI",
+   "provider_slug": "together_ai",
+   "slug": "together-ai-qwen4-max",
+   "url": "/model/together-ai-qwen4-max"
+  },
+  {
    "cached_input_per_1m": 0.26,
    "capabilities": {
     "prompt_caching": true,
@@ -27866,25 +27923,6 @@
    "provider_slug": "together_ai",
    "slug": "together-ai-kimi-k2-6",
    "url": "/model/together-ai-kimi-k2-6"
-  },
-  {
-   "cached_input_per_1m": 0.0525,
-   "capabilities": {
-    "prompt_caching": true,
-    "reasoning": true,
-    "tools": true,
-    "vision": true
-   },
-   "context_window": 1000000,
-   "input_per_1m": 1.05,
-   "kind": "chat",
-   "max_output": 1000000,
-   "name": "Qwen4 Max",
-   "output_per_1m": 3.15,
-   "provider": "Together AI",
-   "provider_slug": "together_ai",
-   "slug": "together-ai-qwen4-max",
-   "url": "/model/together-ai-qwen4-max"
   },
   {
    "cached_input_per_1m": null,

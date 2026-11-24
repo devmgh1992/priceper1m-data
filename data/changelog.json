@@ -6698,6 +6698,16 @@
      "type": "added"
     },
     {
+     "field": null,
+     "name": "Qwen4 Max",
+     "new": 1.5,
+     "old": null,
+     "pct": null,
+     "provider": "Together AI",
+     "slug": "together-ai-qwen4-max",
+     "type": "added"
+    },
+    {
      "field": "max_output",
      "name": "GLM 5.1",
      "new": 202752,
@@ -6756,16 +6766,6 @@
      "provider": "Together AI",
      "slug": "together-ai-kimi-k2-6",
      "type": "changed"
-    },
-    {
-     "field": null,
-     "name": "Qwen4 Max",
-     "new": 1.05,
-     "old": null,
-     "pct": null,
-     "provider": "Together AI",
-     "slug": "together-ai-qwen4-max",
-     "type": "added"
     },
     {
      "field": "max_output",
@@ -11959,8 +11959,8 @@
     }
    ],
    "count": 1195,
-   "date": "2026-11-23",
-   "generated_at": "2026-11-23T23:54:37.363739+00:00"
+   "date": "2026-11-24",
+   "generated_at": "2026-11-24T09:55:45.495524+00:00"
   },
   {
    "baseline": true,
