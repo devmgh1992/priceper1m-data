@@ -1,7 +1,7 @@
 {
- "count": 1811,
+ "count": 1813,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-24T22:27:24.348596+00:00",
+ "generated_at": "2026-11-25T08:36:32.462164+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -4343,7 +4343,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 400000,
+   "context_window": 272000,
    "input_per_1m": 5,
    "kind": "chat",
    "max_output": 128000,
@@ -7419,6 +7419,44 @@
    "provider_slug": "xai",
    "slug": "xai-grok-4-7",
    "url": "/model/xai-grok-4-7"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 500000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 500000,
+   "name": "Grok 4.7",
+   "output_per_1m": 6,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-7-latest",
+   "url": "/model/xai-grok-4-7-latest"
+  },
+  {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 500000,
+   "input_per_1m": 2,
+   "kind": "chat",
+   "max_output": 500000,
+   "name": "Grok 4.6",
+   "output_per_1m": 6,
+   "provider": "xAI",
+   "provider_slug": "xai",
+   "slug": "xai-grok-4-6-latest",
+   "url": "/model/xai-grok-4-6-latest"
   },
   {
    "cached_input_per_1m": 0.2,
@@ -21735,7 +21773,7 @@
     "tools": true,
     "vision": true
    },
-   "context_window": 262144,
+   "context_window": 524288,
    "input_per_1m": 0.07,
    "kind": "chat",
    "max_output": null,

@@ -1,5 +1,5 @@
 {
- "count_changes": 1201,
+ "count_changes": 1204,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -998,6 +998,16 @@
      "type": "added"
     },
     {
+     "field": "context_window",
+     "name": "Chat",
+     "new": 272000,
+     "old": 400000,
+     "pct": -32,
+     "provider": "OpenAI",
+     "slug": "openai-chat-latest",
+     "type": "changed"
+    },
+    {
      "field": null,
      "name": "GPT Rosalind Research",
      "new": 5,
@@ -1455,6 +1465,26 @@
      "pct": null,
      "provider": "xAI",
      "slug": "xai-grok-4-7",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.7",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-7-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Grok 4.6",
+     "new": 2,
+     "old": null,
+     "pct": null,
+     "provider": "xAI",
+     "slug": "xai-grok-4-6-latest",
      "type": "added"
     },
     {
@@ -12018,9 +12048,9 @@
      "type": "removed"
     }
    ],
-   "count": 1201,
-   "date": "2026-11-24",
-   "generated_at": "2026-11-24T22:27:24.348596+00:00"
+   "count": 1204,
+   "date": "2026-11-25",
+   "generated_at": "2026-11-25T08:36:32.462164+00:00"
   },
   {
    "baseline": true,
