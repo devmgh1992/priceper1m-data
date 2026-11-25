@@ -1,5 +1,5 @@
 {
- "count_changes": 1204,
+ "count_changes": 1205,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -5455,6 +5455,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-deepseek-flash-latest",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Inkling 2 Small",
+     "new": 0.3,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-inkling-2-small",
      "type": "added"
     },
     {
@@ -12048,9 +12058,9 @@
      "type": "removed"
     }
    ],
-   "count": 1204,
+   "count": 1205,
    "date": "2026-11-25",
-   "generated_at": "2026-11-25T08:36:32.462164+00:00"
+   "generated_at": "2026-11-25T21:42:38.834304+00:00"
   },
   {
    "baseline": true,
