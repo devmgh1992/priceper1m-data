@@ -1,7 +1,7 @@
 {
- "count": 1814,
+ "count": 1817,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-25T21:42:38.834304+00:00",
+ "generated_at": "2026-11-26T08:19:46.771523+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -17371,6 +17371,25 @@
    "url": "/model/deepinfra-gemma-4-e4b-it"
   },
   {
+   "cached_input_per_1m": 0.5,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 5,
+   "kind": "chat",
+   "max_output": 131072,
+   "name": "Kimi K3p1 Pro Ultrafast",
+   "output_per_1m": 25,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-kimi-k3p1-pro-ultrafast",
+   "url": "/model/fireworks-ai-kimi-k3p1-pro-ultrafast"
+  },
+  {
    "cached_input_per_1m": 0.45,
    "capabilities": {
     "reasoning": true,
@@ -19057,6 +19076,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-glm-5p3-spot",
    "url": "/model/fireworks-ai-glm-5p3-spot"
+  },
+  {
+   "cached_input_per_1m": 0.13,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.7,
+   "kind": "chat",
+   "max_output": 128000,
+   "name": "Glm 5p3 Flex",
+   "output_per_1m": 2.2,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-flex",
+   "url": "/model/fireworks-ai-glm-5p3-flex"
   },
   {
    "cached_input_per_1m": 0.3,
@@ -21748,6 +21785,24 @@
    "provider_slug": "fireworks_ai",
    "slug": "fireworks-ai-qwen3-embedding-8b",
    "url": "/model/fireworks-ai-qwen3-embedding-8b"
+  },
+  {
+   "cached_input_per_1m": 0.015,
+   "capabilities": {
+    "prompt_caching": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 0.075,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Glm 5p3 Flash Flex",
+   "output_per_1m": 0.25,
+   "provider": "Fireworks AI",
+   "provider_slug": "fireworks_ai",
+   "slug": "fireworks-ai-glm-5p3-flash-flex",
+   "url": "/model/fireworks-ai-glm-5p3-flash-flex"
   },
   {
    "cached_input_per_1m": 0.035,

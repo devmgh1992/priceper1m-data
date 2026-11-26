@@ -1,5 +1,5 @@
 {
- "count_changes": 1205,
+ "count_changes": 1208,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -5018,6 +5018,16 @@
      "type": "changed"
     },
     {
+     "field": null,
+     "name": "Kimi K3p1 Pro Ultrafast",
+     "new": 5,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-kimi-k3p1-pro-ultrafast",
+     "type": "added"
+    },
+    {
      "field": "input_per_1m",
      "name": "Kimi K3 Us",
      "new": 4.5,
@@ -5315,6 +5325,16 @@
      "pct": null,
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-glm-5p3-spot",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Glm 5p3 Flex",
+     "new": 0.7,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-5p3-flex",
      "type": "added"
     },
     {
@@ -5666,6 +5686,16 @@
      "provider": "Fireworks AI",
      "slug": "fireworks-ai-nemotron-nano-v2-12b-vl",
      "type": "changed"
+    },
+    {
+     "field": null,
+     "name": "Glm 5p3 Flash Flex",
+     "new": 0.075,
+     "old": null,
+     "pct": null,
+     "provider": "Fireworks AI",
+     "slug": "fireworks-ai-glm-5p3-flash-flex",
+     "type": "added"
     },
     {
      "field": null,
@@ -12058,9 +12088,9 @@
      "type": "removed"
     }
    ],
-   "count": 1205,
-   "date": "2026-11-25",
-   "generated_at": "2026-11-25T21:42:38.834304+00:00"
+   "count": 1208,
+   "date": "2026-11-26",
+   "generated_at": "2026-11-26T08:19:46.771523+00:00"
   },
   {
    "baseline": true,
