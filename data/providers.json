@@ -1,8 +1,8 @@
 {
  "count": 34,
  "docs": "Prices are USD per 1,000,000 tokens. min/max input price across the provider's tracked chat models.",
- "endpoints_tracked": 1817,
- "generated_at": "2026-11-27T08:35:49.349413+00:00",
+ "endpoints_tracked": 1820,
+ "generated_at": "2026-11-27T21:18:02.921636+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "providers": [
   {
@@ -66,7 +66,7 @@
    "label": "Databricks",
    "max_input_per_1m": 29.99997,
    "min_input_per_1m": 0.02002,
-   "models": 85,
+   "models": 88,
    "provider": "databricks"
   },
   {

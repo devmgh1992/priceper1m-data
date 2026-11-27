@@ -1,5 +1,5 @@
 {
- "count_changes": 1208,
+ "count_changes": 1211,
  "count_runs": 2,
  "docs": "Each run is one dataset refresh. changes[] entries are diffs: changed (field old -> new, pct), added, removed.",
  "license": "CC BY 4.0 — attribution appreciated",
@@ -3819,6 +3819,16 @@
     },
     {
      "field": null,
+     "name": "System.ai.gemini 4 Neon",
+     "new": 3,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-system-ai-gemini-4-neon",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "Databricks Gemini 3 Pro Image",
      "new": 2.49998,
      "old": null,
@@ -3979,12 +3989,32 @@
     },
     {
      "field": null,
+     "name": "Databricks Kimi K3 1 Pro Fast",
+     "new": 1.99997,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-kimi-k3-1-pro-fast",
+     "type": "added"
+    },
+    {
+     "field": null,
      "name": "System.ai.gemini 4 Hydrogen",
      "new": 1.87502,
      "old": null,
      "pct": null,
      "provider": "Databricks",
      "slug": "databricks-system-ai-gemini-4-hydrogen",
+     "type": "added"
+    },
+    {
+     "field": null,
+     "name": "Databricks Gemini Nano Banana 2 1",
+     "new": 1.87502,
+     "old": null,
+     "pct": null,
+     "provider": "Databricks",
+     "slug": "databricks-databricks-gemini-nano-banana-2-1",
      "type": "added"
     },
     {
@@ -12088,9 +12118,9 @@
      "type": "removed"
     }
    ],
-   "count": 1208,
+   "count": 1211,
    "date": "2026-11-27",
-   "generated_at": "2026-11-27T08:35:49.349413+00:00"
+   "generated_at": "2026-11-27T21:18:02.921636+00:00"
   },
   {
    "baseline": true,

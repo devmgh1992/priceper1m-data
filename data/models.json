@@ -1,7 +1,7 @@
 {
- "count": 1817,
+ "count": 1820,
  "docs": "Costs are USD per 1,000,000 tokens. Fields ending in _per_1m are per-million-token prices.",
- "generated_at": "2026-11-27T08:35:49.349413+00:00",
+ "generated_at": "2026-11-27T21:18:02.921636+00:00",
  "license": "CC BY 4.0 — attribution appreciated",
  "models": [
   {
@@ -13783,6 +13783,26 @@
    "url": "/model/databricks-databricks-gpt-5-6-sol"
   },
   {
+   "cached_input_per_1m": 0.15,
+   "capabilities": {
+    "audio": true,
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 3,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "System.ai.gemini 4 Neon",
+   "output_per_1m": 15,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-system-ai-gemini-4-neon",
+   "url": "/model/databricks-system-ai-gemini-4-neon"
+  },
+  {
    "cached_input_per_1m": 0.30002,
    "capabilities": {
     "prompt_caching": true,
@@ -14175,6 +14195,25 @@
    "url": "/model/databricks-system-ai-gpt-6-2-sol"
   },
   {
+   "cached_input_per_1m": 0.19999,
+   "capabilities": {
+    "prompt_caching": true,
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+   },
+   "context_window": 1048576,
+   "input_per_1m": 1.99997,
+   "kind": "chat",
+   "max_output": 1048576,
+   "name": "Databricks Kimi K3 1 Pro Fast",
+   "output_per_1m": 9.99999,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-kimi-k3-1-pro-fast",
+   "url": "/model/databricks-databricks-kimi-k3-1-pro-fast"
+  },
+  {
    "cached_input_per_1m": 0.18753,
    "capabilities": {
     "audio": true,
@@ -14210,6 +14249,23 @@
    "provider_slug": "databricks",
    "slug": "databricks-system-ai-gemini-4-hydrogen",
    "url": "/model/databricks-system-ai-gemini-4-hydrogen"
+  },
+  {
+   "cached_input_per_1m": 0.18753,
+   "capabilities": {
+    "prompt_caching": true,
+    "vision": true
+   },
+   "context_window": 131072,
+   "input_per_1m": 1.87502,
+   "kind": "chat",
+   "max_output": 32768,
+   "name": "Databricks Gemini Nano Banana 2 1",
+   "output_per_1m": 9.37503,
+   "provider": "Databricks",
+   "provider_slug": "databricks",
+   "slug": "databricks-databricks-gemini-nano-banana-2-1",
+   "url": "/model/databricks-databricks-gemini-nano-banana-2-1"
   },
   {
    "cached_input_per_1m": 0.175,
